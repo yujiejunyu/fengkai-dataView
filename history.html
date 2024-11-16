@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="public/css/history.css">
+</head>
+
+<body>
+    <header class="head">
+        <h1>
+            历史人物
+        </h1>
+    </header>
+    <main class="main">
+        <!-- 第一列 -->
+        <!-- 一堆柱状图 -->
+        <div class="column">
+            <div class="panel">
+                <div class="panel-title">
+                    <img src="/resources/image/history/sharpicons_star.png">
+                    <h1>某某特殊人物概况</h1>
+                </div>
+                <div class="fig_01 fig">
+                    <div>
+                        <img src="/resources/image/history/1.jpg">
+                    </div>
+                    <p>历史著名人物之一</p>
+                </div>
+                <div class="fig">
+                    <div>
+                        <img src="/resources/image/history/1.jpg">
+                    </div>
+                    <p>历史著名人物之一</p>
+                </div>
+                <div class="panel-footer"></div>
+            </div>
+            <div class="panel02">
+                <div class="echart" id="bar1"></div>
+                <div class="echart02" id="bar2"></div>
+                <div class="panel-footer"></div>
+            </div>
+        </div>
+        <!-- 第二列：主要列 -->
+        <div class="column">
+            <!-- 人物列表 -->
+            <div class="man">
+                <h1>某某人物列表</h1>
+                <div class="box">
+                </div>
+            </div>
+            <!-- 数据列表 -->
+            <div class="num">
+                <h1 class="num_h1">某某统计数据</h1>
+                <div class="data_list">
+                    <!-- 列表第一行 -->
+                    <div class="data_row1">
+                        <div>
+                            <h1>某某数据增长：<span class="data">25%</span></h1>
+                            <div class="trapezium trap1"></div>
+                        </div>
+                        <div>
+                            <h1>某某数据增长：<span class="data">80%</span></h1>
+                            <div class="trapezium trap2"></div>
+                        </div>
+                    </div>
+                    <!-- 列表第二行 -->
+                    <div class="data_row2">
+                        <div>
+                            <h1>某某数据增长：<span class="data">15%</span></h1>
+                            <div class="trapezium trap3"></div>
+                        </div>
+                        <div>
+                            <h1>某某数据增长：<span class="data">49%</span></h1>
+                            <div class="trapezium trap4"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 第三列 -->
+        <!-- 一堆折线图 -->
+        <div class="column">
+            <div class="panel">
+                <div class="panel-title">
+                    <img src="/resources/image/history/sharpicons_star.png">
+                    <h1>某某特殊人物概况</h1>
+                </div>
+                <div class="situation">
+                    <div class="sit1">
+                        <img>
+                        <p></p>
+                    </div>
+                    <div class="sit2">
+                        <img>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="sit_echart" id="line1"></div>
+                <div class="panel-footer"></div>
+            </div>
+            <div class="panel02">
+                <div class="panel-title">
+                    <img src="/resources/image/history/sharpicons_star.png">
+                    <h1>某某特殊人物概况</h1>
+                </div>
+                <div class="echart" id="line2"></div>
+                <div class="echart_line3" id="line3"></div>
+                <div class="panel-footer"></div>
+            </div>
+        </div>
+
+    </main>
+    <script type="module" src="/src/history_echarts.js"></script>
+    <script src="/src/history_lunbo.js"></script>
+    <script src="/public/js/flexible.js"></script>
+</body>
+
+</html>

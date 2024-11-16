@@ -1,0 +1,246 @@
+canvas {
+    display: block;
+    margin: 0 auto;
+}
+
+body {
+    background-image: url("/resources/video/index/科技感gif2.gif");
+    background-size: cover;
+
+}
+
+.title {
+    width: 850px;
+    height: 40px;
+    /*蓝白中心渐变*/
+    /*background-image: linear-gradient(to bottom, #0455a6, #057aee, #04509d);*/
+    margin-left: 14%;
+    margin-top: -17px;
+    background-image: url("/resources/image/index/img.png");
+}
+
+.title h1 {
+    text-align: center;
+    line-height: 40px;
+    font-size: 25px;
+    color: white;
+    /*字体间距*/
+    letter-spacing: 10px;
+}
+
+canvas {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 260px;
+    height: 260px;
+    bottom: 0;
+    position: absolute;
+    z-index: 5;
+    border: #e6ebf0;
+}
+
+.border {
+    position: absolute;
+    width: 300px;
+    /* 边框宽度加上边框厚度 */
+    height: 300px;
+    /* 边框高度加上边框厚度 */
+    border-radius: 50%;
+    top: 165px;
+    /* 上下移动边框5px，以便于与canvas厮磨 */
+    left: 431px;
+    border: 5px solid rgb(240, 255, 199);
+    z-index: 6;
+    /* 确保边框在canvas后面 */
+}
+
+.btn1 {
+    width: 300px;
+    top: 130px;
+    left: 150px;
+    font-size: 24px;
+    transform: rotate(5deg);
+    /* 旋转10度 */
+}
+
+.btn1::before {
+    clip-path: polygon(0 0, 100% 0, 80% 100%, 100% 100%, 0 80%);
+}
+
+/*将按钮围绕着圆形画布分布，左右各三个按钮*/
+.btn2 {
+    width: 250px;
+    top: 240px;
+    left: -165px;
+    font-size: 24px;
+}
+
+.btn2::before {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 80% 100%, 0 80%);
+}
+
+.btn3 {
+    width: 300px;
+    top: 350px;
+    left: -415px;
+    font-size: 24px;
+    transform: rotate(-5deg);
+}
+
+.btn3::before {
+    clip-path: polygon(0 20%, 80% 0, 100% 100%, 100% 100%, 0 100%);
+}
+
+
+.btn4 {
+    width: 300px;
+    top: 130px;
+    left: -160px;
+    font-size: 24px;
+    transform: rotate(-5deg);
+}
+
+.btn4::before {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 100% 80%, 20% 100%);
+}
+
+.btn5 {
+    width: 260px;
+    top: 170px;
+    left: 765px;
+    font-size: 24px;
+}
+
+.btn5::before {
+    clip-path: polygon(0 0, 100% 10%, 100% 80%, 100% 100%, 0 100%);
+}
+
+.btn6 {
+    width: 300px;
+    top: 280px;
+    left: 440px;
+    font-size: 24px;
+    transform: rotate(5deg);
+}
+
+.btn6::before {
+    clip-path: polygon(20% 0, 100% 15%, 100% 100%, 100% 100%, 0 100%);
+}
+
+.btn {
+    position: relative;
+    padding: 20px 40px;
+    /* 上下左右内边距 */
+    color: white;
+    letter-spacing: 5px;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0);
+    overflow: hidden;
+    z-index: 1;
+    /* 使内容高于伪元素 */
+    border: none;
+    /*font-size: 18px;*/
+    cursor: pointer;
+}
+
+.btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #00aaff;
+    /* 边框颜色 */
+    border-left: none;
+    z-index: -1;
+    /* 使边框在内容下方 */
+    background: linear-gradient(to left, rgba(0, 170, 255, 0.5), rgba(0, 30, 50, 0.7));
+    box-shadow: 0 0 10px rgba(0, 170, 255, 0.8);
+}
+
+.btn:hover {
+    /*变大少许*/
+    transform: scale(1.1);
+    color: #4bb7eb;
+}
+
+.footer {
+    width: 808px;
+    /* 梯形的上边宽度 */
+    height: 48px;
+    /* 梯形的高度 */
+    /*蓝到透明色的渐变*/
+    background: linear-gradient(to bottom, rgba(4, 66, 130, 0.62), rgba(139, 173, 247, 0.58), rgba(255, 255, 255, 0.59));
+    clip-path: polygon(10% 0, 90% 0, 100% 100%, 0 100%);
+    /* 定义梯形的形状 */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    /*width: 808px;*/
+    /*height: 48px;*/
+    position: absolute;
+    bottom: 0;
+    left: 190px;
+}
+
+ul {
+    list-style: none;
+}
+
+.footer-container {
+    display: flex;
+    margin-left: 100px;
+}
+
+.footer-container>div {
+    display: flex;
+    align-items: center;
+    width: 161px;
+    height: 40px;
+    margin-right: -26px;
+}
+
+.footer-container>div>img {
+    width: 30px;
+    height: 30px;
+    margin-right: -40px;
+}
+
+/*.footer-container > div > img:hover {*/
+/*    shape-outside: circle(50%);*/
+/*    transform: scale(1.2);*/
+/*}*/
+
+.footer-container>div>ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 40px;
+    color: white;
+    cursor: pointer;
+}
+
+.footer-container>div>ul>li:first-child {
+    font-size: 9px;
+}
+
+.footer-container>div>ul>li:nth-child(2) {
+    font-size: 12px;
+}
+
+.footer-container>div>ul>li:nth-child(1):hover {
+    color: #00aaff;
+    transform: scale(1.2);
+}
+
+.footer-container>div>ul>li:nth-child(2):hover {
+    color: #00aaff;
+    transform: scale(1.5);
+}

@@ -1,0 +1,60 @@
+
+/* 模态框的样式 */
+.back_modal {
+    display: none; /* 默认隐藏 */
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    opacity: 0; /* 初始透明度为 0 */
+    transition: opacity 0.5s ease;
+}
+
+.back_modal.show {
+    display: block;
+    opacity: 1; /* 显示时透明度为 1 */
+}
+
+.back_modal-content {
+    background-color: #fad3ab; /* 柔和的浅棕色 */
+    border: 2px solid #a67c52; /* 较浅的深棕色边框 */
+    color: #5a3820; /* 柔和的文字颜色 */
+    margin: 10% auto 2% auto;
+    padding: 20px;
+    /*border: 1px solid #888;*/
+    border-radius: 10px;
+    width: 30%;
+    height: 40%;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+.back_modal-content p {
+    text-indent: 40px;
+    font-size: 10px;
+    line-height: 15px;
+}
+
+/*.p1{*/
+/*    margin-bottom: -5px;*/
+/*}*/
+
+.back_modal-content h1{
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+    /*显示下框线*/
+    border-bottom: 1px solid #000;
+}
+
+.back_modal-content h2{
+    font-size: 15px;
+}
+
+.back_modal-content h3{
+    font-size: 12px;
+}

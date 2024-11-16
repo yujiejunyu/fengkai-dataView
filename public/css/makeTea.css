@@ -1,0 +1,27 @@
+body {
+    height: 100vh;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Noto Sans KR', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.tea_img {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 5000px;
+    height: 100vh;
+    transition: all 0.5s ease-in-out;
+}

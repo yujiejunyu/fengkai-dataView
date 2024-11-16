@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    /*background: #bdffe7;*/
+    /*width: 100%;*/
+    /*height: 100vh;*/
+    display: flex;
+    align-items: flex-start; /* 从顶部开始对齐 */
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+nav {
+    background: rgba(244, 200, 168, 0.92);
+    border-radius: 5px; /* 修改为更常见的圆角大小 */
+    border: 1px solid #8B4513; /* 极细的褐色边框 */
+    padding: 5px;
+    box-shadow: 0 25px 20px -20px rgba(0, 0, 0, 0.4);
+    width: 100px;
+    opacity: 0.9;
+    animation: slideDownNav 1.5s ease-out forwards; /* 动画名称、持续时间、缓动函数和保持结束状态 */
+}
+
+nav div {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column; /* 竖向排列 */
+    align-items: center; /* 子项在交叉轴上居中（这里是垂直方向） */
+}
+
+nav ul li {
+    margin: 10px 0 0 0; /* 修改为只在垂直方向上有间距 */
+    padding: 0px 10px; /* 调整内边距以适应垂直布局 */
+    font-size: 18px;
+    font-weight: 500;
+    color: #868383;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+    transition: transform 0.3s, color 0.5s; /* 添加 transform 的过渡效果 */
+    animation-name: slideDown; /* 应用动画 */
+    animation-duration: 0.5s; /* 动画持续时间 */
+    animation-fill-mode: forwards; /* 保持动画结束时的状态 */
+}
+
+nav ul li:nth-child(2n) {
+    width: 20px;
+    height: 1px;
+    background-color: #bbb;
+
+}
+
+nav ul li:hover {
+    color: #000;
+}
+
+nav ul li:hover img {
+    transform: scale(1.2); /* 放大20% */
+    transition: transform 0.3s ease; /* 平滑过渡效果 */
+}
+
+@keyframes slideDown {
+    from {
+        transform: translateY(-100%); /* 从上方完全不可见的位置开始 */
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0); /* 移动到其正常位置 */
+        opacity: 1;
+    }
+}
+
+/* 为每个列表项设置不同的延迟，以模拟风琴效果 */
+/* nav ul li:nth-child(1) { animation-delay: 0.4s; }
+nav ul li:nth-child(2) { animation-delay: 0.5s; }
+nav ul li:nth-child(3) { animation-delay: 0.6s; }
+nav ul li:nth-child(4) { animation-delay: 0.7s; }
+nav ul li:nth-child(5) { animation-delay: 0.8s; }  */
+
+@keyframes slideDownNav {
+    from {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 0.8;
+    }
+}
+
+.hidden {
+    display: none;
+}
+
+nav.hidden ul {
+    display: none;
+}
+
+a {
+    font-size: 20px;
+    color: #777;
+    text-decoration: none;
+}
+
+@keyframes slideUpNav {
+    from {
+        transform: translateY(0);
+        opacity: 0.8;
+    }
+    to {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+}
+
+p {
+    font-size: 15px;
+}
+
+nav ul li img {
+    width: 30px;
+    height: 25px;
+    display: block;
+    margin: 0 auto 5px auto;
+}

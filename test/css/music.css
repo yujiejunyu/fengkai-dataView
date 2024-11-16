@@ -1,0 +1,168 @@
+body {
+    padding: 120px;
+}
+
+/* 圆形背景容器 (作为按钮) */
+.music-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 36px;
+    background-color: #f8f0d8; /* 淡黄色背景 */
+    border: 1px solid #8B4513; /* 极细的褐色边框 */
+    border-radius: 50%; /* 圆形 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 阴影 */
+    transition: transform 0.2s ease, box-shadow 0.2s ease; /* 动画效果 */
+    cursor: pointer;
+    position: fixed; /* 固定位置 */
+    top: 30px; /* 距离顶部30px */
+    right: 30px; /* 距离右边30px */
+}
+
+.music {
+    width: 18px; /* 缩小动画条的宽度 */
+    height: 10px; /* 调整动画条的高度 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.music span {
+    width: 2px; /* 缩小每个条的宽度 */
+    border-radius: 18px;
+    margin-right: 2px;
+    animation-play-state: running; /* 初始化为运行状态 */
+}
+
+.music span:nth-child(1) {
+    animation: bar1 2s 0.2s infinite linear;
+}
+
+.music span:nth-child(2) {
+    animation: bar2 2s 0.4s infinite linear;
+}
+
+.music span:nth-child(3) {
+    animation: bar3 2s 0.6s infinite linear;
+}
+
+.music span:nth-child(4) {
+    animation: bar4 2s 0.8s infinite linear;
+}
+
+.music span:nth-child(5) {
+    animation: bar5 2s 1.0s infinite linear;
+}
+
+@keyframes bar1 {
+    0% {
+        background: #d1b37f;
+        margin-top: 25%;
+        height: 10%;
+    }
+
+    50% {
+        background: #d1b37f;
+        height: 100%;
+        margin-top: 0%;
+    }
+
+    100% {
+        background: #d1b37f;
+        height: 10%;
+        margin-top: 25%;
+    }
+}
+
+@keyframes bar2 {
+    0% {
+        background: #c49b6b;
+        margin-top: 25%;
+        height: 10%;
+    }
+
+    50% {
+        background: #c49b6b;
+        height: 100%;
+        margin-top: 0%;
+    }
+
+    100% {
+        background: #c49b6b;
+        height: 10%;
+        margin-top: 25%;
+    }
+}
+
+@keyframes bar3 {
+    0% {
+        background: #b0835a;
+        margin-top: 25%;
+        height: 10%;
+    }
+
+    50% {
+        background: #b0835a;
+        height: 100%;
+        margin-top: 0%;
+    }
+
+    100% {
+        background: #b0835a;
+        height: 10%;
+        margin-top: 25%;
+    }
+}
+
+@keyframes bar4 {
+    0% {
+        background: #8e6b4f;
+        margin-top: 25%;
+        height: 10%;
+    }
+
+    50% {
+        background: #8e6b4f;
+        height: 100%;
+        margin-top: 0%;
+    }
+
+    100% {
+        background: #8e6b4f;
+        height: 10%;
+        margin-top: 25%;
+    }
+}
+
+@keyframes bar5 {
+    0% {
+        background: #a86f3b;
+        margin-top: 25%;
+        height: 10%;
+    }
+
+    50% {
+        background: #a86f3b;
+        height: 100%;
+        margin-top: 0%;
+    }
+
+    100% {
+        background: #a86f3b;
+        height: 10%;
+        margin-top: 25%;
+    }
+}
+
+/* 悬浮效果 */
+.music-container:hover {
+    transform: scale(1.05); /* 悬浮时略微放大 */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* 加深阴影 */
+}
+
+/* 点击效果 */
+.music-container:active {
+    transform: scale(0.95); /* 按下时缩小 */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* 减少阴影 */
+}

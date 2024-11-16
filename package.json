@@ -1,0 +1,19 @@
+{
+  "name": "fengkai-three-test",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.4.9"
+  },
+  "dependencies": {
+    "echarts": "^5.5.1",
+    "lil-gui": "^0.19.2",
+    "three": "^0.169.0"
+  }
+}
