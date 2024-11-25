@@ -3,12 +3,111 @@
 
 <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>title</title>
     <link rel="stylesheet" href="/public/css/history_man.css" />
 </head>
 
 <body>
-
+    <header class="head">
+        <h1>历史人物详情页</h1>
+    </header>
+    <main class="main">
+        <div class="column">
+            <div class="panel">
+                <div class="title">
+                    <h1>
+                        生平简介
+                    </h1>
+                </div>
+                <div class="news">
+                    <p>生卒时间：<span>834-868</span></p>
+                    <p>出生地：<span>封川县文德乡长乐里（今广东封开县河儿口镇西村）</span></p>
+                    <p>主要成就：<span>岭南第一状元</span></p>
+                </div>
+                <div class="pin" id="pin"></div>
+                <div class="panel-footer"></div>
+            </div>
+            <div class="panel">
+                <div class="title">
+                    <h1>
+                        人物关系
+                    </h1>
+                </div>
+                <div class="ship" id="ship"></div>
+                <div class="panel-footer"></div>
+            </div>
+        </div>
+        <div class="column">
+            <h1>莫宣卿</h1>
+            <div class="human_img">
+                <img src="/resources/image/history/R-C (7).png">
+            </div>
+        </div>
+        <div class="column">
+            <div class="panel">
+                <div class="title">
+                    <h1>
+                        人物评价
+                    </h1>
+                </div>
+                <div class="appraise" id="appraise">
+                    <ul id="list">
+                        <li>
+                            <span>《莫孝肃公诗集序》摘录：</span>“公字仲节，广南封州人也，所产之乡曰文德，所居之里长乐。”
+                        </li>
+                        <li>
+                            <span>唐封州刺史白鸿儒：</span>
+                            “所撰词赋诗歌，皆操笔立成。诵而咏之，如真金美玉。”
+                            白鸿儒认为他的词赋诗歌才华横溢，如同真金美玉般珍贵。
+                        </li>
+                        <li>
+                            <span>宋进士莫天佑：</span>
+                            “凤昔临封一僻隅，先生特起扫云衢。”莫天佑认为他如同凤凰
+                            般在岭南这个偏远之地展翅高飞，扫清了前进道路上的障碍。
+                        </li>
+                        <li>
+                            <span>明时方尚祖：</span>
+                            “平桥横跨祠前锁，四野流霞万树霜。”方尚祖通过描绘状元祠
+                            的壮观景象，间接赞美了莫宣卿的卓越成就和崇高地位。
+                        </li>
+                        <li>
+                            <span>清代仪光中：</span>
+                            “大魁公肇始，文德此事新。”仪光中强调了莫宣卿作为岭南第一位状元的重要地位，认为他的成就为岭南文化注入了新的活力。
+                        </li>
+                        <li>
+                            <span>清代陈廷敬：</span>
+                            “岭南才子莫宣卿，诗文传世耀青冥。状元及第光门楣，德才兼备
+                            耀群英。”评价了莫宣卿的才学和品德。
+                        </li>
+                        <li>
+                            <span>相传诗句：</span>
+                            “羽翼高飞到碧霄，鹏程万里岂知遥。”描绘了莫宣卿高中状元后的远大前程和凌云壮志。
+                            “才吞王母千年药，便夺龙头第一标。”赞美了莫宣卿的非凡才华和卓越成就。
+                        </li>
+                        <li>
+                            历代文人官仕诗歌咏叹莫宣卿的超过200余首，这些诗歌中充满了对莫宣卿的赞美
+                            和敬仰。他们通过诗歌的形式，表达了对莫宣卿才华、品德和成就的敬仰和赞美。
+                        </li>
+                    </ul>
+                </div>
+                <div class="panel-footer"></div>
+            </div>
+            <div class="panel">
+                <div class="title">
+                    <h1>
+                        人物足迹
+                    </h1>
+                </div>
+                <div class="path" id="path"></div>
+                <div class="panel-footer"></div>
+            </div>
+        </div>
+    </main>
 </body>
+<script type="module" src="/src/history_man_echarts.js"></script>
+<script src="/public/js/flexible.js"></script>
+<script src="/src/history_main.js"></script>
 
 </html>
