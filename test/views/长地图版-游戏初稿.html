@@ -1,0 +1,1582 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <title>大运河</title>
+    <!-- 引入 Roboto 字体，但Google Chorome无法正常显示 -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link href="https://cdn.bootcss.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/test/css/明信片.css">
+    <link rel="stylesheet" href="/test/css/music.css">
+    <link rel="stylesheet" href="/test/css/model.css">
+    <link rel="stylesheet" href="/test/css/nav.css">
+    <link rel="icon" href="/test/resources/image/logo.png">
+    <style>
+        body,
+        html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        /* 设置网页背景为地图 */
+        body {
+            /*overflow: scroll;*/
+            height: 100vh;
+        }
+
+        /* SVG 铺满 */
+        svg {
+            /*overflow: scroll;*/
+            /*position: relative;*/
+            /*width: 3500px;*/
+            /*height: 100vh;*/
+            /*overflow: hidden;*/
+            background-image: url('/test/resources/image/map.jpg');
+            /* 替换为你的图片URL */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            /*position: absolute;*/
+            /*top: 0;*/
+            /*left: 0;*/
+            width: 3000px;
+            height: 100vh;
+        }
+
+        #riverPath {
+            /*overflow: scroll;*/
+            /*position: absolute;*/
+            /*top: 0;*/
+            /*left: 0;*/
+        }
+
+        /* SVG 容器 */
+        #container {
+            transition: left 0.5s ease;
+            /* 添加平滑过渡效果 */
+        }
+
+        /* 骰子图片 */
+        #dice {
+            position: absolute;
+            bottom: -4px;
+            left: 0px;
+            width: 100px;
+            height: 100px;
+            cursor: pointer;
+        }
+
+        #yu_dice2 {
+            bottom: -4px;
+            left: 0px;
+            width: 100px;
+            height: 100px;
+            cursor: pointer;
+        }
+
+        #message {
+            display: none;
+            position: fixed;
+            bottom: 180px;
+            left: 20px;
+            background-color: orange;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 18px;
+            z-index: 100;
+        }
+
+        #yu_message2 {
+            display: none;
+            position: fixed;
+            bottom: 180px;
+            right: 20px;
+            background-color: orange;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 18px;
+            z-index: 100;
+        }
+
+        /* 模态框样式，初始状态下隐藏 */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            /* 半透明背景 */
+        }
+
+        .modal-content {
+            background-color: white;
+            margin: 15% auto;
+            padding: 20px;
+            border: 1px solid #888;
+            width: 300px;
+            text-align: center;
+        }
+
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: black;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        /*#victory_button {*/
+        /*    display: none;*/
+        /*    position: fixed;*/
+        /*    top: 60%;*/
+        /*    left: 50%;*/
+        /*    transform: translate(-50%, -50%);*/
+        /*    font-size: 15px;*/
+        /*    width: 150px;*/
+        /*    height: 50px;*/
+        /*    cursor: pointer;*/
+        /*    background: rgb(243, 133, 48);*/
+        /*    color: white;*/
+        /*    border: none;*/
+        /*    !*圆角*!*/
+        /*    border-radius: 5px;*/
+        /*}*/
+
+        /*#victory_button:hover {*/
+        /*    background: rgba(243, 133, 48, 0.8);*/
+        /*}*/
+
+
+        /* 模态框的样式 */
+        .SKUAG_modal {
+            display: none;
+            /* 默认隐藏模态框 */
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            /* 半透明背景 */
+            backdrop-filter: blur(15px);
+            /* 背景高斯模糊 */
+            justify-content: center;
+            align-items: center;
+            opacity: 0;
+            /* 初始透明度为0 */
+            visibility: hidden;
+            /* 初始不可见 */
+            transition: opacity 0.5s ease, visibility 0.5s ease;
+            /* 渐变动画 */
+        }
+
+        .boat_dialog_class {
+            width: 200px;
+            height: 350px;
+            display: none;
+            position: absolute;
+            background-color: white;
+            color: black;
+            /*padding: 10px;*/
+            border-radius: 10px;
+        }
+
+        .boat_dialog_content_class {
+            /*margin: 0 5px;*/
+            width: 195px;
+            height: 100px;
+            padding: 5px;
+            /*line-height: 30px;*/
+        }
+
+        .boat_dialog_content_class p {
+            text-align: left;
+            font-size: 10px;
+            /*line-height: 30px;*/
+            padding: 0;
+        }
+
+        .dialog_inner1_class {
+            /*color: red;*/
+        }
+
+        /* 对话框样式 */
+        .cheng_SKUAG_boat_dialog_class {
+            width: 350px;
+            height: 170px;
+            /* Increased height to fit button */
+            display: none;
+            position: absolute;
+            background-color: #f8f0d8;
+            /* 淡黄色纸张效果 */
+            color: #8B4513;
+            border-radius: 15px;
+            border: 1px solid #8B4513;
+            /* 极细褐色边框 */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            /* 淡淡的阴影 */
+            top: 200px;
+            left: 400px;
+            opacity: 0;
+            /* 初始透明度为0 */
+            transition: opacity 0.5s ease;
+            /* 渐显渐隐效果 */
+        }
+
+        /* 对话框渐显效果 */
+        .cheng_SKUAG_boat_dialog_class.SKUAG_show {
+            display: block;
+            opacity: 1;
+            /* 渐显到完全不透明 */
+        }
+
+        /* 上部分内容样式 */
+        .cheng_SKUAG_boat_dialog_content_class_top {
+            height: 60px;
+            margin-top: 10px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+
+        .cheng_SKUAG_boat_dialog_content_class_top h3 {
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+            width: 350px;
+            font-size: 25px;
+            font-weight: bold;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* 下部分内容样式 */
+        .cheng_SKUAG_boat_dialog_content_class_bot {
+            height: 100px;
+            width: 350px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .cheng_SKUAG_boat_dialog_content_class_bot p {
+            width: 310px;
+            margin-top: 0px;
+            text-indent: 2em;
+            /* 段前缩进 */
+        }
+
+        /* 保存按钮样式 */
+        .cheng_SKUAG_btn {
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        /* 保存按钮 & 确认按钮 样式一致 */
+        .cheng_SKUAG_save-btn,
+        .SKUAG_confirm-btn {
+            background-color: #d4a574;
+            /* 柔和的浅棕色 */
+            border: 2px solid #a67c52;
+            /* 较浅的深棕色边框 */
+            color: #5a3820;
+            /* 柔和的文字颜色 */
+            border-radius: 5px;
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: bold;
+            text-transform: uppercase;
+            transition: background-color 0.3s ease;
+            display: block;
+            margin: 10px auto 0;
+            /* Center the button */
+        }
+
+        .cheng_SKUAG_save-btn:hover,
+        .SKUAG_confirm-btn:hover {
+            background-color: #c29568;
+            /* 悬停时稍微变暗 */
+        }
+
+        /* 按钮容器 */
+        .cheng_SKUAG_button-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 10px;
+        }
+
+        .tag {
+            width: 300px;
+            height: 100px;
+            border: 5px solid rgb(248, 240, 216);
+            position: relative;
+            background-color: rgb(248, 240, 216);
+        }
+
+        .tag:before,
+        .tag:after {
+            content: "";
+            display: block;
+            border-width: 20px;
+            position: absolute;
+            bottom: -40px;
+            left: 30px;
+            border-style: solid dashed dashed;
+            border-color: #8B4513 transparent transparent;
+            /*border: 1px solid #8B4513; !* 极细褐色边框 *!*/
+            font-size: 0;
+            line-height: 0;
+
+        }
+
+        .tag:after {
+            bottom: -33px;
+            /*border-color: rgb(248, 240, 216) transparent transparent;*/
+            border: 1px solid #8B4513;
+            /* 极细褐色边框 */
+        }
+
+        .SKUAG_boat_dialog_class {
+            width: 350px;
+            height: 170px;
+            /*display: none;*/
+            position: absolute;
+            background-color: #f8f0d8;
+            /* 淡黄色纸张效果 */
+            color: #8B4513;
+            border-radius: 15px;
+            border: 1px solid #8B4513;
+            /* 极细褐色边框 */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            /* 淡淡的阴影 */
+            top: 50px;
+            left: 50px;
+            opacity: 0;
+            /* 初始透明度为0 */
+            transition: opacity 0.5s ease;
+            /* 渐显渐隐效果 */
+            overflow-y: scroll;
+            scrollbar-width: none;
+        }
+
+        /* 对话框渐显效果 */
+        .SKUAG_boat_dialog_class.SKUAG_show {
+            display: block;
+            opacity: 1;
+            /* 渐显到完全不透明 */
+        }
+
+        /* 上部分内容样式 */
+        .SKUAG_boat_dialog_content_class_top {
+            height: 60px;
+            margin-top: 10px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+
+        .SKUAG_boat_dialog_content_class_top p {
+            text-align: right;
+            font-size: 15px;
+            bottom: 5px;
+            margin-right: 28px;
+            margin-bottom: 0px;
+            padding: 0;
+            width: 230px;
+        }
+
+        .SKUAG_boat_dialog_content_class_top h3 {
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+            width: 100px;
+            font-size: 30px;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* 下部分内容样式 */
+        .SKUAG_boat_dialog_content_class_bot {
+            height: 100px;
+            width: 350px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .SKUAG_boat_dialog_content_class_bot p {
+            width: 310px;
+            margin-top: 10px;
+            text-indent: 2em;
+            /* 段前缩进 */
+        }
+
+        .restart_button_class button {
+            width: 60px;
+            height: 20px;
+            border-radius: 5px;
+            background-color: rgba(232, 171, 128, 0.8);
+            color: #8B4513;
+            border: 1px solid #8B4513;
+            /* 极细的褐色边框 */
+            font-size: 10px;
+            font-weight: bold;
+            text-transform: uppercase;
+            transition: background-color 0.3s ease;
+            display: block;
+            position: absolute;
+            top: 80px;
+            right: 20px;
+        }
+
+        .dice {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background-color: rgba(0, 0, 0, 0.76);
+            position: absolute;
+            bottom: 20px;
+            left: 30px;
+            border: 1px solid #8B4513;
+            /* 极细的褐色边框 */
+        }
+
+        .yu_dice2 {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background-color: rgba(0, 0, 0, 0.77);
+            position: absolute;
+            bottom: 20px;
+            right: 30px;
+            border: 1px solid #8B4513;
+            /* 极细的褐色边框 */
+        }
+    </style>
+    <!--    <link rel="stylesheet" href="../css/明信片.css">-->
+</head>
+
+<audio id="audioClip1" src="/test/resources/media/yu_海浪1.mp3" preload="auto" loop="loop"></audio>
+<audio id="audioClip2" src="/test/resources/media/voice/游戏胜利音效.ogg" preload="auto"></audio>
+<audio id="audioClip3" src="/test/resources/media/voice/弹出窗口提示音效.ogg" preload="auto"></audio>
+<audio id="audioClip4" src="/test/resources/media/voice/游戏中的“提示”音.wav" preload="auto"></audio>
+<!--<audio id="audioClip5" src="" autoplay="autoplay" loop="loop" muted="muted"></audio>-->
+<audio id="audioClip5" autoplay>
+    <source src="/test/resources/media/voice/背景音乐.MP3" />
+</audio>
+<!--<audio autoplay="autoplay" controls="controls" loop="loop" src="../media/墨水画中国风配乐.wav">  你的浏览器版本太低，不支持audio标签  </audio>-->
+
+<body id="container">
+    <!-- SVG 图像 -->
+    <svg id="river-map" viewBox="0 0 5949 1280" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+        <path id="riverPath" d="M1198.5,959.5l105-23l-13-24l257-16l25-23l38.76,43l323.24,19l97,52l114,18l150,27l38,53l288,51l156-28l8-39
+l103-8l42,16l267-94l139-14l71-61l241-44v-47.64l-52-57.36l165-51l89-54l103-115l221-60l325-8l94-16l181-142l62-29l213-32l147,99
+l116-27c0-25-31-22,0-25s53-34,53-34l-32-50l-16-32c16-37,70-87,70-87" fill="none" stroke="blue" stroke-width="2" />
+        <image id="boat" href="/test/resources/image/浮动商船.gif" x="94.5" y="572.5" width="256" height="128"></image>
+        <image id="yu_boat2" href="/test/resources/image/浮动商船.gif" x="94.5" y="572.5" width="256" height="128"
+            style="display:none;"></image>
+    </svg>
+
+    <div class="container">
+        <nav>
+            <div><img src="/test/resources/image/logo.png" style="width: 70px;height:65px;"></div>
+            <ul>
+                <li>
+                    <a href="/index.html" target="_blank">
+                        <img src="/test/resources/image/首页.png">
+                    </a>
+                    <p style="text-align: center;">首页</p>
+                    <p style="font-size: 11px;">home</p>
+                </li>
+                <li></li>
+                <li><a href="/src/Cannal-history/Canal_history.html" target="_blank">
+                        <img src="/test/resources/image/历史.png">
+                    </a>
+                    <p style="text-align: center;">历史</p>
+                    <p style="font-size: 11px;">history</p>
+                </li>
+                <li></li>
+                <li><a href="/src/Cannal-culture/culture.html" target="_blank">
+                        <img src="/test/resources/image/文化.png">
+                    </a>
+                    <p style="text-align: center;">文化</p>
+                    <p style="font-size: 11px;">culture</p>
+                </li>
+                <li></li>
+                <li>
+                    <a href="/src/Cannal-creativity/cultural.html" target="_blank">
+                        <img src="/test/resources/image/文创.png">
+                    </a>
+                    <p style="text-align: center;">文创</p>
+                    <p style="font-size: 11px;">cultural</p>
+                </li>
+                <li></li>
+                <li><a href="/src/Cannal-game/html/长地图版-游戏初稿.html">
+                        <img src="/test/resources/image/娱乐.png">
+                    </a>
+                    <p style="text-align: center;">娱乐</p>
+                    <p style="font-size: 11px;">recreation</p>
+                </li>
+                <li></li>
+            </ul>
+            <div><a href="javascript:void(0);" onclick="toggleNav()"><i id="nav-icon"
+                        class="fa fa-angle-double-up"></i></a>
+            </div>
+        </nav>
+    </div>
+
+    <!-- 骰子随机数显示 -->
+    <div id="message"></div>
+    <div class="dice">
+        <img id="dice" src="/test/resources/image/0.gif" alt="静止骰子">
+    </div>
+    <div id="yu_message2"></div>
+    <div class="yu_dice2">
+        <img id="yu_dice2" src="/test/resources/image/0.gif" alt="静止骰子">
+    </div>
+
+
+    <div id="center-line"></div>
+
+    <div id="victory">
+        <!--    <button id="victory_button">定制个人明信片</button>-->
+    </div>
+
+    <!-- 昵称输入模态框 -->
+    <div id="SKUAG_nicknameModal" class="SKUAG_modal">
+        <div class="SKUAG_nickname-content">
+            <div class="SKUAG_nicknametext-content">
+                <h2>请输入您的昵称</h2>
+                <input type="text" id="SKUAG_nicknameInput" placeholder="输入昵称">
+            </div>
+
+            <div class="SKUAG_button-container">
+                <button id="SKUAG_confirmNicknameBtn" class="SKUAG_btn SKUAG_confirm-btn">确定</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- 明信片模态框 -->
+    <div id="SKUAG_modalA" class="SKUAG_modal">
+        <div class="SKUAG_modal-content" id="SKUAG_postcardContent">
+            <!-- 类MAC风格的关闭按钮 -->
+            <div class="window-header">
+                <div class="window-buttons">
+                    <div class="close-button" id="SKUAG_closeModalBtn"></div>
+                    <div class="minimize-button"></div>
+                    <div class="maximize-button"></div>
+                </div>
+            </div>
+            <!-- 上部展示明信片内容 -->
+            <div class="SKUAG_postcard-content" id="SKUAG_postcardDisplay">
+
+                <img src="/test/resources/image/邮票.PNG" alt="邮票" class="SKUAG_stamp">
+                <img src="/test/resources/image/邮戳.PNG" alt="邮戳" class="SKUAG_postmark">
+
+                <div class="SKUAG_Photo">
+                    <img src="/test/resources/image/京杭大运河北京通惠河段.webp" alt="京杭大运河北京通惠河段"
+                        style="width: 100%; height: 100%; object-fit: cover; border-radius: 0;">
+                </div>
+
+                <div class="SKUAG_postcard_Text">
+
+                    <div class="SKUAG_postcard_Text_left1">
+                        <div class="SKUAG_postcard_Text_left1_innertop">
+                            <h1>京杭大运河北京通惠河段</h1>
+                        </div>
+                        <div class="SKUAG_postcard_Text_left1_innerbot">
+                            <h5 id="SKUAG_nickname">SKUAG：</h5>
+                            <h5>您投掷筛子<span id="SKUAG_times" style="color: red; font-weight: bold"></span>次，历经<span
+                                    id="SKUAG_WeatherTimes" style="color: red; font-weight: bold"></span>场风雨</h5>
+                            <h5>成功地带领船队抵达运河终点！</h5>
+                        </div>
+                    </div>
+
+                    <div class="SKUAG_postcard_Text_right1">
+                        <div class="SKUAG_postcard_Text_right1_innertop">
+                            <h5>这里是北京</h5>
+                            <h5>这里是北京</h5>
+                            <h5>这里是北京</h5>
+                        </div>
+                        <div class="SKUAG_postcard_Text_right1_innerbot">
+                            <h6>2024.9.25</h6>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- 下方按钮区域 -->
+            <div class="SKUAG_button-container">
+                <button id="SKUAG_savePostcardBtn" class="SKUAG_btn SKUAG_save-btn">打印明信片</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="boat_dialog" class="SKUAG_boat_dialog_class">
+        <div class="SKUAG_boat_dialog_content_class_top">
+            <h3><span id="SKUAG_dialog_inner1" class="dialog_inner1_class"></span></h3>
+            <p>今日天气晴</p>
+        </div>
+
+        <div class="SKUAG_boat_dialog_content_class_bot">
+            <p id="dialog_data"></p>
+        </div>
+    </div>
+
+    <div id="SKUAG_boat_dialog" class="cheng_SKUAG_boat_dialog_class">
+        <div class="cheng_SKUAG_boat_dialog_content_class_top">
+            <h3>玩家<span id="player_span"></span>率先抵达了终点！</h3>
+        </div>
+
+        <div class="cheng_SKUAG_boat_dialog_content_class_bot">
+            <p>玩家1：掷骰子<span id="span2"></span>次，历经<span id="w1"></span>场风雨</p>
+            <p>玩家2：掷骰子<span id="span3"></span> 次，历经<span id="w2"></span>场风雨</p>
+        </div>
+
+        <!-- Button to generate exclusive postcard -->
+        <div class="cheng_SKUAG_button-container">
+            <button id="victory_button" class="cheng_SKUAG_btn cheng_SKUAG_save-btn">生成专属明信片</button>
+        </div>
+    </div>
+
+    <!-- 圆形背景和音量动画作为按钮 -->
+    <div class="music-container" id="musicContainer" onclick="toggleAnimationAndSound()">
+        <div class="music">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+    <div id="restart" class="restart_button_class" onclick="flushed()">
+        <button>restart</button>
+    </div>
+    <div id="myModal" class="back_modal">
+        <div class="back_modal-content">
+            <h1>游戏说明</h1>
+            <h2>背景故事</h2>
+            <p class="p1">
+                在古代中国，大运河是一条连接南北的重要水路，促进了经济和文化的交流。两大商会——“东升商会”和“西昌商会”——在这条繁忙的水路上展开了一场激烈的贸易竞争。玩家将扮演其中一个商会的货船船长，通过在大运河上进行交易买卖，争取成为第一个到达终点的货船，从而赢得比赛。
+            </p>
+            <h2>游戏规则</h2>
+            <h3>1. 游戏目标</h3>
+            <p>成为第一个到达大运河终点的货船。</p>
+            <h3>2. 游戏准备</h3>
+            <p>玩家数量：2人。 </p>
+            <p>起始位置：两艘货船分别位于大运河的北部。</p>
+            <h3>3. 游戏流程</h3>
+            <p>
+                <strong>回合制:</strong>
+                每个玩家在各自的回合中投骰子和移动。
+            </p>
+            <p>
+                <strong>移动阶段：</strong>
+                玩家可以选择向下一个地点移动。
+                每个地点之间的距离不同。
+            </p>
+            <p>
+                <strong>特殊事件：</strong>
+                在某些地点可能会遇到特殊事件，如天气变化。
+                特殊事件可能带来额外的挑战。
+            </p>
+            <h3>4. 游戏机制</h3>
+            <p>玩家凭借自身运气，根据骰子点数移动船只，赢得胜利</p>
+            <h3>5. 游戏结束</h3>
+            <p>当任意一艘货船到达大运河终点时，游戏结束。到达终点的货船获胜。</p>
+            <p>
+                <strong>示例事件:</strong>
+                天气变化：恶劣天气导致船只进行避让，船只向后退一格。
+            </p>
+        </div>
+        <div class="cheng_SKUAG_button-container">
+            <button id="start" class="cheng_SKUAG_btn cheng_SKUAG_save-btn">我已阅读完说明，开始游戏！</button>
+        </div>
+    </div>
+
+    <!--<img src="../image/扬州中国大运河博物馆.webp" alt="图片" id="alongImg_animate"-->
+    <!--     style="width: 100px; height: 200px; display: none;">-->
+</body>
+<script src="/test/js/明信片.js"></script>
+<script src="/test/js/model.js"></script>
+<script src="/test/js/nav.js"></script>
+<script>
+    // 获取路径和船只元素
+    const path = document.querySelector("path");
+    const boat = document.querySelector("image");
+    const yu_boat2 = document.querySelector("image#yu_boat2");
+    const length = path.getTotalLength(); // 获取路径的总长度
+    // 获取到所有音频的元素
+    const audios = [
+        document.getElementById("audioClip1"),
+        document.getElementById("audioClip2"),
+        document.getElementById("audioClip3"),
+        document.getElementById("audioClip4"),
+        document.getElementById("audioClip5"),
+    ]
+    // 定义12个节点位置的数组，添加节点0，并将其设置为无模态框显示
+    const nodes = [
+        0, 100, 200, 300, 400, 500, 600, 700, 800, 900,
+        1000, 1100, 1200, 1300, 1400, 1500, 1600, 1700, 1800, 1900,
+        2000, 2100, 2200, 2300, 2400, 2500, 2600, 2700, 2800, 2900,
+        3000, 3100, 3200, 3300, 3400, 3500, 3600, 3700, 3800, 3900,
+        4000, 4100, 4200, 4300, 4400, 4500, 4600, 4700, 4800, 4900,
+        5000
+    ];
+
+    // 节点位置
+    let currentNodeIndex1 = 0; // 当前的节点索引
+    let isMoving1 = false;  // 用于防止重复点击
+    let yu_currentNodeIndex2 = 0;
+    let yu_isMoving2 = false;
+    // let modals = [
+    //     null, // 节点0无模态框
+    //     document.getElementById("modal1"),
+    //     document.getElementById("modal2"),
+    //     document.getElementById("modal3"),
+    //     document.getElementById("modal4"),
+    //     document.getElementById("modal5"),
+    //     document.getElementById("modal6"),
+    //     document.getElementById("modal7"),
+    //     document.getElementById("modal8"),
+    //     document.getElementById("modal9"),
+    //     document.getElementById("modal10"),
+    //     document.getElementById("modal11"),
+    //     document.getElementById("modal12"),
+    //     document.getElementById("modal13"),
+    //     document.getElementById("modal14"),
+    //     document.getElementById("modal15"),
+    //     document.getElementById("modal16"),
+    //     document.getElementById("modal17"),
+    //     document.getElementById("modal18"),
+    //     document.getElementById("modal19"),
+    //     document.getElementById("modal20"),
+    //     document.getElementById("modal21"),
+    //     document.getElementById("modal22"),
+    //     document.getElementById("modal23"),
+    //     document.getElementById("modal24"),
+    //     document.getElementById("modal25"),
+    //     document.getElementById("modal26"),
+    //     document.getElementById("modal27"),
+    //     document.getElementById("modal28"),
+    //     document.getElementById("modal29"),
+    //     document.getElementById("modal30"),
+    //     document.getElementById("modal31"),
+    //     document.getElementById("modal32"),
+    //     document.getElementById("modal33"),
+    //     document.getElementById("modal34"),
+    //     document.getElementById("modal35"),
+    //     document.getElementById("modal36"),
+    //     document.getElementById("modal37"),
+    //     document.getElementById("modal38"),
+    //     document.getElementById("modal39"),
+    //     document.getElementById("modal40"),
+    //     document.getElementById("modal41"),
+    //     document.getElementById("modal42"),
+    //     document.getElementById("modal43"),
+    //     document.getElementById("modal44"),
+    //     document.getElementById("modal45"),
+    //     document.getElementById("modal46"),
+    //     document.getElementById("modal47"),
+    //     document.getElementById("modal48"),
+    //     document.getElementById("modal49"),
+    //     document.getElementById("modal50"),
+    // ];
+
+
+    const bgContainer = document.getElementById("container")
+
+
+    // 背景图片位置
+    let bgPos = 0;
+
+    // 背景图片宽度
+    const bgWidth = 3500; // 假设背景图片宽度是窗口宽度的两倍
+
+    // 更新背景图片位置
+    start_btn.onclick = function () {
+        playAudio(4)
+
+        modal.style.display = "none";
+
+        bgContainer.addEventListener("wheel", (event) => {
+
+            event.preventDefault();
+            bgContainer.scrollLeft += event.deltaY;
+        });
+    }
+
+    // 骰子
+    const dice = document.getElementById('dice');
+    const message = document.getElementById('message');
+
+    const yu_dice2 = document.getElementById('yu_dice2')
+    const yu_message2 = document.getElementById('yu_message2')
+
+    const yu_endNodeIndex = nodes.length - 1; // 最后一个节点的索引
+
+    let yu_isDiceEnabled = true;
+    let yu_currentPlayer = 1; // 当前玩家，1表示玩家一，2表示玩家二
+
+
+    // 绑定玩家一骰子的点击事件
+    dice.addEventListener('click', function () {
+        // 播放点击音效
+        playAudio(3)
+        if (!yu_isDiceEnabled || isMoving1 || yu_currentPlayer !== 1) return; // 如果已经在移动或已到达终点，直接返回
+
+        // 产生1-6的随机数
+        const randomNumber = Math.floor(Math.random() * 6) + 1;
+
+        // 显示随机数的弹出提示框
+        message.textContent = `玩家一点数为 ${randomNumber}`;
+        message.style.display = 'block';
+
+        // 显示对应的骰子GIF
+        dice.src = `/test/resources/image/${randomNumber}.gif`;
+
+        // 禁用骰子
+        yu_isDiceEnabled = false;
+
+        // 稍后隐藏提示框并移动船只
+        setTimeout(function () {
+            stopAudio(3)
+            // setTimeout(() => {
+            //     imageElement.style.transform = "rotate(-90deg)";
+            //     imageElement.style.transition = "transform 0.5s ease-in-out";
+            //     // imageElement.style.display = 'none';
+            // }, 1000); // 延迟1秒
+            message.style.display = 'none';
+            // isMoving1 = true;
+            yu_moveBoat1(randomNumber, boat); // 移动船只
+        }, 1000);
+    });
+
+    // 绑定玩家二骰子的点击事件
+    yu_dice2.addEventListener('click', function () {
+        // 播放点击音效
+        playAudio(3)
+        if (!yu_isDiceEnabled || yu_isMoving2 || yu_currentPlayer !== 2) return; // 如果已经在移动或已到达终点，直接返回
+
+        // 产生1-6的随机数
+        const randomNumber = Math.floor(Math.random() * 6) + 1;
+
+        // 显示随机数的弹出提示框
+        yu_message2.textContent = `玩家二点数为 ${randomNumber}`;
+        yu_message2.style.display = 'block';
+
+        // 显示对应的骰子GIF
+        yu_dice2.src = `/test/resources/image/${randomNumber}.gif`;
+
+        yu_isDiceEnabled = false;
+
+        // 稍后隐藏提示框并移动船只
+        setTimeout(function () {
+            stopAudio(3);
+
+            // setTimeout(() => {
+            //     imageElement.style.transform = "rotate(-90deg)";
+            //     imageElement.style.transition = "transform 0.5s ease-in-out";
+            //     // imageElement.style.display = 'none';
+            // }, 1000); // 延迟1秒
+            // setTimeout(() => {
+            //     imageElement.style.display = 'none';
+            // }, 2000);
+
+            yu_message2.style.display = 'none';
+            // yu_isMoving2 = true;
+
+            yu_moveBoat2(randomNumber, yu_boat2); // 移动船只
+        }, 1000);
+    });
+
+    let times1 = 0;
+    let times2 = 0;
+    // let specificNodeIndex = 0;
+
+    // 玩家一移动船只的函数
+    function yu_moveBoat1(steps, boatElement) {
+        moveToNextNode(steps, boatElement, currentNodeIndex1, isMoving1, '1', times1);
+        times1++;
+    }
+
+    // 玩家二移动船只的函数
+    function yu_moveBoat2(steps, boatElement) {
+        //船只移动，并且触发模态框和音频，并更新位置索引。
+        moveToNextNode(steps, boatElement, yu_currentNodeIndex2, yu_isMoving2, '2', times2);
+        times2++;
+    }
+
+    // 定义天气惩罚的节点数组
+    // let weatherPenaltyNodes = [4, 6, 9];
+    let cityNodes = [0, 2, 4, 8, 12, 17, 22, 27, 30, 32, 37, 38, 40, 41, 42, 44, 47, 48, 50]
+
+    // 以取出的第一个元素
+    let currentWeatherPenaltyNode = null
+
+    let victoryPlayer = null;
+
+    let facedWeatherTimes1 = 0;
+    let facedWeatherTimes2 = 0;
+
+    let position = 0;
+
+    // const boat_dialog = document.getElementById("boat_dialog");
+
+    // 示例调用
+    const imageElement = document.getElementById('alongImg_animate'); // 假设图片的ID为'image-id'
+
+    // 移动船只的通用函数
+    function moveToNextNode(diceValue, boatElement, currentIndex, movingFlag, player, times) {
+        if (currentIndex >= nodes.length || movingFlag) return; // 防止越界或重复移动
+
+        let targetNodeIndex = Math.min(currentIndex + diceValue, nodes.length - 1); // 目标节点
+        const startNode = nodes[currentIndex];
+        let endNode = null;
+        // let startTime = null;
+        let scrollStart = null; // 记录开始滚动的位置
+
+        // 特殊处理节点2
+
+        // 遍历节点数组，依次取出节点，判断是否为特殊节点，如果是，则将目标节点设置为目标节点，并播放音频
+        // 首先获取到天气节点数组中的第一个元素，其是否是目标节点，如果是，则将该节点取出。
+        // if (weatherPenaltyNodes.length > 0) {
+        //     if (targetNodeIndex >= weatherPenaltyNodes[0]) {
+        //         currentWeatherPenaltyNode = weatherPenaltyNodes.shift();
+        //         // playAudio();
+        //         targetNodeIndex = currentWeatherPenaltyNode;
+        //         endNode = nodes[targetNodeIndex];
+        //         if (player === '1') {
+        //             facedWeatherTimes1++;
+        //         } else if (player === '2') {
+        //             facedWeatherTimes2++;
+        //         }
+        //     }
+        // }
+
+        endNode = nodes[targetNodeIndex];
+        let startTime = null;
+        movingFlag = true;
+
+        // if(startNode === 200){
+        //     playAudio();
+        //     endNode = nodes[currentIndex + 1]
+        // }
+
+        function step(timestamp) {
+            if (!startTime) startTime = timestamp;
+            const progress = (timestamp - startTime) / 1000;
+            if (progress < 1) {
+                const pointAtLength = startNode + (endNode - startNode) * progress;
+                const point = path.getPointAtLength(pointAtLength);
+
+                const boatWidth = 256;
+                const boatHeight = 256;
+                const offsetX = boatWidth / 2;
+                const offsetY = boatHeight / 2;
+                const extraOffsetY = -20;
+
+                boatElement.setAttribute('x', (point.x - offsetX).toString());
+                boatElement.setAttribute('y', (point.y - offsetY - extraOffsetY).toString());
+
+                // 检查船只是否在可视区域
+                checkIfBoatIsVisible(boatElement)
+
+                requestAnimationFrame(step);
+            } else {
+                currentIndex = targetNodeIndex;
+                // specificNodeIndex = targetNodeIndex;
+                if (currentIndex === yu_endNodeIndex) {
+                    // 到达终点，显示胜利消息
+                    yu_showVictoryMessage(player);
+                    victoryPlayer = player;
+                    yu_isDiceEnabled = false;
+                    stopAudio(0)
+                    return;
+                } else {
+                    // 到达淮阳的时候播放音频
+                    if (currentIndex === currentWeatherPenaltyNode) {
+                        playAudio(0)
+                        // animateImageAtNode(imageElement, boatElement)
+                    }
+                    if (currentIndex in dialog_data) {
+                        showCityNodeDialog(currentIndex, boatElement)
+                    } else {
+                        showNodeDialog(currentIndex, boatElement)
+                    }
+                    // 显示模态框
+                    // modals[currentIndex].style.display = "block"; // 显示对应的模态框
+                    // stopAudio()
+                }
+                movingFlag = false;
+                isMoving1 = false;
+                yu_isMoving2 = false;
+                yu_isDiceEnabled = true;
+                if (currentIndex === currentWeatherPenaltyNode) {
+                    // stopAudio()
+                    moveToLastNode(boatElement, currentIndex, yu_isMoving2, player, times)
+                }
+                yu_switchPlayer();
+            }
+        }
+
+        requestAnimationFrame(step);
+
+        // 更新当前玩家的索引
+        if (player === '1') {
+            currentNodeIndex1 = targetNodeIndex;
+        } else if (player === '2') {
+            yu_currentNodeIndex2 = targetNodeIndex;
+        }
+    }
+
+    const dialog = document.getElementById('boat_dialog');
+    const innerText = document.getElementById('SKUAG_dialog_inner1');
+    const dialog_data = {
+        0: {
+            city: "北京",
+            data:
+                "北京是中国的首都，也是大运河的北端起点。大运河在北京段经过通州等地，历史悠久，文化底蕴深厚。"
+        }
+        ,
+        1: {
+            city: "北运河段",
+            data: "自通州北关闸至天津三岔河口，河段总长度约148 千米，主线长度约148 千米。"
+        },
+        2: {
+            city: "廊坊",
+            data:
+                "廊坊位于河北省，是大运河沿线的一个重要城市。廊坊段的大运河历史悠久，沿岸有许多历史文化遗迹。"
+        }
+        ,
+        4: {
+            city: "天津",
+            data:
+                "天津位于大运河的下游，是中国北方重要的港口城市。大运河在天津段经过多个重要节点，对天津的经济发展起到了重要作用。"
+        }
+        ,
+        6: {
+            city: "南运河段",
+            data: "自天津三岔河口至山东临清会通河（元运河）入卫处，河段总长度约458 千米，主线长度约458 千米。"
+        }
+        ,
+        8: {
+            city: "沧州",
+            data:
+                "沧州位于河北省，是大运河沿线的一个重要城市。沧州段的大运河保存较为完好，沿岸有许多历史文化遗迹。"
+        }
+        ,
+        12: {
+            city: "德州",
+            data:
+                "德州位于山东省，是大运河沿线的一个重要交通枢纽。德州段的大运河历史悠久，沿岸风景优美。"
+        }
+        ,
+        17: {
+            city: "聊城",
+            data:
+                "聊城位于山东省西部平原地区，东南与黄河相邻，西靠卫运河，因位于古聊河西岸而得名。聊城在明清两代因运河而兴盛，成为运河九大商埠之一，被称为“漕挽之咽喉，天都之肘腋”。清康熙、乾隆年间聊城已成为鲁西最大的物资交流中心。"
+        },
+        19: {
+            city: "会通河段",
+            data: "自山东临清会通河（元运河）入卫处至微山县夏镇街道，河段总长度约450 千米，其中主线长度约368 千米"
+        }
+        ,
+        22: {
+            city: "济宁",
+            data:
+                "济宁位于山东省中部，是大运河沿线的重要城市之一。济宁段的大运河在历史上曾是重要的水上运输通道。"
+        }
+        ,
+        24: {
+            city: "中运河段",
+            data: "自山东微山县夏镇街道至江苏淮安清口枢纽，河段总长度约483千米，其中主线长度约246 千米。"
+        }
+        ,
+        27: {
+            city: "徐州",
+            data:
+                "徐州位于江苏省北部，是大运河沿线的一个重要城市。徐州段的大运河与黄河交汇，历史上的交通地位非常重要。"
+        }
+        ,
+        30: {
+            city: "宿迁",
+            data:
+                "宿迁位于江苏省北部，是大运河沿线的一个重要城市。宿迁段的大运河历史悠久，沿岸有许多历史文化遗迹。"
+        }
+        ,
+        32: {
+            city: "淮安",
+            data:
+                "淮安位于江苏省中部，是大运河沿线的一个重要城市。淮安段的大运河历史悠久，沿岸有许多历史文化遗迹。"
+        },
+        33: {
+            city: "淮扬运河",
+            data: "淮扬运河始建于公元前486年，是有确切记载的最早开通的大运河河段，连接长江和淮河两大自然水系。其在春秋时称邗沟，汉代称渠水、中渎水，隋代在邗沟的基础上开山阳渎，元代改称淮扬运河，清中期又称里运河。"
+        }
+        ,
+        37: {
+            city: "扬州",
+            data:
+                "扬州位于江苏省中部，是大运河沿线著名的文化古城。扬州段的大运河历史悠久，沿岸有许多著名的历史遗迹和景点。"
+        }
+        ,
+        38: {
+            city: "镇江",
+            data:
+                "镇江位于江苏省南部，是大运河沿线的一个重要城市。镇江段的大运河历史悠久，沿岸有许多历史文化遗迹。"
+        }
+        ,
+        39: {
+            city: "江南运河段",
+            data: "江南运河的历史可追溯至春秋战国时期，是由沟通自然河道的若干运河组成。隋大业六年（610）在沟通大运河过程中对这段运河进行整治拓宽，形成了南抵杭州的江南运河。江南运河的线路从此基本固定下来。"
+        }
+        ,
+        40: {
+            city: "无锡",
+            data:
+                "无锡位于江苏省南部，是大运河沿线的一个重要城市。无锡段的大运河历史悠久，沿岸有许多历史文化遗迹。"
+        }
+        ,
+        41: {
+            city: "苏州",
+            data:
+                "苏州位于江苏省南部，是大运河沿线的一座历史文化名城。苏州段的大运河沿岸有许多古典园林和水乡风光，被誉为‘东方威尼斯’。"
+        }
+        ,
+        42: {
+            city: "嘉兴",
+            data:
+                "嘉兴位于浙江省北部，是大运河沿线的一个重要城市。嘉兴段的大运河历史悠久，沿岸有许多历史文化遗迹。"
+        }
+        ,
+        44: {
+            city: "杭州",
+            data:
+                "杭州位于浙江省，是大运河的南端终点。杭州段的大运河经过西湖等著名景点，历史悠久，文化底蕴丰富。"
+        }
+        ,
+        47: {
+            city: "绍兴",
+            data:
+                "绍兴位于浙江省中部，是大运河沿线的一个重要城市。绍兴段的大运河历史悠久，沿岸有许多历史文化遗迹。"
+        }
+        ,
+        48: {
+            city: "常州",
+            data:
+                "常州位于江苏省南部，是大运河沿线的一个重要城市。常州段的大运河历史悠久，沿岸有许多历史文化遗迹和景点。"
+        }
+        ,
+        50: {
+            city: "宁波",
+            data:
+                "宁波位于浙江省东部，是大运河沿线的一个重要港口城市。宁波段的大运河历史悠久，沿岸有许多历史文化遗迹。"
+        }
+    };
+
+    const description = `
+    船队计划在这里补给物资、修理船只并进行短暂的休整。`
+
+    // 新增显示对话框逻辑
+    function showCityNodeDialog(nodeIndex, boatElement) {
+        // 播放弹出窗口音频
+        playAudio(2);
+        dialog.style.display = 'block';
+        innerText.innerHTML = dialog_data[nodeIndex].city;
+        document.getElementById('dialog_data').innerHTML = dialog_data[nodeIndex].data;
+
+        // 设置对话框的透明度为1
+        dialog.style.opacity = '1';
+
+        // 计算对话框位置
+        const boatRect = boatElement.getBoundingClientRect();
+        if (nodeIndex > 27) {
+            dialog.style.left = `${boatRect.left + 20}px`;  // 调整位置
+            dialog.style.top = `${boatRect.bottom + 10}px`;  // 调整位置
+        } else {
+            dialog.style.left = `${boatRect.left + 20}px`;  // 调整位置
+            dialog.style.top = `${boatRect.top - 200}px`;  // 调整位置
+        }
+
+    }
+
+    function showNodeDialog(nodeIndex, boatElement) {
+        // 播放弹出窗口音频
+        playAudio(2);
+        dialog.style.display = 'block';
+        innerText.innerHTML = `港口${nodeIndex}`;
+        document.getElementById('dialog_data').innerHTML = description
+
+        // 设置对话框的透明度为1
+        dialog.style.opacity = '1';
+
+        // 计算对话框位置
+        const boatRect = boatElement.getBoundingClientRect();
+        dialog.style.left = `${boatRect.left + 20}px`;  // 调整位置
+        dialog.style.top = `${boatRect.top - 200}px`;  // 调整位置
+    }
+
+    // 检查船只是否在可视区域内
+    function checkIfBoatIsVisible(boatElement) {
+        const rect = boatElement.getBoundingClientRect();
+        const viewportHeight = window.innerHeight || document.documentElement.clientHeight;
+        const viewportWidth = window.innerWidth || document.documentElement.clientWidth;
+
+        const isVisible = (
+            rect.top >= 0 &&
+            rect.bottom <= viewportHeight &&
+            rect.left >= viewportWidth * 0.3 &&
+            rect.right <= viewportWidth * 0.8 // 设置滚动判定为可视页面的80%区域处。
+        );
+
+        if (!isVisible) {
+            console.log('船只不在可视区域内');
+            // 这里可以添加其他逻辑，例如调整船只位置或显示提示信息
+            // const scrollDistance = Math.max(0, rect.right - viewportWidth);
+            const scrollDistance = 2.5;
+            // 设置左右判定
+            if (rect.left < viewportWidth * 0.3) {
+                // 向右移动页面
+                bgContainer.scrollLeft -= scrollDistance;
+            } else if (rect.right > viewportWidth * 0.8) {
+                // 向左滚动页面,知道船只位于可视页面的30%处
+                bgContainer.scrollLeft += scrollDistance;
+            }
+            // }else if(rect.top < 0){
+            //     // 向下滚动页面
+            //     bgContainer.scrollTop += scrollDistance;
+            // }else if(rect.bottom > viewportHeight){
+            //     // 向上滚动页面
+            //     bgContainer.scrollTop -= scrollDistance;
+            // }
+        } else {
+            console.log('船只在可视区域内');
+        }
+    }
+
+    // 切换玩家
+    function yu_switchPlayer() {
+        yu_currentPlayer = yu_currentPlayer === 1 ? 2 : 1;
+        yu_updateDiceVisibility();
+    }
+
+    // 处理模态框关闭按钮的点击事件
+    const closeModalButtons = document.querySelectorAll(".close");
+
+    closeModalButtons.forEach(button => {
+        button.addEventListener("click", function () {
+            // this.closest('.modal').style.display = 'none'; // 点击关闭按钮隐藏模态框
+            dialog.style.display = 'none';
+        });
+
+    });
+
+    // 处理点击模态框外部区域关闭模态框
+    window.addEventListener("click", function (event) {
+        // modals.forEach(modal => {
+        //     if (modal && event.target === modal) {
+        //         modal.style.display = "none"; // 点击模态框外部隐藏模态框
+        //     }
+        // });
+        dialog.style.display = 'none';
+    });
+
+
+    function moveToLastNode(boatElement, currentIndex, movingFlag, player, times) {
+        if (currentIndex >= nodes.length || movingFlag) return; // 防止越界或重复移动
+
+        var targetNodeIndex = currentIndex - 1; // 目标节点
+        const startNode = nodes[currentIndex];
+        const endNode = nodes[targetNodeIndex];
+        let startTime = null;
+
+        movingFlag = true;
+
+        function step(timestamp) {
+            if (!startTime) startTime = timestamp;
+            const progress = (timestamp - startTime) / 5000;
+            if (progress < 1) {
+                const pointAtLength = startNode + (endNode - startNode) * progress;
+                const point = path.getPointAtLength(pointAtLength);
+
+                const boatWidth = 256;
+                const boatHeight = 256;
+                const offsetX = boatWidth / 2;
+                const offsetY = boatHeight / 2;
+                const extraOffsetY = -20;
+
+                boatElement.setAttribute('x', (point.x - offsetX).toString());
+                boatElement.setAttribute('y', (point.y - offsetY - extraOffsetY).toString());
+                requestAnimationFrame(step);
+            } else {
+                currentIndex = targetNodeIndex;
+                movingFlag = false;
+                isMoving1 = false;
+                yu_isMoving2 = false;
+                yu_isDiceEnabled = true;
+                stopAudio(0)
+                // yu_switchPlayer();
+            }
+        }
+
+        requestAnimationFrame(step);
+
+        // 更新当前玩家的索引
+        if (player === '1') {
+            currentNodeIndex1 = targetNodeIndex;
+        } else if (player === '2') {
+            yu_currentNodeIndex2 = targetNodeIndex;
+        }
+    }
+
+    function animateImageAtNode(imageElement, boatElement) {
+        // 计算对话框位置
+        const boatRect = boatElement.getBoundingClientRect();
+
+        // 初始图片显示
+        imageElement.style.display = 'block';
+
+        // 设置图片的位置
+        imageElement.style.position = 'absolute';
+        imageElement.style.transform = "rotate(90deg)";
+
+        imageElement.style.left = `${boatRect.right}px`;  // 调整位置
+        imageElement.style.top = `${boatRect.top}px`;  // 调整位置
+
+        // 当船只靠近节点时，图片逆时针旋转90度
+        imageElement.style.transform = "rotate(90deg)";
+        imageElement.style.transition = "transform 0.5s ease-in-out";
+
+        // 模拟延迟，等待一段时间后再旋转180度
+        setTimeout(() => {
+            imageElement.style.transform = "rotate(0deg)";
+            imageElement.style.transition = "transform 0.5s ease-in-out";
+            // imageElement.style.display = 'none';
+        }, 1000); // 延迟1秒
+    }
+
+    function getNodePositionInViewport(nodeIndex) {
+        const point = path.getPointAtLength(nodes[nodeIndex]);
+
+        // 获取SVG元素在视口中的位置
+        const svgRect = path.ownerSVGElement.getBoundingClientRect();
+
+        // 计算节点在视口中的位置
+        const x = svgRect.left;
+        const y = svgRect.top;
+
+        return [x, y];
+    }
+
+    let dex = getNodePositionInViewport(3)
+    console.log(dex)
+
+    // 更新骰子的可见性
+    function yu_updateDiceVisibility() {
+        if (yu_currentPlayer === 1) {
+            dice.style.opacity = '1';
+            yu_dice2.style.opacity = '0.5';
+            yu_dice2.style.pointerEvents = 'none';
+            dice.style.pointerEvents = 'auto';
+        } else {
+            dice.style.opacity = '0.5';
+            dice.style.pointerEvents = 'none';
+            yu_dice2.style.opacity = '1';
+            yu_dice2.style.pointerEvents = 'auto';
+        }
+    }
+
+    // 显示胜利消息
+    function yu_showVictoryMessage(player) {
+        // 获取对话框元素
+        var dialog = document.getElementById("SKUAG_boat_dialog");
+
+        // 设置对话框显示并且添加渐显效果
+        dialog.classList.add('SKUAG_show');
+
+        // 更新对话框内容
+        document.getElementById('player_span').innerHTML = player;
+        document.getElementById('span2').innerHTML = times1 + "";
+        document.getElementById('span3').innerHTML = times2 + "";
+        document.getElementById('w1').innerHTML = facedWeatherTimes1 + "";
+        document.getElementById('w2').innerHTML = facedWeatherTimes2 + "";
+
+        // 禁用所有骰子点击事件
+        dice.style.pointerEvents = 'none';
+        dice.style.opacity = '0.5';
+        yu_dice2.style.pointerEvents = 'none';
+        yu_dice2.style.opacity = '0.5';
+        // alert("玩家一:" + times1 + ",玩家二:" + times2)
+
+        // 设置胜利按钮可见
+        document.getElementById('victory_button').style.display = 'block';
+
+        // 播放胜利音效
+        playAudio(1);
+
+        // 结束背景音乐
+        stopAudio(4)
+    }
+
+    function playAudio(index) {
+        audios[index].play();
+        // // 检查是否已经自动播放
+        // if (audios[index].play) {
+        //     // 取消静音
+        //     audios[index].muted = false;
+        // }
+    }
+    // 停止播放音频
+    function stopAudio(index) {
+        playAudio(4)
+        audios[index].pause();
+        audios[index].muted = true
+        audios[index].currentTime = 0; // 重置音频播放位置
+    }
+
+    const audio = document.getElementById('audioClip5');
+
+    let isPaused = false;
+
+    function toggleAnimationAndSound() {
+        // playAudio(4)
+        const bars = document.querySelectorAll('.music span');
+
+        // 切换动画的状态
+        bars.forEach(bar => {
+            if (isPaused) {
+                bar.style.animationPlayState = 'running'; // 恢复动画
+            } else {
+                bar.style.animationPlayState = 'paused'; // 暂停动画
+            }
+        });
+
+        // 切换音频的静音状态
+        if (isPaused) {
+            audio.muted = false; // 恢复音量
+        } else {
+            audio.muted = true; // 静音
+            // audio.pause()
+        }
+
+        isPaused = !isPaused; // 切换状态
+    }
+
+    // 页面加载时，确保所有模态框都是隐藏的，并且船停在节点0
+    window.onload = function () {
+        // 通过计数器的方式，产生网页交互的作用，从而确保背景音乐不会被浏览器阻止自动播放
+        // setInterval(function (){
+        //     // 播放背景音乐
+        //     audio.play();
+        //     // 检查是否已经自动播放
+        //     if (audio.play) {
+        //         // 取消静音
+        //         audio.muted = false;
+        //     }
+        // }, 0.1);
+
+        // modals.forEach(function (modal) {
+        //     if (modal) {
+        //         modal.style.display = 'none'; // 确保所有模态框初始时是隐藏的
+        //     }
+        // });
+
+
+        // 给模态框添加动画效果
+        modal.classList.add('show');
+        // 显示教程模态框
+        // modal.style.display = 'block'
+        // 将第一艘船的初始位置设置为节点0
+        const startNode = nodes[0]; // 节点0索引
+        const point = path.getPointAtLength(startNode); // 获取节点0坐标
+
+        const boatWidth = 256;
+        const boatHeight = 256;
+        const offsetX = boatWidth / 2;
+        const offsetY = boatHeight / 2;
+        const extraOffsetY = -20;
+
+        boat.setAttribute('x', (point.x - offsetX).toString());
+        boat.setAttribute('y', (point.y - offsetY - extraOffsetY).toString());
+
+        // 将第二艘船的初始位置设置为节点1
+        const startNode2 = nodes[1]; // 节点1索引
+        const point2 = path.getPointAtLength(startNode2); // 获取节点1坐标
+
+        yu_boat2.setAttribute('x', (point2.x - offsetX - 50).toString());
+        yu_boat2.setAttribute('y', (point2.y - offsetY - extraOffsetY + 50).toString());
+        yu_boat2.style.display = 'block';
+
+        // 初始化骰子状态
+        yu_updateDiceVisibility();
+
+        // 绘画节点
+        drawNodes();
+
+        // 绘制中间线
+        // drawCenterLine()
+
+        // 检查船只是否在可视区域内
+        checkIfBoatIsVisible(boat);
+        checkIfBoatIsVisible(yu_boat2);
+    };
+
+    function flushed() {
+        location.reload();
+    }
+
+    // 定义一个函数，将12个节点用红点画在地图上
+    function drawNodes() {
+        const nodeRadius = 10;
+        const nodeColor = 'red';
+
+        for (let i = 0; i < nodes.length; i++) {
+            const nodeX = path.getPointAtLength(nodes[i]).x;
+            const nodeY = path.getPointAtLength(nodes[i]).y;
+
+            let nodeCircle = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+            nodeCircle.setAttribute('cx', nodeX + "");
+            nodeCircle.setAttribute('cy', nodeY + "");
+            nodeCircle.setAttribute('r', nodeRadius + "");
+            nodeCircle.setAttribute('fill', nodeColor); // 添加颜色
+
+            document.querySelector('svg').appendChild(nodeCircle); // 在循环内添加
+        }
+    }
+
+    // // 绘画中间线
+    // function drawCenterLine() {
+    //     const lineDiv = document.getElementById('center-line');
+    //     lineDiv.style.position = 'absolute';
+    //     lineDiv.style.top = '0';
+    //     lineDiv.style.left = '50%';
+    //     lineDiv.style.width = '2px';
+    //     lineDiv.style.height = '100vh';
+    //     lineDiv.style.backgroundColor = 'red';
+    //     lineDiv.style.transform = 'translateX(-50%)';
+    //     lineDiv.style.pointerEvents = 'none';
+    // }
+
+</script>
+
+</html>
