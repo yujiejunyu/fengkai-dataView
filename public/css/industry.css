@@ -27,7 +27,7 @@ li {
 }
 @font-face {
   font-family: electronicFont;
-  src: url(../font/DS-DIGIT.TTF);
+  /*src: url(../font/DS-DIGIT.TTF);*/
 }
 body {
   background: url(/resources/image/industry/bg.jpg) no-repeat top center;

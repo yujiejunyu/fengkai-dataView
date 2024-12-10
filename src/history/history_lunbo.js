@@ -27,7 +27,7 @@ for (let i = 0; i <= 11; i++) {
     div.appendChild(h1);
     div.addEventListener('click', function (event) {
         // 跳转到指定页面
-        window.location.href = '/views/history/history_human.html';
+        window.location.href = '../../views/history/history_human.html';
     })
     box.appendChild(div);
 }
