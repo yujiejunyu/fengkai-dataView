@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>数据可视化</title>
+    <link rel="stylesheet" href="/public/css/industry.css" />
+  </head>
+  <body>
+    <button class="etc_btn" onclick="window.location.href='/index.html'">返回</button>
+    <!-- 头部 -->
+    <header>
+      <h1>封开县产业支柱</h1>
+      <div class="show-time"></div>
+      <script>
+        var t = null;
+        t = setTimeout(time, 1000); //开始运行
+        function time() {
+          clearTimeout(t); //清除定时器
+          dt = new Date();
+          var y = dt.getFullYear();
+          var mt = dt.getMonth() + 1;
+          var day = dt.getDate();
+          var h = dt.getHours(); //获取时
+          var m = dt.getMinutes(); //获取分
+          var s = dt.getSeconds(); //获取秒
+          document.querySelector(".show-time").innerHTML =
+            "当前时间：" +
+            y +
+            "年" +
+            mt +
+            "月" +
+            day +
+            "日-" +
+            h +
+            "时" +
+            m +
+            "分" +
+            s +
+            "秒";
+          t = setTimeout(time, 1000); //设定定时器，循环运行
+        }
+      </script>
+    </header>
+
+    <!-- 页面主体 -->
+    <section class="mainbox">
+
+      <!-- 左侧盒子 -->
+      <div class="column">
+        
+        <div class="map">
+          <div class="map1"></div>
+          <div class="map2"></div>
+          <div class="map3"></div>
+          <div class="chart"></div>
+        </div>
+
+        <div class="no">
+          <div class="panel line no-hd">
+            <h2>各产业增加值（亿元）</h2>
+            <div class="chart"></div>
+            <div class="panel-footer"></div>
+          </div>
+          <div class="panel pie no-hd">
+            <h2>产入产出比</h2>
+            <div class="chart"></div>
+            <div class="panel-footer"></div>
+            
+          </div>
+
+      
+        </div> 
+        
+        
+      </div>
+      
+      <!-- 右侧盒子 -->
+      <div class="column">
+        <div class="panel bar2">
+          <h2>销售排行榜（千万元）</h2>
+          <div class="chart"></div>
+          <div class="panel-footer"></div>
+        </div>
+        <div class="panel line2">
+          <h2>线上线下销售占比</h2>
+          <div class="chart"></div>
+          <div class="panel-footer"></div>
+        </div>
+        <div class="panel pie2">
+          <h2>销量地区分布</h2>
+          <div class="chart"></div>
+          <div class="panel-footer"></div>
+        </div>
+      </div>
+    </section>
+
+    <script src="/public/js/flexible.js"></script>
+    <script src="/src/echarts.min.js"></script>
+    <script src="/src/jquery.js"></script>
+    <!-- 引入china.js 完成地图模块 -->
+    <script src="/src/china.js"></script>
+    <script src="/src/industry.js"></script>
+  </body>
+  </html>
