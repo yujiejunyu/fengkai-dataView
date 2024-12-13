@@ -1,0 +1,104 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "month": "1月",
+        "week": "星期一",
+        "MonNum": 1800,
+        "WeekNum1": 900,
+        "WeekNum2": 1900
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "month": "2月",
+        "week": "星期二",
+        "MonNum": 2100,
+        "WeekNum1": 800,
+        "WeekNum2": 1800
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "month": "3月",
+        "week": "星期三",
+        "MonNum": 2900,
+        "WeekNum1": 500,
+        "WeekNum2": 1500
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "month": "4月",
+        "week": "星期四",
+        "MonNum": 1100,
+        "WeekNum1": 1300,
+        "WeekNum2": 2300
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "month": "5月",
+        "week": "星期五",
+        "MonNum": 2900,
+        "WeekNum1": 1100,
+        "WeekNum2": 2100
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "month": "6月",
+        "MonNum": 1500
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "month": "7月",
+        "MonNum": 2100
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "month": "8月",
+        "MonNum": 3000
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "month": "9月",
+        "MonNum": 2100
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "month": "10月",
+        "MonNum": 3000
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "month": "11月",
+        "MonNum": 2100
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "month": "12月",
+        "MonNum": 2100
+      }
+    }
+  ]
+}

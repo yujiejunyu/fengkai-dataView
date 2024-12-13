@@ -1,0 +1,100 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "properties": {
+        "date": "1953年",
+        "numOfTimes": "第一次",
+        "title": "第一次1953年",
+        "total": 6.02,
+        "households": 4.33,
+        "age0_14": "",
+        "age65": "",
+        "colleage": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "date": "1964年",
+        "numOfTimes": "第二次",
+        "title": "第二次1964年",
+        "total": 7.23,
+        "households": 4.43,
+        "age0_14": "",
+        "age65": "",
+        "colleage": 416
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "date": "1982年",
+        "numOfTimes": "第三次",
+        "title": "第三次1982年",
+        "total": 10.32,
+        "households": 4.41,
+        "age0_14": "",
+        "age65": "",
+        "colleage": 615
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "date": "1990年",
+        "numOfTimes": "第四次",
+        "title": "第四次1990年",
+        "total": 11.6,
+        "households": 3.96,
+        "age0_14": 27.96,
+        "age65": 5.57,
+        "colleage": 1422
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "date": "2000年",
+        "numOfTimes": "第五次",
+        "title": "第五次2000年",
+        "total": 12.95,
+        "households": 3.44,
+        "age0_14": 22.89,
+        "age65": 6.96,
+        "colleage": 3611
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "date": "2010年",
+        "numOfTimes": "第六次",
+        "title": "第六次2010年",
+        "total": 13.71,
+        "households": 3.1,
+        "age0_14": 16.60,
+        "age65": 8.87,
+        "colleage": 8930
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "date": "2020年",
+        "numOfTimes": "第七次",
+        "title": "第七次2020年",
+        "total": 14.12,
+        "households": 2.62,
+        "age0_14": 17.95,
+        "age65": 13.5,
+        "colleage": 15467,
+        "eastRegion": 39.93,
+        "westRegion": 27.12,
+        "middleRegion": 25.83,
+        "nothEastRegion": 6.98
+      },
+      "type": "Feature"
+    }
+  ]
+}

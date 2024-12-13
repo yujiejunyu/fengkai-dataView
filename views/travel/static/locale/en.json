@@ -1,0 +1,3106 @@
+{
+  "warning": {
+    "layerNotSupportData": "The current layer does not support this data, please re-select data",
+    "switchFirstMD": "Please switch to the first dashboard to add new components",
+    "onlyAddOneMDSwitch": "DashboardSwitch can only be added once",
+    "changeTemplate": "Are you sure to change the template?",
+    "changeDashboard": "Are you sure to change the dashboard?",
+    "downloading": "Downloading, please wait...",
+    "wetherDeleteComponent": "Cannot recover after deletion, are you sure you want to delete this component?",
+    "retainInfo": "The system may not retain your changes and will clean data",
+    "pleaseLogin": "Please log in",
+    "inputUserInfo": "Please enter username and password",
+    "reLoginInfo": "The login status has expired, please log in again",
+    "noPowerToAccessPage": "You do not have permission to access the page or the session has expired",
+    "deleteDataconfirm": "Are you sure you want to delete this data?",
+    "deletePageConfirm": "Are you sure you want to delete this page?",
+    "deleteActionconfirm": "Are you sure you want to delete this interaction config?",
+    "changeDataDelAction": "After deleting the data, related interactions will be deleted. Are you sure to delete the data?",
+    "switchTimeTypeDelAction": "Modification time type will delete interaction configuration. Are you sure to modify?",
+    "dataAndInteraction": "Modifying data may make related interactions unavailable.",
+    "delDataAndInteraction": "Deleting data may make related interactions unavailable.",
+    "startTimeWarning": "Please select a start time",
+    "endTimeWarning": "Please select a end time",
+    "stepWarning": "Please select step",
+    "categoryWarning": "Please select Category Value",
+    "enterUrl": "Please enter a valid URL",
+    "customTime": "Is the URL legal? If it is legal, please select a custom time period; otherwise, please enter a legal URL",
+    "comfirmCopyTip": "Are you sure you want to copy?(Default does not copy interactive configuration)",
+    "unsupportedVideoAddress": "The video address is illegal",
+    "unsupportedPosterAddress": "The poster address is illegal",
+    "unavailableVideo": "This video is temporarily unavailable, please try again later",
+    "mapNotLoaded": "The associated map has not been loaded yet, please wait for a second",
+    "unassociatedMap": "You need to configure the associated map!",
+    "videojs": "Please import video.js plugin: https://github.com/videojs/video.js, When playing rtmp, install flash related plugin: https://github.com/videojs/videojs-flash",
+    "flvPlayer": "Please import flv related plugin: https://github.com/bilibili/flv.js, https://github.com/mister-ben/videojs-flvjs",
+    "addMasterPageFromApplication": "Do you want to add a master in this application?",
+    "addMasterPageFromTemplate": "Do you want to add a master in this template?",
+    "addFirstPageAsMasterPageFromApplication": "There is no master page in this application, whether to add the first page as the master page?",
+    "addThisPageAsMasterPageFromApplication": "There is no master page in this application, whether to add this page as the master page?",
+    "addFirstPageAsMasterPageFromTemplate": "There is no master page in this template, whether to add the first page as the master page?",
+    "addThisPageAsMasterPageFromTemplate": "There is no master page in this template, whether to add this page as the master page?",
+    "deleteMasterPage": "This master page has been applied. Are you sure to delete it?"
+  },
+  "success": {
+    "saveSuccess": "Saved successfully",
+    "loginSuccess": "Login successfully",
+    "loadMDSuccess": "Dashboard loaded successfully",
+    "releaseSuccess": "Published successfully",
+    "shareSuccess": "Shared successfully",
+    "permissionSuccess": "Set permission successfully",
+    "timeSuccess": "Set Time successfully Please Check In Preview",
+    "copySucccess": "Copy Succcessful",
+    "pasteSucccess": "Paste Successful",
+    "pasteCoincideTip": "The paste is successful and coincides with the target location.",
+    "loadCode": "Load code success",
+    "addDataSuccess": "Add data success"
+  },
+  "info": {
+    "useIpOpenMD": "Please use the ip address that the phone can access to open the dashboard",
+    "scanQRSaveMD": "Please save the dashboard before scanning the code for previewing",
+    "releaseSaveMD": "Please save before publishing",
+    "shareSaveMD": "Please save before sharing",
+    "saveMD": "Save",
+    "maximumLabels": "A maximum of six labels can be added",
+    "chooseExistingLabel": "Choose existing label",
+    "newLabel": "New Label",
+    "noLabel": "No Label",
+    "savingMD": "Saving dashboard...",
+    "loadingMD": "Loading dashboard...",
+    "loading": "Loading",
+    "preferChrome": "To ensure performance, we recommend using Chrome browser",
+    "confirm": "Confirm",
+    "noRemind": "Don`t remind",
+    "changeMap": "Switch map will clear the interaction config. Are you sure to switch?",
+    "cancel": "Cancel",
+    "run": "QuickRun",
+    "refresh": "Refresh Page",
+    "pleaseSelectNode": "Please select Department node",
+    "noMembers": "There are no users in this department",
+    "changeDarkSkin": "Whether to switch to dark skin",
+    "changeLightSkin": "Whether to switch to light skin",
+    "vconsole": "Console",
+    "pressEscToExit": "Press the ESC key or click the close button to exit"
+  },
+  "error": {
+    "saveFailed": "Save failed",
+    "loadMDFailed": "Map dashboard failed to load",
+    "LoginField": "Username or password is wrong, please try again",
+    "releaseFailed": "Publish failed",
+    "shareFailed": "Share failed",
+    "permissionFailed": "Set permission failed",
+    "copyFailed": "Copy failed",
+    "loadCode": "Load code Failed"
+  },
+  "comments": {
+    "beforeAppLoad": "Execute before application loading",
+    "appLoaded": "Execute after application loading",
+    "beforeComponentLoad": "Execute before component loading",
+    "componentLoaded": "Execute after component loading",
+    "beforeActionUpdate": "Execute before interactive triggering",
+    "actionUpdated": "Execute after interactive triggering",
+    "pageLoaded": "Execute after page loading"
+  },
+  "tab": {
+    "lockTab": "Lock Tab",
+    "unlockTab": "Unlock Tab",
+    "chooseTemplate": "Select Template",
+    "addedComponents": "Added Components",
+    "addComponents": "Please add components",
+    "template": "Templates",
+    "dashboards": "Dashboards",
+    "pages": "Pages",
+    "myDashboard": "My Dashboards",
+    "publicDashboard": "Public Dashboards",
+    "allComponents": "All Components",
+    "components": "Components",
+    "container": "Layout",
+    "map": "Maps",
+    "chart": "Charts",
+    "base": "Common",
+    "data": "data",
+    "tool": "Tools",
+    "mapSubComponent": "Map SubComponents",
+    "customComponents": "Custom Components",
+    "geoKnowledgeMap": "Geographic Knowledge Map",
+    "addMap": "Please add map",
+    "autoLimitAddComponent": "Cannot add components in automatic mode",
+    "customTip": "Please refer to <a href='https://github.com/SuperMap/mapdashboard-custom-components/blob/master/README.md' target='_blank'>Guide For MapDashboard Custom Components</a>",
+    "newTemplateInfo": "New Map Dashboard will not save the current changes. Please save the large screen first.",
+    "saveAndNew": "Save and build",
+    "newBuild": "New Map Dashboard",
+    "edit": "Edit",
+    "welcomeTip": "{userName}Welcome MapDashboard",
+    "hideTemplate": "Hide Template",
+    "expandTemplate": "Expand Template",
+    "all": "All",
+    "resource": "Resource",
+    "wisdom": "Wisdom",
+    "environment": "Environment",
+    "transportation": "Transportation",
+    "agriculture": "Agriculture",
+    "electricity": "Electricity",
+    "statistics": "Statistics",
+    "medical": "Medical",
+    "education": "Education",
+    "tourism": "Tourism",
+    "enterprise": "Enterprise",
+    "partyPolicy": "PartyPolicy",
+    "epidemic": "Epidemic"
+  },
+  "header": {
+    "browserPreview": "Preview on Desktop",
+    "mobilePreview": "Preview on Phone",
+    "padPreview": "Preview on Pad",
+    "preview": "Preview",
+    "release": "Publish",
+    "download": "Download",
+    "save": "Save",
+    "save-btn": "Save",
+    "saveAs": "Save As",
+    "saveAndRelease": "Save and publish",
+    "saveAndPreview": "Save and preview",
+    "saveAndPermission": "Save and set permission",
+    "setting": "Setting",
+    "cancel": "Cancel",
+    "user": "User",
+    "login": "Sign In",
+    "scanQR": "Preview QR",
+    "userName": "User Name",
+    "password": "Password",
+    "description": "Description",
+    "title": "Title",
+    "label": "Label",
+    "h5": "H5 Application",
+    "exe": "Desktop Application",
+    "permission": "Permission",
+    "noPermission": "No Permission",
+    "undo": "Undo",
+    "redo": "Redo",
+    "notUndo": "can't Undo",
+    "notRedo": "can't Redo",
+    "mapDashboard": "Map Dashboard",
+    "changeSkin": "Change Skin",
+    "saveQuota": "Save Quota",
+    "openCodeEditor": "Open Code Editor",
+    "notOpenCodeEditor": "Only PC side or custom mode supports low code editor",
+    "lowCodeTips": "Online extend develop, Try click me"
+  },
+  "permissionModal": {
+    "allUserSearch": "All users can search",
+    "allUserView": "All users can view",
+    "allUserEdit": "All signed users can edit",
+    "permissionPublic": "Public",
+    "permissionDepartament": "Dept",
+    "permissionGroup": "Group",
+    "permissionUser": "User",
+    "departmentName": "Department",
+    "groupName": "Group",
+    "canView": "View",
+    "canEdti": "Edit",
+    "canSearch": "Search",
+    "userIsNull": "Username is null",
+    "userIsUnexit": "User does not exist",
+    "hasExit": "Username already exists",
+    "permissionSearchUserPla": "Please enter",
+    "addByUser": "Add by nickname or username",
+    "addByGroup": "Add by group",
+    "addUser": "Add",
+    "clear": "Clear all",
+    "userName": "Nickname(Username)",
+    "handle": "Handle",
+    "confirmDeleteUser": "Are you sure delete this user",
+    "noPermission": "You have no permission",
+    "noPermission1": "No access to the project.Please login or contact the administrator",
+    "tips": "Tips",
+    "newShow": "hide",
+    "link": "Link",
+    "shareLink": "Share link",
+    "copy": "copy",
+    "sharePermission": "Permission settings",
+    "cancel": "Cancel",
+    "confirm": "OK",
+    "permissionMapdashboard": "Permission Setting",
+    "permissionSetting": "Permission setting",
+    "permissionToMedia": "share to",
+    "permissionToWeChat": "share to WeChat",
+    "addDeptToUser": "Add {deptName} selected department's users",
+    "addDept": "Add",
+    "alerdyAddDept": "This department is already added",
+    "deleteDepartment": "delete",
+    "confirmDeleteDepartment": "Confirm to delete this department in the list",
+    "inputDept": "enter department name",
+    "deptIsNull": "Department name is empty",
+    "deptHasExit": "Department name already exists",
+    "deptIsUnexit": "The Department does not exist",
+    "AddedUser": "Added users:",
+    "selectedDept": "Selected departments:",
+    "addDepts": "Add Department",
+    "noData": "No data",
+    "quotaOversize": "The quota has reached the upper limit，Please contact the administrator to raise quota or delete some create dashboard to release space",
+    "quotaOversizeAndCantAddNew": "The quota has reached the upper limit，cant't add new one",
+    "requestFailed": "Request Failed"
+  },
+  "containerResource": {
+    "datas": "data",
+    "insightsWorkspaces": "insights",
+    "mapDashboards": "mapDashboard",
+    "maps": "map",
+    "scenes": "scene",
+    "services": "service",
+    "resourceTitle": "Update share setting",
+    "resourceTip": "The following resources may not be displayed properly in the shared MapDashboard because they are shared differently from this MapDashboard. To avoid this problem, you can select and update the resource sharing Settings below.",
+    "myResource": "My Resources",
+    "otherResource": "Others' Resources",
+    "otherResourceTip": "The sharing permissions of the following resources need to be changed by contacting the resource owner",
+    "name": "Name",
+    "dataType": "Type",
+    "owner": "Owner",
+    "updateStatus": "Update status",
+    "successTip": "The contained resource permissions are set successfully",
+    "partSuccessTip": "Some contained resource permissions are set successfully",
+    "errorTip": "Failed to set the permissions of the contained resource",
+    "tryAgain": "Try again",
+    "success": "success",
+    "error": "error"
+  },
+  "setting": {
+    "common": {
+      "gradual": "Gradient",
+      "property": "Property",
+      "propertySettings": "{name} Settings",
+      "title": "Title",
+      "gestureControl": "Gesture control",
+      "gestureControlVideo": "Gesture video",
+      "style": "Style",
+      "text": "Text",
+      "fontSize": "Font Size",
+      "fontColor": "Font Color",
+      "fontSpace": "Character Spacing",
+      "fontWeight": "Font Weight",
+      "fontFamily": "Font",
+      "MicrosoftYaHei": "Microsoft YaHei",
+      "SongStyle": "SimSun",
+      "HeiStyle": "SimHei",
+      "KaiStyle": "KaiTi",
+      "textAlign": "Alignment",
+      "centered": "Centered",
+      "leftAlignment": "Left",
+      "rightAlignment": "Right",
+      "topAlignment": "Top",
+      "bottomAlignment": "Bottom",
+      "backgroundColor": "Background Color",
+      "backgroundImage": "Background Image",
+      "fillerColor": "Fill Color",
+      "size": "Size",
+      "width": "Width",
+      "height": "Height",
+      "pixel": "Pixel",
+      "bolder": "Bold",
+      "normal": "Normal",
+      "lighter": "Lighter",
+      "ok": "OK",
+      "cancel": "Cancel",
+      "add": "Add",
+      "input": "Please input...",
+      "select": "Please select...",
+      "delete": "Delete",
+      "change": "Change",
+      "noData": "No Data",
+      "label": "Label",
+      "dataType": "Data Type",
+      "staticData": "Static Data",
+      "dataService": "Service",
+      "percentType": "Percent Type",
+      "percentage": "0-1",
+      "percent": "0-100",
+      "serviceUrl": "Service Url",
+      "serviceUrlExample": "The service url is like",
+      "resopnseData": "The response data is like",
+      "timedRefresh": "Timed Refresh",
+      "requestInterval": "Request Interval",
+      "second": "second",
+      "millliSecond": "milllisecond",
+      "open": "Turn on",
+      "crossAgent": "Use the iportal proxy to send the request.Check it if cross domain access is unavailable.",
+      "refresh": "Refresh",
+      "keyWord": "Keyword",
+      "searchByKeyWords": "Please input keyword to query",
+      "noDataAvailable": "No available data",
+      "verifyKey": "Verify Key",
+      "pleaseCheckKey": "Please Verify Key",
+      "canNotOpenAgain": "Can Not Open Again",
+      "data": "Data",
+      "autoPlay": "Autoplay",
+      "center": "Center Point",
+      "selectDashboard": "Select Dashboard",
+      "selectMap": "Select Map",
+      "addDataSource": "Add Data Sources",
+      "selectData": "Select Data",
+      "addData": "Add Data",
+      "thridServiceData": "View third-rest-service introduction",
+      "thridServiceTimeData": "View Time Data introduction",
+      "thridServiceTimeMap": "View Time Map introduction",
+      "thridServiceTimeDataFilter": "View Time Data Filter introduction",
+      "layer": "Map Layer",
+      "publicData": "Public Data",
+      "myData": "My Data",
+      "iportalData": "Public/My Data",
+      "dataName": "Name",
+      "type": "Type",
+      "updateTime": "Update Time",
+      "example": "Example",
+      "martchUrl": "Input a map/data/address matching URL",
+      "martchTimeUrl": "Input a time data URL",
+      "matchIServerUrl": "Input a map matching URL",
+      "iServerRestMapUrl": "iServer REST Map Service URL examples",
+      "iServerRestUrl": "iServer REST Service URL examples",
+      "dataSource": "Dataset",
+      "addressMatch": "Address Matching",
+      "graphMaps": "Geo Knowledge Map",
+      "thridService": "Third-party Service",
+      "queryError": "An error occurs when querying",
+      "dataSourceNotSupportQuery": "Current dataset doesn't support query",
+      "dataNotExist": "The data does not exist or cannot be accessed",
+      "notSupportAddressMatch": "Address matching service is not supported currently",
+      "notSupportTime": "Time Data/Map is not supported currently",
+      "addressExisted": "Address already exists",
+      "notSupportThirdService": "Third-party services are not supported currently",
+      "notPubRestService": "The current data is not published as a REST Map service or REST Data service",
+      "timeDataPlease": "This component only supports time data",
+      "timeMapPlease": "This component only supports time map service",
+      "onlySupportGraphMaps": "This component only supports Graph Map service",
+      "dataExisted": "The current data already selected",
+      "pointStyle": "Point Style",
+      "lineStyle": "Line Style",
+      "areaStyle": "Region Style",
+      "areaBorderStyle": "Region Border Style",
+      "opacity": "Opacity",
+      "color": "Color",
+      "radius": "Radius",
+      "borderRadius": "Border Raidus",
+      "borderColor": "Border Color",
+      "up": "Up",
+      "down": "Down",
+      "left": "Left",
+      "right": "Right",
+      "topLeft": "Top Left",
+      "topRight": "Top Right",
+      "bottomRight": "Bottom Right",
+      "bottomLeft": "Bottom Left",
+      "sideLineWidth": "Outline Width",
+      "sideLineOpacity": "Outline Opacity",
+      "sideLineColor": "Outline Color",
+      "lineWidth": "Line Width",
+      "arrange": "Arrange",
+      "vertical": "Vertical",
+      "horizontal": "Horizontal",
+      "gap": "Gap",
+      "clickAddImage": "Click to add",
+      "close": "Close",
+      "save": "Save",
+      "relateMap": "Associated Map",
+      "filterCondition": "Filter Condition",
+      "maxReturnFeatures": "Max Returned Features",
+      "dataItem": "Field",
+      "textExampleTip": "Text Component",
+      "textListExampleTip": "TextList Component",
+      "chartExampleTip": "Chart Component",
+      "indicatorExampleTip": "Indicator Component",
+      "progressExampleTip": "Progrress/LiquidFill Component",
+      "iportalMap": "Currently only iPortal map is supported, the returned result must have id and url.",
+      "filterBefore": "Before Filter：",
+      "filterAfter": "After Filter",
+      "exampleData": "Sample data:",
+      "exampleDatas": "Time Map",
+      "simpleSingle": " Simple format (single element)",
+      "simpleMultiple": "Simple format (multiple element)",
+      "geojsonSingle": "GeoJSON format (single element)",
+      "geojsonMultiple": "GeoJSON format(multiple element)",
+      "timeDataExampleHeader": "How to provide time data service",
+      "timeMapExampleHeader": "How to provide time map service",
+      "geoJsonTimeDataExample": "Simple format",
+      "geoJsonTimeDataCollectionExample": "GeoJSON format",
+      "elementObj": " Single element (Object): ",
+      "elementArray": "Multiple element (Object array): ",
+      "elementArray1": "Multiple element (Object array)",
+      "responseData": "Time Series response results:",
+      "timeDataTip": "MapDashboard supports two URL formats.",
+      "responseDataTipTitle": "Time data response result format",
+      "responseDataCategory": "Time data response results are divided into simple format and GeoJSON format ",
+      "responseDataTipKey": "The response result of the time data should be an object, and the key of the object is ",
+      "responseDataTipValue": "The value of an object can be a single element (object) or multiple elements (array of objects)",
+      "responseDataFilterTitle": "Data Flter",
+      "responseDataDescribtion": "When the data is multi-element, you can configure data filtering options: filter identification select the element identification field ('product' in the example below), filter item select the element identification field value ('iserver' in the example below), filter out the desired display Elements.",
+      "timeDataParamsTitle": "Service URL for time data",
+      "timeDataParamsContent": "URL service address can be configured with {start}, {end}, {step} placeholders. For example: http://samples:/?start={start}&end={end}&step={step}",
+      "timeDataParamsConfig": "Specify the 'recent time parameter' in the configuration, and MapDashboard will automatically calculate the 'start timestamp', 'end timestamp', and 'time interval' to replace the corresponding placeholders.",
+      "historyTimeDataParamsConfig": "Specify the 'Start Time', 'End Time', and 'Time Interval' parameters in the configuration, and use all or part of the data.",
+      "historyTimeDataParamsTitle": "How to request historical time series data",
+      "historyTimeDataParamsContent": "Any URL",
+      "responseMapTipKey": "The response result of the time map should be an object, and the key of the object is",
+      "timeMapParamsTitle": "Service URL of the time map",
+      "timeMapResponseData": "Time map response results:",
+      "geoJsonTimeMapxample": "Response format",
+      "responseMapTipTitle": "Time map response result format",
+      "timeaMapParamsDescribtion": "The timing map can be used with the time axis component to realize scenes such as historical map playback.",
+      "timeDataParamsDescribtion": "The Time Series data can be used with the TimeLine Component or TimeRange Component to control the data range of the display and realize the historical data playback and other scenes.",
+      "restExampleHeader": "Format requirements for service response data",
+      "geoJsonArrayExample": "Example Of GeoJSON Features",
+      "geoJsonCollectionExample": "Example Of GeoJSON FeatureCollection",
+      "simpleJsonExample": "Example Of JSON Format",
+      "restTip": "In MapDashboard, Chart component, Text component, TextList component, Progress Bar (Ring) component, LiquidFill component, and Indicator component support docking custom REST services. The response data format requirements are as follows:",
+      "geoJsonTip": "The above components all support GeoJSON format",
+      "componentTip": "{name} component also support passing in simple JSON format",
+      "restExampleTip": "Click to view the format requirements for service response data",
+      "version": "version",
+      "dataLoadingFailed": "Loading Failed",
+      "selectedData": "Added",
+      "dataSources": "Data Sources",
+      "dataUpdatedFailed": "data update failed",
+      "requestDataFailed": "Request data failed",
+      "notShowDSData": "Don't show other dashboard's data",
+      "switchAuto": "After use this option, Component will synchronization with PC mode and automatic arrange",
+      "switchCustom": "After use this option, You can add delete arrange components for this mode",
+      "desc": "The current mode is custom, the component won't automatic arrange with desktop device",
+      "copy": "Copy",
+      "proxy": "Proxy",
+      "url": "URL",
+      "deploy": "Deploy",
+      "bindComponent": "Binding Component：",
+      "year": "year",
+      "month": "month",
+      "day": "day",
+      "hour": "hour",
+      "minute": "minute",
+      "category": "Category",
+      "categoryValue": "Category Value",
+      "filter": "Filter Data",
+      "interval": "Interval",
+      "play": "Play",
+      "timeData": "Time Data",
+      "startTime": "Start Time",
+      "endTime": "End Time",
+      "value": "Step",
+      "timeDataService": "Time Data/Map Service",
+      "auto": "Auto",
+      "custom": "Custom",
+      "none": "None",
+      "polling": "Polling",
+      "timing": "Timing",
+      "internal": "Internal",
+      "threshold": "Threshold",
+      "thresholdDisabledTip": "Please fill in at least one",
+      "dataset": "Dataset",
+      "rename": "Rename",
+      "timeLength": "Last Time Length",
+      "selectTime": "Select Time",
+      "unit": "Unit",
+      "fixed": "Historical",
+      "last": "Real-time",
+      "radiusInfo": "Radius: if not specified, the default radius of each point will be adopted",
+      "radiusStrokeInfo": "Radius sideline: if not specified, the default radius sideline of each point will be adopted",
+      "lineWidthInfo": "Line width: if not specified, the default width of each line will be used",
+      "onlyPointSupport": "Dynamic layers only support point data",
+      "skin": "Skin Material",
+      "border": "Border Material",
+      "degree": "deg",
+      "background": "Background",
+      "duration": "Duration",
+      "delay": "Delay"
+    },
+    "animation": {
+      "type": "Animation Type",
+      "entry": "Entry Animation",
+      "exit": "Exit Animation",
+      "direction": "Animation Direction",
+      "none": "None"
+    },
+    "material": {
+      "recentlyUsed": "Recently Used",
+      "title": "Title",
+      "background": "Background",
+      "adorn": "Adorn",
+      "arorn": "Ornament",
+      "icon": "Icon",
+      "border": "Border",
+      "dynamiFigure": "Dynami Figure"
+    },
+    "board": {
+      "themeStyle": "Theme Style",
+      "setting": "Dashboard Settings",
+      "backgroundSetting": "Background Settings",
+      "panel": "Panel",
+      "others": "Others",
+      "components": "Components",
+      "animation": "Animation"
+    },
+    "container": {
+      "borderType": "Border",
+      "isGradient": "Gradient",
+      "direction": "Direction",
+      "toTop": "To Top",
+      "toBottom": "To Bottom",
+      "toCircle": "Center",
+      "toLeft": "To Left",
+      "toRight": "To Right",
+      "toolBar": "Tool Bar",
+      "fullScreenButton": "FullScreen Button"
+    },
+    "chart": {
+      "xAxis": "X Axis",
+      "yAxis": "Y Axis",
+      "categoryField": "Category Field",
+      "valueField": "Value Field",
+      "chartContent": "Chart Content",
+      "animationDelay": "Animation Delay",
+      "axisData": "Data",
+      "axisUnit": "Unit",
+      "axisLine": "Axis Line",
+      "scale": "Scale",
+      "min": "Min",
+      "max": "Max",
+      "axisLean": "Tilt",
+      "label": "Label",
+      "labelStyle": "Label Style",
+      "showLabel": "Show Label",
+      "valueLabel": "Value Of Label",
+      "default": "Default",
+      "dataName": "Name",
+      "dataValue": "Value",
+      "percent": "Percent",
+      "gridLine": "Grid Line",
+      "solid": "Solid",
+      "dashed": "Dashed",
+      "dotted": "Dotted",
+      "formatter": "Formatter",
+      "dataContent": "Data Content",
+      "legend": "Legend",
+      "dataStack": "Stack",
+      "statistic": "Statistic",
+      "smoothBrokenLine": "Smoothed Line",
+      "areaStyle": "Area Style",
+      "axisBlank": "Axis Blank",
+      "displayData": "Displayed Number",
+      "all": "All",
+      "barWidth": "Column Width",
+      "barWidthInfo": "Column width. 0 represents auto fit.",
+      "labelPosition": "Position",
+      "noLabel": "No Label",
+      "smart": "Intelligence Display",
+      "inside": "Inside",
+      "outside": "Outside",
+      "legendPosition": "Position",
+      "margin": "Margin",
+      "gradual": "Gradient",
+      "chartColor": "Color Group",
+      "promptText": "Prompt Text",
+      "promptInfo": "The size of text when hovering on parts of ring chart.",
+      "startAngle": "Start Angle",
+      "innerRadius": "Inner Radius",
+      "outerRadius": "Outer Radius",
+      "sort": "Sort",
+      "sortType": "Sort Type",
+      "unsort": "Unsort",
+      "ascending": "Ascending",
+      "descending": "Descending",
+      "associatedMap": "Associated map",
+      "associatedMapInfo": "When clicking on chart item to locate the map, only coordinated data can be linked to the map.",
+      "orderYField": "Field",
+      "nodeStyle": "Node Style",
+      "showAllNodes": "Show All Nodes",
+      "symbolType": "Type",
+      "size": "Size",
+      "color": "Color",
+      "width": "Width",
+      "symbolBorderColor": "Border Color",
+      "symbolBorderWidth": "Border Width",
+      "hollowCircle": "Hollow Circle",
+      "solidCircle": "Solid Circle",
+      "on": "ON",
+      "auto": "AUTO",
+      "off": "OFF",
+      "areaZoom": "Area Zoom",
+      "startRange": "Start Range",
+      "endRange": "End Range",
+      "dataZoomTip": "Automatic means that it will be enabled when the display data is greater than 100",
+      "showTick": "Show Tick",
+      "timestamp": "timestamp",
+      "area": "Area",
+      "centerAngle": "Radius",
+      "areaDesc": "All Sector Center Angle Equal, Only Display Data Difference By Radius",
+      "centerAngleDesc": "Sector Center Angle Display Pecentage Of Data, Radius Dsiplay The Number Of Data",
+      "direction": "Direction",
+      "clockwise": "Clockwise",
+      "antiClockwise": "Anti-Clockwise",
+      "displayMode": "Display Mode",
+      "highlightStyle": "Highlight Color",
+      "value": "Value",
+      "rank": "Rank",
+      "showRank": "Show Rank",
+      "labelMargin": "Label Margin",
+      "innerColor": "Inner Circle Color",
+      "outerGap": "Outer Circle Gap",
+      "innerCircle": "Inner Circle"
+    },
+    "gauge": {
+      "outLoop": "Outside Loop",
+      "inLoop": "Inside Loop",
+      "axis": "Axis",
+      "length": "Length",
+      "distance": "Distance",
+      "splitLine": "Split Line",
+      "splitNumber": "Split Number",
+      "axisLabel": "Label",
+      "axisLine": "Line",
+      "pointer": "Pointer",
+      "show": "Show",
+      "data": "Data",
+      "angle": "Angle",
+      "startAngle": "Start Angle",
+      "endAngle": "End Angle",
+      "inCircle": "Inner Circle",
+      "trailColor": "Trail Color",
+      "titleText": "Title Text",
+      "effect": "Effect",
+      "point": "Point",
+      "aboutAngle": "About Angle",
+      "angleExplain": "The center of the circle is 180 degrees to the left, 90 degrees to the top, and 0 degrees to the right."
+    },
+    "liquidFill": {
+      "waveStyle": "Wave Style",
+      "percent": "Percentage",
+      "waveNum": "Wave Number",
+      "waveAnimation": "Wave Animation",
+      "waveInsideFontColor": "Font Color inside Wave",
+      "waveOutsideFontColor": "Font Color outside Wave",
+      "fillColor": "Fill Color",
+      "waveColor": "Wave Color",
+      "borderColor": "Border Color",
+      "decimalDigits": "Decimal Places",
+      "auto": "AUTO"
+    },
+    "progress": {
+      "percent": "Percentage",
+      "size": "Size",
+      "lineWidth": "Width",
+      "currentState": "Current State",
+      "normal": "Normal",
+      "exception": "Abnormal",
+      "success": "Success",
+      "active": "Active",
+      "color": "Color",
+      "trailColor": "Trail Color"
+    },
+    "indicator": {
+      "indicator": "Indicator",
+      "titleAndUnit": "Title and Unit",
+      "show": "Display",
+      "unit": "Unit",
+      "decimalDigits": "Decimal Places",
+      "millimeter": "Thousands Separator",
+      "clickAddImage": "Click to add",
+      "delimiterBackground": "Delimiter Background",
+      "digitalAnimation": "Digital Animation",
+      "animationDuration": "Animation Duration",
+      "auto": "Auto",
+      "custom": "Custom",
+      "chooseField": "Choose Field",
+      "value": "Value",
+      "background": "Background"
+    },
+    "text": {
+      "textContent": "Text Content",
+      "lineHeight": "Line Height",
+      "textIndent": "First Line Indentation",
+      "linkAddress": "Hyperlink",
+      "linkTarget": "Forward Method",
+      "newWindow": "Open in New Window",
+      "selfWindow": "Current Window",
+      "parentWindow": "Father Window",
+      "topWindow": "Top WindowX",
+      "multiples": "Multiples",
+      "highlightStyle": "Highlight Style"
+    },
+    "textList": {
+      "listContents": "List Contents",
+      "linkAddress": "Link Address",
+      "image": "Image",
+      "tableHeader": "Table Header",
+      "dataColumn": "Fields",
+      "columnWidth": "Column Width",
+      "row": "Row",
+      "sort": "Sort",
+      "defaultSort": "Default Sort",
+      "prefix": "Prefix",
+      "suffix": "Suffix",
+      "sortArrowBgColor": "Sort Arrow Default Color",
+      "sortArrowSelectColor": "Arrow Select Background",
+      "rowHeight": "Row Height",
+      "oddBackground": "Odd Line Background",
+      "evenBackground": "Even Line Background",
+      "headerHeight": "Header Height",
+      "columnWidthTip": "0 represents auto fit.",
+      "scrollOneByOne": "Scroll One by One",
+      "rowsNumber": "Rows Number",
+      "listStyle": "List Style",
+      "cell": "Cell",
+      "segmentValue": "Segment Value",
+      "styleType": "Style Type",
+      "ascend": "Ascend",
+      "descend": "Descend",
+      "notSort": "Not Sort",
+      "sortArrow": "Sort Arrow",
+      "highlightStyle": "Highlight Color",
+      "display": "Display",
+      "highlight": "Highlight"
+    },
+    "timeText": {
+      "timeType": "Data Format",
+      "dateSecondWeek": "Date+Time+Week",
+      "dateSecond": "Date+Time",
+      "date": "Date"
+    },
+    "icon": {
+      "selectIcon": "Select Icon",
+      "clear": "Clear"
+    },
+    "image": {
+      "custom": "Custom",
+      "material": "Material",
+      "imageAddress": "Image URL",
+      "uploadImage": "Upload Image",
+      "imageRepetition": "Image Repeat",
+      "center": "Center",
+      "noRepeat": "Strech",
+      "repeatXY": "Tile",
+      "repeatX": "Horizontal Tile",
+      "repeatY": "Vertical Tile",
+      "linkAddress": "Hyperlink",
+      "linkTarget": "Forward Method ",
+      "newWindow": "Open in New Window",
+      "selfWindow": "Current Window",
+      "parentWindow": "Father Window",
+      "topWindow": "Top WindowX"
+    },
+    "videoPlayer": {
+      "window": "Window",
+      "videoAddress": "Video Address",
+      "posterAddress": "Poster Address",
+      "loopPlay": "Loop Play",
+      "autoplay": "Autoplay",
+      "default": "Default",
+      "popupToPlay": "Pop-up Window",
+      "fullScreenPlay": "Full screen",
+      "ratio": "Ratio",
+      "origin": "Origin",
+      "fullFill": "Full-Fill",
+      "controlBar": "Control Bar",
+      "muted": "Muted",
+      "style": "Style",
+      "supportTypeTip": "Support video format<br>Flash: rtmp/flv/m3u8<br> HTML5:mp4/webm/ogg/flv/m3u8"
+    },
+    "iframe": {
+      "iframeAddress": "url"
+    },
+    "slideshow": {
+      "content": "Content",
+      "addContent": "Add Content",
+      "autoplay": "Autoplay",
+      "loop": "Loop Play",
+      "direction": "Direction",
+      "horizontal": "Horizontal",
+      "vertical": "Vertical",
+      "reverseDirection": "Reverse Direction",
+      "switch": "Switch",
+      "swiperButton": "Button",
+      "effect": "Effect",
+      "effectType": "Type",
+      "classic": "Classic",
+      "cube": "Cube",
+      "turnPage": "Turn Page",
+      "spin": "Spin",
+      "control": "Control",
+      "mousewheel": "Mouse Control",
+      "keyboard": "Keyboard control",
+      "pagination": "Pagination",
+      "paginationType": "Style",
+      "bullets": "Bullets",
+      "fraction": "Fraction",
+      "progressbar": "Progress Bar",
+      "paddingTop": " Padding Top",
+      "paddingBottom": "Padding Bottom",
+      "paddingLeft": "Padding Left",
+      "paddingRight": "Padding Right",
+      "title": "Slideshow"
+    },
+    "dashboardSwitch": {
+      "selectMD": "Select a map dashboard",
+      "myMD": "My Dashboards",
+      "addMD": "Add a Dashboard",
+      "MDSwitch": "Dashboard Switch",
+      "publicMD": "Public Dashboards",
+      "style": "Style",
+      "type": "Type",
+      "btnType": "Buttnon Type",
+      "border": "Border",
+      "borderColor": "Color",
+      "activeBorderColor": "Select Color",
+      "imageRepeat": "Image Repeat",
+      "offset": "Offset",
+      "imageBackground": "Image Background",
+      "underscoreColor": "UnderScore Color",
+      "horizon": "Horizon",
+      "vertical": "Vertival",
+      "stretchAndFill": "Stretch/Fill",
+      "noStretch": "Unstretch",
+      "nostretchAndFill": "Unstretch/Fill",
+      "selectBackground": "Select Background Color",
+      "selectColor": "Select Color",
+      "btn": "Button",
+      "line": "UnderLine",
+      "default": "Default",
+      "uploadImage": "Upload Image",
+      "imageAddress": "Image URL",
+      "selectScreenBackground": "Select Background"
+    },
+    "webScene": {
+      "scene": "Scene",
+      "sceneName": "Scene Name",
+      "selectScene": "Select Scene",
+      "publicScene": "Public Scenes",
+      "myScene": "My Scenes",
+      "scanning": "Scan",
+      "cirlceScan": "Cirlce Scan",
+      "lineScan": "Line Scan",
+      "scanCycle": "Scan Cycle",
+      "scanSpeed": "Scan Speed",
+      "selectScanCenter": "Please click to select the scan center",
+      "longitude": "Longitude",
+      "latitude": "Latitude",
+      "height": "Height",
+      "pitch": "Pitch",
+      "heading": "Heading",
+      "roll": "Roll",
+      "orientation": "Orientation",
+      "coordinate": "Coordinate"
+    },
+    "nav": {
+      "content": "Content",
+      "navItem": "Navigation Item",
+      "linkAddress": "Link Address",
+      "title": "Title",
+      "name": "Name",
+      "skin": "Skin",
+      "selectSkin": "Select Skin",
+      "customImage": "Custom",
+      "navBackgroundImage": "Background Image",
+      "activeBackgroundImage": "Active Background Image",
+      "selectColor": "Select Color",
+      "position": "Position",
+      "left": "Left",
+      "center": "Center",
+      "right": "Right",
+      "addTemplate": "Add Template",
+      "selectTemplate": "Select Template",
+      "addLink": "Add Link",
+      "float": "Float"
+    },
+    "videoPlus": {
+      "address": "Url",
+      "loopPlay": "Loop",
+      "autoplay": "Autoplay",
+      "videoWidth": "VideoWidth",
+      "videoHeight": "VideoHeight",
+      "onlyWorkInPreview": "Only Work In Preview",
+      "size": "Size",
+      "supportTypeTip": "Support video format<br> HTML5:mp4/flv/m3u8"
+    },
+    "webMap": {
+      "map": "Map",
+      "mapName": "Map Name",
+      "selectMap": "Select Map",
+      "myMap": "My Maps",
+      "publicMap": "Public Maps",
+      "internetMap": "Internet Maps",
+      "service": "Service",
+      "onlineMap": "SuperMap Online Map",
+      "renderWorldCopies": "Render World Copies",
+      "other": "Other",
+      "longitude": "Longitude",
+      "latitude": "Latitude",
+      "zoomLevel": "Level",
+      "bearing": "Rotation Angle",
+      "pitch": "Inclination",
+      "rasterTileSize": "Raster Tile Size",
+      "pleaseSelectMap": "Please select a map",
+      "subComponent": "Sub-components",
+      "zoom": "Zoom",
+      "pan": "Pan",
+      "scale": "Scales",
+      "miniMap": "Overview Map",
+      "layerlist": "Layer List",
+      "mapMeasure": "Measure",
+      "legend": "Legend",
+      "dataQuery": "Data Query",
+      "poiSearch": "POI Search",
+      "identify": "Identify",
+      "layerManager": "LayerManager",
+      "compass": "Compass",
+      "coordinateConversion": "Coordinate Conversion",
+      "fillExtrusion": "Fill Extrusion",
+      "layerColor": "LayerColor",
+      "Attributes": "Attributes",
+      "subLayer": "Sub-layers",
+      "addLayer": "Add Layer",
+      "dynamicMarkupLayer": "Dynamic Markup Layer",
+      "trackLayer": "Track Layer",
+      "selectedData": "Added Data",
+      "layerName": "Layer Name",
+      "highlightColor": "Highlight Color",
+      "diameter": "Diameter",
+      "showField": "Show Field",
+      "notShowField": "None",
+      "breathingAperture": "Breathing Aperture",
+      "haloRing": "Halo Ring",
+      "diffusedAperture": "Diffused Aperture",
+      "rotatingTextBorder": "Rotating Text Border",
+      "rotatingAperture": "Rotating Aperture",
+      "fluorescence": "Fluorescent Point",
+      "subTdtComponent": "Tianditu Sub-components",
+      "tdtRoute": "Route planning",
+      "tdtMapSwitcher": "Map Switcher",
+      "key": "Tianditu Service License (key)",
+      "keyInfo": "Click for Tianditu Service License (key)",
+      "validSucceed": "Successful verification",
+      "validFailed": "Illegal key",
+      "pleaseCorrectToken": "Please enter the correct day map service license (key)",
+      "tdtSearch": "POI search",
+      "closeComponentSetting": "Close component configuration",
+      "openComponentSetting": "Expand component configuration",
+      "hide": "Hide",
+      "display": "Display",
+      "configKey": "Config Right Key ",
+      "notAllowedSelectSameMap": "Not Allow Select Same Map Again",
+      "notMatchCurrentProjection": "Not Match Current Projection, Forbid Add",
+      "crsNotSupport": "CRS Not Support",
+      "fixedMap": "Fixed Map",
+      "fixedMapTip": "Only effective in preview mode",
+      "fixed": "fixed",
+      "unFixed": "not fixed",
+      "fixedInMobile": "fixed in mobile",
+      "inValidDataTip": "The data does not match the thematic field of the current layer",
+      "mergeByField": "Spatial Association",
+      "mergeTip": "When the data only has attribute information, you can specify the data identification field (such as SMID) to associate with the original spatial information.",
+      "makeMapOnline": "Make Map Online",
+      "layerStyle": "Feature Style",
+      "highlightLayerStyle": "Highlight Style",
+      "trackLine": "Track Line",
+      "trackLineDisplay": "Drawing Type",
+      "tailLine": "Tail Line",
+      "all": "All",
+      "millimeter": "Millimeter",
+      "centimeter": "Centimeter",
+      "meter": "Meter",
+      "modelFontAxis": "Face up",
+      "modelBottomAxis": "Bottom facing",
+      "scaleRatio": "Scale Ratio",
+      "followCamera": "Camera following",
+      "image": "Image",
+      "address": "Address",
+      "timeDataTip": "Only supports time series data"
+    },
+    "drillMap": {
+      "goBack": "Go Back",
+      "data": "Data",
+      "selectMap": "Select Map",
+      "selectLayer": "Select Layer",
+      "relatedFieldTip": "Field associated with the current layer",
+      "fieldTip": "Field associated with the layer above",
+      "sameLayerTip": "The current layer already exists, please select a different layer",
+      "layerOrder": "Tier {index}：",
+      "addDrillMapLayer": "Add drill layer"
+    },
+    "ncpMap": {
+      "origin": "Origin",
+      "layerName": "Layer Name",
+      "dataUrlExample": "example：http://{server}:{port}/provinces.geojson"
+    },
+    "openFile": {
+      "fitBounds": "Fit Bounds",
+      "clearLastLayer": "Clear Last Layer",
+      "confirmMessage": "Message Prompt",
+      "btnStyle": "Button",
+      "text": "Text",
+      "filletSize": "Border Radius",
+      "openFileType": "Open file type",
+      "openLayerStyle": "Layer Style to Render",
+      "renderToMap": "Render to Map",
+      "supportFileType": "Supported File Formats"
+    },
+    "control": {
+      "position": "Position",
+      "leftTop": "Left Top",
+      "rightTop": "Right Top",
+      "leftBottom": "Left Bottom",
+      "rightBottom": "Right Bottom",
+      "positionLabel": "Icon Position"
+    },
+    "card": {
+      "isCollapse": "Collapse by default",
+      "iconClass": "Collapse Icon",
+      "autoRotate": "Rotate Icon",
+      "autoRotateTip": "Refers to whether the icon rotates when the panel is expanded or collapsed"
+    },
+    "zoom": {
+      "slideBar": "Slider Bar"
+    },
+    "coordinateConversion": {
+      "isShowLocation": "Show Location"
+    },
+    "pan": {
+      "step": "Step"
+    },
+    "scale": {
+      "unit": "Unit",
+      "maxWidth": "Max Width",
+      "imperial": "imperial",
+      "metric": "metric",
+      "nautical": "nautical"
+    },
+    "measure": {
+      "defaultUnit": "Default Unit",
+      "distanceDefaultUnit": "Distance",
+      "areaDefaultUnit": "Area",
+      "selectUnit": "Display unit selection",
+      "kilometers": "kilometer",
+      "miles": "mile",
+      "meters": "meter",
+      "yards": "yard",
+      "feet": "feet",
+      "squarekilometers": "sq km",
+      "squaremiles": "sq mi",
+      "squaremeters": "sq m",
+      "squareyards": "sq yd",
+      "squarefeet": "sq ft"
+    },
+    "legend": {
+      "layersShowingLegend": "Select Layers",
+      "legendTitle": "Legend Title",
+      "legendStyle": "Legend Style",
+      "showLayerName": "Layer Name",
+      "showTopicField": "Thematic Field",
+      "withPanels": "Show Panel",
+      "withoutPanels": "Hide Panel"
+    },
+    "query": {
+      "addQuerySource": "Add Query Sources",
+      "querySource": "Query Source",
+      "queryResultStyle": "Query Result Style"
+    },
+    "search": {
+      "searchSource": "Search Source",
+      "addSearchSource": "Add Search Source",
+      "maxReturnData": "Max Returned Results",
+      "openOnlineSearch": "SuperMap Online Local Search"
+    },
+    "identify": {
+      "fields": "Display fields",
+      "layerId": "Search Layer",
+      "identifyStyle": "Selected feature's highlight style",
+      "widthAutoResize": "Width Auto Resize",
+      "style": "Popup Style",
+      "keyMaxWidth": "Field Column Max Width",
+      "valueMaxWidth": "Value Column Max Width",
+      "keyWidth": "Field Column Width",
+      "valueWidth": "Value Column Width"
+    },
+    "layerManager": {
+      "defaultExpandWay": "Default Expand way",
+      "createGroup": "Create Group",
+      "createMap": "Create Map",
+      "defaultExpand": "Group Default Expand",
+      "mapVertexForbidAddNewVertex": "Map Vertex Forbid Add New Vertex",
+      "newVertexWillAddToNextOfSelectedVertex": "New Vertex Will Add To Next Of Selected Vertex",
+      "rightClickVertextRename": "Right Click Vertext Rename",
+      "vertextSupportDrag": "Vertext Support Drag",
+      "map": "map",
+      "group": "group",
+      "title": "Layer Manager"
+    },
+    "compass": {
+      "pitchAngle": "Pitch Angle"
+    },
+    "layerColor": {
+      "capture": "Capture"
+    },
+    "layerList": {
+      "attributes": "Attributes",
+      "attributesContainer": "Attributes Container",
+      "map": "Map",
+      "container": "Container",
+      "dashboard": "Dashboard"
+    },
+    "attributes": {
+      "dataName": "Data Name",
+      "header": "Header",
+      "tableHeader": "Table Header",
+      "content": "Content",
+      "toolbar": "Toolbar",
+      "options": "Options",
+      "border": "Border",
+      "pagination": "Pagination",
+      "pageSize": "Default PageSize",
+      "defaultCurrent": "Default Current",
+      "refresh": "Refresh Option",
+      "zoomToFeatureOption": "Zoom To Feature Option",
+      "clearSelected": "Clear Selected Option",
+      "columnsControl": "Columns Control Option",
+      "associateWithMap": "Associate With Map",
+      "associateWithMapEnabled": "Enabled",
+      "featureHandle": "Feature Handle",
+      "centerToFeature": "Center",
+      "zoomToFeature": "Zoom To",
+      "statistics": "Statistics",
+      "total": "Total",
+      "select": "Selected Number",
+      "title": "Title",
+      "defaultTitle": "Default is the name of the data source",
+      "width": "Width",
+      "height": "Height",
+      "defaultHeight": "The minimum height is 34px",
+      "column": "Column",
+      "display": "Display",
+      "search": "Search"
+    },
+    "tab": {
+      "switch": "Switch",
+      "noSwiping": "Slide",
+      "showSwiperButton": "Slide Button",
+      "direction": "Slide Direction",
+      "horizontal": "Horizontal",
+      "vertical": "Vertical",
+      "swiperBtnStyle": "Slide Button Background"
+    },
+    "tabHeader": {
+      "tabType": "Tab Type",
+      "labelStyle": "Label Style",
+      "label": "Label",
+      "borderStyle": "Border Style",
+      "shadowStyle": "Shadow Style",
+      "tabPage": "Tab Page",
+      "switch": "Switch",
+      "btn": "Button",
+      "line": "Underline",
+      "highlightColor": "Highlight Font Color",
+      "highlightBackground": "Highlight Background Color",
+      "background": "Background Color",
+      "color": "Font Color",
+      "direction": "Direction",
+      "horizontal": "Horizontal",
+      "vertical": "Vertical",
+      "border": "Border",
+      "borderType": "Border Type",
+      "borderColor": "Border Color",
+      "borderWidth": "Border Width",
+      "noBorder": "none",
+      "dotted": "dotted",
+      "dashed": "dashed",
+      "solid": "solid",
+      "double": "double",
+      "borderRadius": "Border Radius",
+      "topLeftRadius": "top-left Corner",
+      "topRightRadius": "top-right Corner",
+      "bottomLeftRadius": "bottom-left Corner",
+      "bottomRightRadius": "bottom-right Corner",
+      "font": "Font",
+      "boxshadow": "Box Shadow",
+      "hShadow": "Horizontal Shadow",
+      "vShadow": "Vertical Shadow",
+      "blur": "Blur",
+      "spread": "Spread",
+      "shadowColor": "Shadow Color",
+      "margin": "Gap",
+      "marginTop": "Margin Top",
+      "marginBottom": "Vertical Gap",
+      "marginLeft": "Margin Left",
+      "marginRight": "Horizontal Gap"
+    },
+    "dataSwitcher": {
+      "dataName": "Data Name",
+      "disabledTip": "Please fill in the indicator name and data source",
+      "iconTip": "The format of the content returned by the data source must be consistent",
+      "maxHeight": "Maximum Height",
+      "selectioBox": "Selectio Box",
+      "label": "data"
+    },
+    "compare": {
+      "axisStyle": "Axis Style",
+      "sliderStyle": "Slide Style"
+    },
+    "timeRange": {
+      "time": "Time",
+      "step": "Step",
+      "start": "Start",
+      "end": "End",
+      "data": "Linked Data",
+      "interval": "Interval",
+      "autoPlay": "Auto Play",
+      "play": "Play",
+      "times": "Customize Times",
+      "timeType": "Type",
+      "dataType": "Data Type",
+      "timeData": "Time Data",
+      "timeMap": "Time Map",
+      "lastMinutes": "Last {time} minutes",
+      "lastHours": "Last {time} hours",
+      "lastDays": "Last {time} days",
+      "formatter": "Axis Label",
+      "labelStyle": "Label Style"
+    },
+    "timeLine": {
+      "time": "Time",
+      "step": "Step",
+      "start": "Start",
+      "end": "End",
+      "data": "Linked Data",
+      "interval": "Interval",
+      "play": "Play",
+      "times": "Customize Times",
+      "lineStyle": "Line Style",
+      "labelStyle": "Label Style",
+      "width": "Width",
+      "noBorder": "none",
+      "dotted": "dotted",
+      "dashed": "dashed",
+      "solid": "solid",
+      "double": "double",
+      "type": "Line Type",
+      "controlBtn": "Control Button",
+      "show": "Show",
+      "autoplay": "Auto Play",
+      "formatter": "Axis Label",
+      "highlightColor": "Highlight Color",
+      "highlightBorderColor": "Highlight Border Color",
+      "timeData": "Time Data",
+      "timeMap": "Time Map",
+      "customize": "Customize Data",
+      "customizeMap": "Customize Map",
+      "timeType": "Type",
+      "display": "Display",
+      "dataName": "Label",
+      "label": "label"
+    },
+    "timePlay": {
+      "seekBarColor": "Slider Color",
+      "seekBarBorderColor": "Slider Border Color",
+      "loop": "Loop Play"
+    }
+  },
+  "templatesName": {
+    "newblankTemplate": "New",
+    "moreTemplate": "More great templates",
+    "LandUse": "Land Use",
+    "RealEstateMonitoring": "Real Estate Monitoring",
+    "travelMonitoring": "Travel Monitoring",
+    "operationMonitoring": "Real-Time Operation Monitoring",
+    "businessRevenue": "Business Revenue",
+    "tianditu": "Tianditu",
+    "Ncp": "Ncp",
+    "NcpSwitch": "Ncp-Tab",
+    "NcpGlobal": "Ncp-Data Switcher",
+    "NcpTimeline": "Ncp-Data TimeLine",
+    "NcpCompare": "Ncp-WebMap Compare",
+    "Interaction": "Beijing residential housing price inquiry-April 2020",
+    "SuperMapBuilding": "Supermap Building Image",
+    "QixiangCloud": "meteorological Cloud Display",
+    "EcologicalBigDataPlatform": "Ecological Big-Data Platform-WideScreen",
+    "MultiMap-Interaction": "MultiMap Interaction",
+    "TrackPlayback": "Track Playback",
+    "template": "Templates",
+    "NatureResourcePlatform": "Nature Resource Playform",
+    "securityMonitoring": "XX park security template",
+    "seventhCensus": "The seventh census template",
+    "wisdomPark": "The wisdom park template",
+    "citySmartCityOverview": "Smart City",
+    "jiuzhaigou": "Jiuzhaigou Tourism",
+    "windPower": "Wind Power",
+    "intelligentMeasurement": "Intelligent Measurement",
+    "cityFloodControl": "City Flood Control",
+    "hydrologicalMonitoring": "Hydrological Monitoring",
+    "ChengduTouristAttractions": "Chengdu Tourist Attractions",
+    "schoolsDistribution": "Schools Distribution",
+    "pepperPlantingArea": "Pepper Planting Area",
+    "epidemicDistribution": "Epidemic Distribution",
+    "communistPartyMemberDistribution": "Communist Party Member Distribution",
+    "wisdomParkManage": "The wisdom park management template",
+    "medicalMonitoringServicePlatform": "Medical Monitoring Service Platform",
+    "buildingManagementPlatform": "Building Management Platform"
+  },
+  "componentsName": {
+    "Chart": "Chart",
+    "Gauge": "Gauge",
+    "ChartBar": "Histogram",
+    "ChartLine": "Line",
+    "ChartXBar": "Bar",
+    "ChartRankXBar": "Rank Bar",
+    "Chart2.5BarSquare": "Cube histogram",
+    "Chart2.5BarRectangle": "Cuboid histogram",
+    "Chart2.5BarCylinder": "Cylindrical histogram",
+    "ChartScatter": "Scatter",
+    "ChartPie": "Pie",
+    "ChartRingShine": "Luminous Doughnut",
+    "ChartRing": "Doughnut",
+    "ChartRadar": "Radar",
+    "ChartRose": "Nightingale Rose",
+    "ChartGauge": "Gauge",
+    "ChartGaugeMark": "Mark Gauge",
+    "ChartGaugeShine": "Luminous Gauge",
+    "ChartGaugeSpin": "Spinning Gauge",
+    "LiquidFill": "Liquid Fill",
+    "ProgressLine": "ProgressBar",
+    "ProgressRing": "Ring ProgressBar",
+    "Container": "Container",
+    "Tab": "Tab",
+    "TabHeader": "Tab Navigation",
+    "DrillMap": "Drill Map",
+    "WebMap": "Map",
+    "NcpMap": "Epidemic Map",
+    "WebScene": "Scene",
+    "Text": "Text",
+    "TimeText": "Date & Time",
+    "Indicator": "Indicator",
+    "Icon": "Icon",
+    "OpenFile": "Open File",
+    "Image": "Image",
+    "VideoPlayer": "Video",
+    "DashboardSwitch": "Dashboard Switch",
+    "Nav": "Navigation",
+    "Iframe": "Iframe",
+    "TextList": "Text List",
+    "Zoom": "Zoom",
+    "Pan": "Pan",
+    "Scale": "Scale",
+    "MiniMap": "Overview Map",
+    "LayerList": "Layer List",
+    "Measure": "Measure",
+    "Legend": "Legend",
+    "Query": "Data Query",
+    "Search": "POI Search",
+    "LayerManager": "Layers Manager",
+    "Compass": "Compass",
+    "FillExtrusion": "Fill Extrusion",
+    "LayerColor": "LayerColor",
+    "Attributes": "Attributes",
+    "DataSwitcher": "Data Switcher",
+    "Compare": "Map Swipe ",
+    "TimeLine": "Time Line",
+    "TimeRange": "Time Range",
+    "TimePlayer": "Time Player",
+    "Other": "Other",
+    "CoordinatesPicker": "Coordinates Picker",
+    "CoordinatesPosition": "Coordinates Position",
+    "MarkersInteraction": "Markers Interaction",
+    "CoordinateConversion": "Coordinate Conversion",
+    "Slideshow": "Slideshow",
+    "VideoPlus": "VideoPlus",
+    "GraphMap": "GraphMap"
+  },
+  "componentsProps": {
+    "Dashboard": {
+      "title": "My Map Dashboard"
+    },
+    "WebMap": {
+      "tdtComponents-tdtRoute-headerName": "Route",
+      "tdtComponents-tdtMapSwitcher-headerName": "Map Switch",
+      "queryControl-headerName": "Query",
+      "layerManagerControl-headerName": "Layer Manager",
+      "fillExtrusionControl-headerName": "Fill Extrusion",
+      "layerColorControl-headerName": "Layer Color"
+    },
+    "DrillMap": {
+      "tdtComponents-tdtRoute-headerName": "Route",
+      "tdtComponents-tdtMapSwitcher-headerName": "Map Switch",
+      "queryControl-headerName": "Query",
+      "layerManagerControl-headerName": "Layer Manager",
+      "fillExtrusionControl-headerName": "Fill Extrusion",
+      "layerColorControl-headerName": "Layer Color"
+    },
+    "NcpMap": {
+      "name": "Epidemic Map",
+      "tdtComponents-tdtRoute-headerName": "Route",
+      "tdtComponents-tdtMapSwitcher-headerName": "Map Switch",
+      "queryControl-headerName": "Query",
+      "layerManagerControl-headerName": "Layer Manager",
+      "fillExtrusionControl-headerName": "Fill Extrusion",
+      "layerColorControl-headerName": "Layer Color",
+      "dataOptions-name": "Number of confirmed"
+    },
+    "Text": {
+      "title": "Add Text"
+    },
+    "TextList": {
+      "content": [
+        {
+          "Station": "Mohe",
+          "Province": "Heilongjiang1",
+          "Altitude": "296",
+          "AverageMinTemp": "-47",
+          "HighestTemp": "29",
+          "details": "https://www.baidu.com/s?wd=漠河"
+        },
+        {
+          "Station": "Tahe",
+          "Province": "Heilongjiang2",
+          "Altitude": "357.4",
+          "AverageMinTemp": "-42",
+          "HighestTemp": "29",
+          "details": "https://www.baidu.com/s?wd=塔河"
+        },
+        {
+          "Station": "Huma",
+          "Province": "Heilongjiang3",
+          "Altitude": "177.4",
+          "AverageMinTemp": "-42",
+          "HighestTemp": "30",
+          "details": "https://www.baidu.com/s?wd=呼玛"
+        },
+        {
+          "Station": "Ergun Right Banner",
+          "Province": "Inner Mongolia1",
+          "Altitude": "581.4",
+          "AverageMinTemp": "-42",
+          "HighestTemp": "29",
+          "details": "https://www.baidu.com/s?wd=额尔古纳右旗"
+        },
+        {
+          "Station": "Turi river",
+          "Province": "Inner Mongolia2",
+          "Altitude": "732.6",
+          "AverageMinTemp": "-46",
+          "HighestTemp": "27",
+          "details": "https://www.baidu.com/s?wd=图里河"
+        },
+        {
+          "Station": "Heihe",
+          "Province": "Heilongjiang4",
+          "Altitude": "166.4",
+          "AverageMinTemp": "-37",
+          "HighestTemp": "30",
+          "details": "https://www.baidu.com/s?wd=黑河"
+        },
+        {
+          "Station": "Manzhouli",
+          "Province": "Inner Mongolia3",
+          "Altitude": "661.7",
+          "AverageMinTemp": "-37",
+          "HighestTemp": "30",
+          "details": "https://www.baidu.com/s?wd=满洲里"
+        },
+        {
+          "Station": "Hailar",
+          "Province": "Inner Mongolia4",
+          "Altitude": "610",
+          "AverageMinTemp": "-40",
+          "HighestTemp": "30",
+          "details": "https://www.baidu.com/s?wd=海拉尔"
+        },
+        {
+          "Station": "Xiao Ergou",
+          "Province": "Inner Mongolia5",
+          "Altitude": "286",
+          "AverageMinTemp": "-42",
+          "HighestTemp": "30",
+          "details": "https://www.baidu.com/s?wd=小二沟"
+        },
+        {
+          "Station": "Nenjiang",
+          "Province": "Heilongjiang5",
+          "Altitude": "242.2",
+          "AverageMinTemp": "-40",
+          "HighestTemp": "30",
+          "details": "https://www.baidu.com/s?wd=嫩江"
+        }
+      ],
+      "columns": [
+        {
+          "header": "Station",
+          "field": "Station",
+          "sort": false,
+          "defaultSortType": "none",
+          "slotConfig": {
+            "type": "text",
+            "linkTitle": "",
+            "linkTarget": "_blank",
+            "imageRepeat": "center"
+          },
+          "fixInfo": {
+            "prefix": "",
+            "suffix": ""
+          },
+          "width": 0
+        },
+        {
+          "header": "Province",
+          "field": "Province",
+          "sort": false,
+          "defaultSortType": "none",
+          "slotConfig": {
+            "type": "text",
+            "linkTitle": "",
+            "linkTarget": "_blank",
+            "imageRepeat": "center"
+          },
+          "fixInfo": {
+            "prefix": "",
+            "suffix": ""
+          },
+          "width": 0
+        },
+        {
+          "header": "Altitude",
+          "field": "Altitude",
+          "sort": false,
+          "defaultSortType": "none",
+          "slotConfig": {
+            "type": "text",
+            "linkTitle": "",
+            "linkTarget": "_blank",
+            "imageRepeat": "center"
+          },
+          "fixInfo": {
+            "prefix": "",
+            "suffix": ""
+          },
+          "width": 0
+        },
+        {
+          "header": "AverageMinTemp",
+          "field": "AverageMinTemp",
+          "sort": false,
+          "defaultSortType": "none",
+          "slotConfig": {
+            "type": "text",
+            "linkTitle": "",
+            "linkTarget": "_blank",
+            "imageRepeat": "center"
+          },
+          "fixInfo": {
+            "prefix": "",
+            "suffix": ""
+          },
+          "width": 0
+        },
+        {
+          "header": "HighestTemp",
+          "field": "HighestTemp",
+          "sort": false,
+          "defaultSortType": "none",
+          "slotConfig": {
+            "type": "text",
+            "linkTitle": "",
+            "linkTarget": "_blank",
+            "imageRepeat": "center"
+          },
+          "fixInfo": {
+            "prefix": "",
+            "suffix": ""
+          },
+          "width": 0
+        },
+        {
+          "header": "details",
+          "field": "details",
+          "defaultSortType": "none",
+          "slotConfig": {
+            "type": "link",
+            "linkTitle": "see details",
+            "linkTarget": "_blank",
+            "imageRepeat": "center"
+          },
+          "fixInfo": {
+            "prefix": "",
+            "suffix": ""
+          },
+          "width": 0
+        }
+      ]
+    },
+    "Indicator": {
+      "title": "Indicator Title",
+      "unit": "yuan"
+    },
+    "OpenFile": {
+      "text": "Open File"
+    },
+    "Query": {
+      "headerName": "Query"
+    },
+    "LayerManager": {
+      "headerName": "Layer Manager"
+    },
+    "Attributes": {
+      "dataset": {
+        "type": "geoJSON",
+        "geoJSON": {
+          "type": "FeatureCollection",
+          "features": [
+            {
+              "type": "Feature",
+              "geometry": {
+                "coordinates": [122.36999999999999, 53.47],
+                "type": "Point"
+              },
+              "properties": {
+                "index": 1,
+                "Station": "Mohe",
+                "Province": "Heilongjiang1",
+                "Altitude": "296",
+                "AverageMinTemp": "-47",
+                "HighestTemp": "29"
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "coordinates": [124.72, 52.31999999999999],
+                "type": "Point"
+              },
+              "properties": {
+                "index": 2,
+                "Station": "Tahe",
+                "Province": "Heilongjiang2",
+                "Altitude": "357.4",
+                "AverageMinTemp": "-42",
+                "HighestTemp": "29"
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "coordinates": [126.65, 51.719999999999985],
+                "type": "Point"
+              },
+              "properties": {
+                "index": 3,
+                "Station": "Huma",
+                "Province": "Heilongjiang3",
+                "Altitude": "177.4",
+                "AverageMinTemp": "-42",
+                "HighestTemp": "30"
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "coordinates": [120.18, 50.24999999999999],
+                "type": "Point"
+              },
+              "properties": {
+                "index": 4,
+                "Station": "Ergun Right Banner",
+                "Province": "Inner Mongolia1",
+                "Altitude": "581.4",
+                "AverageMinTemp": "-42",
+                "HighestTemp": "29"
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "coordinates": [121.68, 50.47999999999998],
+                "type": "Point"
+              },
+              "properties": {
+                "index": 5,
+                "Station": "Turi river",
+                "Province": "Inner Mongolia2",
+                "Altitude": "732.6",
+                "AverageMinTemp": "-46",
+                "HighestTemp": "27"
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "coordinates": [127.45000000000002, 50.24999999999999],
+                "type": "Point"
+              },
+              "properties": {
+                "index": 6,
+                "Station": "Heihe",
+                "Province": "Heilongjiang4",
+                "Altitude": "166.4",
+                "AverageMinTemp": "-37",
+                "HighestTemp": "30"
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "coordinates": [117.42999999999999, 49.56999999999999],
+                "type": "Point"
+              },
+              "properties": {
+                "index": 7,
+                "Station": "Manzhouli",
+                "Province": "Inner Mongolia3",
+                "Altitude": "661.7",
+                "AverageMinTemp": "-37",
+                "HighestTemp": "30"
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "coordinates": [119.75, 49.219999999999985],
+                "type": "Point"
+              },
+              "properties": {
+                "index": 8,
+                "Station": "Hailar",
+                "Province": "Inner Mongolia4",
+                "Altitude": "610",
+                "AverageMinTemp": "-40",
+                "HighestTemp": "30"
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "coordinates": [123.71999999999998, 49.19999999999999],
+                "type": "Point"
+              },
+              "properties": {
+                "index": 9,
+                "Station": "Xiao Ergou",
+                "Province": "Inner Mongolia5",
+                "Altitude": "286",
+                "AverageMinTemp": "-42",
+                "HighestTemp": "30"
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "coordinates": [125.22999999999999, 49.16999999999998],
+                "type": "Point"
+              },
+              "properties": {
+                "index": 10,
+                "Station": "Nenjiang",
+                "Province": "Heilongjiang5",
+                "Altitude": "242.2",
+                "AverageMinTemp": "-40",
+                "HighestTemp": "30"
+              }
+            }
+          ]
+        }
+      },
+      "fieldConfigs": [
+        {
+          "title": "Station",
+          "fieldCaption": "Station",
+          "visible": true,
+          "value": "Station",
+          "align": "left",
+          "colWidth": 128,
+          "search": true
+        },
+        {
+          "title": "Province",
+          "fieldCaption": "Province",
+          "visible": true,
+          "value": "Province",
+          "align": "left",
+          "colWidth": 128,
+          "search": true
+        },
+        {
+          "title": "Altitude",
+          "fieldCaption": "Altitude",
+          "visible": true,
+          "value": "Altitude",
+          "align": "left",
+          "colWidth": 128,
+          "sorter": true
+        },
+        {
+          "title": "AverageMinTemp",
+          "fieldCaption": "AverageMinTemp",
+          "visible": true,
+          "value": "AverageMinTemp",
+          "align": "left",
+          "colWidth": 128,
+          "sorter": true
+        },
+        {
+          "title": "HighestTemp",
+          "fieldCaption": "HighestTemp",
+          "visible": true,
+          "value": "HighestTemp",
+          "align": "left",
+          "colWidth": 128,
+          "sorter": true
+        }
+      ],
+      "fieldCaptions": ["Station", "Province", "Altitude", "AverageMinTemp", "HighestTemp"]
+    },
+    "ChartBar": {
+      "dataset": {
+        "maxFeatures": 20,
+        "url": "",
+        "type": "geoJSON",
+        "geoJSON": {
+          "type": "FeatureCollection",
+          "features": [
+            {
+              "properties": {
+                "date": "Jan",
+                "Y1": 500,
+                "Y2": 100,
+                "Y3": 230
+              }
+            },
+            {
+              "properties": {
+                "date": "Jan",
+                "Y1": 800,
+                "Y2": 520,
+                "Y3": 600
+              }
+            },
+            {
+              "properties": {
+                "date": "Jan",
+                "Y1": 3000,
+                "Y2": 2000,
+                "Y3": 2200
+              }
+            },
+            {
+              "properties": {
+                "date": "Jan",
+                "Y1": 3617,
+                "Y2": 3340,
+                "Y3": 2500
+              }
+            },
+            {
+              "properties": {
+                "date": "Jan",
+                "Y1": 3400,
+                "Y2": 3900,
+                "Y3": 3000
+              }
+            },
+            {
+              "properties": {
+                "date": "Jan",
+                "Y1": 4200,
+                "Y2": 3300,
+                "Y3": 4000
+              }
+            },
+            {
+              "properties": {
+                "date": "Jan",
+                "Y1": 1842,
+                "Y2": 2500,
+                "Y3": 1000
+              }
+            }
+          ]
+        }
+      }
+    },
+    "Chart2.5BarSquare": {
+      "dataset": {
+        "maxFeatures": 20,
+        "type": "geoJSON",
+        "geoJSON": {
+          "type": "FeatureCollection",
+          "features": [
+            {
+              "properties": {
+                "date": "Jan",
+                "sale": 2016,
+                "target": 6000
+              }
+            },
+            {
+              "properties": {
+                "date": "Feb",
+                "sale": 1230,
+                "target": 6000
+              }
+            },
+            {
+              "properties": {
+                "date": "Mar",
+                "sale": 3790,
+                "target": 6000
+              }
+            },
+            {
+              "properties": {
+                "date": "Apr",
+                "sale": 2349,
+                "target": 6000
+              }
+            },
+            {
+              "properties": {
+                "date": "May",
+                "sale": 1654,
+                "target": 6000
+              }
+            },
+            {
+              "properties": {
+                "date": "Jun",
+                "sale": 1120,
+                "target": 6000
+              }
+            },
+            {
+              "properties": {
+                "date": "Jul",
+                "sale": 1980,
+                "target": 6000
+              }
+            },
+            {
+              "properties": {
+                "date": "Aug",
+                "sale": 980,
+                "target": 6000
+              }
+            },
+            {
+              "properties": {
+                "date": "Sep",
+                "sale": 1333,
+                "target": 6000
+              }
+            },
+            {
+              "properties": {
+                "date": "Oct",
+                "sale": 2001,
+                "target": 6000
+              }
+            },
+            {
+              "properties": {
+                "date": "Nov",
+                "sale": 1820,
+                "target": 6000
+              }
+            },
+            {
+              "properties": {
+                "date": "Dec",
+                "sale": 3200,
+                "target": 6000
+              }
+            }
+          ]
+        }
+      }
+    },
+    "Chart2.5BarRectangle": {
+      "dataset": {
+        "maxFeatures": 20,
+        "type": "geoJSON",
+        "geoJSON": {
+          "type": "FeatureCollection",
+          "features": [
+            {
+              "properties": {
+                "date": "Jan",
+                "sale": 2016,
+                "target": 6000
+              }
+            },
+            {
+              "properties": {
+                "date": "Feb",
+                "sale": 1230,
+                "target": 6000
+              }
+            },
+            {
+              "properties": {
+                "date": "Mar",
+                "sale": 3790,
+                "target": 6000
+              }
+            },
+            {
+              "properties": {
+                "date": "Apr",
+                "sale": 2349,
+                "target": 6000
+              }
+            },
+            {
+              "properties": {
+                "date": "May",
+                "sale": 1654,
+                "target": 6000
+              }
+            },
+            {
+              "properties": {
+                "date": "Jun",
+                "sale": 1120,
+                "target": 6000
+              }
+            },
+            {
+              "properties": {
+                "date": "Jul",
+                "sale": 1980,
+                "target": 6000
+              }
+            },
+            {
+              "properties": {
+                "date": "Aug",
+                "sale": 980,
+                "target": 6000
+              }
+            },
+            {
+              "properties": {
+                "date": "Sep",
+                "sale": 1333,
+                "target": 6000
+              }
+            },
+            {
+              "properties": {
+                "date": "Oct",
+                "sale": 2001,
+                "target": 6000
+              }
+            },
+            {
+              "properties": {
+                "date": "Nov",
+                "sale": 1820,
+                "target": 6000
+              }
+            },
+            {
+              "properties": {
+                "date": "Dec",
+                "sale": 3200,
+                "target": 6000
+              }
+            }
+          ]
+        }
+      }
+    },
+    "Chart2.5BarCylinder": {
+      "dataset": {
+        "maxFeatures": 20,
+        "type": "geoJSON",
+        "geoJSON": {
+          "type": "FeatureCollection",
+          "features": [
+            {
+              "properties": {
+                "date": "Jan",
+                "sale": 2016,
+                "target": 6000
+              }
+            },
+            {
+              "properties": {
+                "date": "Feb",
+                "sale": 1230,
+                "target": 6000
+              }
+            },
+            {
+              "properties": {
+                "date": "Mar",
+                "sale": 3790,
+                "target": 6000
+              }
+            },
+            {
+              "properties": {
+                "date": "Apr",
+                "sale": 2349,
+                "target": 6000
+              }
+            },
+            {
+              "properties": {
+                "date": "May",
+                "sale": 1654,
+                "target": 6000
+              }
+            },
+            {
+              "properties": {
+                "date": "Jun",
+                "sale": 1120,
+                "target": 6000
+              }
+            },
+            {
+              "properties": {
+                "date": "Jul",
+                "sale": 1980,
+                "target": 6000
+              }
+            },
+            {
+              "properties": {
+                "date": "Aug",
+                "sale": 980,
+                "target": 6000
+              }
+            },
+            {
+              "properties": {
+                "date": "Sep",
+                "sale": 1333,
+                "target": 6000
+              }
+            },
+            {
+              "properties": {
+                "date": "Oct",
+                "sale": 2001,
+                "target": 6000
+              }
+            },
+            {
+              "properties": {
+                "date": "Nov",
+                "sale": 1820,
+                "target": 6000
+              }
+            },
+            {
+              "properties": {
+                "date": "Dec",
+                "sale": 3200,
+                "target": 6000
+              }
+            }
+          ]
+        }
+      }
+    },
+    "ChartRankXBar": {
+      "dataset": {
+        "maxFeatures": 20,
+        "type": "geoJSON",
+        "geoJSON": {
+          "type": "FeatureCollection",
+          "features": [
+            {
+              "properties": {
+                "date": "Sichuan",
+                "sale": 22
+              }
+            },
+            {
+              "properties": {
+                "date": "Fujian",
+                "sale": 65
+              }
+            },
+            {
+              "properties": {
+                "date": "Beijing",
+                "sale": 86
+              }
+            },
+            {
+              "properties": {
+                "date": "Shanghai",
+                "sale": 48
+              }
+            },
+            {
+              "properties": {
+                "date": "Taiwan",
+                "sale": 43
+              }
+            },
+            {
+              "properties": {
+                "date": "Guangdong",
+                "sale": 53
+              }
+            },
+            {
+              "properties": {
+                "date": "Hainan",
+                "sale": 37
+              }
+            },
+            {
+              "properties": {
+                "date": "Jiangxi",
+                "sale": 34
+              }
+            },
+            {
+              "properties": {
+                "date": "Yunnan",
+                "sale": 33
+              }
+            },
+            {
+              "properties": {
+                "date": "Jiangsu",
+                "sale": 24
+              }
+            }
+          ]
+        }
+      },
+      "options": {
+        "yAxis": {
+          "axisLabel": {
+            "show": true,
+            "rotate": 0,
+            "fontFamily": "MicrosoftYaHei",
+            "align": "left",
+            "margin": 100
+          }
+        },
+        "grid": {
+          "left": 100,
+          "right": 50,
+          "top": 35,
+          "bottom": 35
+        }
+      }
+    },
+    "ChartGaugeMark": {
+      "options": {
+        "series": [
+          {
+            "data": [
+              {
+                "value": 68,
+                "name": "completion rate"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "ChartGauge": {
+      "options": {
+        "series": [
+          {
+            "data": [
+              {
+                "value": 68,
+                "name": "completion rate"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "FillExtrusion": {
+      "headerName": "Fill Extrusion"
+    }
+  },
+  "colorRibbon": {
+    "custom-ribbon": "Custom Ribbon",
+    "clickToAdd": "Click to add",
+    "customTip": "Color can be modified after unlocking",
+    "reverseRibbonTip": "Reverse the ribbon",
+    "editRibbonTip": "Edit the ribbon",
+    "lockTip": "Lock",
+    "unlockTip": "Unlock",
+    "deleteTip": "Delete",
+    "saveTip": "Save"
+  },
+  "internetMap": {
+    "tiandituVec3857": "Tianditu Vector(Web Mercator)",
+    "tiandituTer3857": "Tianditu Terrain(Web Mercator)",
+    "tiandituImg3857": "Tianditu Image(Web Mercator)",
+    "tiandituVec4326": "Tianditu Vector(WGS84)",
+    "tiandituTer4326": "Tianditu Terrain(WGS84)",
+    "tiandituImg4326": "Tianditu Image(WGS84)"
+  },
+  "toolBar": {
+    "lock": "Lock",
+    "unlock": "Unlock",
+    "move": "Move",
+    "layout": "Layout",
+    "layerOrder": "Layer Order",
+    "delete": "Delete",
+    "makeMapOnline": "Make Map Online",
+    "setTop": "Bring to Front",
+    "moveTop": "Bring Forward",
+    "moveBottom": "Send Backward",
+    "setBottom": "Send to Back",
+    "fullScreen": "Full Screen",
+    "spreadByWidth": "Spread By Width",
+    "spreadByHeight": "Spread By Height",
+    "copyAndPaste": "Copy And Paste"
+  },
+  "interaction": {
+    "name": "Interaction",
+    "label": "Label",
+    "addTrigger": "Add Trigger",
+    "addActionTip": "Currently being modified, please wait",
+    "addAction": "Add operation",
+    "targetComponent": "Target",
+    "targetOperation": "Target Operation",
+    "fillTip": "Please fill in the blank completely",
+    "modify": "Ok",
+    "emptyTip": "This component has no trigger",
+    "noDataTip": "Please choose data",
+    "triggerLayer": "Trigger Layer",
+    "triggerData": "Trigger Data",
+    "targetLayer": "Target Layer",
+    "targetData": "Target Data",
+    "associatedField": "Associated Field",
+    "triggerField": "Trigger Layer Field",
+    "targetField": "Target Data Field",
+    "addTargetData": "Target Data Type",
+    "identificationField": "Identification Field",
+    "dataField": "Data Field",
+    "recordSelection": "Record Selection",
+    "featureSelection": "Feature Selection",
+    "click": "Click",
+    "showPage": "Show",
+    "sliderSelection": "Slider Switch",
+    "filter": "Filter",
+    "switch": "Display Data",
+    "switchHref": "Switch Href",
+    "highlight": "Highlight",
+    "flyTo": "Fly To Map",
+    "popup": "Add to Map",
+    "boundsChange": "Bounds Change",
+    "currentData": "Use current data",
+    "otherData": "Add other data",
+    "dataSelection": "Data Switch",
+    "mapSelection": "Map Selection",
+    "switchDataSource": "Switch datasource",
+    "appendDatas": "Append Datas",
+    "switchMap": "Switch Map",
+    "mergeField": "Spatial Association"
+  },
+  "unit": {
+    "second": "sec",
+    "minute": "min",
+    "kilometers": "km",
+    "miles": "mi",
+    "meters": "m",
+    "yards": "yd",
+    "feet": "ft",
+    "squarekilometers": "sq km",
+    "squaremiles": "sq mi",
+    "squaremeters": "sq m",
+    "squareyards": "sq yd",
+    "squarefeet": "sq ft",
+    "XY": "XY",
+    "BASEMAP": "BASEMAP",
+    "UTM": "UTM",
+    "DD": "DD",
+    "DOM": "DOM",
+    "DMS": "DMS",
+    "Mercator": "Web Mercator"
+  },
+  "FullScreen": {
+    "fullScreen": "FullScreen",
+    "NonefullScreen": "Non-FullScreen"
+  },
+  "Container": {
+    "fullScreen": "FullScreen",
+    "NonefullScreen": "Non-FullScreen"
+  },
+  "Pages":{
+    "homePage": "Set as homePage",
+    "addPage":"Add page",
+    "addMasterPage":"Add masterPage",
+    "nameIsNull":"Page name is null!",
+    "pages": "Pages",
+    "newPage": "New Page",
+    "emptyPage": "Empty Page",
+    "addFromTemplates": "Add from Templates",
+    "addFromApplications": "Add from Applications",
+    "masterPages": "Master Pages",
+    "newMasterPage": "New Master Page",
+    "apply": "Apply Master",
+    "cancelApply": "Cancel apply",
+    "setting": "Page setting",
+    "multiPage": "Multiple pages",
+    "noMasterPage": "There is currently no master page",
+    "selectMasterPage": "Apply Master",
+    "cancelMasterPage": "Cancel apply master",
+    "notSelectMasterPage": "This page does not apply master",
+    "appliedSuccess": "Applied Success",
+    "more": "More"
+  },
+  "CoordinatesPicker": {
+    "title": "Longitude and latitude information demo:",
+    "modeLabel": "Trigger mode",
+    "click": "Click",
+    "mousemove": "Mousemove",
+    "longitude": "Longitude",
+    "latitude": "Latitude",
+    "fontSize": "Font Size"
+  },
+  "CoordinatesPosition": {
+    "title": "Coordinate positioning demo:",
+    "btnText": "Coordinate positioning",
+    "unassociatedMap": "You need to configure the associated map!"
+  },
+  "MarkersInteraction": {
+    "title": "Mark interaction demo：",
+    "addMarker": "Add markers",
+    "imgAlt": "Click the mark to display the picture",
+    "unassociatedMap": "You need to configure the associated map!"
+  },
+  "SliderShow": {
+    "title": "Slider show"
+  },
+  "codeEditor": {
+    "codeFileslist": "Code file list",
+    "repeatName": "Duplicate or empty filename, please try again.",
+    "changeName": "Modify file name",
+    "fileName": "File name",
+    "libraries": "Libraries",
+    "DomSelector": "DOM selector",
+    "globalVariable": "Global Variable",
+    "captureNode": "Capture Node",
+    "modifyNodeStyle": "Modify Node Style",
+    "addEventCode": "Add event code",
+    "variableName": "Variable name",
+    "resizeEditor": "Resize",
+    "rerun": "refresh and run",
+    "event": {
+      "ratserLayerNoEvent": "This layer is the Raster layer and has no events",
+      "switch": "Switch Event",
+      "sliding": "Sliding Event",
+      "other": "Other Event",
+      "legend": "Legend Event",
+      "globalout": "Mouse over the chart component",
+      "mapevent": "Map Event",
+      "videoevent": "Video Event",
+      "mouse": "Mouse Event",
+      "keyboard": "Keyboard Event",
+      "lifecycle": "Lifecycle Event",
+      "dataLoading": "DataLoading Event",
+      "entity": "Entity Event",
+      "scene": "Scene Event",
+      "camera": "Camera Event",
+      "clock": "Clock Event",
+      "infoBox": "InfoBox Event",
+      "imageryLayer": "ImageryLayer Event",
+      "dataSource": "DataSource Event",
+      "image": "Image Event",
+      "mapresize": "Map resized",
+      "slideshowresize": "Browser resized",
+      "remove": "Map removed",
+      "click": "Click",
+      "mousedown": "Mouse deviced",
+      "mouseup": "Mouse released",
+      "mapmouseover": "Mouse moved within the map",
+      "layermouseover": "Mouse moved within the layer",
+      "chartmouseover": "Mouse moved within the chart",
+      "mapmousemove": "The cursor is inside the map",
+      "layermousemove": "The cursor is inside the layer",
+      "chartmousemove": "The cursor is inside the chart",
+      "dblclick": "Mouse double click",
+      "mapmouseout": "Mouse out of the map",
+      "videomouseout": "Video Mouse Out",
+      "videomouseover": "Video Mouse Over",
+      "videomousemove": "Video Mouse Move",
+      "chartmouseout": "Mouse out of the chart",
+      "contextmenu": "Right-Click",
+      "mouseenter": "Mouse enter",
+      "mouseleave": "Mouse leave",
+      "wheel": "Mouse wheel",
+      "movestart": "Move start",
+      "move": "Move",
+      "moveend": "Move end",
+      "dragstart": "Drag start",
+      "drag": "Drag",
+      "dragend": "Drag end",
+      "zoomstart": "Zoom start",
+      "zoom": "Zoom",
+      "zoomend": "Zoom end",
+      "rotatestart": "Rotate start",
+      "rotate": "Rotate",
+      "rotateend": "Rotate end",
+      "pitchstart": "Pitch start",
+      "videoresize": "Video Resize",
+      "videopitchstart": "Video Pitch Start",
+      "videopitch": "Video Pitch",
+      "videopitchend": "Video Pitch End",
+      "pitch": "Pitch",
+      "pitchend": "Pitch end",
+      "boxzoomstart": "Box zoom start",
+      "boxzoomend": "Box zoom end",
+      "boxzoomcancel": "Box zoom cancel",
+      "load": "Load map",
+      "render": "Render map",
+      "idle": "Before map idled",
+      "error": "Error",
+      "data": "Load or modify the data",
+      "styledata": "Load or modify the map style",
+      "sourcedata": "Load or modify the map source",
+      "dataloading": "Asynchronous load or modify the data",
+      "styledataloading": "Asynchronous load or modify the map style",
+      "sourcedataloading": "Asynchronous load or modify the map source",
+      "styleimagemissing": "Style image missing",
+      "leftClick": "Left click",
+      "leftDoubleClick": "Left double click",
+      "leftDown": "Left down",
+      "leftUp": "Left up",
+      "rightClick": "Right click",
+      "rightDown": "Right down",
+      "rightUp": "Right up",
+      "mouseMove": "Mouse Move",
+      "slideChange": "Slide change",
+      "slideChangeTransitionStart": "Start of slip transition",
+      "slideChangeTransitionEnd": "End of slip transition",
+      "slideNextTransitionStart": "The slider switches to the right and down",
+      "slideNextTransitionEnd": "The slider switches to the right and down end",
+      "slidePrevTransitionStart": "The slider switches left and up",
+      "slidePrevTransitionEnd": "The slider switches left and up end",
+      "progress": "Progress change",
+      "reachBeginning": "Switch to the initial position",
+      "reachEnd": "Switch to the end",
+      "fromEdge": "Switch from the beginning or the end",
+      "setTransition": "Set the transition animation",
+      "observerUpdate": "Observer update",
+      "loopFix": "Loop fix",
+      "beforeDestroy": "Before Destroy",
+      "beforeLoopFix": "Before loop fix",
+      "toEdge": "Switch to the first slide or last slide",
+      "breakpoint": "Breakpoint change",
+      "middleClick": "Middle click",
+      "middleDown": "Middle down",
+      "middleUp": "Middle up",
+      "selectedEntityChanged": "Selected entity changed",
+      "trackedEntityChanged": "Tracked entity changed",
+      "layerAdded": "Layer added",
+      "layerMoved": "Layer moved",
+      "layerRemoved": "Layer removed",
+      "layerShownOrHidden": "Layer shown or hidden",
+      "dataSourceAdded": "DataSource added",
+      "dataSourceMoved": "DataSource moved",
+      "dataSourceRemoved": "DataSource removed",
+      "collectionChanged": "Collection changed",
+      "morphComplete": "Morph complete",
+      "morphStart": "Morph start",
+      "postRender": "After render",
+      "preRender": "Before render",
+      "postUpdate": "After update",
+      "preUpdate": "Before update",
+      "renderError": "Render error",
+      "terrainProviderChanged": "TerrainProvider changed",
+      "changed": "Camera setting scale changed",
+      "moveEnd": "Camera move end",
+      "moveStart": "Camera move start",
+      "onStop": "Clock stoptime reached",
+      "onTick": "Time listener",
+      "cameraClicked": "InfoBox click the camera",
+      "closeClicked": "InfoBox closed",
+      "imageryLayersUpdatedEvent": "Imagery layers updated",
+      "tileLoadProgressEvent": "Tile load progress",
+      "shiftLeftClick": "Hold down shift and the left mouse button",
+      "shiftRightClick": "Hold down shift and the right mouse button",
+      "ctrlLeftClick": "Hold down ctrl and the left mouse button",
+      "ctrlRightClick": "Hold down ctrl and the right mouse button",
+      "altLeftClick": "Hold down alt and the left mouse button",
+      "altRightClick": "Hold down alt and the right mouse button",
+      "highlight": "highlight",
+      "downplay": "downplay highlight",
+      "selectchanged": "select changed",
+      "legendselectchanged": "legend select changed",
+      "legendselected": "legend selected",
+      "legendunselected": "legend unselected",
+      "legendselectall": "legend selectall",
+      "legendinverseselect": "legend inverse select",
+      "legendscroll": "legend scroll",
+      "datazoom": "datazoom",
+      "restore": "restore option",
+      "dataviewchanged": "dataview changed",
+      "magictypechanged": "magictype changed",
+      "brush": "brush",
+      "brushEnd": "brush End",
+      "brushselected": "brush selected",
+      "globalcursortaken": "global cursor taken",
+      "LibrariesRequestFailed": "Libraries request failed",
+      "updateAfterDelete": "After deleting of the third-party library, it need to save and refresh the page to make it take effect"
+    }
+  },
+  "Pagination": {
+    "items_per_page": "/ page",
+    "jump_to": "Go to",
+    "jump_to_confirm": "confirm",
+    "page": "",
+    "prev_page": "Previous Page",
+    "next_page": "Next Page",
+    "prev_5": "Previous 5 Pages",
+    "next_5": "Next 5 Pages",
+    "prev_3": "Previous 3 Pages",
+    "next_3": "Next 3 Pages"
+  },
+  "DatePicker": {
+    "lang": {
+      "placeholder": "Select date",
+      "rangePlaceholder": {
+        "0": "Start date",
+        "1": "End date"
+      },
+      "today": "Today",
+      "now": "Now",
+      "backToToday": "Back to today",
+      "ok": "Ok",
+      "clear": "Clear",
+      "month": "Month",
+      "year": "Year",
+      "timeSelect": "select time",
+      "dateSelect": "select date",
+      "weekSelect": "Choose a week",
+      "monthSelect": "Choose a month",
+      "yearSelect": "Choose a year",
+      "decadeSelect": "Choose a decade",
+      "yearFormat": "YYYY",
+      "dateFormat": "M/D/YYYY",
+      "dayFormat": "D",
+      "dateTimeFormat": "M/D/YYYY HH:mm:ss",
+      "monthBeforeYear": true,
+      "previousMonth": "Previous month (PageUp)",
+      "nextMonth": "Next month (PageDown)",
+      "previousYear": "Last year (Control + left)",
+      "nextYear": "Next year (Control + right)",
+      "previousDecade": "Last decade",
+      "nextDecade": "Next decade",
+      "previousCentury": "Last century",
+      "nextCentury": "Next century"
+    },
+    "timePickerLocale": {
+      "placeholder": "Select time"
+    }
+  },
+  "TimePicker": {
+    "placeholder": "Select time"
+  },
+  "Calendar": {
+    "lang": {
+      "placeholder": "Select date",
+      "rangePlaceholder": {
+        "0": "Start date",
+        "1": "End date"
+      },
+      "today": "Today",
+      "now": "Now",
+      "backToToday": "Back to today",
+      "ok": "Ok",
+      "clear": "Clear",
+      "month": "Month",
+      "year": "Year",
+      "timeSelect": "select time",
+      "dateSelect": "select date",
+      "weekSelect": "Choose a week",
+      "monthSelect": "Choose a month",
+      "yearSelect": "Choose a year",
+      "decadeSelect": "Choose a decade",
+      "yearFormat": "YYYY",
+      "dateFormat": "M/D/YYYY",
+      "dayFormat": "D",
+      "dateTimeFormat": "M/D/YYYY HH:mm:ss",
+      "monthBeforeYear": true,
+      "previousMonth": "Previous month (PageUp)",
+      "nextMonth": "Next month (PageDown)",
+      "previousYear": "Last year (Control + left)",
+      "nextYear": "Next year (Control + right)",
+      "previousDecade": "Last decade",
+      "nextDecade": "Next decade",
+      "previousCentury": "Last century",
+      "nextCentury": "Next century"
+    },
+    "timePickerLocale": {
+      "placeholder": "Select time"
+    }
+  },
+  "ColorPicker": {
+    "btn:save": "Save",
+    "btn:cancel": "Cancel",
+    "btn:clear": "Clear"
+  },
+  "global": {
+    "placeholder": "Please select"
+  },
+  "Table": {
+    "filterTitle": "Filter menu",
+    "filterConfirm": "OK",
+    "filterReset": "Reset",
+    "selectAll": "Select current page",
+    "selectInvert": "Invert current page",
+    "sortTitle": "Sort",
+    "expand": "Expand row",
+    "collapse": "Collapse row"
+  },
+  "Modal": {
+    "okText": "OK",
+    "cancelText": "Cancel",
+    "justOkText": "OK"
+  },
+  "Popconfirm": {
+    "okText": "OK",
+    "cancelText": "Cancel"
+  },
+  "Transfer": {
+    "titles": {
+      "0": "",
+      "1": ""
+    },
+    "searchPlaceholder": "Search here",
+    "itemUnit": "item",
+    "itemsUnit": "items"
+  },
+  "Upload": {
+    "uploading": "Uploading...",
+    "removeFile": "Remove file",
+    "uploadError": "Upload error",
+    "previewFile": "Preview file",
+    "downloadFile": "Download file"
+  },
+  "Empty": {
+    "description": "No Data"
+  },
+  "Icon": {
+    "icon": "icon"
+  },
+  "Text": {
+    "edit": "Edit",
+    "copy": "Copy",
+    "copied": "Copied",
+    "expand": "Expand"
+  },
+  "PageHeader": {
+    "back": "Back"
+  },
+  "dateTimeFormat": {
+    "date": {
+      "year": "numeric",
+      "month": "short",
+      "day": "numeric"
+    },
+    "date_second": {
+      "year": "numeric",
+      "month": "short",
+      "day": "numeric",
+      "hour": "numeric",
+      "minute": "numeric",
+      "second": "numeric"
+    },
+    "date_second_week": {
+      "year": "numeric",
+      "month": "short",
+      "day": "numeric",
+      "weekday": "long",
+      "hour": "numeric",
+      "minute": "numeric",
+      "second": "numeric"
+    }
+  },
+  "commontypes": {
+    "restData": "SuperMap Rest Data Service",
+    "restMap": "SuperMap Rest Map Service",
+    "addressMatch": "SuperMap Address Matching Service",
+    "iportalData": "SuperMap iPortal Data",
+    "onlineLocalSearch": "SuperMap Online Local Search"
+  },
+  "timeText": {
+    "Year": "year",
+    "Month": "month",
+    "Day": "d",
+    "hour": "h",
+    "minute": "min",
+    "second": "s"
+  },
+  "zoom": {},
+  "chart": {
+    "unSupportedData": "The current data does not support linkage with the map"
+  },
+  "layerList": {
+    "title": "Layer"
+  },
+  "slideshow": {
+    "title": "Slideshow"
+  },
+  "layerColor": {
+    "title": "LayerColor",
+    "layer": "Layer",
+    "property": "Property",
+    "color": "Color",
+    "reset": "Reset",
+    "select": "Select",
+    "deselect": "Deselect",
+    "circleColor": "circleColor",
+    "strokeColor": "circleStrokeColor",
+    "lineColor": "lineColor",
+    "fillColor": "fillColor",
+    "iconColor": "iconColor",
+    "textColor": "textColor",
+    "capture": "Capture"
+  },
+  "attributes": {
+    "title": "Attributes",
+    "feature": "Feature",
+    "selected": "Selected",
+    "clearSelected": "Clear Selected",
+    "zoomToFeatures": "ZoomTo Features",
+    "columnsControl": "Show/Hide Columns",
+    "refreshData": "RefreshData",
+    "search": "Search",
+    "reset": "Reset"
+  },
+  "miniMap": {},
+  "pan": {},
+  "scale": {},
+  "webmap": {
+    "loadingTip": "Map is loading...",
+    "crsNotSupport": "The coordinate system of the current map is not supported!",
+    "TileMatrixSetNotSuppport": "Incoming TileMatrixSet is not supported!",
+    "getLayerInfoFailed": "Failed to get layer information!",
+    "getThemeInfoFailed": "Failed to get theme information!",
+    "crsnotsupport": "Unsupported coordinate system!",
+    "baiduMapNotSupport": "Baidu maps is not supported yet!",
+    "sampleDataNotSupport": "Sample datas is not supported yet!",
+    "mvtNotSupport": "Vector tile layers is not supported yet!"
+  },
+  "drillMap": {
+    "goBack": "Go Back"
+  },
+  "legend": {
+    "themeField": "Thematic Field",
+    "title": "Legend",
+    "top": "Highest",
+    "bottom": "Lowest",
+    "noMatchLayer": "No matching layer"
+  },
+  "measure": {
+    "mapMeasure": "Measure",
+    "measureResult": "Measurement Result:",
+    "distance": "Distance",
+    "area": "Area",
+    "delete": "Empty",
+    "selectPlaceholder": "Please Select",
+    "startingPoint": "Starting Point"
+  },
+  "search": {
+    "noResult": "The query result is empty!",
+    "noKey": "The search keyword cannot be empty. Please enter the search condition.",
+    "inputPlaceHolder": "Find an address or location",
+    "attribute": "Attribute",
+    "attributeValue": "Attribute Value",
+    "setSearchSource": "Please set the search source!",
+    "address": "Address",
+    "null": "Null",
+    "illegalFeature": "Features must contain legal coordinates!"
+  },
+  "query": {
+    "query": "Query",
+    "queryJob": "Task",
+    "queryResult": "Result",
+    "attributeCondition": "Attribute Condition",
+    "spatialFilter": "Spatial Filter",
+    "mapBounds": "Query within the whole map extent",
+    "currentMapBounds": "Query within current viewbound",
+    "applicate": "Apply",
+    "noResult": "No Result",
+    "resultAlreadyExists": "The current query result already exists!",
+    "querying": "Querying...",
+    "attribute": "Attribute",
+    "attributeValue": "Attribute Value",
+    "noResults": "The query result is empty!",
+    "queryFailed": "Query failed!",
+    "seviceNotSupport": "This service does not support queries!"
+  },
+  "identify": {
+    "layerNotExit": "The layer '{layer}' does not exist in the map's style",
+    "noData": "no Data"
+  },
+  "openFile": {
+    "fileSizeExceeded": "The file size is too big! The file size can't exceed 10M!",
+    "fileTypeUnsupported": "This file format is not supported!",
+    "openFileFail": "File open failed!",
+    "openFileSuccess": "File open succeeded!",
+    "selectFile": "Select File",
+    "openEmptyFile": "The opened file is empty!",
+    "openFile": "Open File"
+  },
+  "draw": {
+    "draw": "Draw"
+  },
+  "indicator": {
+    "title": "Indicator Title",
+    "unit": "Unit"
+  },
+  "layerManager": {
+    "title": "Layer Manager"
+  },
+  "fillExtrusion": {
+    "title": "Fill Extrusion",
+    "polygonLayer": "Polygon Layer",
+    "height": "Height(meter)",
+    "heightValue": "Height Value",
+    "fieldName": "Field Name",
+    "customFieldPlaceholder": "Fill in the field name",
+    "customNum": "Custom",
+    "multiple": "Multiple",
+    "fillColor": "Fill color",
+    "layerOpacity": "Opacity",
+    "hideOriginalLayer": "Hide original layer",
+    "reset": "Reset"
+  },
+  "flyTo": {
+    "title": "Fly To"
+  },
+  "tdtResults": {
+    "on": "on ",
+    "station": " station",
+    "total": "total",
+    "about": "about ",
+    "homePage": "Home",
+    "prevPage": "Previous",
+    "nextPage": "Next",
+    "searchNoResult": "No related results were found",
+    "youCanTry": "You can try",
+    "enterCorrect": "Check if the input is correct",
+    "enterOtherKeyWords": "Enter another keyword to search",
+    "onTdtMap": "On the map of the sky",
+    "addThisAddress": "Add this address",
+    "uWantTo": "Are you looking for",
+    "totalFind": "found",
+    "piecesResults": "result",
+    "phone": "Tell",
+    "address": "Address",
+    "setStartPonint": "Set as starting point",
+    "setEndPonint": "Set as end point",
+    "totalMiles": "total mileage",
+    "distance": "About {distance} km",
+    "showDetails": "Show full details",
+    "switchTimes": "Transfer {switchTimes} times",
+    "noSwitch": "No transfer",
+    "walk": "Walk to",
+    "getOff": "get off",
+    "getOn": "boarding",
+    "take": "take ",
+    "noSearchResults": "No line information was found",
+    "fastRoute": "Fastest line",
+    "shortRoute": "Shortest line",
+    "walkRoute": "Less high speed",
+    "fast": "Faster",
+    "noSubway": "No subway",
+    "lessSwitch": "Less transfer",
+    "lessWalk": "Less walking",
+    "cityHadResults": "The following cities have results, please choose",
+    "moreCity": "More cities",
+    "allFound": "Found for you",
+    "piecesBusRoute": "bus route",
+    "showDetail": "Expand details",
+    "busEndTime": "First and last bus time",
+    "relateAdress": "Click here to see the location of \"{keyWord}\"",
+    "switchTo": "Switched to"
+  },
+  "tdtRoute": {
+    "title": "Route",
+    "pleaseEnterStartPoint": "Please enter the starting address",
+    "pleaseEnterEndPoint": "Please enter the destination address",
+    "search": "Search",
+    "startPoint": "Starting address",
+    "endPoint": "Destination address",
+    "mapLoadedFiled": "Map failed to load",
+    "busEndTime": "First and last bus time",
+    "about": "about ",
+    "station": " station",
+    "total": "total",
+    "hour": " hour",
+    "minutes": " minutes"
+  },
+  "tdtSearch": {
+    "phone": "Tell",
+    "address": "Address",
+    "noData": "No data",
+    "transport": "traffic"
+  },
+  "tdtMapSwitcher": {
+    "title": "Map Switcher",
+    "image": "image",
+    "vector": "vector",
+    "terrain": "terrain",
+    "placeName": "placeName",
+    "TiandituVec": "TiandituVecLayer",
+    "TiandituTer": "TiandituTerLayer",
+    "TiandituImg": "TiandituImgLayer",
+    "TiandituCva": "TiandituCvaLabel",
+    "TiandituCta": "TiandituCtaLabel",
+    "TiandituCia": "TiandituCiaLabel"
+  },
+  "coordinateConversion": {
+    "inputPlaceHolder": "Input coordinate",
+    "copy": "copy",
+    "location": "location",
+    "capture": "capture",
+    "realTime": "real-time",
+    "errorCoordinate": "invalid coordinate"
+  },
+  "dataFlow": {
+    "dataSubscriptionFailed": "Data subscription failed!"
+  },
+  "animateMarkerlayer": {
+    "unsupportedData": "The data is not supported, please reset the data!"
+  },
+  "animatiton": {
+    "fadeIn": "fadeIn",
+    "fadeOut": "fadeOut",
+    "backIn": "backIn",
+    "backOut": "backOut",
+    "bounceIn": "bounceIn",
+    "bounceOut": "bounceOut",
+    "slideOut": "slideOut",
+    "slideIn": "slideIn",
+    "zoomOut": "zoomOut",
+    "zoomIn": "zoomIn",
+    "lightSpeedOut": "lightSpeedOut",
+    "lightSpeedIn": "lightSpeedIn",
+    "rotateIn": "rotateIn",
+    "rotateOut": "rotateOut",
+    "flip": "flip",
+    "rollIn": "rollIn",
+    "rollOut": "rollOut",
+    "flipIn": "flipIn",
+    "flipOut": "flipOut",
+    "RotateOneWeek": "RotateOneWeek",
+    "FlipOneWeek": "FlipOneWeek",
+    "Up": "Up",
+    "Down": "Down",
+    "Left": "Left",
+    "Right": "Right",
+    "DownLeft": "DownLeft",
+    "DownRight": "DownRight",
+    "UpLeft": "UpLeft",
+    "UpRight": "UpRight",
+    "X": "Horizontal",
+    "Y": "Vertical",
+    "none": "None"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "type": "FeatureCollection",
+  "features": [{
+    "properties": {
+      "name": "公共设施损坏案件",
+      "situation": "已受理",
+      "distribution": "手动分拨",
+      "state": "处置中"
+    },
+    "type": "Feature"
+  },
+  {
+    "properties": {
+      "name": "道路交通事故",
+      "situation": "已受理",
+      "distribution": "手动分拨",
+      "state": "处置中"
+    },
+    "type": "Feature"
+  },
+  {
+    "properties": {
+      "name": "市容环境",
+      "situation": "已受理",
+      "distribution": "自动分拨",
+      "state": "处置中"
+    },
+    "type": "Feature"
+  },
+  {
+    "properties": {
+      "name": "建筑工地事故",
+      "situation": "已受理",
+      "distribution": "手动分拨",
+      "state": "结案"
+    },
+    "type": "Feature"
+  },
+  {
+    "properties": {
+      "name": "施化建筑",
+      "situation": "已受理",
+      "distribution": "手动分拨",
+      "state": "结案"
+    },
+    "type": "Feature"
+  },
+  {
+    "properties": {
+      "name": "危化品泄漏",
+      "situation": "已受理",
+      "distribution": "手动分拨",
+      "state": "处置中"
+    },
+    "type": "Feature"
+  }]
+}

@@ -1,0 +1,210 @@
+@keyframes lds-flickr-opacity {
+  0% {
+    -webkit-transform: translate(0 0);
+    transform: translate(0 0);
+    opacity: 1;
+  }
+  49.99% {
+    opacity: 1;
+    -webkit-transform: translate(40px, 0);
+    transform: translate(40px, 0);
+  }
+  50% {
+    opacity: 0;
+    -webkit-transform: translate(40px, 0);
+    transform: translate(40px, 0);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+}
+@-webkit-keyframes lds-flickr-opacity {
+  0% {
+    -webkit-transform: translate(0 0);
+    transform: translate(0 0);
+    opacity: 1;
+  }
+  49.99% {
+    opacity: 1;
+    -webkit-transform: translate(40px, 0);
+    transform: translate(40px, 0);
+  }
+  50% {
+    opacity: 0;
+    -webkit-transform: translate(40px, 0);
+    transform: translate(40px, 0);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+}
+@keyframes lds-flickr {
+  0% {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+  50% {
+    -webkit-transform: translate(40px, 0);
+    transform: translate(40px, 0);
+  }
+  100% {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+}
+@-webkit-keyframes lds-flickr {
+  0% {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+  50% {
+    -webkit-transform: translate(40px, 0);
+    transform: translate(40px, 0);
+  }
+  100% {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+}
+@keyframes lds-flickr-opacity-small {
+  0% {
+    -webkit-transform: translate(0 0);
+    transform: translate(0 0);
+    opacity: 1;
+  }
+  49.99% {
+    opacity: 1;
+    -webkit-transform: translate(20px, 0);
+    transform: translate(20px, 0);
+  }
+  50% {
+    opacity: 0;
+    -webkit-transform: translate(20px, 0);
+    transform: translate(20px, 0);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+}
+@-webkit-keyframes lds-flickr-opacity-small {
+  0% {
+    -webkit-transform: translate(0 0);
+    transform: translate(0 0);
+    opacity: 1;
+  }
+  49.99% {
+    opacity: 1;
+    -webkit-transform: translate(20px, 0);
+    transform: translate(20px, 0);
+  }
+  50% {
+    opacity: 0;
+    -webkit-transform: translate(20px, 0);
+    transform: translate(20px, 0);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+}
+@keyframes lds-flickr-small {
+  0% {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+  50% {
+    -webkit-transform: translate(40px, 0);
+    transform: translate(20px, 0);
+  }
+  100% {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+}
+@-webkit-keyframes lds-flickr-small {
+  0% {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+  50% {
+    -webkit-transform: translate(40px, 0);
+    transform: translate(20px, 0);
+  }
+  100% {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+}
+.lds-flickr {
+  position: relative;
+}
+.lds-flickr div {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  top: 20px;
+}
+.lds-flickr div:nth-child(1) {
+  background: #0081e2;
+  -webkit-animation: lds-flickr 1s linear infinite;
+  animation: lds-flickr 1s linear infinite;
+  -webkit-animation-delay: -0.5s;
+  animation-delay: -0.5s;
+}
+.lds-flickr div:nth-child(2) {
+  background: #1abd9c;
+  -webkit-animation: lds-flickr 1s linear infinite;
+  animation: lds-flickr 1s linear infinite;
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+}
+.lds-flickr div:nth-child(3) {
+  background: #0081e2;
+  -webkit-animation: lds-flickr-opacity 1s linear infinite;
+  animation: lds-flickr-opacity 1s linear infinite;
+  -webkit-animation-delay: -0.5s;
+  animation-delay: -0.5s;
+}
+.lds-flickr {
+  width: 80px !important;
+  height: 80px !important;
+  -webkit-transform: translate(-40px, -40px) scale(1) translate(40px, 40px);
+  transform: translate(-40px, -40px) scale(1) translate(40px, 40px);
+}
+.small.lds-flickr div {
+  width: 20px;
+  height: 20px;
+  top: 20px;
+}
+.small.lds-flickr div:nth-child(1) {
+  -webkit-animation: lds-flickr-small 1s linear infinite;
+  animation: lds-flickr-small 1s linear infinite;
+  -webkit-animation-delay: -0.5s;
+  animation-delay: -0.5s;
+}
+.small.lds-flickr div:nth-child(2) {
+  -webkit-animation: lds-flickr-small 1s linear infinite;
+  animation: lds-flickr-small 1s linear infinite;
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+}
+.small.lds-flickr div:nth-child(3) {
+  -webkit-animation: lds-flickr-opacity-small 1s linear infinite;
+  animation: lds-flickr-opacity-small 1s linear infinite;
+  -webkit-animation-delay: -0.5s;
+  animation-delay: -0.5s;
+}
+.small.lds-flickr {
+  width: 40px !important;
+  height: 40px !important;
+  -webkit-transform: translate(-20px, -20px) scale(1) translate(20px, 20px);
+  transform: translate(-20px, -20px) scale(1) translate(20px, 20px);
+}

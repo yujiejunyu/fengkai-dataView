@@ -1,0 +1,88 @@
+{
+  "type": "FeatureCollection",
+  "features": [{
+      "properties": {
+        "month": "1月",
+        "economic": 85
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "month": "2月",
+        "economic": 76
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "month": "3月",
+        "economic": 92
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "month": "4月",
+        "economic": 44
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "month": "5月",
+        "economic": 83
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "month": "6月",
+        "economic": 69
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "month": "7月",
+        "economic": 40
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "month": "8月",
+        "economic": 80
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "month": "9月",
+        "economic": 33
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "month": "10月",
+        "economic": 60
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "month": "11月",
+        "economic": 62
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "month": "12月",
+        "economic": 58
+      },
+      "type": "Feature"
+    }
+  ]
+}

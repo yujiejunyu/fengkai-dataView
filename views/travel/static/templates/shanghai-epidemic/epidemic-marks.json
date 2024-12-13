@@ -1,0 +1,36 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        
+        "district":"宝山区",
+        "num": 3
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.40972909570684, 31.381464359914574]
+      }
+    },
+    
+    {
+      "type": "Feature",
+      "properties": {
+      
+        "district":"嘉定区",
+        "num": 1
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.2085432035937, 31.332375311895177]
+      }
+    }
+    
+  
+  ]
+}

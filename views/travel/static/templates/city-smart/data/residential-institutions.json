@@ -1,0 +1,58 @@
+{
+    "type": "FeatureCollection",
+    "features": [{
+        "properties": {
+          "area": "东城区",
+          "num1": 6,
+          "num2": 7,
+          "num3": 4
+        },
+        "type": "Feature"
+      },
+      {
+        "properties": {
+          "area": "西城区",
+          "num1": 3,
+          "num2": 4,
+          "num3": 5
+        },
+        "type": "Feature"
+      },
+      {
+        "properties": {
+          "area": "海淀区",
+          "num1": 8,
+          "num2": 9,
+          "num3": 7
+        },
+        "type": "Feature"
+      },
+      {
+        "properties": {
+          "area": "通州区",
+          "num1": 6,
+          "num2": 4,
+          "num3": 5
+        },
+        "type": "Feature"
+      },
+      {
+        "properties": {
+          "area": "朝阳区",
+          "num1": 1,
+          "num2": 3,
+          "num3": 4
+        },
+        "type": "Feature"
+      },
+      {
+        "properties": {
+          "area": "丰台区",
+          "num1": 6,
+          "num2": 7,
+          "num3": 4
+        },
+        "type": "Feature"
+      }]
+  }
+  

@@ -1,0 +1,19 @@
+{
+  "1599810915": [
+    {
+      "geometry": { "coordinates": [-49.72754333777822, -14.23420381546021], "type": "Point" },
+      "properties": { "confirmed": 5717, "confirmedIncrement": 1138, "Country": "巴西" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [101.6819396738177, 13.04402470588684], "type": "Point" },
+      "properties": { "confirmed": 1771, "confirmedIncrement": 0, "Country": "泰国" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [31.46300498522692, -26.52236366271973], "type": "Point" },
+      "properties": { "confirmed": 9, "confirmedIncrement": 0, "Country": "斯威士兰" },
+      "type": "Feature"
+    }
+  ]
+}

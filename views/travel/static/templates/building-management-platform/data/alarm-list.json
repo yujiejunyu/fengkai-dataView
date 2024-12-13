@@ -1,0 +1,65 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+        "type":"新风系统",
+        "floor":"1F",
+        "time":"16:30:24",
+        "state":"已处理",
+        "processing-time":"16:30:24"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+        "type":"新风系统",
+        "floor":"2F",
+        "time":"16:30:24",
+        "state":"未处理",
+        "processing-time":"16:30:24"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+        "type":"新风系统",
+        "floor":"3F",
+        "time":"16:30:24",
+        "state":"未处理",
+        "processing-time":"16:30:24"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+        "type":"新风系统",
+        "floor":"4F",
+        "time":"16:30:24",
+        "state":"未处理",
+        "processing-time":"16:30:24"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+        "type":"新风系统",
+        "floor":"5F",
+        "time":"16:30:24",
+        "state":"已处理",
+        "processing-time":"16:30:24"
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+        "type":"新风系统",
+        "floor":"6F",
+        "time":"16:30:24",
+        "state":"已处理",
+        "processing-time":"16:30:24"
+        }
+      }
+    ]
+}

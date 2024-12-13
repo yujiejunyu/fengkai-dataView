@@ -1,0 +1,66 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+        "type":"监控系统",
+        "floor":"1F",
+        "num1":1,
+        "num2":20
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+        "type":"报警系统",
+        "floor":"2F",
+        "num1":3,
+        "num2":20
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+        "type":"新风系统",
+        "floor":"3F",
+        "num1":1,
+        "num2":15
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+        "type":"制冷系统",
+        "floor":"4F",
+        "num1":2,
+        "num2":22
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+        "type":"防火系统",
+        "floor":"5F",
+        "num1":2,
+        "num2":25
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+        "floor":"6F",
+        "num1":2,
+        "num2":20
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+        "floor":"7F",
+        "num1":2,
+        "num2":23
+        }
+      }
+    ]
+}

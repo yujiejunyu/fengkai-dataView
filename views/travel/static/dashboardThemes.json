@@ -1,0 +1,10 @@
+{
+    "dark": {
+        "textColor": "rgba(255, 255, 255, 0.65)",
+        "background": ""
+    },
+    "light": {
+        "textColor": "rgba(0, 0, 0, 0.65)",
+        "background": ""
+    }
+}

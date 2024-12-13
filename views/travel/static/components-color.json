@@ -1,0 +1,606 @@
+{
+  "dark": {
+    "container": {
+      "Container": {
+        "defaultProps": {
+          "backgroundColor": "rgba(0,0,0,0.5)"
+        }
+      },
+      "Tab": {
+        "defaultProps": {
+          "backgroundColor": "rgba(0,0,0,0.5)",
+          "swiperBtnStyle": {
+            "color": "rgba(222, 222, 222, 0.85)",
+            "backgroundColor": "rgba(74, 74, 74, 0.85)"
+          }
+        }
+      },
+      "TabHeader": {
+        "defaultProps": {
+          "divStyle": {
+            "border": {
+              "borderColor": "rgba(255, 255, 255, 0.15)"
+            }
+          },
+          "activeStyle": {
+            "background": "rgba(31, 29, 29, 0.6)"
+          }
+        }
+      }
+    },
+    "map": {
+      "components_WebMap": {
+        "defaultProps": {
+          "tdtComponents": {
+            "tdtRoute": {
+              "background": "rgba(0,0,0,0.3)"
+            },
+            "tdtSearch": {
+              "background": "rgba(0,0,0,0.3)"
+            },
+            "tdtMapSwitcher": {
+              "background": "rgba(0,0,0,0.3)"
+            }
+          },
+          "zoomControl": {
+            "background": "rgba(0,0,0,0.3)"
+          },
+          "scaleControl": {
+            "background": "rgba(0,0,0,0.3)"
+          },
+          "miniMapControl": {
+            "background": "rgba(0,0,0,0.3)"
+          },
+          "layerListControl": {
+            "background": "rgba(0,0,0,0.3)",
+            "attributes": {
+              "style": {
+                "background": "rgba(0,0,0,0.6)"
+              }
+            }
+          },
+          "measureControl": {
+            "background": "rgba(0,0,0,0.3)"
+          },
+          "legendControl": {
+            "background": "rgba(0,0,0,0.3)"
+          },
+          "queryControl": {
+            "background": "rgba(0,0,0,0.3)"
+          },
+          "searchControl": {
+            "background": "rgba(0,0,0,0.3)"
+          },
+          "identifyControl": {
+            "background": "rgba(0,0,0,0.3)"
+          },
+          "layerManagerControl": {
+            "background": "rgba(0,0,0,0.3)"
+          },
+          "compassControl": {
+            "background": "rgba(0,0,0,0.3)"
+          },
+          "coordinateConversionControl": {
+            "background": "rgba(0,0,0,0.3)"
+          },
+          "layerColorControl": {
+            "background": "rgba(0,0,0,0.3)"
+          }
+        }
+      }
+    },
+    "mapSubComponent": {
+      "components_Zoom": {
+        "defaultProps": {
+          "background": "rgba(0,0,0,0.3)"
+        }
+      },
+      "components_Pan": {
+        "defaultProps": {
+          "background": "rgba(0,0,0,0.3)"
+        }
+      },
+      "components_MiniMap": {
+        "defaultProps": {
+          "background": "rgba(0,0,0,0.3)"
+        }
+      },
+      "components_LayerList": {
+        "defaultProps": {
+          "background": "rgba(0,0,0,0.3)",
+          "attributes": {
+            "style": {
+              "background": "rgba(0,0,0,0.6)"
+            }
+          }
+        }
+      },
+      "components_CoordinateConversion": {
+        "defaultProps": {
+          "background": "rgba(0,0,0,0.3)"
+        }
+      },
+      "components_LayerManager": {
+        "defaultProps": {
+          "background": "rgba(0,0,0,0.3)"
+        }
+      },
+      "components_Measure": {
+        "defaultProps": {
+          "background": "rgba(0,0,0,0.3)"
+        }
+      },
+      "components_Legend": {
+        "defaultProps": {
+          "background": "rgba(0,0,0,0.3)"
+        }
+      },
+      "components_Query": {
+        "defaultProps": {
+          "background": "rgba(0,0,0,0.3)"
+        }
+      },
+      "components_Search": {
+        "defaultProps": {
+          "background": "rgba(0,0,0,0.3)"
+        }
+      },
+      "components_Compass": {
+        "defaultProps": {
+          "background": "rgba(0,0,0,0.3)"
+        }
+      },
+      "components_LayerColor": {
+        "defaultProps": {
+          "background": "rgba(0,0,0,0.3)"
+        }
+      },
+      "components_Attributes": {
+        "defaultProps": {
+          "background": "rgba(0, 0, 0, 0.3)",
+          "textColor": "rgba(255, 255, 255, 0.65)"
+        }
+      }
+    },
+    "chart": {
+      "components_Liquidfill": {
+        "defaultProps": {
+          "backgroundColor": ""
+        }
+      },
+      "components_ChartGauge": {
+        "defaultProps": {
+          "options": {
+            "series": [
+              {
+                "title": {
+                  "textStyle": {
+                    "color": "#ffffff"
+                  }
+                },
+                "detail": {
+                  "textStyle": {
+                    "color": "#ffffff"
+                  }
+                },
+                "axisTick": {
+                  "lineStyle": {
+                    "color": "#ffffff"
+                  }
+                },
+                "splitLine": {
+                  "lineStyle": {
+                    "color": "#ffffff"
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      "components_ChartGaugeMark": {
+        "defaultProps": {
+          "options": {
+            "series": [
+              {
+                "title": {
+                  "textStyle": {
+                    "color": "#ffffff"
+                  }
+                },
+                "detail": {
+                  "textStyle": {
+                    "color": "#ffffff"
+                  }
+                },
+                "axisTick": {
+                  "lineStyle": {
+                    "color": "#ffffff"
+                  }
+                },
+                "splitLine": {
+                  "lineStyle": {
+                    "color": "#ffffff"
+                  }
+                },
+                "axisLabel": {
+                  "color": "#ffffff"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "components_ChartGaugeShine": {
+        "defaultProps": {
+          "options": {
+            "series": [
+              {
+                "detail": {
+                  "textStyle": {
+                    "color": "#ffffff"
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      "components_ChartGaugeSpin": {
+        "defaultProps": {
+          "options": {
+            "series": [
+              {
+                "splitLine": {
+                  "lineStyle": {
+                    "color": "#2a2e34"
+                  }
+                },
+                "detail": {
+                  "color": "#fff"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "components_ProgressLine": {
+        "defaultProps": {
+          "trailColor": "#f3f3f3"
+        }
+      },
+      "components_ProgressRing": {
+        "defaultProps": {
+          "trailColor": "#f3f3f3"
+        }
+      }
+    },
+    "data": {
+      "components_DataSwitcher": {
+        "defaultProps": {
+          "borderColor": "rgba(255, 255, 255, 1)"
+        }
+      },
+      "components_TimeRange": {
+        "defaultProps": {
+          "backgroundColorReplacer": "rgba(255, 255, 255, 0.08)"
+        }
+      }
+    },
+    "base": {
+      "components_Slideshow": {
+        "defaultProps": {
+          "backgroundColor": "rgba(0, 0, 0, 0.25)",
+          "navigation": {
+            "style": {
+              "color": "rgba(222, 222, 222, 0.85)",
+              "background": "rgba(74, 74, 74, 0.85)"
+            }
+          }
+        }
+      }
+    }
+  },
+  "light": {
+    "container": {
+      "Container": {
+        "defaultProps": {
+          "backgroundColor": "rgba(255, 255, 255, 1)"
+        }
+      },
+      "Tab": {
+        "defaultProps": {
+          "backgroundColor": "rgba(255, 255, 255, 1)",
+          "swiperBtnStyle": {
+            "color": "rgba(74, 74, 74, 0.85)",
+            "backgroundColor": "rgba(222, 222, 222, 0.85)"
+          }
+        }
+      },
+      "TabHeader": {
+        "defaultProps": {
+          "divStyle": {
+            "border": {
+              "borderColor": "rgba(0, 0, 0, 0.15)"
+            }
+          },
+          "activeStyle": {
+            "background": "rgba(255, 255, 255, 1)"
+          }
+        }
+      }
+    },
+    "map": {
+      "components_WebMap": {
+        "defaultProps": {
+          "tdtComponents": {
+            "tdtRoute": {
+              "background": "rgba(255, 255, 255, 0.3)"
+            },
+            "tdtSearch": {
+              "background": "rgba(255, 255, 255, 0.3)"
+            },
+            "tdtMapSwitcher": {
+              "background": "rgba(255, 255, 255, 0.3)"
+            }
+          },
+          "zoomControl": {
+            "background": "rgba(255, 255, 255, 0.3)"
+          },
+          "scaleControl": {
+            "background": "rgba(255, 255, 255, 0.3)"
+          },
+          "miniMapControl": {
+            "background": "rgba(255, 255, 255, 0.3)"
+          },
+          "layerListControl": {
+            "background": "rgba(255, 255, 255, 0.3)",
+            "attributes": {
+              "style": {
+                "background": "rgba(255, 255, 255, 0.6)"
+              }
+            }
+          },
+          "measureControl": {
+            "background": "rgba(255, 255, 255, 0.3)"
+          },
+          "legendControl": {
+            "background": "rgba(255, 255, 255, 0.3)"
+          },
+          "queryControl": {
+            "background": "rgba(255, 255, 255, 0.3)"
+          },
+          "searchControl": {
+            "background": "rgba(255, 255, 255, 0.3)"
+          },
+          "identifyControl": {
+            "background": "rgba(255, 255, 255, 0.3)"
+          },
+          "layerManagerControl": {
+            "background": "rgba(255, 255, 255, 0.3)"
+          },
+          "compassControl": {
+            "background": "rgba(255, 255, 255, 0.3)"
+          },
+          "coordinateConversionControl": {
+            "background": "rgba(255, 255, 255, 0.3)"
+          },
+          "layerColorControl": {
+            "background": "rgba(255, 255, 255, 0.3)"
+          }
+        }
+      }
+    },
+    "mapSubComponent": {
+      "components_Zoom": {
+        "defaultProps": {
+          "background": "rgba(255, 255, 255, 0.3)"
+        }
+      },
+      "components_Pan": {
+        "defaultProps": {
+          "background": "rgba(255, 255, 255, 0.3)"
+        }
+      },
+      "components_MiniMap": {
+        "defaultProps": {
+          "background": "rgba(255, 255, 255, 0.3)"
+        }
+      },
+      "components_LayerList": {
+        "defaultProps": {
+          "background": "rgba(255, 255, 255, 0.3)",
+          "attributes": {
+            "style": {
+              "background": "rgba(255, 255, 255, 0.6)"
+            }
+          }
+        }
+      },
+      "components_CoordinateConversion": {
+        "defaultProps": {
+          "background": "rgba(255, 255, 255, 0.3)"
+        }
+      },
+      "components_LayerManager": {
+        "defaultProps": {
+          "background": "rgba(255, 255, 255, 0.3)"
+        }
+      },
+      "components_Measure": {
+        "defaultProps": {
+          "background": "rgba(255, 255, 255, 0.3)"
+        }
+      },
+      "components_Legend": {
+        "defaultProps": {
+          "background": "rgba(255, 255, 255, 0.3)"
+        }
+      },
+      "components_Query": {
+        "defaultProps": {
+          "background": "rgba(255, 255, 255, 0.3)"
+        }
+      },
+      "components_Search": {
+        "defaultProps": {
+          "background": "rgba(255, 255, 255, 0.3)"
+        }
+      },
+      "components_Compass": {
+        "defaultProps": {
+          "background": "rgba(255, 255, 255, 0.3)"
+        }
+      },
+      "components_LayerColor": {
+        "defaultProps": {
+          "background": "rgba(255, 255, 255, 0.3)"
+        }
+      },
+      "components_Attributes": {
+        "defaultProps": {
+          "background": "rgba(255, 255, 255, 0.3)",
+          "textColor": "rgba(0, 0, 0, 0.65)"
+        }
+      }
+    },
+    "chart": {
+      "components_Liquidfill": {
+        "defaultProps": {
+          "backgroundColorReplacer": "rgba(0, 0, 0, 0.15)"
+        }
+      },
+      "components_ChartGauge": {
+        "defaultProps": {
+          "options": {
+            "series": [
+              {
+                "title": {
+                  "textStyle": {
+                    "color": "#000000"
+                  }
+                },
+                "detail": {
+                  "textStyle": {
+                    "color": "#000000"
+                  }
+                },
+                "axisTick": {
+                  "lineStyle": {
+                    "color": "#fff"
+                  }
+                },
+                "splitLine": {
+                  "lineStyle": {
+                    "color": "#fff"
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      "components_ChartGaugeMark": {
+        "defaultProps": {
+          "options": {
+            "series": [
+              {
+                "title": {
+                  "textStyle": {
+                    "color": "#000000"
+                  }
+                },
+                "detail": {
+                  "textStyle": {
+                    "color": "#000000"
+                  }
+                },
+                "axisTick": {
+                  "lineStyle": {
+                    "color": "#000000"
+                  }
+                },
+                "splitLine": {
+                  "lineStyle": {
+                    "color": "#000000"
+                  }
+                },
+                "axisLabel": {
+                  "color": "#000000"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "components_ChartGaugeShine": {
+        "defaultProps": {
+          "options": {
+            "series": [
+              {
+                "detail": {
+                  "textStyle": {
+                    "color": "#000000"
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      "components_ChartGaugeSpin": {
+        "defaultProps": {
+          "options": {
+            "series": [
+              {
+                "splitLine": {
+                  "lineStyle": {
+                    "color": "#ffffff"
+                  }
+                },
+                "detail": {
+                  "color": "#000000"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "components_ProgressLine": {
+        "defaultProps": {
+          "trailColor": "rgba(0, 0, 0, 0.15)"
+        }
+      },
+      "components_ProgressRing": {
+        "defaultProps": {
+          "trailColor": "rgba(0, 0, 0, 0.15)"
+        }
+      }
+    },
+    "data": {
+      "components_DataSwitcher": {
+        "defaultProps": {
+          "borderColor": "rgba(0, 0, 0, 1)"
+        }
+      },
+      "components_TimeRange": {
+        "defaultProps": {
+          "backgroundColorReplacer": "rgba(0, 0, 0, 0.08)"
+        }
+      }
+    },
+    "base": {
+      "components_Slideshow": {
+        "defaultProps": {
+          "backgroundColor": "rgba(255, 255, 255, 0.25)",
+          "navigation": {
+            "style": {
+              "color": "rgba(74, 74, 74, 0.85)",
+              "background": "rgba(222, 222, 222, 0.85)"
+            }
+          }
+        }
+      }
+    }
+  }
+}

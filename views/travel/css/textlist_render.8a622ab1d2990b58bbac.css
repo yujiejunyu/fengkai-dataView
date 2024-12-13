@@ -1,0 +1,7 @@
+.textList_link {
+    width: inherit;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis
+}

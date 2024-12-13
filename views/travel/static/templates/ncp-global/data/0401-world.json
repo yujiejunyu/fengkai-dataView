@@ -1,0 +1,1014 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "geometry": { "coordinates": [-49.72754333777822, -14.23420381546021], "type": "Point" },
+      "properties": { "confirmed": 5717, "confirmedIncrement": 1138, "Country": "巴西" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [101.6819396738177, 13.04402470588684], "type": "Point" },
+      "properties": { "confirmed": 1771, "confirmedIncrement": 0, "Country": "泰国" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [31.46300498522692, -26.52236366271973], "type": "Point" },
+      "properties": { "confirmed": 9, "confirmedIncrement": 0, "Country": "斯威士兰" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [1.578433370750465, 42.54617691040039], "type": "Point" },
+      "properties": { "confirmed": 396, "confirmedIncrement": 20, "Country": "安道尔" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [-65.41029131606918, 6.42333248257637], "type": "Point" },
+      "properties": { "confirmed": 143, "confirmedIncrement": 14, "Country": "委内瑞拉" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [176.6166659453296, -38.01777648925781], "type": "Point" },
+      "properties": { "confirmed": 723, "confirmedIncrement": 76, "Country": "新西兰" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [36.32946887824447, 31.28324127197266], "type": "Point" },
+      "properties": { "confirmed": 278, "confirmedIncrement": 4, "Country": "约旦" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [105.132213197259, 12.56567859649658], "type": "Point" },
+      "properties": { "confirmed": 109, "confirmedIncrement": 0, "Country": "柬埔寨" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [29.9294249621694, -3.374809384346008], "type": "Point" },
+      "properties": { "confirmed": 2, "confirmedIncrement": 0, "Country": "布隆迪" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [2.296442597264649, 9.307689666748047], "type": "Point" },
+      "properties": { "confirmed": 13, "confirmedIncrement": 4, "Country": "贝宁" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [-1.079058201614971, 7.941387891769409], "type": "Point" },
+      "properties": { "confirmed": 195, "confirmedIncrement": 43, "Country": "加纳" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [12.67767181020205, 64.55048370361328], "type": "Point" },
+      "properties": { "confirmed": 4665, "confirmedIncrement": 218, "Country": "挪威" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [-5.68892413918106, 7.539988994598389], "type": "Point" },
+      "properties": { "confirmed": 190, "confirmedIncrement": 21, "Country": "科特迪瓦" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [-5.345764535946701, 36.1376895904541], "type": "Point" },
+      "properties": { "confirmed": 69, "confirmedIncrement": 0, "Country": "直布罗陀" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [-63.96979727868347, -37.07914924621582], "type": "Point" },
+      "properties": { "confirmed": 1054, "confirmedIncrement": 88, "Country": "阿根廷" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [28.83331760954678, 46.9584846496582], "type": "Point" },
+      "properties": { "confirmed": 423, "confirmedIncrement": 70, "Country": "摩尔多瓦" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [17.24532268472558, -22.95802307128906], "type": "Point" },
+      "properties": { "confirmed": 11, "confirmedIncrement": 0, "Country": "纳米比亚" },
+      "type": "Feature"
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [-61.411865234374986, 10.454687500000011], "type": "Point" },
+      "properties": { "confirmed": 89, "confirmedIncrement": 4, "Country": "特立尼达和多巴哥" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [17.66020507812503, 43.91813964843749], "type": "Point" },
+      "properties": { "confirmed": 464, "confirmedIncrement": 51, "Country": "波黑" }
+    },
+    { "properties": { "confirmed": 27, "confirmedIncrement": 3, "Country": "圣马丁" }, "geometry": null },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [-68.95498046875, 12.220019531249998], "type": "Point" },
+      "properties": { "confirmed": 11, "confirmedIncrement": 0, "Country": "库拉索" }
+    },
+    {
+      "geometry": { "coordinates": [125.7684889678974, -8.879865169525146], "type": "Point" },
+      "properties": { "confirmed": 1, "confirmedIncrement": 0, "Country": "东帝汶" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [51.13356364372998, 25.35426998138428], "type": "Point" },
+      "properties": { "confirmed": 835, "confirmedIncrement": 54, "Country": "卡塔尔" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [63.40420749835109, 41.37779235839844], "type": "Point" },
+      "properties": { "confirmed": 190, "confirmedIncrement": 17, "Country": "乌兹别克斯坦" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [127.9646252587486, 36.46254920959473], "type": "Point" },
+      "properties": { "confirmed": 9976, "confirmedIncrement": 89, "Country": "韩国" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [50.55152115671777, 26.02486038208008], "type": "Point" },
+      "properties": { "confirmed": 569, "confirmedIncrement": 2, "Country": "巴林" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [-72.59225110879477, 4.113507270812988], "type": "Point" },
+      "properties": { "confirmed": 906, "confirmedIncrement": 108, "Country": "哥伦比亚" },
+      "type": "Feature"
+    },
+    { "properties": { "confirmed": 712, "confirmedIncrement": 0, "Country": "其他" }, "geometry": null },
+    {
+      "geometry": { "coordinates": [10.54811698919037, 51.16562271118164], "type": "Point" },
+      "properties": { "confirmed": 73522, "confirmedIncrement": 6156, "Country": "德国" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [24.12161830782172, 55.17009544372559], "type": "Point" },
+      "properties": { "confirmed": 581, "confirmedIncrement": 48, "Country": "立陶宛" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [-1.914349497921578, 54.30791473388672], "type": "Point" },
+      "properties": { "confirmed": 29478, "confirmedIncrement": 4324, "Country": "英国" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [14.43851310677199, 35.89596748352051], "type": "Point" },
+      "properties": { "confirmed": 188, "confirmedIncrement": 21, "Country": "马耳他" },
+      "type": "Feature"
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [-61.20371093749996, 13.258422851562479], "type": "Point" },
+      "properties": { "confirmed": 1, "confirmedIncrement": 0, "Country": "圣文森特和格林纳丁斯" }
+    },
+    { "properties": { "confirmed": 3, "confirmedIncrement": 0, "Country": "圣巴泰勒米" }, "geometry": null },
+    {
+      "geometry": { "coordinates": [8.45507972620227, 46.81805038452148], "type": "Point" },
+      "properties": { "confirmed": 17070, "confirmedIncrement": 962, "Country": "瑞士" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [14.76154972712109, 47.71311950683594], "type": "Point" },
+      "properties": { "confirmed": 10711, "confirmedIncrement": 529, "Country": "奥地利" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [72.97912949330441, 3.106249809265137], "type": "Point" },
+      "properties": { "confirmed": 18, "confirmedIncrement": 0, "Country": "马尔代夫" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [12.67939616683543, 42.50576019287109], "type": "Point" },
+      "properties": { "confirmed": 110574, "confirmedIncrement": 4782, "Country": "意大利" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [11.7355253241875, -0.8036894798278809], "type": "Point" },
+      "properties": { "confirmed": 7, "confirmedIncrement": 0, "Country": "加蓬" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [35.49101488875981, 38.95519256591797], "type": "Point" },
+      "properties": { "confirmed": 15679, "confirmedIncrement": 2148, "Country": "土耳其" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [27.52784064859305, 64.94770431518555], "type": "Point" },
+      "properties": { "confirmed": 1446, "confirmedIncrement": 62, "Country": "芬兰" },
+      "type": "Feature"
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [-69.97819137573242, 12.5141673088074], "type": "Point" },
+      "properties": { "confirmed": 55, "confirmedIncrement": 0, "Country": "阿鲁巴" }
+    },
+    {
+      "geometry": { "coordinates": [-11.47057206203971, 21.00804901123047], "type": "Point" },
+      "properties": { "confirmed": 6, "confirmedIncrement": 0, "Country": "毛利塔尼亚" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [4.916248289282814, 50.50506591796875], "type": "Point" },
+      "properties": { "confirmed": 13964, "confirmedIncrement": 1189, "Country": "比利时" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [-70.1179637091748, 18.76749897003174], "type": "Point" },
+      "properties": { "confirmed": 1284, "confirmedIncrement": 175, "Country": "多米尼加" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [-56.11769248473961, 3.919027388095856], "type": "Point" },
+      "properties": { "confirmed": 19, "confirmedIncrement": 7, "Country": "圭亚那" },
+      "type": "Feature"
+    },
+    { "properties": { "confirmed": 116, "confirmedIncrement": 15, "Country": "马约特岛" }, "geometry": null },
+    {
+      "geometry": { "coordinates": [46.7820631372222, 5.152148962020874], "type": "Point" },
+      "properties": { "confirmed": 5, "confirmedIncrement": 0, "Country": "索马里" },
+      "type": "Feature"
+    },
+    { "properties": { "confirmed": 78, "confirmedIncrement": 18, "Country": "根西" }, "geometry": null },
+    {
+      "geometry": { "coordinates": [29.47405825146443, 26.82055282592773], "type": "Point" },
+      "properties": { "confirmed": 779, "confirmedIncrement": 69, "Country": "埃及" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [17.24183617292575, 26.3351001739502], "type": "Point" },
+      "properties": { "confirmed": 10, "confirmedIncrement": 0, "Country": "利比亚" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [38.56676391714313, 34.80207443237305], "type": "Point" },
+      "properties": { "confirmed": 10, "confirmedIncrement": 0, "Country": "叙利亚" },
+      "type": "Feature"
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [-59.537158203124996, 13.1925537109375], "type": "Point" },
+      "properties": { "confirmed": 33, "confirmedIncrement": 0, "Country": "巴巴多斯" }
+    },
+    {
+      "geometry": { "coordinates": [-7.967944913748523, 53.41277122497559], "type": "Point" },
+      "properties": { "confirmed": 3447, "confirmedIncrement": 212, "Country": "爱尔兰" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [20.03115186233625, 41.15266990661621], "type": "Point" },
+      "properties": { "confirmed": 277, "confirmedIncrement": 34, "Country": "阿尔巴尼亚" },
+      "type": "Feature"
+    },
+    { "properties": { "confirmed": 82631, "confirmedIncrement": 86, "Country": "中国" }, "geometry": null },
+    {
+      "geometry": { "coordinates": [133.0590180624618, -24.92694568634033], "type": "Point" },
+      "properties": { "confirmed": 4976, "confirmedIncrement": 269, "Country": "澳大利亚" },
+      "type": "Feature"
+    },
+    { "properties": { "confirmed": 2301, "confirmedIncrement": 254, "Country": "日本本土" }, "geometry": null },
+    {
+      "geometry": { "coordinates": [105.4445078225395, 46.86471557617188], "type": "Point" },
+      "properties": { "confirmed": 14, "confirmedIncrement": 2, "Country": "蒙古" },
+      "type": "Feature"
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [-24.014868164062463, 16.005639648437473], "type": "Point" },
+      "properties": { "confirmed": 5, "confirmedIncrement": 0, "Country": "佛得角" }
+    },
+    {
+      "geometry": { "coordinates": [35.65689087184612, 31.60631866455078], "type": "Point" },
+      "properties": { "confirmed": 117, "confirmedIncrement": 2, "Country": "巴勒斯坦" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [10.47970584253358, 1.636927992105484], "type": "Point" },
+      "properties": { "confirmed": 14, "confirmedIncrement": 0, "Country": "赤道几内亚" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [56.99410826075649, 20.81263828277588], "type": "Point" },
+      "properties": { "confirmed": 231, "confirmedIncrement": 21, "Country": "阿曼" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [70.10361778106645, 30.37441825866699], "type": "Point" },
+      "properties": { "confirmed": 2291, "confirmedIncrement": 252, "Country": "巴基斯坦" },
+      "type": "Feature"
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [145.76752929687504, 15.199267578125003], "type": "Point" },
+      "properties": { "confirmed": 2, "confirmedIncrement": 0, "Country": "北马里亚纳" }
+    },
+    {
+      "geometry": { "coordinates": [6.074296458937815, 49.81513595581055], "type": "Point" },
+      "properties": { "confirmed": 2319, "confirmedIncrement": 141, "Country": "卢森堡" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [-72.25550630230839, 18.9827766418457], "type": "Point" },
+      "properties": { "confirmed": 16, "confirmedIncrement": 1, "Country": "海地" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [-77.95234828933512, 21.50798320770264], "type": "Point" },
+      "properties": { "confirmed": 212, "confirmedIncrement": 26, "Country": "古巴" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [35.8575206629645, 33.85478973388672], "type": "Point" },
+      "properties": { "confirmed": 479, "confirmedIncrement": 16, "Country": "黎巴嫩" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [-83.64585207363535, 9.61925745010376], "type": "Point" },
+      "properties": { "confirmed": 347, "confirmedIncrement": 33, "Country": "哥斯达黎加" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [-53.0402126589271, 3.934444189071655], "type": "Point" },
+      "properties": { "confirmed": 51, "confirmedIncrement": 5, "Country": "法属圭亚那" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [83.09361557237202, 28.39654064178467], "type": "Point" },
+      "properties": { "confirmed": 5, "confirmedIncrement": 0, "Country": "尼泊尔" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [24.28313983062766, 45.9435977935791], "type": "Point" },
+      "properties": { "confirmed": 2460, "confirmedIncrement": 215, "Country": "罗马尼亚" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [29.97073224782124, -1.9399653673172], "type": "Point" },
+      "properties": { "confirmed": 82, "confirmedIncrement": 7, "Country": "卢旺达" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [-9.642504466227152, 6.428194046020508], "type": "Point" },
+      "properties": { "confirmed": 6, "confirmedIncrement": 3, "Country": "利比里亚" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [-9.654061476829803, 9.935713291168213], "type": "Point" },
+      "properties": { "confirmed": 30, "confirmedIncrement": 14, "Country": "几内亚" },
+      "type": "Feature"
+    },
+    { "properties": { "confirmed": 712, "confirmedIncrement": 0, "Country": "钻石号邮轮" }, "geometry": null },
+    {
+      "geometry": { "coordinates": [21.73139252707934, 41.60741996765137], "type": "Point" },
+      "properties": { "confirmed": 354, "confirmedIncrement": 25, "Country": "北马其顿" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [18.87516711864798, -11.9263904094696], "type": "Point" },
+      "properties": { "confirmed": 8, "confirmedIncrement": 1, "Country": "安哥拉" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [42.51461131847056, 11.8252763748169], "type": "Point" },
+      "properties": { "confirmed": 34, "confirmedIncrement": 3, "Country": "吉布提" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [34.63543618014543, 30.77848854064941], "type": "Point" },
+      "properties": { "confirmed": 5591, "confirmedIncrement": 462, "Country": "以色列" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [-81.20332086603656, 19.30958080291748], "type": "Point" },
+      "properties": { "confirmed": 14, "confirmedIncrement": 2, "Country": "开曼群岛" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [-102.2633739597972, 23.63450145721436], "type": "Point" },
+      "properties": { "confirmed": 1215, "confirmedIncrement": 121, "Country": "墨西哥" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [-90.29395474848158, 15.78347110748291], "type": "Point" },
+      "properties": { "confirmed": 39, "confirmedIncrement": 3, "Country": "危地马拉" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [21.95518124695516, 39.06694030761719], "type": "Point" },
+      "properties": { "confirmed": 1375, "confirmedIncrement": 61, "Country": "希腊" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [65.2007277797314, 33.93904113769531], "type": "Point" },
+      "properties": { "confirmed": 235, "confirmedIncrement": 43, "Country": "阿富汗" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [44.85394885791414, 40.06909942626953], "type": "Point" },
+      "properties": { "confirmed": 571, "confirmedIncrement": 39, "Country": "亚美尼亚" },
+      "type": "Feature"
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [-61.36767578124999, 15.430200195312501], "type": "Point" },
+      "properties": { "confirmed": 11, "confirmedIncrement": 0, "Country": "多米尼克" }
+    },
+    {
+      "geometry": { "coordinates": [15.53418779316877, 49.81693649291992], "type": "Point" },
+      "properties": { "confirmed": 3589, "confirmedIncrement": 281, "Country": "捷克" },
+      "type": "Feature"
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [-64.76557617187498, 32.327905273437494], "type": "Point" },
+      "properties": { "confirmed": 32, "confirmedIncrement": 5, "Country": "百慕大" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [166.09936523437506, -21.39033203124997], "type": "Point" },
+      "properties": { "confirmed": 16, "confirmedIncrement": 0, "Country": "新喀里多尼亚" }
+    },
+    {
+      "geometry": { "coordinates": [25.17011358435811, 42.73388290405273], "type": "Point" },
+      "properties": { "confirmed": 422, "confirmedIncrement": 23, "Country": "保加利亚" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [19.13496697843094, 47.16225242614746], "type": "Point" },
+      "properties": { "confirmed": 525, "confirmedIncrement": 33, "Country": "匈牙利" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [19.15862647915714, 51.91947555541992], "type": "Point" },
+      "properties": { "confirmed": 2554, "confirmedIncrement": 243, "Country": "波兰" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [2.201349633907642, 46.71201133728027], "type": "Point" },
+      "properties": { "confirmed": 56261, "confirmedIncrement": 4784, "Country": "法国" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [88.38104656120639, 59.46439361572266], "type": "Point" },
+      "properties": { "confirmed": 2777, "confirmedIncrement": 440, "Country": "俄罗斯" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [80.67168972351521, 7.873123645782471], "type": "Point" },
+      "properties": { "confirmed": 143, "confirmedIncrement": 0, "Country": "斯里兰卡" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [5.520153647086326, 52.10985565185547], "type": "Point" },
+      "properties": { "confirmed": 13614, "confirmedIncrement": 1019, "Country": "荷兰" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [14.6276630735691, 46.15103340148926], "type": "Point" },
+      "properties": { "confirmed": 841, "confirmedIncrement": 27, "Country": "斯洛文尼亚" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [14.89225461127533, 62.19973373413086], "type": "Point" },
+      "properties": { "confirmed": 4947, "confirmedIncrement": 512, "Country": "瑞典" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [-6.361767401764347, 31.79170227050781], "type": "Point" },
+      "properties": { "confirmed": 676, "confirmedIncrement": 38, "Country": "摩洛哥" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [20.64617874607049, 6.611046075820923], "type": "Point" },
+      "properties": { "confirmed": 8, "confirmedIncrement": 2, "Country": "中非" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [95.8621594404996, 19.26671552658081], "type": "Point" },
+      "properties": { "confirmed": 15, "confirmedIncrement": 0, "Country": "缅甸" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [-18.60674006641496, 64.96305084228516], "type": "Point" },
+      "properties": { "confirmed": 1220, "confirmedIncrement": 85, "Country": "冰岛" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [-71.50009857868285, -35.69583511352539], "type": "Point" },
+      "properties": { "confirmed": 3031, "confirmedIncrement": 293, "Country": "智利" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [8.87019802738971, 33.78740119934082], "type": "Point" },
+      "properties": { "confirmed": 423, "confirmedIncrement": 29, "Country": "突尼斯" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [18.55807010747023, 15.45454740524292], "type": "Point" },
+      "properties": { "confirmed": 7, "confirmedIncrement": 0, "Country": "乍得" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [144.3656327136619, -6.645277976989746], "type": "Point" },
+      "properties": { "confirmed": 1, "confirmedIncrement": 0, "Country": "巴布亚新几内亚" },
+      "type": "Feature"
+    },
+    { "properties": { "confirmed": 125, "confirmedIncrement": 13, "Country": "科索沃" }, "geometry": null },
+    {
+      "geometry": { "coordinates": [-88.72177288868643, 17.18987655639648], "type": "Point" },
+      "properties": { "confirmed": 3, "confirmedIncrement": 0, "Country": "伯利兹" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [26.12863555079674, -28.47919654846191], "type": "Point" },
+      "properties": { "confirmed": 1380, "confirmedIncrement": 27, "Country": "南非" },
+      "type": "Feature"
+    },
+    { "properties": { "confirmed": 65, "confirmedIncrement": 13, "Country": "马恩岛" }, "geometry": null },
+    { "properties": { "confirmed": 5, "confirmedIncrement": 0, "Country": "蒙塞拉特岛" }, "geometry": null },
+    {
+      "geometry": { "coordinates": [102.0528360738651, 3.937950670719147], "type": "Point" },
+      "properties": { "confirmed": 2908, "confirmedIncrement": 142, "Country": "马来西亚" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [-0.7349218390459513, 17.57121324539185], "type": "Point" },
+      "properties": { "confirmed": 28, "confirmedIncrement": 10, "Country": "马里" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [-77.13180440268533, 26.40416526794434], "type": "Point" },
+      "properties": { "confirmed": 15, "confirmedIncrement": 1, "Country": "巴哈马" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [-69.98117942330359, 12.51944303512573], "type": "Point" },
+      "properties": { "confirmed": 11, "confirmedIncrement": 0, "Country": "荷属安的列斯" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [-8.29234355116863, 39.57950210571289], "type": "Point" },
+      "properties": { "confirmed": 8251, "confirmedIncrement": 808, "Country": "葡萄牙" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [29.34725924888048, -19.01564645767212], "type": "Point" },
+      "properties": { "confirmed": 8, "confirmedIncrement": 0, "Country": "津巴布韦" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [120.739266539782, 15.57964992523193], "type": "Point" },
+      "properties": { "confirmed": 2311, "confirmedIncrement": 227, "Country": "菲律宾" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [89.8642012608232, 23.68548011779785], "type": "Point" },
+      "properties": { "confirmed": 54, "confirmedIncrement": 0, "Country": "孟加拉国" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [1.040529610344247, 8.619543075561523], "type": "Point" },
+      "properties": { "confirmed": 36, "confirmedIncrement": 2, "Country": "多哥" },
+      "type": "Feature"
+    },
+    { "properties": { "confirmed": 281, "confirmedIncrement": 34, "Country": "留尼汪" }, "geometry": null },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [-61.447221754999994, 16.137500284999998], "type": "Point" },
+      "properties": { "confirmed": 125, "confirmedIncrement": 11, "Country": "瓜德罗普" }
+    },
+    {
+      "geometry": { "coordinates": [25.45198777153665, -13.1332950592041], "type": "Point" },
+      "properties": { "confirmed": 36, "confirmedIncrement": 1, "Country": "赞比亚" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [114.5259104490177, 4.535623788833618], "type": "Point" },
+      "properties": { "confirmed": 131, "confirmedIncrement": 2, "Country": "文莱" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [15.35406451585785, 44.73982620239258], "type": "Point" },
+      "properties": { "confirmed": 963, "confirmedIncrement": 96, "Country": "克罗地亚" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [7.952850102753097, 9.082172632217407], "type": "Point" },
+      "properties": { "confirmed": 139, "confirmedIncrement": 28, "Country": "尼日利亚" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [34.67993939610193, -18.66569519042969], "type": "Point" },
+      "properties": { "confirmed": 10, "confirmedIncrement": 2, "Country": "莫桑比克" },
+      "type": "Feature"
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [-2.1272460937499886, 49.2213623046875], "type": "Point" },
+      "properties": { "confirmed": 81, "confirmedIncrement": 18, "Country": "泽西岛" }
+    },
+    {
+      "geometry": { "coordinates": [-58.46336922431536, -23.44076633453369], "type": "Point" },
+      "properties": { "confirmed": 69, "confirmedIncrement": 4, "Country": "巴拉圭" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [38.08853118600948, 15.17938423156738], "type": "Point" },
+      "properties": { "confirmed": 15, "confirmedIncrement": 9, "Country": "厄立特里亚" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [42.51813855668041, 33.2226676940918], "type": "Point" },
+      "properties": { "confirmed": 728, "confirmedIncrement": 34, "Country": "伊拉克" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [107.8649901349429, 15.94169902801514], "type": "Point" },
+      "properties": { "confirmed": 218, "confirmedIncrement": 11, "Country": "越南" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [-101.0094215730834, 39.32201115268816], "type": "Point" },
+      "properties": { "confirmed": 187302, "confirmedIncrement": 24103, "Country": "美国" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [12.45106380450829, 41.90464019775391], "type": "Point" },
+      "properties": { "confirmed": 6, "confirmedIncrement": 0, "Country": "梵蒂冈" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [37.46619480667291, -0.0235590934753418], "type": "Point" },
+      "properties": { "confirmed": 81, "confirmedIncrement": 31, "Country": "肯尼亚" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [-85.5693262501525, 12.86595392227173], "type": "Point" },
+      "properties": { "confirmed": 5, "confirmedIncrement": 1, "Country": "尼加拉瓜" },
+      "type": "Feature"
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [-144.2311767578125, -13.329931640625006], "type": "Point" },
+      "properties": { "confirmed": 37, "confirmedIncrement": 0, "Country": "法属波利尼西亚" }
+    },
+    {
+      "geometry": { "coordinates": [-81.46800343627334, 8.413124561309814], "type": "Point" },
+      "properties": { "confirmed": 1181, "confirmedIncrement": 192, "Country": "巴拿马" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [75.08016013025599, 41.20618629455566], "type": "Point" },
+      "properties": { "confirmed": 115, "confirmedIncrement": 4, "Country": "吉尔吉斯斯坦" },
+      "type": "Feature"
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [-64.73479003906245, 17.74802246093752], "type": "Point" },
+      "properties": { "confirmed": 2, "confirmedIncrement": 0, "Country": "英属维尔京群岛" }
+    },
+    {
+      "geometry": { "coordinates": [7.410655541644889, 43.74792098999023], "type": "Point" },
+      "properties": { "confirmed": 37, "confirmedIncrement": 0, "Country": "摩纳哥" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [38.9888666008038, 9.145138025283813], "type": "Point" },
+      "properties": { "confirmed": 26, "confirmedIncrement": 0, "Country": "埃塞俄比亚" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [104.6932367583708, 18.21329593658447], "type": "Point" },
+      "properties": { "confirmed": 10, "confirmedIncrement": 1, "Country": "老挝" },
+      "type": "Feature"
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [-4.598706054687483, 54.2401123046875], "type": "Point" },
+      "properties": { "confirmed": 32, "confirmedIncrement": 0, "Country": "英国属地曼岛" }
+    },
+    {
+      "geometry": { "coordinates": [80.23424942527119, 21.78878117695196], "type": "Point" },
+      "properties": { "confirmed": 1636, "confirmedIncrement": 0, "Country": "印度" },
+      "type": "Feature"
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [-60.984179687499996, 13.905468749999994], "type": "Point" },
+      "properties": { "confirmed": 13, "confirmedIncrement": 4, "Country": "圣卢西亚" }
+    },
+    {
+      "geometry": { "coordinates": [46.44157395549973, -9.404757976531982], "type": "Point" },
+      "properties": { "confirmed": 10, "confirmedIncrement": 2, "Country": "塞舌尔" },
+      "type": "Feature"
+    },
+    { "properties": { "confirmed": 5, "confirmedIncrement": 0, "Country": "毛里塔尼亚" }, "geometry": null },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [-61.8015869140625, 17.09113769531251], "type": "Point" },
+      "properties": { "confirmed": 7, "confirmedIncrement": 0, "Country": "安提瓜和巴布达" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [-62.1850341796875, 16.751953125], "type": "Point" },
+      "properties": { "confirmed": 5, "confirmedIncrement": 0, "Country": "蒙特塞拉特" }
+    },
+    {
+      "geometry": { "coordinates": [54.09848232689505, 32.42756271362305], "type": "Point" },
+      "properties": { "confirmed": 47593, "confirmedIncrement": 2987, "Country": "伊朗" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [28.0362314668054, 53.70966911315918], "type": "Point" },
+      "properties": { "confirmed": 192, "confirmedIncrement": 40, "Country": "白俄罗斯" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [-40.35382223112916, 71.80248641967773], "type": "Point" },
+      "properties": { "confirmed": 10, "confirmedIncrement": 0, "Country": "格陵兰" },
+      "type": "Feature"
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [-62.600000385, 17.18263721000001], "type": "Point" },
+      "properties": { "confirmed": 8, "confirmedIncrement": 0, "Country": "圣基茨和尼维斯" }
+    },
+    {
+      "geometry": { "coordinates": [29.00631520122867, 12.86280703544617], "type": "Point" },
+      "properties": { "confirmed": 7, "confirmedIncrement": 0, "Country": "苏丹" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [0.6086298875111265, 28.03312301635742], "type": "Point" },
+      "properties": { "confirmed": 847, "confirmedIncrement": 263, "Country": "阿尔及利亚" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [19.64092135188662, 48.66916465759277], "type": "Point" },
+      "properties": { "confirmed": 400, "confirmedIncrement": 37, "Country": "斯洛伐克" },
+      "type": "Feature"
+    },
+    { "properties": { "confirmed": 134, "confirmedIncrement": 0, "Country": "被占巴勒斯坦领土" }, "geometry": null },
+    {
+      "geometry": { "coordinates": [9.89309347410688, 17.60778903961182], "type": "Point" },
+      "properties": { "confirmed": 74, "confirmedIncrement": 54, "Country": "尼日尔" },
+      "type": "Feature"
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [-61.661279296874994, 12.117968749999996], "type": "Point" },
+      "properties": { "confirmed": 9, "confirmedIncrement": 0, "Country": "格林纳达" }
+    },
+    {
+      "geometry": { "coordinates": [24.44221656536748, 56.8790454864502], "type": "Point" },
+      "properties": { "confirmed": 446, "confirmedIncrement": 48, "Country": "拉脱维亚" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [13.6238459200353, 7.369582772254944], "type": "Point" },
+      "properties": { "confirmed": 139, "confirmedIncrement": 0, "Country": "喀麦隆" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [113.3190642863634, 0.09152770042419434], "type": "Point" },
+      "properties": { "confirmed": 1677, "confirmedIncrement": 149, "Country": "印度尼西亚" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [-7.280404740085767, 62.11978721618652], "type": "Point" },
+      "properties": { "confirmed": 173, "confirmedIncrement": 4, "Country": "法罗群岛" },
+      "type": "Feature"
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [21.533203125000018, -4.062988281250008], "type": "Point" },
+      "properties": { "confirmed": 123, "confirmedIncrement": 14, "Country": "刚果（金）" }
+    },
+    {
+      "geometry": { "coordinates": [43.6496962275664, 42.31637954711914], "type": "Point" },
+      "properties": { "confirmed": 121, "confirmedIncrement": 6, "Country": "格鲁吉亚" },
+      "type": "Feature"
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [144.79506835937502, 13.436962890624997], "type": "Point" },
+      "properties": { "confirmed": 77, "confirmedIncrement": 8, "Country": "关岛" }
+    },
+    {
+      "geometry": { "coordinates": [34.22698221036792, -6.368819892406464], "type": "Point" },
+      "properties": { "confirmed": 20, "confirmedIncrement": 1, "Country": "坦桑尼亚" },
+      "type": "Feature"
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [57.85483398437501, -19.537402343750006], "type": "Point" },
+      "properties": { "confirmed": 154, "confirmedIncrement": 11, "Country": "毛里求斯" }
+    },
+    {
+      "geometry": { "coordinates": [9.314729226719667, 55.94114112854004], "type": "Point" },
+      "properties": { "confirmed": 3107, "confirmedIncrement": 247, "Country": "丹麦" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [21.02370643782807, 44.01505470275879], "type": "Point" },
+      "properties": { "confirmed": 1060, "confirmedIncrement": 160, "Country": "塞尔维亚" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [9.552188600663413, 47.16600036621094], "type": "Point" },
+      "properties": { "confirmed": 72, "confirmedIncrement": 4, "Country": "列支敦士登" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [-66.38775468041078, 18.22083282470703], "type": "Point" },
+      "properties": { "confirmed": 286, "confirmedIncrement": 47, "Country": "波多黎各" },
+      "type": "Feature"
+    },
+    { "properties": { "confirmed": 3, "confirmedIncrement": 0, "Country": "维尔京群岛" }, "geometry": null },
+    {
+      "geometry": { "coordinates": [-87.22347472129243, 14.50340080261231], "type": "Point" },
+      "properties": { "confirmed": 172, "confirmedIncrement": 33, "Country": "洪都拉斯" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [-1.189684497515988, 12.23923492431641], "type": "Point" },
+      "properties": { "confirmed": 261, "confirmedIncrement": 0, "Country": "布基纳法索" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [-88.90544844277755, 13.79418468475342], "type": "Point" },
+      "properties": { "confirmed": 32, "confirmedIncrement": 2, "Country": "萨尔瓦多" },
+      "type": "Feature"
+    },
+    { "properties": { "confirmed": 30, "confirmedIncrement": 0, "Country": "美属维尔京群岛" }, "geometry": null },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [-72.23989257812498, 21.804687499999986], "type": "Point" },
+      "properties": { "confirmed": 5, "confirmedIncrement": 0, "Country": "特克斯和凯科斯群岛" }
+    },
+    {
+      "geometry": { "coordinates": [45.05416728407037, 23.88594245910645], "type": "Point" },
+      "properties": { "confirmed": 1720, "confirmedIncrement": 157, "Country": "沙特阿拉伯" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [-75.76059588454646, -9.192710038274527], "type": "Point" },
+      "properties": { "confirmed": 1323, "confirmedIncrement": 258, "Country": "秘鲁" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [-78.27468788660354, -1.78126585483551], "type": "Point" },
+      "properties": { "confirmed": 2372, "confirmedIncrement": 132, "Country": "厄瓜多尔" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [-64.18810037730452, -16.29015350341797], "type": "Point" },
+      "properties": { "confirmed": 115, "confirmedIncrement": 8, "Country": "玻利维亚" },
+      "type": "Feature"
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [45.15958404499999, -12.813889505], "type": "Point" },
+      "properties": { "confirmed": 82, "confirmedIncrement": 32, "Country": "马约特" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [53.97817382812502, 24.342065429687537], "type": "Point" },
+      "properties": { "confirmed": 814, "confirmedIncrement": 150, "Country": "阿联酋" }
+    },
+    {
+      "geometry": { "coordinates": [179.1861874739621, -16.58270931243897], "type": "Point" },
+      "properties": { "confirmed": 5, "confirmedIncrement": 0, "Country": "斐济" },
+      "type": "Feature"
+    },
+    { "properties": { "confirmed": 22, "confirmedIncrement": 3, "Country": "刚果（布）" }, "geometry": null },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [-2.4186120049999995, 49.57750130000001], "type": "Point" },
+      "properties": { "confirmed": 45, "confirmedIncrement": 9, "Country": "格恩西岛" }
+    },
+    { "properties": { "confirmed": 6, "confirmedIncrement": 4, "Country": "马里亚纳群岛" }, "geometry": null },
+    {
+      "geometry": { "coordinates": [33.39432716120047, 35.1644401550293], "type": "Point" },
+      "properties": { "confirmed": 320, "confirmedIncrement": 58, "Country": "塞浦路斯" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [12.45927715684198, 43.94277381896973], "type": "Point" },
+      "properties": { "confirmed": 236, "confirmedIncrement": 0, "Country": "圣马力诺" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [90.34020418571001, 27.51430130004883], "type": "Point" },
+      "properties": { "confirmed": 4, "confirmedIncrement": 0, "Country": "不丹" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [24.47944209980126, -22.32882118225098], "type": "Point" },
+      "properties": { "confirmed": 3, "confirmedIncrement": 0, "Country": "博茨瓦纳" },
+      "type": "Feature"
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [-61.01250076000001, 14.629306795000002], "type": "Point" },
+      "properties": { "confirmed": 128, "confirmedIncrement": 9, "Country": "马提尼克" }
+    },
+    { "properties": { "confirmed": 6, "confirmedIncrement": 0, "Country": "圣巴托洛缪岛" }, "geometry": null },
+    {
+      "geometry": { "coordinates": [-14.36669017108595, 11.80491209030151], "type": "Point" },
+      "properties": { "confirmed": 9, "confirmedIncrement": 0, "Country": "几内亚比绍" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [66.35078935458137, 48.01853179931641], "type": "Point" },
+      "properties": { "confirmed": 386, "confirmedIncrement": 38, "Country": "哈萨克斯坦" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [-11.88346631612436, 8.460555076599121], "type": "Point" },
+      "properties": { "confirmed": 2, "confirmedIncrement": 1, "Country": "塞拉利昂" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [48.59031300578582, 40.48678398132324], "type": "Point" },
+      "properties": { "confirmed": 359, "confirmedIncrement": 61, "Country": "阿塞拜疆" },
+      "type": "Feature"
+    },
+    {
+      "type": "Feature",
+      "geometry": { "coordinates": [19.39033203125001, 42.705712890624994], "type": "Point" },
+      "properties": { "confirmed": 120, "confirmedIncrement": 15, "Country": "黑山" }
+    },
+    {
+      "geometry": { "coordinates": [-3.485252237249527, 39.88520240783691], "type": "Point" },
+      "properties": { "confirmed": 102136, "confirmedIncrement": 7719, "Country": "西班牙" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [33.89949628088299, 48.37887573242188], "type": "Point" },
+      "properties": { "confirmed": 804, "confirmedIncrement": 135, "Country": "乌克兰" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [-55.82312045703043, -32.52024459838867], "type": "Point" },
+      "properties": { "confirmed": 338, "confirmedIncrement": 18, "Country": "乌拉圭" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [-58.94982900160879, 4.861075639724731], "type": "Point" },
+      "properties": { "confirmed": 8, "confirmedIncrement": 0, "Country": "苏里南" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [-64.62053591723334, 18.42076301574707], "type": "Point" },
+      "properties": { "confirmed": 2, "confirmedIncrement": 0, "Country": "安圭拉" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [32.69341247030342, 1.373333513736725], "type": "Point" },
+      "properties": { "confirmed": 44, "confirmedIncrement": 11, "Country": "乌干达" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [-110.4475729945999, 56.83624267578125], "type": "Point" },
+      "properties": { "confirmed": 9005, "confirmedIncrement": 1310, "Country": "加拿大" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [139.8510403752389, 37.49228477478027], "type": "Point" },
+      "properties": { "confirmed": 2384, "confirmedIncrement": 206, "Country": "日本" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [25.49142682159168, 58.59367370605469], "type": "Point" },
+      "properties": { "confirmed": 779, "confirmedIncrement": 34, "Country": "爱沙尼亚" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [46.72449576541693, -18.76694679260254], "type": "Point" },
+      "properties": { "confirmed": 53, "confirmedIncrement": 0, "Country": "马达加斯加" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [-14.33291993648528, 13.44318199157715], "type": "Point" },
+      "properties": { "confirmed": 3, "confirmedIncrement": 0, "Country": "冈比亚" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [103.8220981679654, 1.352152526378632], "type": "Point" },
+      "properties": { "confirmed": 1000, "confirmedIncrement": 74, "Country": "新加坡" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [-14.65933001699604, 14.49618530273438], "type": "Point" },
+      "properties": { "confirmed": 190, "confirmedIncrement": 15, "Country": "塞内加尔" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [47.39645004571101, 29.31152153015137], "type": "Point" },
+      "properties": { "confirmed": 317, "confirmedIncrement": 28, "Country": "科威特" },
+      "type": "Feature"
+    },
+    {
+      "geometry": { "coordinates": [-77.15471778921, 18.10985946655273], "type": "Point" },
+      "properties": { "confirmed": 38, "confirmedIncrement": 2, "Country": "牙买加" },
+      "type": "Feature"
+    }
+  ]
+}

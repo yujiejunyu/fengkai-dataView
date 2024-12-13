@@ -1,0 +1,46 @@
+{
+    "type": "FeatureCollection",
+    "features": [{
+      "properties": {
+        "year": "2015",
+        "rate": 80
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "year": "2016",
+        "rate": 90
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "year": "2017",
+        "rate": 80
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "year": "2018",
+        "rate": 92
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "year": "2019",
+        "rate": 50
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "year": "2020",
+        "rate": 95
+      },
+      "type": "Feature"
+    }]
+  }
+  

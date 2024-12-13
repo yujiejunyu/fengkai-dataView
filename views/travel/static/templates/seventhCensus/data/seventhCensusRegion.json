@@ -1,0 +1,45 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "properties": {
+        "date": "2020年",
+        "numOfTimes": "第七次",
+        "title": "第七次2020年",
+        "name": "东北地区",
+        "percent": 6.98
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "date": "2020年",
+        "numOfTimes": "第七次",
+        "title": "第七次2020年",
+        "name": "中部地区",
+        "percent": 25.83
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "date": "2020年",
+        "numOfTimes": "第七次",
+        "title": "第七次2020年",
+        "name": "东部地区",
+        "percent": 39.93
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "date": "2020年",
+        "numOfTimes": "第七次",
+        "title": "第七次2020年",
+        "name": "西部地区",
+        "percent": 27.12
+      },
+      "type": "Feature"
+    }
+  ]
+}

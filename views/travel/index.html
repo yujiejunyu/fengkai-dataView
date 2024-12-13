@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="./static/loading.css">
+    <link rel="shortcut icon" type="image/x-icon" href="./logo.ico">
+    <title>MapDashboard</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100vh;
+            overflow-x: hidden
+        }
+
+        #app-loading {
+            width: 100%;
+            height: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 99999;
+            background-color: #000
+        }
+
+        #app-loading>.lds-css {
+            width: 80px;
+            height: 80px;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            margin-left: -40px;
+            margin-top: -63px
+        }
+
+        .loading-info {
+            margin-left: -28px;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            font-size: 14px;
+            color: #fff;
+            opacity: .8;
+            margin-top: 14px
+        }
+    </style>
+    <link href="././css/iclient-mapboxgl.c6ffd2470040459a0d03.css" rel="stylesheet">
+    <link href="././css/mapbox-gl-enhance.598a1bb588b73283b096.css" rel="stylesheet">
+    <link href="././css/vue-iclient-mapboxgl.efd103d96cc0e2ed1936.css" rel="stylesheet">
+    <link href="././css/styles.a43053e45bfa1b415614.css" rel="stylesheet">
+    <link href="././css/vendor.11f59a4faf191685ce55.css" rel="stylesheet">
+    <link href="././css/app.f2db03f2b44b1cea1612.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="app-loading">
+        <div class="lds-css">
+            <div style="width:100%;height:100%" class="lds-flickr">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+        <p id="loading-info" class="loading-info">loading...</p>
+    </div>
+    <div id="app"></div>
+</body>
+<script type="text/javascript" src="././js/manifest.a82b185d6310282774a5.js"></script>
+<script type="text/javascript" src="././libs/iclient-mapboxgl.c6ffd2470040459a0d03.js"></script>
+<script type="text/javascript" src="././libs/mapbox-gl-enhance.598a1bb588b73283b096.js"></script>
+<script type="text/javascript" src="././libs/echarts.c035c891ab691c42cde5.js"></script>
+<script type="text/javascript" src="././libs/vue-iclient-mapboxgl.efd103d96cc0e2ed1936.js"></script>
+<script type="text/javascript" src="././js/styles.a43053e45bfa1b415614.js"></script>
+<script type="text/javascript" src="././libs/vendor.11f59a4faf191685ce55.js"></script>
+<script type="text/javascript" src="././js/app.f2db03f2b44b1cea1612.js"></script>
+
+</html>
