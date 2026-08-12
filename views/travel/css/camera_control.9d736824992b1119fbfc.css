@@ -1,0 +1,42 @@
+.camera-box[data-v-b728f28c] {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+    display: none
+}
+
+@media only screen and (max-width:544px) {
+
+    .camera-box .dg[data-v-b728f28c],
+    .camera-box .footer-text[data-v-b728f28c] {
+        display: none
+    }
+}
+
+.camera-box .sk-spinner-pulse[data-v-b728f28c] {
+    width: 20px;
+    height: 20px;
+    margin: auto 10px;
+    float: left;
+    background-color: #fff;
+    border-radius: 100%;
+    animation: sk-pulseScaleOut-data-v-b728f28c 1s ease-in-out infinite
+}
+
+@keyframes sk-pulseScaleOut-data-v-b728f28c {
+    0% {
+        -webkit-transform: scale(0);
+        transform: scale(0)
+    }
+
+    to {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 0
+    }
+}
+
+.camera-box .spinner-text[data-v-b728f28c] {
+    float: left
+}

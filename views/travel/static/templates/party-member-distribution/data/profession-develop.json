@@ -1,0 +1,54 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "properties": {
+        "职业": "工人",
+        "num": 27.3
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "职业": "技术人员",
+        "num": 68.5
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "职业": "管理人员",
+        "num": 49.8
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "职业": "农牧渔民",
+        "num": 79.5
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "职业": "党政机关",
+        "num": 27.4
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "职业": "学生",
+        "num": 187.2
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "职业": "其他",
+        "num": 34.1
+      },
+      "type": "Feature"
+    }
+  ]
+}

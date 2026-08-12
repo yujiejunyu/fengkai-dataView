@@ -1,0 +1,656 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "placeName": "未知",
+        "videoName": "监控1",
+        "date": "08:21:25",
+        "id": "1",
+        "status": "正常",
+        "url": "rtmp://127.0.0.1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [116.43863634192323, 39.93742868364879]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "placeName": "雅宝城国际大厦",
+        "videoName": "监控2",
+        "date": "08:24:25",
+        "id": "2",
+        "status": "正常",
+        "url": "rtmp://127.0.0.1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [116.44551889025554, 39.94192214795075]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "placeName": "日坛国际教育中心",
+        "videoName": "监控3",
+        "date": "07:21:25",
+        "id": "3",
+        "status": "正常",
+        "url": "rtmp://127.0.0.1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [116.43918351256238, 39.94058545027275]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "placeName": "便利蜂",
+        "videoName": "监控4",
+        "date": "06:12:25",
+        "id": "4",
+        "status": "正常",
+        "url": "rtmp://127.0.0.1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [116.43457011305675, 39.935999350541096]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "placeName": "纳伊尔西餐厅",
+        "videoName": "监控5",
+        "date": "08:16:32",
+        "id": "5",
+        "status": "正常",
+        "url": "rtmp://127.0.0.1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [116.4339317473112, 39.93801686097697]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "placeName": "永辉",
+        "videoName": "监控6",
+        "date": "07:21:25",
+        "id": "6",
+        "status": "正常",
+        "url": "rtmp://127.0.0.1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [116.44336239420755, 39.93584716079704]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "placeName": "便利蜂2",
+        "videoName": "监控7",
+        "date": "04:21:25",
+        "id": "7",
+        "status": "正常",
+        "url": "rtmp://127.0.0.1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [116.45214662873134, 39.938395266096194]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "placeName": "芳草苑",
+        "videoName": "监控8",
+        "date": "08:21:25",
+        "id": "8",
+        "status": "正常",
+        "url": "rtmp://127.0.0.1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [116.449751416081, 39.941081059688685]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "placeName": "南营房胡同",
+        "videoName": "监控9",
+        "date": "08:21:25",
+        "id": "9",
+        "status": "正常",
+        "url": "rtmp://127.0.0.1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [116.43366889082776, 39.94038802809496]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "placeName": "未知2",
+        "videoName": "监控10",
+        "date": "08:12:45",
+        "id": "10",
+        "status": "正常",
+        "url": "rtmp://127.0.0.1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [116.43866852843152, 39.93574432969737]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "placeName": "未知3",
+        "videoName": "监控11",
+        "date": "09:05:32",
+        "id": "11",
+        "status": "正常",
+        "url": "rtmp://127.0.0.1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [116.4469136389433, 39.9372209694684]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "placeName": "中纺里",
+        "videoName": "监控12",
+        "date": "05:20:25",
+        "id": "12",
+        "status": "正常",
+        "url": "rtmp://127.0.0.1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [116.44794661134446, 39.92786326727909]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "placeName": "中国老年报社",
+        "videoName": "监控13",
+        "date": "08:31:26",
+        "id": "13",
+        "status": "正常",
+        "url": "rtmp://127.0.0.1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [116.4462112221118, 39.92676078125251]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "placeName": "中纺里社区",
+        "videoName": "监控14",
+        "date": "08:21:25",
+        "id": "14",
+        "status": "正常",
+        "url": "rtmp://127.0.0.1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [116.44800561994278, 39.92698086850086]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "placeName": "兴华公寓",
+        "videoName": "监控15",
+        "date": "08:21:28",
+        "id": "15",
+        "status": "正常",
+        "url": "rtmp://127.0.0.1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [116.44710171550472, 39.925778607571715]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "placeName": "核桃园社区",
+        "videoName": "监控16",
+        "date": "08:26:25",
+        "id": "16",
+        "status": "正常",
+        "url": "rtmp://127.0.0.1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [116.45093551842724, 39.92554467525787]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "placeName": "三里屯SOHO",
+        "videoName": "监控17",
+        "date": "08:26:25",
+        "id": "17",
+        "status": "正常",
+        "url": "rtmp://127.0.0.1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [116.4475513073507, 39.93178081411003]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "placeName": "中国红街",
+        "videoName": "监控18",
+        "date": "06:21:25",
+        "id": "18",
+        "status": "正常",
+        "url": "rtmp://127.0.0.1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [116.44459014859824, 39.93173556575695]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "placeName": "北京朝阳三里屯小学",
+        "videoName": "监控19",
+        "date": "08:21:25",
+        "id": "19",
+        "status": "正常",
+        "url": "rtmp://127.0.0.1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [116.45072704282433, 39.934672533178144]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "placeName": "广发银行",
+        "videoName": "监控20",
+        "date": "09:21:25",
+        "id": "20",
+        "status": "正常",
+        "url": "rtmp://127.0.0.1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [116.4448690983358, 39.93626436621463]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "placeName": "三里屯外交公寓",
+        "videoName": "监控21",
+        "date": "10:21:25",
+        "id": "21",
+        "status": "正常",
+        "url": "rtmp://127.0.0.1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [116.45065194097191, 39.936346630481665]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "placeName": "北京华玉磊酒店",
+        "videoName": "监控22",
+        "date": "08:21:34",
+        "id": "22",
+        "status": "正常",
+        "url": "rtmp://127.0.0.1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [116.4484203430715, 39.938172871745024]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "placeName": "北京英国学校",
+        "videoName": "监控23",
+        "date": "08:21:45",
+        "id": "23",
+        "status": "正常",
+        "url": "rtmp://127.0.0.1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [116.44752984967853, 39.943277039861925]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "placeName": "润世中心",
+        "videoName": "监控24",
+        "date": "08:21:55",
+        "id": "24",
+        "status": "正常",
+        "url": "rtmp://127.0.0.1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [116.46240600483712, 39.95366258211101]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "placeName": "北京希尔顿酒店",
+        "videoName": "监控25",
+        "date": "08:26:25",
+        "id": "25",
+        "status": "正常",
+        "url": "rtmp://127.0.0.1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [116.45678409474188, 39.95177095777049]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "placeName": "财富购物中心",
+        "videoName": "监控26",
+        "date": "08:36:25",
+        "id": "26",
+        "status": "正常",
+        "url": "rtmp://127.0.0.1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [116.45181754463944, 39.91584487468808]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "placeName": "光华SOHO",
+        "videoName": "监控27",
+        "date": "08:07:25",
+        "id": "27",
+        "status": "正常",
+        "url": "rtmp://127.0.0.1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [116.44568065041338, 39.91133529689739]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "placeName": "天辰大厦",
+        "videoName": "监控28",
+        "date": "08:21:29",
+        "id": "28",
+        "status": "正常",
+        "url": "rtmp://127.0.0.1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [116.42980540230722, 39.92703173840232]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "placeName": "青春汇馆",
+        "videoName": "监控29",
+        "date": "08:21:20",
+        "id": "29",
+        "status": "正常",
+        "url": "rtmp://127.0.0.1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [116.46697009041775, 39.92296721232697]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "placeName": "恒祥大厦",
+        "videoName": "监控30",
+        "date": "03:21:25",
+        "id": "30",
+        "status": "正常",
+        "url": "rtmp://127.0.0.1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [116.46027529671659, 39.92342798044572]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "placeName": "金台里小区",
+        "videoName": "监控31",
+        "date": "08:21:25",
+        "id": "31",
+        "status": "正常",
+        "url": "rtmp://127.0.0.1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [116.47113287880886, 39.91812895987135]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "placeName": "京朝大厦",
+        "videoName": "监控32",
+        "date": "07:21:25",
+        "id": "32",
+        "status": "正常",
+        "url": "rtmp://127.0.0.1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [116.46370274969952, 39.93302249671319]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "placeName": "农展宾馆",
+        "videoName": "监控33",
+        "date": "08:11:25",
+        "id": "33",
+        "status": "正常",
+        "url": "rtmp://127.0.0.1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [116.46235091635602, 39.93867408960992]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "placeName": "新大宗饭店",
+        "videoName": "监控34",
+        "date": "08:21:23",
+        "id": "34",
+        "status": "正常",
+        "url": "rtmp://127.0.0.1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [116.46196467825786, 39.944687135188644]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "placeName": "东大桥路小区",
+        "videoName": "监控35",
+        "date": "08:21:32",
+        "id": "35",
+        "status": "正常",
+        "url": "rtmp://127.0.0.1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [116.4433991017692, 39.91323286683766]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "placeName": "美居酒店",
+        "videoName": "监控36",
+        "date": "08:21:25",
+        "id": "36",
+        "status": "正常",
+        "url": "rtmp://127.0.0.1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [116.4367686810844, 39.91900952124635]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "placeName": "朝阳公园",
+        "videoName": "监控37",
+        "date": "08:24:25",
+        "id": "37",
+        "status": "正常",
+        "url": "rtmp://127.0.0.1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [116.47589919346878, 39.93934392040305]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "placeName": "吉利大厦",
+        "videoName": "监控38",
+        "date": "08:21:26",
+        "id": "38",
+        "status": "正常",
+        "url": "rtmp://127.0.0.1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [116.43194237583907, 39.915414914063575]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "placeName": "全国农业展览",
+        "videoName": "监控39",
+        "date": "09:21:25",
+        "id": "39",
+        "status": "正常",
+        "url": "rtmp://127.0.0.1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [116.45847925083932, 39.939989506313566]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "placeName": "朝安旅馆",
+        "videoName": "监控40",
+        "date": "04:21:25",
+        "id": "40",
+        "status": "正常",
+        "url": "rtmp://127.0.0.1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [116.45009062258752, 39.9257082009988]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "placeName": "科伦大厦",
+        "videoName": "监控41",
+        "date": "05:28:25",
+        "id": "41",
+        "status": "正常",
+        "url": "rtmp://127.0.0.1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [116.46049877346358, 39.91186960709186]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "placeName": "朝阳卫生局",
+        "videoName": "监控42",
+        "date": "09:44:25",
+        "id": "42",
+        "status": "正常",
+        "url": "rtmp://127.0.0.1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [116.47737706139554, 39.92675508676547]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "placeName": "金地国际花园",
+        "videoName": "监控43",
+        "date": "06:28:46",
+        "id": "43",
+        "status": "正常",
+        "url": "rtmp://127.0.0.1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [116.46832775781604, 39.90934836615622]
+      }
+    }
+  ]
+}

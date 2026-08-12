@@ -1,0 +1,44 @@
+{
+    "type": "FeatureCollection",
+    "features": [{
+      "properties": {
+        "year": 2015,
+        "output": 2000
+      },
+      "type": "Feature"
+    },
+    {
+        "properties": {
+          "year": 2016,
+          "output": 4000
+        },
+        "type": "Feature"
+    },
+    {
+        "properties": {
+          "year": 2017,
+          "output": 3000
+        },
+        "type": "Feature"
+    },
+    {
+        "properties": {
+          "year": 2018,
+          "output": 4000
+        },
+        "type": "Feature"
+    },
+    {
+        "properties": {
+          "year": 2019,
+          "output": 8000
+        },
+        "type": "Feature"
+    }
+   
+    
+    
+    
+    ]
+  }
+  

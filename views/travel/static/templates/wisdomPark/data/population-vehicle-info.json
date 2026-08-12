@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "features": [{
+    "properties": {
+      "role": "员工",
+      "Peoplenum": 790,
+      "Carnum": 89
+    },
+    "type": "Feature"
+  },
+  {
+    "properties": {
+      "role": "访客",
+      "Peoplenum": 118,
+      "Carnum": 255
+    },
+    "type": "Feature"
+  },
+  {
+    "properties": {
+      "role": "安保",
+      "Peoplenum": 19
+    },
+    "type": "Feature"
+  }]
+}

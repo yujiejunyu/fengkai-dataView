@@ -1,0 +1,109 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "犀牛海",
+        "subtitle": "树正沟景点-犀牛海",
+        "imgUrl": "./static/templates/jiuzhaigou/img/xiniuhai.png",
+        "description": "犀牛海是一-座长约2.2公里、 水深17米、海拔高度2400米、最深的地方可以达到40多米的天然湖泊。是树正沟最大的海子，水域开阔，湖面蓝得醉人，犀牛海也是九寨沟内景色变化最多的海子。清晨时分，山坡上云雾飘渺，有树林的影子倒映在水面，形成如梦似幻的奇观。"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.89125483150947, 33.190474732727324]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "老虎海",
+        "subtitle": "树正沟景点-老虎海",
+        "imgUrl": "./static/templates/jiuzhaigou/img/laohuhai.png",
+        "description": "老虎海海拔2298米，位于树正瀑布之上,深邃恬静，沉默中蕴蓄着暴烈，安谧中隐藏着桀骜。瀑声沉雄浑厚,宛若虎啸。深秋季节,湖岸山上层林尽染，姹紫嫣红的林木倒映在清澈的湖水中，犹如老虎身上斑斓的虎纹。"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.89243500347605, 33.194579050822384]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "树正瀑布",
+        "subtitle": "树正沟景点-树正瀑布",
+        "imgUrl": "./static/templates/jiuzhaigou/img/shuzhengpubu.png",
+        "description": "树正瀑布位于四川九寨沟风景名胜区树正沟中。它是入沟见到的第一一个瀑布，也是九寨沟四大瀑布中最小的一个。树正瀑布海拔2295米，高25米，瀑顶宽72米,元名海水沿湖堤奔突，被水中树丛分成数以千计的水束汇集到树正瀑顶。"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.8931270134019, 33.196064994616634]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "树正群海",
+        "subtitle": "树正沟景点-树正群海",
+        "imgUrl": "./static/templates/jiuzhaigou/img/shuzhengqunhai.png",
+        "description": "树正群海景区是九寨沟秀丽风景的大门。树正群海全长13.8公里，共有各种湖泊(海子) 40余个，约占九寨沟景区全部湖泊的40%。上部海子的水翻越湖堤，从树丛中溢出，激起白色的水花，在青翠中跳跳蹦蹦，穿梭奔窜。"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.89553581922793, 33.200385050128006]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "树正寨",
+        "subtitle": "树正沟景点-树正寨",
+        "imgUrl": "./static/templates/jiuzhaigou/img/shuzhengzhai.png",
+        "description": "树正寨是九寨沟九个藏族村寨中最大、最繁华的一个，九寨沟1000人中就有400多人居住于此。树正寨口的那九个白色的宝塔中最大的一个代表就是树正寨。这九座白塔被称为九宝莲花菩提塔，代表九个藏族村寨团结一致,向上苍祈求祥和幸福。"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.8937010102014, 33.20153894852442]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "卧龙海",
+        "subtitle": "树正沟景点-卧龙海",
+        "imgUrl": "./static/templates/jiuzhaigou/img/wolonghai.png",
+        "description": "卧龙海海拔2215米，深22米。小巧玲珑的卧龙海是蓝色湖泊典型的代表,极浓重的蓝色醉人心田。湖面水波不兴，宁静祥和，像一块光滑平整、晶莹剔透的蓝宝石。透过波平如镜的水面，一条乳白色钙华长堤横卧湖心,宛若一条"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.89844658022032, 33.20284352305306]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "火花海",
+        "subtitle": "树正沟景点-火花海",
+        "imgUrl": "./static/templates/jiuzhaigou/img/huohuahai.png",
+        "description": "火花海又称火花池，海拔2187米,深9米,位于四川阿坝州九寨沟双龙海与卧龙海之间，湛蓝色的水面上波平如镜。海子的四周是茂密的树林，湖水掩映在重重的翠绿之中，像是-块晶莹剔透的翡翠。阳光照耀在水面上,波光粼粼间，如火光闪耀。"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.89935853128539, 33.20559815171136]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "双龙海",
+        "subtitle": "树正沟景点-双龙海",
+        "imgUrl": "./static/templates/jiuzhaigou/img/shuanglonghai.png",
+        "description": "“双龙海在芦苇海之上，树正群海的瀑布群之下，透过晶莹的湖水，可以看到海中有两条带状的生物钙华礁堤隐隐潜伏于海底，活像两条蛟龙藏于海中，蠕蠕欲动，顾盼生风，随时要腾空而起，飞入苍穹。"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.89941753988371, 33.208291089562316]
+      }
+    }
+  ]
+}

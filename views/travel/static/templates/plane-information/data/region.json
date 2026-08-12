@@ -1,0 +1,50 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "properties": {
+          "战区": "东区",
+          "因素": "因素1",
+          "num":1,
+          "num2":1
+        },
+        "type": "Feature"
+      },
+      {
+        "properties": {
+          "战区": "南区",
+          "因素": "因素2",
+          "num":1,
+          "num2":2
+        },
+        "type": "Feature"
+      },
+      {
+        "properties": {
+          "战区": "西区",
+          "因素": "因素3",
+          "num":1,
+          "num2":3
+        },
+        "type": "Feature"
+      },
+      {
+        "properties": {
+          "战区": "北区",
+          "因素": "因素4",
+          "num":1,
+          "num2":4
+        },
+        "type": "Feature"
+      },
+      {
+        "properties": {
+          "战区": "中区",
+          "因素": "因素5",
+          "num":1,
+          "num2":5
+        },
+        "type": "Feature"
+      }
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+        "type":"急诊",
+        "income":"医疗收入",
+        "num":1
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+        "type":"普通门诊",
+        "income":"药品收入",
+        "num":2
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+        "type":"专家门诊",
+        "income":"挂号收入",
+        "num":2
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+        "type":"主任医师",
+        "income":"住院收入",
+        "num":3
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+        "type":"副主任医师",
+        "income":"门诊收入",
+        "num":2
+        }
+      }
+    ]
+}

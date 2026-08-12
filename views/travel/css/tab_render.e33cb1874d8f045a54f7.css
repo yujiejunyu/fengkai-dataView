@@ -1,0 +1,75 @@
+.sm-tabRender.sm-tabRender-editor .sm-component-tab>.vue-grid-layout {
+    pointer-events: none
+}
+
+.sm-tabRender.sm-tabRender-editor .sm-component-tab>.vue-grid-layout .vue-grid-item {
+    pointer-events: auto
+}
+
+.sm-tabRender.sm-tabRender-editor .sm-component-tab>.vue-grid-layout .sm-compoent-tabPage {
+    pointer-events: none
+}
+
+.sm-tabRender.sm-tabRender-editor .tabPage>.swiper-container {
+    overflow: visible !important
+}
+
+.sm-tabRender .swiper-container {
+    width: 100%;
+    height: 100%
+}
+
+.sm-tabRender .swiper-button-next:after,
+.sm-tabRender .swiper-button-prev:after {
+    content: ""
+}
+
+.sm-tabRender .swiper-button-next,
+.sm-tabRender .swiper-button-prev {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    pointer-events: auto;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: transparent 50% no-repeat;
+    z-index: 999;
+    top: 50%;
+    outline: none
+}
+
+.sm-tabRender .swiper-button-next .sm-component-icon,
+.sm-tabRender .swiper-button-prev .sm-component-icon {
+    color: inherit
+}
+
+.sm-tabRender .swiper-button-prev {
+    left: 2px
+}
+
+.sm-tabRender .swiper-button-next {
+    right: 2px
+}
+
+.sm-tabRender .swiper-button-next.swiper-button-disabled,
+.sm-tabRender .swiper-button-prev.swiper-button-disabled {
+    opacity: 0
+}
+
+.sm-tabRender .visible {
+    visibility: visible
+}
+
+.sm-tabRender .not-visible {
+    visibility: hidden;
+    pointer-events: none
+}
+
+.sm-tabRender .hidden {
+    display: none
+}
+
+.not-active-page .sm-tabRender .visible {
+    visibility: hidden
+}

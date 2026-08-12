@@ -1,0 +1,77 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "properties": {
+        "城市": "达州",
+        "品种": "二荆条",
+        "产量": 5029
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "城市": "资阳",
+        "品种": "太空椒",
+        "产量": 4003
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "城市": "广安",
+        "品种": "朝天椒",
+        "产量": 3098
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "城市": "凉山州",
+        "品种": "小米椒",
+        "产量": 2039
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "城市": "攀枝花",
+        "品种": "牛角椒",
+        "产量": 3011
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "城市": "内江",
+        "品种": "二荆条",
+        "产量": 2029
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "城市": "自贡",
+        "品种": "色素椒",
+        "产量": 1523
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "城市": "南充",
+        "品种": "灯笼椒",
+        "产量": 1450
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "城市": "遂宁",
+        "品种": "短指椒",
+        "产量": 929
+      },
+      "type": "Feature"
+    }
+  ]
+}

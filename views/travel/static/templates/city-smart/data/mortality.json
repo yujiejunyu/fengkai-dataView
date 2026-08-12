@@ -1,0 +1,39 @@
+{
+    "type": "FeatureCollection",
+    "features": [{
+      "properties": {
+        "year": "2016",
+        "mortalityRate": 18
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "year": "2017",
+        "mortalityRate": 88
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "year": "2018",
+        "mortalityRate": 43
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "year": "2019",
+        "mortalityRate": 67
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "year": "2020",
+        "mortalityRate": 27
+      },
+      "type": "Feature"
+    }]
+  }
+  

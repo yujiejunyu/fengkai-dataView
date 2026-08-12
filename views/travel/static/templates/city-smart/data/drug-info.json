@@ -1,0 +1,31 @@
+{
+  "type": "FeatureCollection",
+  "features": [{
+    "properties": {
+      "quarter": "一季度",
+      "drugPassRate": 85
+    },
+    "type": "Feature"
+  },
+  {
+    "properties": {
+      "quarter": "二季度",
+      "drugPassRate": 95
+    },
+    "type": "Feature"
+  },
+  {
+    "properties": {
+      "quarter": "三季度",
+      "drugPassRate": 80
+    },
+    "type": "Feature"
+  },
+  {
+    "properties": {
+      "quarter": "四季度",
+      "drugPassRate": 82
+    },
+    "type": "Feature"
+  }]
+}

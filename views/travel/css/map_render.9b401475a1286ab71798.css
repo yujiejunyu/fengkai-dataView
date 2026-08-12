@@ -1,0 +1,348 @@
+.input-number-holder {
+    position: relative;
+    width: 100%
+}
+
+.input-number-holder.unit-gap .sm-component-input-number-input {
+    padding-right: 38px
+}
+
+.input-number-holder .sm-setting-unit {
+    position: absolute;
+    right: 24px;
+    top: 2px;
+    margin-left: 0
+}
+
+.sm-setting-group input.sm-component-input {
+    height: 28px;
+    font-size: 12px
+}
+
+.sm-tdtKey-queren[data-v-436f1d25] {
+    color: green
+}
+
+.sm-tdtKey-error[data-v-436f1d25] {
+    color: red
+}
+
+.sm-setting-tdt-key[data-v-436f1d25] {
+    position: relative
+}
+
+.sm-setting-tdt-key .sm-setting-panel[data-v-436f1d25] {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0 12px 0 16px;
+    margin-bottom: 16px;
+    color: var(--text-color)
+}
+
+.sm-setting-tdt-key .sm-setting-tdt-icon[data-v-436f1d25] {
+    position: absolute;
+    top: 58%;
+    left: 90%
+}
+
+.sm-setting-resource[data-v-436f1d25] {
+    position: relative
+}
+
+.sm-setting-resource .sm-setting-panel[data-v-436f1d25] {
+    align-items: center
+}
+
+.sm-setting-resource .sm-setting-panel .sm-setting-panel__header[data-v-436f1d25] {
+    width: 35%
+}
+
+.sm-setting-resource .sm-setting-panel .sm-setting-panel__content[data-v-436f1d25] {
+    width: 65%
+}
+
+.sm-setting-resource .sm-setting-tdt-icon[data-v-436f1d25] {
+    position: absolute;
+    top: 28%
+}
+
+.sm-resource-selector .search-holder {
+    position: relative
+}
+
+.sm-resource-selector .search-holder .sm-component-input-search input.sm-component-input {
+    padding: 5px 12px 7px;
+    border: 1px solid var(--alpha15);
+    line-height: normal;
+    border-radius: 4px
+}
+
+.sm-resource-selector .search-holder .sm-component-input-search input.sm-component-input:hover {
+    border-color: var(--hover-color)
+}
+
+.sm-resource-selector .search-holder .sm-component-input-search input.sm-component-input:focus {
+    border: 1px solid var(--hover-color);
+    box-shadow: 0 0 0 2px var(--focus-shadow-color)
+}
+
+.sm-resource-selector .search-holder .sm-component-input-suffix {
+    display: none
+}
+
+.sm-resource-selector .search-holder .sm-mapdashboard-icon-search {
+    color: var(--alpha65);
+    position: absolute;
+    top: 8px;
+    right: 12px;
+    line-height: 16px;
+    font-size: 16px
+}
+
+.sm-resource-selector .search-holder .sm-mapdashboard-icon-search:hover {
+    cursor: pointer;
+    color: var(--hover-color)
+}
+
+.sm-resource-selector .sm-resource-selector__resource-info .sm-component-checkbox .sm-component-checkbox-inner {
+    background-color: transparent
+}
+
+.sm-resource-selector .sm-resource-selector__resource-info .sm-component-checkbox-checked .sm-component-checkbox-inner {
+    background-color: var(--primary-color)
+}
+
+.sm-resource-selector .sm-resource-selector__resource-info .sm-component-card-body {
+    border-radius: 0 0 4px 4px
+}
+
+.sm-resource-selector .sm-component-tabs-bar {
+    margin-bottom: 24px
+}
+
+.sm-resource-selector .internetMap-lebel {
+    position: absolute;
+    bottom: 20%;
+    padding: 14px 8px 6px 0;
+    background: linear-gradient(180deg, transparent, rgba(0, 0, 0, .45))
+}
+
+.sm-resource-selector .internetMap-lebel>.sm-setting-panel {
+    display: flex;
+    line-height: 20px;
+    font-size: 12px;
+    float: right;
+    color: #fff
+}
+
+.sm-resource-selector .internetMap-lebel>.sm-setting-panel>.sm-setting-panel__header {
+    margin-right: 6px !important
+}
+
+.sm-resource-selector__resource-info[data-v-8a1b4b9a] {
+    height: 100%;
+    min-height: 290px;
+    position: relative
+}
+
+.sm-resource-selector__resource-info .sm-resource-selector_update .cross-agent-holder[data-v-8a1b4b9a] {
+    margin-left: 24px
+}
+
+.sm-resource-selector__resource-info .sm-resource-selector__my-service[data-v-8a1b4b9a] {
+    padding-right: 5px
+}
+
+.sm-resource-selector__resource-info .sm-resource-selector__my-service .sm-setting-panel[data-v-8a1b4b9a] {
+    width: 80%
+}
+
+.sm-resource-selector__resource-info .sm-resource-selector__my-service .sm-component-select[data-v-8a1b4b9a] {
+    width: 38%
+}
+
+.sm-resource-selector__resource-info .sm-resource-selector__my-service:first-child input[data-v-8a1b4b9a] {
+    margin-top: 10px;
+    width: 100%
+}
+
+.sm-resource-selector__resource-info .sm-resource-selector__my-service .url-input[data-v-8a1b4b9a] {
+    display: flex;
+    align-items: center;
+    margin-top: 8px
+}
+
+.sm-resource-selector__resource-info .sm-resource-selector__my-service .url-input>span[data-v-8a1b4b9a] {
+    line-height: 22px;
+    margin-right: 16px
+}
+
+.sm-resource-selector__resource-info .sm-resource-selector__my-service .example-holder[data-v-8a1b4b9a] {
+    margin-top: 32px;
+    padding-left: 56px;
+    color: var(--alpha85)
+}
+
+.sm-resource-selector__resource-info .sm-resource-selector__my-service .example-holder>div p[data-v-8a1b4b9a]:last-child {
+    margin-bottom: 0
+}
+
+.sm-resource-selector__resource-info .sm-resource-selector__my-service .example-holder>div[data-v-8a1b4b9a]:last-child {
+    margin-top: 8px
+}
+
+.sm-resource-selector__resource-info .sm-resource-selector__my-service .example-holder>span[data-v-8a1b4b9a],
+.sm-resource-selector__resource-info .sm-resource-selector__my-service .example-holder h3[data-v-8a1b4b9a] {
+    color: var(--alpha85);
+    font-size: 14px;
+    margin-bottom: 8px
+}
+
+.sm-resource-selector__resource-info .sm-resource-selector__my-service .example-holder p[data-v-8a1b4b9a] {
+    margin-bottom: 10px
+}
+
+.sm-resource-selector__resource-info .sm-resource-selector__my-service .example-holder .see-more[data-v-8a1b4b9a] {
+    color: var(--primary-color);
+    cursor: pointer
+}
+
+.sm-resource-selector__resource-info .sm-resource-selector__my-service .cross-agent-holder[data-v-8a1b4b9a] {
+    padding-left: 56px;
+    margin-top: 12px
+}
+
+.sm-resource-selector__resource-info .empty-tip[data-v-8a1b4b9a] {
+    width: 104px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.sm-resource-selector__resource-info .empty-tip[data-v-8a1b4b9a] .sm-component-empty-normal {
+    margin: 0 8px
+}
+
+.sm-component-tabs-tabpane-inactive[data-v-8a1b4b9a] {
+    display: none !important
+}
+
+.cross-agent-holder .sm-component-checkbox-wrapper[data-v-8a1b4b9a] {
+    color: var(--alpha85)
+}
+
+.cross-agent-holder .sm-component-checkbox-wrapper i[data-v-8a1b4b9a] {
+    color: var(--alpha65)
+}
+
+.sm-component-col-6[data-v-8a1b4b9a] {
+    margin-bottom: 18px
+}
+
+.sm-component-card[data-v-8a1b4b9a] {
+    background: transparent;
+    border-color: var(--img-border-color);
+    height: 100%;
+    border-radius: 4px;
+    cursor: pointer
+}
+
+.sm-component-card.clicked[data-v-8a1b4b9a] {
+    border-color: var(--primary-color)
+}
+
+.sm-component-card .sm-multipages-icon[data-v-8a1b4b9a] {
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    text-align: center;
+    line-height: 24px;
+    width: 24px;
+    height: 24px;
+    border-radius: 2px;
+    background-color: var(--icon-bg)
+}
+
+.sm-component-card .sm-multipages-icon .sm-mapdashboard-icon-page-fill[data-v-8a1b4b9a] {
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    color: var(--l100)
+}
+
+[data-v-8a1b4b9a] .sm-component-card-cover {
+    height: 80%
+}
+
+[data-v-8a1b4b9a] .sm-component-card-cover img {
+    height: 100%
+}
+
+.sm-component-tabs-tabpane[data-v-8a1b4b9a] {
+    min-height: 120px;
+    overflow-y: auto;
+    overflow-x: hidden
+}
+
+.toolbar-holder .token[data-v-8a1b4b9a] {
+    float: left
+}
+
+.sm-template-mongolia[data-v-8a1b4b9a] {
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80%;
+    background: var(--resource-mongolia-bg);
+    border-radius: 4px 4px 0 0;
+    cursor: not-allowed;
+    color: var(--resource-mongolia-icon)
+}
+
+.sm-content-loading[data-v-8a1b4b9a] {
+    position: absolute;
+    left: calc(50% - 37px);
+    top: 50%;
+    z-index: 111
+}
+
+.map-mask {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .6;
+    background: #000
+}
+
+.btn-wrap {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100
+}
+
+.btn-wrap .customRenderButton {
+    color: #fff;
+    background-color: var(--dashboard-primary-color);
+    border-color: var(--dashboard-primary-color)
+}
+
+.btn-wrap button {
+    cursor: pointer
+}
+
+.btn-wrap .line {
+    border-right: 1px solid var(--alpha45);
+    height: 40px;
+    margin: 0 15px
+}

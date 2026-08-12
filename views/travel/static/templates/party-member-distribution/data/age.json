@@ -1,0 +1,61 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "properties": {
+        "age": "30以下",
+        "num": 1255.3
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "age": "31-35",
+        "num": 1112.6
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "age": "36-40",
+        "num": 939.0
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "age": "41-45",
+        "num": 876.0
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "age": "46-50",
+        "num": 938.2
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "age": "51-55",
+        "num": 867.1
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "age": "56-60",
+        "num": 833.7
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "age": "60以上",
+        "num": 2693.0
+      },
+      "type": "Feature"
+    }
+  ]
+}

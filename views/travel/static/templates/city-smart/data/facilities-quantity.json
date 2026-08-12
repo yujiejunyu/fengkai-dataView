@@ -1,0 +1,38 @@
+{
+  "type": "FeatureCollection",
+  "features": [{
+      "properties": {
+        "facilitiesName": "井盖",
+        "facilitiesNum": 30
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "facilitiesName": "路灯",
+        "facilitiesNum": 85
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "facilitiesName": "公厕",
+        "facilitiesNum": 58
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "facilitiesName": "转运站",
+        "facilitiesNum": 23
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "facilitiesName": "绿化带",
+        "facilitiesNum": 78
+      },
+      "type": "Feature"
+    }]
+}

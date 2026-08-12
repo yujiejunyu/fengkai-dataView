@@ -1,0 +1,62 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "properties": {
+          "职业": "工人",
+          "num": 648.1
+        },
+        "type": "Feature"
+      },
+      {
+        "properties": {
+          "职业": "技术人员",
+          "num": 1507.5
+        },
+        "type": "Feature"
+      },
+      {
+        "properties": {
+          "职业": "管理人员",
+          "num": 1061.2
+        },
+        "type": "Feature"
+      },
+      {
+        "properties": {
+          "职业": "农牧渔民",
+          "num": 2581.7
+        },
+        "type": "Feature"
+      },
+      {
+        "properties": {
+          "职业": "党政机关",
+          "num": 777.3
+        },
+        "type": "Feature"
+      },
+      {
+        "properties": {
+          "职业": "学生",
+          "num": 306.7
+        },
+        "type": "Feature"
+      },
+      {
+        "properties": {
+          "职业": "其他",
+          "num": 720.5
+        },
+        "type": "Feature"
+      },
+      {
+        "properties": {
+          "职业": "离退休",
+          "num": 1911.8
+        },
+        "type": "Feature"
+      }
+    ]
+  }
+  

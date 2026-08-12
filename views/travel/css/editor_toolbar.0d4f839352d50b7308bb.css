@@ -1,0 +1,119 @@
+.sm-setting-toolbar[data-v-f2589bc8] {
+    box-sizing: border-box;
+    background: var(--toolbar-bg);
+    color: var(--icon-color-third);
+    position: absolute;
+    z-index: 135;
+    display: flex;
+    font-size: 16px;
+    border: 1px solid var(--alpha15);
+    box-shadow: 0 2px 4px 0 var(--box-shadow);
+    border-radius: 2px
+}
+
+.sm-setting-toolbar>[data-v-f2589bc8] {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative
+}
+
+.sm-setting-toolbar>[data-v-f2589bc8]:not(.sm-setting-toolbar_move) {
+    cursor: pointer
+}
+
+.sm-setting-toolbar>[data-v-f2589bc8]:hover {
+    background: var(--toolbar-icon-hover-bg)
+}
+
+.sm-setting-toolbar .sm-setting-toolbar_layer[data-v-f2589bc8] .sm-component-dropdown-placement-topLeft,
+.sm-setting-toolbar .sm-setting-toolbar_layer[data-v-f2589bc8] .sm-component-dropdown-placement-topRight,
+.sm-setting-toolbar .sm-setting-toolbar_layout[data-v-f2589bc8] .sm-component-dropdown-placement-topLeft,
+.sm-setting-toolbar .sm-setting-toolbar_layout[data-v-f2589bc8] .sm-component-dropdown-placement-topRight {
+    top: auto !important;
+    bottom: -37.5px
+}
+
+.sm-setting-toolbar .sm-setting-toolbar_layer[data-v-f2589bc8] .sm-component-dropdown-placement-bottomLeft,
+.sm-setting-toolbar .sm-setting-toolbar_layer[data-v-f2589bc8] .sm-component-dropdown-placement-bottomRight,
+.sm-setting-toolbar .sm-setting-toolbar_layout[data-v-f2589bc8] .sm-component-dropdown-placement-bottomLeft,
+.sm-setting-toolbar .sm-setting-toolbar_layout[data-v-f2589bc8] .sm-component-dropdown-placement-bottomRight {
+    top: 3px !important
+}
+
+.sm-setting-toolbar .sm-setting-toolbar_layer[data-v-f2589bc8] .sm-component-dropdown-placement-bottomRight,
+.sm-setting-toolbar .sm-setting-toolbar_layer[data-v-f2589bc8] .sm-component-dropdown-placement-topRight,
+.sm-setting-toolbar .sm-setting-toolbar_layout[data-v-f2589bc8] .sm-component-dropdown-placement-bottomRight,
+.sm-setting-toolbar .sm-setting-toolbar_layout[data-v-f2589bc8] .sm-component-dropdown-placement-topRight {
+    left: auto !important;
+    right: 36px
+}
+
+.sm-setting-toolbar .sm-setting-toolbar_layer[data-v-f2589bc8] .sm-component-dropdown-placement-bottomLeft,
+.sm-setting-toolbar .sm-setting-toolbar_layer[data-v-f2589bc8] .sm-component-dropdown-placement-topLeft,
+.sm-setting-toolbar .sm-setting-toolbar_layout[data-v-f2589bc8] .sm-component-dropdown-placement-bottomLeft,
+.sm-setting-toolbar .sm-setting-toolbar_layout[data-v-f2589bc8] .sm-component-dropdown-placement-topLeft {
+    left: 36px !important
+}
+
+.sm-setting-toolbar .sm-setting-toolbar_disable[data-v-f2589bc8] {
+    color: var(--toolbar-icon-disable-color);
+    cursor: not-allowed
+}
+
+.sm-setting-toolbar .sm-setting-toolbar_disable .sm-component-dropdown-menu[data-v-f2589bc8],
+.sm-setting-toolbar .sm-setting-toolbar_disable .sm-component-dropdown[data-v-f2589bc8]:before {
+    display: none !important
+}
+
+.sm-setting-toolbar .sm-component-dropdown-menu[data-v-f2589bc8],
+.sm-setting-toolbar .sm-component-dropdown[data-v-f2589bc8]:before {
+    background: var(--toolbar-bg)
+}
+
+.sm-setting-toolbar .sm-component-dropdown[data-v-f2589bc8]:before {
+    opacity: 1
+}
+
+.sm-setting-toolbar .sm-component-dropdown[data-v-f2589bc8] {
+    box-shadow: 0 2px 4px 0 var(--box-shadow);
+    border-radius: 4px
+}
+
+.sm-setting-toolbar .sm-component-dropdown-menu[data-v-f2589bc8] {
+    padding: 0
+}
+
+.sm-setting-toolbar .sm-component-dropdown-menu-item[data-v-f2589bc8] {
+    padding: 3px 42px 3px 8px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: var(--toolbar-text-color)
+}
+
+.sm-setting-toolbar .sm-component-dropdown-menu-item i[data-v-f2589bc8] {
+    font-size: 15px;
+    margin-right: 5px
+}
+
+.sm-setting-toolbar .sm-component-dropdown-menu-item-active[data-v-f2589bc8] {
+    background: var(--select-hover-bg)
+}
+
+.sm-setting-toolbar .sm-component-dropdown-trigger .anticon-down[data-v-f2589bc8] {
+    margin-left: 5px
+}
+
+.sm-setting-toolbar .sm-component-dropdown-trigger[data-v-f2589bc8]:before {
+    content: "";
+    position: absolute;
+    right: 3px;
+    bottom: 3px;
+    width: 0;
+    height: 0;
+    border-top: 2px solid transparent;
+    border-right: 2px solid var(--icon-color-third);
+    border-bottom: 2px solid var(--icon-color-third);
+    border-left: 2px solid transparent
+}

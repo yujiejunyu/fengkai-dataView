@@ -1,0 +1,3099 @@
+{
+  "warning": {
+    "layerNotSupportData": "当前图层不支持该数据，请重新选择数据",
+    "switchFirstMD": "请切换到第一屏新增组件",
+    "onlyAddOneMDSwitch": "只能添加一个大屏切换组件",
+    "changeTemplate": "确定更换模板？",
+    "changeDashboard": "确定更换大屏？",
+    "downloading": "正在下载中，请稍后",
+    "wetherDeleteComponent": "删除后无法恢复，确定要删除该组件吗",
+    "retainInfo": "系统可能不会保留你的更改，且数据会被清空!",
+    "pleaseLogin": "请登录",
+    "inputUserInfo": "请输入用户名和密码",
+    "reLoginInfo": "登录状态已失效，请重新登录",
+    "noPowerToAccessPage": "您没有权限访问页面或者会话已经过期",
+    "deletePageConfirm": "确定要删除该页面吗？",
+    "deleteDataconfirm": "确定要删除该数据吗？",
+    "deleteActionconfirm": "确定要删除该交互配置吗？",
+    "changeDataDelAction": "删除该数据后，会删除相关交互，确定删除该数据吗？",
+    "switchTimeTypeDelAction": "修改类型会删除交互配置，确定修改吗？",
+    "dataAndInteraction": "修改数据可能会导致相关的交互不可用。",
+    "delDataAndInteraction": "删除数据可能会导致相关的交互不可用。",
+    "startTimeWarning": "请选择开始时间",
+    "endTimeWarning": "请选择结束时间",
+    "stepWarning": "请选择步长",
+    "categoryWarning": "请选择过滤项",
+    "enterUrl": "请输入合法的URL",
+    "customTime": "URL是否合法？若合法，请选择自定义时间段；否则，请输入合法的URL",
+    "comfirmCopyTip": "确定要复制吗？（默认不会复制交互配置）",
+    "unsupportedVideoAddress": "视频地址不合法",
+    "unsupportedPosterAddress": "封面地址不合法",
+    "unavailableVideo": "此视频暂无法播放，请稍后再试",
+    "mapNotLoaded": "关联的地图尚未加载完整，请稍后",
+    "unassociatedMap": "您需要配置关联地图！",
+    "videojs": "请引入video.js插件: https://github.com/videojs/video.js； 当播放rtmp时，安装flash相关插件：https://github.com/videojs/videojs-flash",
+    "flvPlayer": "请引入flv相关插件: https://github.com/bilibili/flv.js, https://github.com/mister-ben/videojs-flvjs",
+    "addMasterPageFromApplication": "是否添加该应用中的母版？",
+    "addMasterPageFromTemplate": "是否添加该模板中的母版？",
+    "addFirstPageAsMasterPageFromApplication": "该应用中没有母版，是否添加第一个页面为母版？",
+    "addThisPageAsMasterPageFromApplication": "该应用中没有母版，是否添加该页面为母版？",
+    "addFirstPageAsMasterPageFromTemplate": "该模板中没有母版，是否添加第一个页面为母版？",
+    "addThisPageAsMasterPageFromTemplate": "该模板中没有母版，是否添加该页面为母版？",
+    "deleteMasterPage": "该母版已被应用，确定删除吗？"
+  },
+  "success": {
+    "saveSuccess": "保存成功",
+    "loginSuccess": "登录成功",
+    "loadMDSuccess": "大屏加载成功",
+    "releaseSuccess": "发布成功",
+    "shareSuccess": "分享成功",
+    "permissionSuccess": "权限设置成功",
+    "copySucccess": "复制成功",
+    "timeSuccess": "时间设置成功，请在预览查看效果",
+    "pasteSucccess": "粘贴成功",
+    "pasteCoincideTip": "粘贴成功，与目标位置重合。",
+    "addDataSuccess": "添加数据成功"
+  },
+  "info": {
+    "useIpOpenMD": "请先将地址中的localhost(127.0.0.1)改成移动端能访问的IP地址",
+    "scanQRSaveMD": "扫码预览前，请先保存大屏",
+    "releaseSaveMD": "发布前，请先保存大屏",
+    "shareSaveMD": "分享前，请先保存大屏",
+    "saveMD": "保存",
+    "maximumLabels": "最多可添加6个标签",
+    "chooseExistingLabel": "选择已有标签",
+    "newLabel": "新建标签",
+    "noLabel": "暂无标签",
+    "savingMD": "正在保存大屏",
+    "loadingMD": "正在加载大屏",
+    "loading": "加载中",
+    "preferChrome": "为保证效果，建议使用 Chrome 浏览器",
+    "changeMap": "切换地图会清空交互配置，确认切换吗？",
+    "confirm": "确定",
+    "cancel": "取消",
+    "run": "快速运行",
+    "refresh": "刷新页面",
+    "noRemind": "不再提示",
+    "pleaseSelectNode": "请选择部门节点",
+    "noMembers": "该部门下没有用户",
+    "changeDarkSkin": "是否切换成深色皮肤",
+    "changeLightSkin": "是否切换成浅色皮肤",
+    "vconsole": "控制台",
+    "pressEscToExit": "按下 ESC 键或点击关闭按钮退出"
+  },
+  "error": {
+    "saveFailed": "保存失败",
+    "loadMDFailed": "大屏加载失败",
+    "LoginField": "用户名密码错误，请重试",
+    "releaseFailed": "发布失败",
+    "shareFailed": "分享失败",
+    "permissionFailed": "权限设置失败",
+    "copyFailed": "复制失败"
+  },
+  "comments": {
+    "beforeAppLoad": "应用加载前执行",
+    "appLoaded": "应用加载后执行",
+    "beforeComponentLoad": "组件加载前执行",
+    "componentLoaded": "组件加载后执行",
+    "beforeActionUpdate": "交互更新前执行",
+    "actionUpdated": "交互更新后执行",
+    "pageLoaded": "页面加载后执行"
+  },
+  "tab": {
+    "lockTab": "固定侧边栏",
+    "unlockTab": "解锁侧边栏",
+    "chooseTemplate": "模板选择",
+    "addedComponents": "已添加的组件",
+    "addComponents": "请添加组件",
+    "template": "模板",
+    "dashboards": "应用",
+    "pages": "页面",
+    "myDashboard": "我的大屏",
+    "publicDashboard": "公开大屏",
+    "allComponents": "全部组件",
+    "components": "组件",
+    "container": "布局",
+    "map": "地图",
+    "chart": "图表",
+    "base": "基础",
+    "data": "数据",
+    "tool": "工具",
+    "mapSubComponent": "地图子组件",
+    "customComponents": "自定义组件",
+    "geoKnowledgeMap": "地理知识图谱",
+    "addMap": "请先添加地图组件",
+    "autoLimitAddComponent": "自动模式下不能添加组件",
+    "customTip": "请参考 <a href='https://github.com/SuperMap/mapdashboard-custom-components/blob/master/README.md' target='_blank'>地图大屏自定义组件指南</a>",
+    "newTemplateInfo": "新建地图大屏，不会保存当前所做更改，请先保存。",
+    "saveAndNew": "保存并新建",
+    "newBuild": "新建",
+    "edit": "编辑",
+    "welcomeTip": "{userName}欢迎使用地图大屏",
+    "hideTemplate": "隐藏模板",
+    "expandTemplate": "展开模板",
+    "all": "全部",
+    "resource": "资源",
+    "wisdom": "智慧",
+    "environment": "环境",
+    "transportation": "交通",
+    "agriculture": "农业",
+    "electricity": "电力",
+    "statistics": "统计",
+    "medical": "医疗",
+    "education": "教育",
+    "tourism": "旅游",
+    "enterprise": "企业",
+    "partyPolicy": "党政",
+    "epidemic": "疫情"
+  },
+  "header": {
+    "browserPreview": "桌面端预览",
+    "mobilePreview": "手机端预览",
+    "padPreview": "平板端预览",
+    "preview": "预览",
+    "release": "发布",
+    "download": "下载",
+    "save": "保存",
+    "save-btn": "保 存",
+    "saveAs": "另存为",
+    "saveAndRelease": "保存并发布",
+    "saveAndPreview": "保存并预览",
+    "saveAndPermission": "保存并设置权限",
+    "setting": "设置",
+    "cancel": "取消",
+    "user": "用户",
+    "login": "登录",
+    "scanQR": "扫描二维码在移动端预览",
+    "userName": "用户名",
+    "password": "密码",
+    "description": "描述",
+    "title": "标题",
+    "label": "标签",
+    "h5": "H5 应用程序",
+    "exe": "桌面应用程序",
+    "permission": "权限设置",
+    "noPermission": "无权限",
+    "undo": "撤销",
+    "redo": "恢复",
+    "notUndo": "已无法撤销",
+    "notRedo": "已无法恢复",
+    "mapDashboard": "地图大屏",
+    "changeSkin": "切换皮肤",
+    "saveQuota": "保存配额",
+    "openCodeEditor": "打开低代码编辑器",
+    "notOpenCodeEditor": "仅PC端或自定义模式支持低代码编辑器",
+    "lowCodeTips": "在线扩展开发，点我试试"
+  },
+  "permissionModal": {
+    "allUserSearch": "所有用户可检索",
+    "allUserView": "所有用户可查看",
+    "allUserEdit": "所有用户可编辑",
+    "permissionPublic": "公开",
+    "permissionDepartament": "部门",
+    "permissionGroup": "群组",
+    "permissionUser": "用户",
+    "departmentName": "部门名称",
+    "groupName": "群组名称",
+    "canView": "可查看",
+    "canEdti": "可编辑",
+    "canSearch": "可检索",
+    "userIsNull": "用户名为空",
+    "userIsUnexit": "用户不存在",
+    "hasExit": "用户名已存在",
+    "permissionSearchUserPla": "请输入",
+    "addByUser": "通过昵称或用户名添加",
+    "addByGroup": "通过组织添加",
+    "addUser": "添加",
+    "clear": "全部清空",
+    "userName": "昵称(用户名)",
+    "handle": "操作",
+    "confirmDeleteUser": "确定删除列表中此用户",
+    "noPermission": "没有权限",
+    "noPermission1": "暂无权限访问，请登录或联系管理员",
+    "tips": "提示",
+    "newShow": "不再提示",
+    "link": "链接",
+    "shareLink": "分享链接",
+    "copy": "复制",
+    "sharePermission": "权限设置",
+    "cancel": "取消",
+    "confirm": "确定",
+    "permissionMapdashboard": "权限设置",
+    "permissionSetting": "权限",
+    "permissionToMedia": "分享给",
+    "permissionToWeChat": "分享给微信朋友",
+    "addDeptToUser": "添加{deptName}所选部门下的用户",
+    "addDept": "添加",
+    "alerdyAddDept": "该部门已添加",
+    "deleteDepartment": "删除",
+    "confirmDeleteDepartment": "确定删除列表中此部门",
+    "inputDept": "请输入部门",
+    "deptIsNull": "部门名为空",
+    "deptHasExit": "部门已存在",
+    "deptIsUnexit": "该部门不存在",
+    "AddedUser": "已添加用户",
+    "selectedDept": "已选择的部门：",
+    "addDepts": "添加部门",
+    "noData": "暂无数据",
+    "quotaOversize": "配额已达上限，请联系管理员提升配额或删除一些已创建的大屏以释放配额空间",
+    "quotaOversizeAndCantAddNew": "配额已达上限，不能新建",
+    "requestFailed": "请求失败"
+  },
+  "containerResource": {
+    "datas": "数据",
+    "insightsWorkspaces": "洞察",
+    "mapDashboards": "大屏",
+    "maps": "地图",
+    "scenes": "场景",
+    "services": "服务",
+    "resourceTitle": "更新共享",
+    "resourceTip": "由于下列资源的共享方式与该大屏不同，可能无法在共享后的大屏中正常展示，为避免上述问题，您可以在下方选择并更新资源的共享设置。",
+    "myResource": "我的资源",
+    "otherResource": "其他用户的资源",
+    "otherResourceTip": "下列资源的共享权限需联系资源所有者进行更改",
+    "name": "名称",
+    "dataType": "类型",
+    "owner": "所有者",
+    "updateStatus": "修改状态",
+    "successTip": "包含资源权限设置成功",
+    "partSuccessTip": "部分包含资源权限设置成功",
+    "errorTip": "包含资源权限设置失败",
+    "tryAgain": "重试",
+    "success": "成功",
+    "error": "失败"
+  },
+  "setting": {
+    "common": {
+      "gradual": "渐变",
+      "property": "属性",
+      "propertySettings": "{name}设置",
+      "title": "标题",
+      "gestureControl": "手势操作",
+      "gestureControlVideo": "手势视频",
+      "style": "样式",
+      "text": "文本",
+      "fontSize": "字体大小",
+      "fontColor": "字体颜色",
+      "fontSpace": "字体间距",
+      "fontWeight": "字体粗细",
+      "fontFamily": "字体",
+      "MicrosoftYaHei": "微软雅黑",
+      "SongStyle": "宋体",
+      "HeiStyle": "黑体",
+      "KaiStyle": "楷体",
+      "textAlign": "对齐方式",
+      "centered": "居中",
+      "leftAlignment": "左对齐",
+      "rightAlignment": "右对齐",
+      "topAlignment": "上对齐",
+      "bottomAlignment": "下对齐",
+      "backgroundColor": "背景颜色",
+      "backgroundImage": "背景图片",
+      "fillerColor": "填充颜色",
+      "size": "尺寸",
+      "width": "宽",
+      "height": "高",
+      "pixel": "像素",
+      "bolder": "加粗",
+      "normal": "标准",
+      "lighter": "纤细",
+      "ok": "确定",
+      "cancel": "取消",
+      "add": "添加",
+      "input": "请输入",
+      "select": "请选择",
+      "delete": "删除",
+      "change": "更改",
+      "noData": "无数据",
+      "label": "标注",
+      "dataType": "数据类型",
+      "staticData": "静态数据",
+      "percentType": "百分比类型",
+      "percentage": "0-1",
+      "percent": "0-100",
+      "dataService": "服务",
+      "serviceUrl": "服务地址",
+      "serviceUrlExample": "服务地址示例为",
+      "resopnseData": "响应数据格式示例为",
+      "timedRefresh": "定时刷新",
+      "requestInterval": "请求间隔",
+      "millliSecond": "毫秒",
+      "open": "开启",
+      "crossAgent": "使用iportal代理请求，因跨域无法访问时可勾选",
+      "refresh": "刷新",
+      "keyWord": "关键字",
+      "searchByKeyWords": "请输入关键字查询",
+      "noDataAvailable": "暂无数据",
+      "verifyKey": "验证Key",
+      "pleaseCheckKey": "请进行Key验证",
+      "canNotOpenAgain": "不能重复打开",
+      "data": "数据",
+      "autoPlay": "自动播放",
+      "center": "中心点",
+      "selectDashboard": "选择大屏",
+      "selectMap": "选择地图",
+      "addDataSource": "添加数据源",
+      "selectData": "选择数据",
+      "addData": "添加数据",
+      "thridServiceData": "查看三方服务介绍",
+      "thridServiceTimeData": "查看时序数据介绍",
+      "thridServiceTimeMap": "查看时序地图介绍",
+      "thridServiceTimeDataFilter": "查看数据过滤介绍",
+      "layer": "地图图层",
+      "publicData": "公开数据",
+      "myData": "我的数据",
+      "iportalData": "公开/我的数据",
+      "dataName": "名称",
+      "type": "类型",
+      "updateTime": "更新时间",
+      "example": "示例",
+      "martchUrl": "请输入地图服务或数据服务或地址匹配的URL",
+      "martchTimeUrl": "请输入时序数据的URL",
+      "matchIServerUrl": "请输入SuperMap iServer地图服务的URL",
+      "iServerRestMapUrl": "iServer REST 地图服务URL示例",
+      "iServerRestUrl": "iServer REST 服务 URL 示例",
+      "dataSource": "数据集",
+      "addressMatch": "地址匹配",
+      "graphMaps": "地理知识图谱",
+      "thridService": "三方服务",
+      "queryError": "查询有误",
+      "dataSourceNotSupportQuery": "当前数据集不支持查询",
+      "dataNotExist": "数据不存在或无法访问",
+      "notSupportAddressMatch": "暂不支持地址匹配服务",
+      "addressExisted": "地址已存在",
+      "notSupportThirdService": "暂不支持第三方服务",
+      "notSupportTime": "暂不支持时序数据/地图",
+      "notPubRestService": "当前数据未发布成REST地图服务或REST数据服务",
+      "timeDataPlease": "该组件只支持时序数据",
+      "timeMapPlease": "该组件只支持时序地图",
+      "onlySupportGraphMaps": "该组件只支持地理知识图谱服务",
+      "dataExisted": "当前数据已选择",
+      "pointStyle": "点样式",
+      "lineStyle": "线样式",
+      "areaStyle": "面样式",
+      "areaBorderStyle": "面边框样式",
+      "opacity": "透明度",
+      "color": "颜色",
+      "radius": "半径",
+      "borderRadius": "圆角半径",
+      "borderColor": "边框颜色",
+      "up": "上",
+      "down": "下",
+      "left": "左",
+      "right": "右",
+      "topLeft": "左上",
+      "topRight": "右上",
+      "bottomRight": "右下",
+      "bottomLeft": "左下",
+      "sideLineWidth": "边线宽度",
+      "sideLineOpacity": "边线透明度",
+      "sideLineColor": "边线颜色",
+      "lineWidth": "线宽度",
+      "arrange": "排列",
+      "vertical": "垂直",
+      "horizontal": "水平",
+      "gap": "间隙",
+      "clickAddImage": "点击添加",
+      "close": "关闭",
+      "save": "保存",
+      "relateMap": "关联地图",
+      "filterCondition": "过滤条件",
+      "maxReturnFeatures": "要素最大返回数",
+      "dataItem": "数据项",
+      "textExampleTip": "文本组件",
+      "textListExampleTip": "文本列表组件",
+      "chartExampleTip": "图表组件",
+      "indicatorExampleTip": "指标组件",
+      "progressExampleTip": "进度条(环)、水球组件",
+      "restExampleHeader": "服务响应数据的格式要求",
+      "exampleData": "示例数据：",
+      "exampleDatas": "时序地图",
+      "simpleSingle": " 简单格式（单要素）",
+      "simpleMultiple": "简单格式（多要素）",
+      "geojsonSingle": "GeoJSON格式（单要素）",
+      "geojsonMultiple": "GeoJSON格式（多要素）",
+      "timeMapExampleHeader": "如何提供时序地图服务",
+      "timeDataExampleHeader": "如何提供时序数据服务",
+      "geoJsonArrayExample": "GeoJSON Features 数组格式示例",
+      "geoJsonCollectionExample": "GeoJSON FeatureCollection 格式示例",
+      "geoJsonTimeDataExample": "简单格式",
+      "geoJsonTimeDataCollectionExample": "GeoJSON格式",
+      "iportalMap": "当前仅支持iPortal地图，返回结果必须有id和url。",
+      "filterBefore": "过滤前：",
+      "filterAfter": "过滤后：",
+      "elementObj": "单要素（对象）:",
+      "elementArray": "多要素（对象数组）:",
+      "elementArray1": "多要素（对象数组）",
+      "responseData": "时序数据响应结果：",
+      "timeDataTip": "MapDashboard支持两种格式的URL。",
+      "responseDataTipTitle": "时序数据响应结果格式",
+      "responseDataCategory": "时序数据响应结果分为简单格式和GeoJSON格式 ",
+      "responseDataTipKey": "时序数据响应结果应为对象，对象的键值（key）为 ",
+      "responseDataTipValue": "对象的value值可以是单要素（对象）或多要素（对象数组）",
+      "responseDataFilterTitle": "数据过滤",
+      "responseDataDescribtion": "当数据为多要素时，可配置数据过滤选项：过滤标识选择要素标识字段（下例中的“产品”），过滤项选择要素标识字段值（下例中的“iserver”），过滤出期望显示的要素。",
+      "timeDataParamsTitle": "时序数据的服务URL",
+      "timeDataParamsContent": "URL服务地址可以配置{start}，{end}，{step}占位符。例如：http://samples:/?start={start}&end={end}&step={step}",
+      "timeDataParamsConfig": "在配置中指定“最近时间参数”，MapDashboard会自动计算出“开始时间戳”，“结束时间戳”，“时间间隔”替换对应占位符。",
+      "historyTimeDataParamsContent": "任意URL",
+      "historyTimeDataParamsConfig": "在配置中指定“开始时间”、“结束时间”、“时间间隔”参数，使用全部或部分数据。",
+      "timeDataParamsDescribtion": "时序数据可配合时间轴组件使用，控制展示的数据范围，实现历史数据播放等场景。",
+      "simpleJsonExample": "JSON 格式示例",
+      "responseMapTipKey": "时序地图响应结果应为对象，对象的键值（key）为 ",
+      "timeMapParamsTitle": "时序地图的服务URL",
+      "timeMapResponseData": "时序地图响应结果",
+      "geoJsonTimeMapxample": "响应格式",
+      "responseMapTipTitle": "时序地图响应结果格式",
+      "timeaMapParamsDescribtion": "时序地图可配合时间轴组件使用，实现历史地图播放等场景。",
+      "restTip": "在 MapDashboard 中图表组件、文本组件、文本列表组件、进度条（环）组件、水球组件、指标组件支持对接自定义 REST 服务。响应数据格式要求如下：",
+      "geoJsonTip": "以上组件均支持 GeoJSON 格式",
+      "componentTip": "{name}组件也支持简单 JSON 格式",
+      "restExampleTip": "点击查看服务响应数据的格式要求",
+      "version": "版本",
+      "dataLoadingFailed": "数据加载失败",
+      "selectedData": "已选数据",
+      "dataSources": "数据来源",
+      "dataUpdatedFailed": "数据更新失败",
+      "requestDataFailed": "数据请求失败",
+      "notShowDSData": "不展示其他屏的数据",
+      "switchAuto": "启用此选项后，将与桌面端同步，现有组件和布局会丢失",
+      "switchCustom": "启用此选项后，您可以手动增加、删除、排列组件，不会与桌面端同步",
+      "desc": "当前为自定义模式，不会与桌面端同步，选择自动模式会同步组件和布局",
+      "copy": "复制",
+      "proxy": "代理请求",
+      "url": "URL",
+      "deploy": "配置",
+      "bindComponent": "绑定组件：",
+      "year": "年",
+      "month": "月",
+      "day": "天",
+      "hour": "小时",
+      "minute": "分钟",
+      "second": "秒",
+      "category": "过滤标识",
+      "categoryValue": "过滤项",
+      "filter": "数据过滤",
+      "interval": "间隔",
+      "play": "播放",
+      "timeData": "时间数据",
+      "startTime": "开始时间",
+      "endTime": "结束时间",
+      "value": "步长",
+      "timeDataService": "时序数据/地图",
+      "auto": "自动",
+      "custom": "自定义",
+      "none": "无",
+      "polling": "轮询",
+      "timing": "定时",
+      "internal": "间隔",
+      "threshold": "阈值",
+      "thresholdDisabledTip": "请至少填写一项",
+      "dataset": "数据集",
+      "rename": "重命名",
+      "timeLength": "最近时长",
+      "selectTime": "时间选择",
+      "unit": "单位",
+      "fixed": "历史",
+      "last": "实时",
+      "radiusInfo": "半径：如不指定，将采用各点默认半径",
+      "radiusStrokeInfo": "半径边线：如不指定，将采用各点默认半径边线",
+      "lineWidthInfo": "线宽度：如不指定，将采用各线默认宽度",
+      "onlyPointSupport": "动态图层只支持点数据",
+      "skin": "皮肤素材",
+      "border": "边框素材",
+      "degree": "度",
+      "background": "背景",
+      "duration": "持续时间",
+      "delay": "延时"
+    },
+    "animation": {
+      "type": "动画类型",
+      "entry": "进入动画",
+      "exit": "退出动画",
+      "direction": "动画方向",
+      "none": "无"
+    },
+    "material": {
+      "recentlyUsed": "最近使用",
+      "title": "标题",
+      "background": "背景",
+      "adorn": "装饰",
+      "arorn": "点缀",
+      "icon": "图标",
+      "border": "边框",
+      "dynamiFigure": "动图"
+    },
+    "board": {
+      "themeStyle": "主题风格",
+      "setting": "大屏设置",
+      "backgroundSetting": "背景设置",
+      "panel": "面板",
+      "others": "其他",
+      "components": "组件",
+      "animation": "动画"
+    },
+    "container": {
+      "borderType": "边框",
+      "isGradient": "渐变",
+      "direction": "方向",
+      "toTop": "向上",
+      "toBottom": "向下",
+      "toCircle": "中心",
+      "toLeft": "向左",
+      "toRight": "向右",
+      "toolBar": "工具条",
+      "fullScreenButton": "全屏按钮"
+    },
+    "chart": {
+      "xAxis": "X轴",
+      "yAxis": "Y轴",
+      "categoryField": "类别字段",
+      "valueField": "值字段",
+      "chartContent": "图表内容",
+      "animationDelay": "动画延迟",
+      "axisData": "数据",
+      "axisUnit": "单位",
+      "axisLine": "轴线",
+      "scale": "刻度",
+      "min": "最小值",
+      "max": "最大值",
+      "axisLean": "倾斜",
+      "label": "标签",
+      "labelStyle": "值样式",
+      "showLabel": "显示标签",
+      "valueLabel": "值标签",
+      "default": "默认",
+      "dataName": "数据名",
+      "dataValue": "数据值",
+      "percent": "百分比",
+      "gridLine": "网格线",
+      "solid": "实线",
+      "dashed": "虚线",
+      "dotted": "点线",
+      "formatter": "显示格式",
+      "dataContent": "数据内容",
+      "legend": "图例",
+      "dataStack": "堆叠",
+      "statistic": "统计数据",
+      "smoothBrokenLine": "折线圆滑",
+      "areaStyle": "区域填充",
+      "axisBlank": "留白",
+      "displayData": "展示数量",
+      "all": "全部",
+      "barWidth": "柱宽",
+      "barWidthInfo": "柱条宽度，为 0 时自适应",
+      "labelPosition": "位置",
+      "noLabel": "不显示标签",
+      "inside": "内部",
+      "outside": "外部",
+      "smart": "智能显示",
+      "legendPosition": "位置",
+      "margin": "边距",
+      "gradual": "渐变",
+      "chartColor": "色带",
+      "promptText": "提示文字",
+      "promptInfo": "鼠标滑动时，环形图中心文字大小",
+      "startAngle": "起始角度",
+      "innerRadius": "内半径",
+      "outerRadius": "外半径",
+      "sort": "排序",
+      "sortType": "排序",
+      "unsort": "不排序",
+      "ascending": "升序",
+      "descending": "降序",
+      "associatedMap": "关联地图",
+      "associatedMapInfo": "点击图表项定位到地图，仅当有坐标的数据才能与地图联动",
+      "orderYField": "字段",
+      "nodeStyle": "节点样式",
+      "showAllNodes": "显示所有节点",
+      "symbolType": "类型",
+      "size": "大小",
+      "color": "颜色",
+      "width": "宽度",
+      "symbolBorderWidth": "描边宽度",
+      "symbolBorderColor": "描边颜色",
+      "hollowCircle": "空心圆",
+      "solidCircle": "实心圆",
+      "on": "开",
+      "auto": "自动",
+      "off": "关",
+      "areaZoom": "区域缩放",
+      "startRange": "起始范围",
+      "endRange": "结束范围",
+      "dataZoomTip": "自动表示当显示数据大于100条时开启区域缩放",
+      "showTick": "显示",
+      "timestamp": "时间戳",
+      "area": "面积",
+      "centerAngle": "圆心角",
+      "areaDesc": "所有扇区圆心角相同，仅通过半径展现数据大小",
+      "centerAngleDesc": "扇区圆心角展现数据的百分比，半径展现数据的大小",
+      "direction": "方向",
+      "clockwise": "顺时针",
+      "antiClockwise": "逆时针",
+      "displayMode": "显示模式",
+      "highlightStyle": "高亮颜色",
+      "value": "数值",
+      "rank": "排名",
+      "showRank": "显示排名",
+      "labelMargin": "标签间距",
+      "innerColor": "内环颜色",
+      "outerGap": "外环间隔",
+      "innerCircle": "内环"
+    },
+    "gauge": {
+      "axis": "刻度",
+      "length": "长",
+      "distance": "距离",
+      "splitLine": "分割线",
+      "splitNumber": "分割段数",
+      "axisLabel": "标签",
+      "axisLine": "轴线",
+      "pointer": "指针",
+      "show": "显示",
+      "data": "数值",
+      "angle": "角度",
+      "startAngle": "起始",
+      "endAngle": "结束",
+      "inCircle": "内圈",
+      "trailColor": "底色",
+      "outLoopLine": "外环线",
+      "titleText": "标题内容",
+      "effect": "外观",
+      "point": "圆点",
+      "aboutAngle": "关于角度",
+      "angleExplain": "圆心正左侧为180度，正上方为90度，正右侧为0度。"
+    },
+    "liquidFill": {
+      "waveStyle": "波浪样式",
+      "percent": "百分比",
+      "waveNum": "波浪数",
+      "waveAnimation": "波浪动画",
+      "waveInsideFontColor": "波内字体颜色",
+      "waveOutsideFontColor": "波外字体颜色",
+      "fillColor": "填充色",
+      "waveColor": "波浪颜色",
+      "borderColor": "边框颜色",
+      "decimalDigits": "小数位数",
+      "auto": "自动"
+    },
+    "progress": {
+      "percent": "百分比",
+      "size": "大小",
+      "lineWidth": "线宽",
+      "currentState": "当前状态",
+      "normal": "正常",
+      "exception": "异常",
+      "success": "成功",
+      "active": "活跃",
+      "color": "颜色",
+      "trailColor": "底色"
+    },
+    "indicator": {
+      "indicator": "指标",
+      "titleAndUnit": "标题和单位",
+      "show": "显示",
+      "unit": "单位",
+      "decimalDigits": "小数位数",
+      "millimeter": "千分符",
+      "clickAddImage": "点击添加",
+      "delimiterBackground": "分隔符背景",
+      "digitalAnimation": "数字动画",
+      "animationDuration": "动画时长",
+      "auto": "自动",
+      "custom": "自定义",
+      "chooseField": "选择字段",
+      "value": "数值",
+      "background": "背景"
+    },
+    "text": {
+      "textContent": "文本内容",
+      "lineHeight": "字体行高",
+      "textIndent": "首行缩进",
+      "linkAddress": "超链接",
+      "linkTarget": "跳转窗口",
+      "newWindow": "新窗口打开",
+      "selfWindow": "当前窗口打开",
+      "parentWindow": "父窗口打开",
+      "topWindow": "top窗口打开",
+      "multiples": "倍数",
+      "highlightStyle": "高亮样式"
+    },
+    "textList": {
+      "listContents": "列表内容",
+      "linkAddress": "超链接",
+      "image": "图片",
+      "tableHeader": "表头",
+      "dataColumn": "数据列",
+      "columnWidth": "列宽",
+      "row": "行",
+      "sort": "排序",
+      "defaultSort": "默认排序",
+      "prefix": "前缀",
+      "suffix": "后缀",
+      "sortArrowBgColor": "默认颜色",
+      "sortArrowSelectColor": "选中颜色",
+      "rowHeight": "行高",
+      "oddBackground": "奇行背景颜色",
+      "evenBackground": "偶行背景颜色",
+      "headerHeight": "表头高度",
+      "columnWidthTip": "数值为 0 时将自适应",
+      "scrollOneByOne": "逐条滚动",
+      "rowsNumber": "行数",
+      "listStyle": "列表风格",
+      "cell": "单元格",
+      "segmentValue": "分段值",
+      "styleType": "风格类型",
+      "ascend": "升序",
+      "descend": "降序",
+      "notSort": "不排序",
+      "sortArrow": "排序箭头",
+      "highlightStyle": "高亮颜色",
+      "display": "显示",
+      "highlight": "高亮"
+    },
+    "timeText": {
+      "timeType": "时间类型",
+      "dateSecondWeek": "日期+时分秒+星期",
+      "dateSecond": "日期+时分秒",
+      "date": "日期"
+    },
+    "icon": {
+      "selectIcon": "选择图标",
+      "clear": "清除"
+    },
+    "image": {
+      "custom": "自定义",
+      "material": "素材库",
+      "imageAddress": "图片地址",
+      "uploadImage": "上传图片",
+      "imageRepetition": "图片重复",
+      "center": "不重复，居中",
+      "noRepeat": "不重复，拉伸满",
+      "repeatXY": "水平和垂直重复",
+      "repeatX": "水平重复",
+      "repeatY": "垂直重复",
+      "linkAddress": "超链接",
+      "linkTarget": "跳转窗口",
+      "newWindow": "新窗口打开",
+      "selfWindow": "当前窗口打开",
+      "parentWindow": "父窗口打开",
+      "topWindow": "top窗口打开"
+    },
+    "videoPlayer": {
+      "window": "窗口",
+      "videoAddress": "视频地址",
+      "posterAddress": "封面地址",
+      "loopPlay": "循环",
+      "autoplay": "自动",
+      "default": "默认",
+      "popupToPlay": "弹窗",
+      "fullScreenPlay": "全屏",
+      "ratio": "比例",
+      "origin": "原始",
+      "fullFill": "铺满",
+      "controlBar": "控制条",
+      "muted": "静音",
+      "style": "样式",
+      "supportTypeTip": "支持视频格式<br> HTML5模式: mp4/webm/ogg/flv/m3u8<br>Flash模式: rtmp <br>"
+    },
+    "iframe": {
+      "iframeAddress": "url"
+    },
+    "slideshow": {
+      "content": "内容",
+      "addContent": "添加内容",
+      "autoplay": "自动播放",
+      "loop": "循环",
+      "direction": "方向",
+      "horizontal": "水平",
+      "vertical": "垂直",
+      "reverseDirection": "反向播放",
+      "switch": "切换",
+      "swiperButton": "按钮",
+      "effect": "效果",
+      "effectType": "类型",
+      "classic": "经典",
+      "cube": "方块",
+      "turnPage": "翻页",
+      "spin": "旋转",
+      "control": "控制",
+      "mousewheel": "鼠标",
+      "keyboard": "键盘",
+      "pagination": "分页",
+      "paginationType": "样式",
+      "bullets": "圆点",
+      "fraction": "分式",
+      "progressbar": "进度条",
+      "paddingTop": "上边距",
+      "paddingBottom": "下边距",
+      "paddingLeft": "左边距",
+      "paddingRight": "右边距",
+      "title": "幻灯片"
+    },
+    "dashboardSwitch": {
+      "selectMD": "选择大屏",
+      "myMD": "我的大屏",
+      "addMD": "新增大屏",
+      "MDSwitch": "大屏切换",
+      "publicMD": "公开大屏",
+      "style": "样式",
+      "type": "类型",
+      "btnType": "按钮类型",
+      "border": "边框",
+      "borderColor": "颜色",
+      "activeBorderColor": "选中颜色",
+      "imageRepeat": "图片重复",
+      "offset": "偏移",
+      "imageBackground": "背景图片",
+      "underscoreColor": "下划线颜色",
+      "horizon": "水平",
+      "vertical": "垂直",
+      "stretchAndFill": "拉伸，铺满",
+      "noStretch": "不拉伸",
+      "nostretchAndFill": "不拉伸，铺满",
+      "selectBackground": "选中背景",
+      "selectColor": "选中颜色",
+      "btn": "按钮",
+      "line": "下划线",
+      "default": "默认",
+      "uploadImage": "上传图片",
+      "imageAddress": "图片地址",
+      "selectScreenBackground": "选中背景"
+    },
+    "nav": {
+      "content": "内容",
+      "navItem": "导航项",
+      "linkAddress": "超链接",
+      "title": "标题",
+      "name": "名称",
+      "skin": "皮肤",
+      "selectSkin": "选择皮肤",
+      "customImage": "自定义",
+      "navBackgroundImage": "背景图片",
+      "activeBackgroundImage": "高亮图片",
+      "selectColor": "选中颜色",
+      "position": "位置",
+      "left": "左",
+      "center": "中",
+      "right": "右",
+      "addTemplate": "添加大屏",
+      "selectTemplate": "选择大屏",
+      "addLink": "添加链接",
+      "float": "浮动"
+    },
+    "webScene": {
+      "scene": "场景",
+      "sceneName": "场景名",
+      "selectScene": "选择场景",
+      "publicScene": "公开场景",
+      "myScene": "我的场景",
+      "scanning": "扫描",
+      "cirlceScan": "圆形扫描",
+      "lineScan": "线形扫描",
+      "scanCycle": "扫描周期",
+      "scanSpeed": "扫描速度",
+      "selectScanCenter": "点击选择扫描中心点",
+      "longitude": "经度",
+      "latitude": "纬度",
+      "height": "高度",
+      "pitch": "俯仰角",
+      "heading": "偏航角",
+      "roll": "翻转角",
+      "orientation": "方位",
+      "coordinate": "坐标"
+    },
+    "videoPlus": {
+      "address": "视频地址",
+      "loopPlay": "循环播放",
+      "autoplay": "自动播放",
+      "videoWidth": "视频宽度",
+      "videoHeight": "视频高度",
+      "size": "宽高",
+      "onlyWorkInPreview": "只在预览模式生效",
+      "supportTypeTip": "支持视频格式 HTML5模式: mp4/flv/m3u8"
+    },
+    "webMap": {
+      "map": "地图",
+      "mapName": "地图名",
+      "selectMap": "选择地图",
+      "myMap": "我的地图",
+      "publicMap": "公共地图",
+      "internetMap": "互联网地图",
+      "service": "服务",
+      "onlineMap": "SuperMap Online 地图",
+      "renderWorldCopies": "连续渲染地图",
+      "other": "其他",
+      "longitude": "经度",
+      "latitude": "纬度",
+      "zoomLevel": "缩放级别",
+      "bearing": "旋转角度",
+      "pitch": "倾角",
+      "rasterTileSize": "栅格瓦片大小",
+      "pleaseSelectMap": "请选择地图",
+      "subComponent": "子组件",
+      "zoom": "缩放",
+      "pan": "平移",
+      "scale": "比例尺",
+      "miniMap": "鹰眼图",
+      "layerlist": "图层列表",
+      "mapMeasure": "量算",
+      "legend": "图例",
+      "dataQuery": "数据查询",
+      "poiSearch": "POI搜索",
+      "identify": "点选查询",
+      "layerManager": "图层管理",
+      "compass": "指南针",
+      "coordinateConversion": "坐标转换",
+      "fillExtrusion": "三维拉伸",
+      "layerColor": "图层颜色",
+      "Attributes": "属性表",
+      "subLayer": "子图层",
+      "addLayer": "添加图层",
+      "dynamicMarkupLayer": "动态标记图层",
+      "trackLayer": "轨迹图层",
+      "selectedData": "已选数据",
+      "layerName": "图层名",
+      "highlightColor": "高亮颜色",
+      "diameter": "直径",
+      "showField": "显示字段",
+      "notShowField": "不显示字段",
+      "breathingAperture": "呼吸光圈",
+      "haloRing": "发光的光环",
+      "diffusedAperture": "扩散的点",
+      "rotatingTextBorder": "旋转的文本框",
+      "rotatingAperture": "旋转的光环",
+      "fluorescence": "荧光点",
+      "subTdtComponent": "天地图子组件",
+      "tdtRoute": "路线规划",
+      "tdtMapSwitcher": "地图切换",
+      "key": "天地图服务许可(key)",
+      "keyInfo": "点击获取天地图服务许可(key)",
+      "validSucceed": "验证成功",
+      "validFailed": "非法key",
+      "pleaseCorrectToken": "请输入正确的天地图服务许可(key)",
+      "tdtSearch": "POI搜索",
+      "closeComponentSetting": "关闭组件配置",
+      "openComponentSetting": "展开组件配置",
+      "hide": "隐藏",
+      "display": "显示",
+      "configKey": "配置正确的key",
+      "notAllowedSelectSameMap": "不能再次选中相同地图",
+      "notMatchCurrentProjection": "与当前地图投影不匹配，无法叠加",
+      "crsNotSupport": "不支持当前地图的坐标系",
+      "fixedMap": "固定地图",
+      "fixedMapTip": "只在预览模式生效",
+      "fixed": "固定",
+      "unFixed": "不固定",
+      "fixedInMobile": "移动端固定",
+      "inValidDataTip": "数据与当前图层专题字段不匹配",
+      "mergeByField": "空间关联",
+      "mergeTip": "当数据只有属性信息时，可指定数据标识字段（比如SMID）用于与原有空间信息关联。",
+      "makeMapOnline": "在线制图",
+      "layerStyle": "要素样式",
+      "highlightLayerStyle": "高亮样式",
+      "trackLine": "轨迹线",
+      "trackLineDisplay": "绘制类型",
+      "tailLine": "尾迹",
+      "all": "所有",
+      "millimeter": "毫米",
+      "centimeter": "厘米",
+      "meter": "米",
+      "modelFontAxis": "正面朝向",
+      "modelBottomAxis": "底部朝向",
+      "scaleRatio": "缩放比例",
+      "followCamera": "镜头跟随",
+      "image": "图片",
+      "address": "地址",
+      "timeDataTip": "仅支持时序数据"
+    },
+    "ncpMap": {
+      "origin": "来源",
+      "layerName": "图层名",
+      "dataUrlExample": "示例：http://{server}:{port}/provinces.geojson"
+    },
+    "drillMap": {
+      "goBack": "返回",
+      "data": "数据配置",
+      "selectMap": "选择地图",
+      "selectLayer": "选择图层",
+      "relatedFieldTip": "关联当前图层的字段",
+      "fieldTip": "关联上一级图层的字段",
+      "sameLayerTip": "同一副地图不能选相同图层，请选择不同的图层",
+      "layerOrder": "第{index}层：",
+      "addDrillMapLayer": "添加钻取图层"
+    },
+    "openFile": {
+      "fitBounds": "跳转范围",
+      "clearLastLayer": "清除上一个图层",
+      "confirmMessage": "信息提示",
+      "btnStyle": "按钮",
+      "text": "文字",
+      "filletSize": "圆角大小",
+      "openFileType": "打开文件类型",
+      "openLayerStyle": "打开图层样式",
+      "renderToMap": "渲染到地图",
+      "supportFileType": "支持打开的文件类型"
+    },
+    "control": {
+      "position": "位置",
+      "leftTop": "左上",
+      "rightTop": "右上",
+      "leftBottom": "左下",
+      "rightBottom": "右下",
+      "positionLabel": "图标位置"
+    },
+    "card": {
+      "isCollapse": "默认折叠",
+      "iconClass": "折叠图标",
+      "autoRotate": "图标旋转",
+      "autoRotateTip": "指面板展开或者折叠过程中图标是否旋转"
+    },
+    "zoom": {
+      "slideBar": "滑动条"
+    },
+    "coordinateConversion": {
+      "isShowLocation": "显示定位"
+    },
+    "pan": {
+      "step": "步距"
+    },
+    "scale": {
+      "unit": "单位",
+      "maxWidth": "最大宽度",
+      "imperial": "英制",
+      "metric": "公制",
+      "nautical": "海航"
+    },
+    "measure": {
+      "defaultUnit": "单位",
+      "distanceDefaultUnit": "长度",
+      "areaDefaultUnit": "面积",
+      "selectUnit": "显示单位选择框",
+      "kilometers": "千米",
+      "miles": "英里",
+      "meters": "米",
+      "yards": "码",
+      "feet": "英尺",
+      "squarekilometers": "平方千米",
+      "squaremiles": "平方英里",
+      "squaremeters": "平方米",
+      "squareyards": "平方码",
+      "squarefeet": "平方英尺"
+    },
+    "legend": {
+      "layersShowingLegend": "选择图层",
+      "legendTitle": "图例标题",
+      "legendStyle": "图例样式",
+      "showLayerName": "图层名",
+      "showTopicField": "专题字段",
+      "withPanels": "有面板",
+      "withoutPanels": "无面板"
+    },
+    "query": {
+      "addQuerySource": "添加查询源",
+      "querySource": "查询源",
+      "queryResultStyle": "查询结果样式"
+    },
+    "search": {
+      "searchSource": "搜索源",
+      "addSearchSource": "添加搜索源",
+      "maxReturnData": "最大返回数",
+      "openOnlineSearch": "Online本地搜索"
+    },
+    "identify": {
+      "fields": "显示字段",
+      "layerId": "查询图层",
+      "identifyStyle": "选中要素高亮样式",
+      "widthAutoResize": "宽度自适应",
+      "style": "弹窗样式",
+      "keyMaxWidth": "字段列最大宽度",
+      "valueMaxWidth": "值列最大宽度",
+      "keyWidth": "字段列宽度",
+      "valueWidth": "值列宽度"
+    },
+    "layerManager": {
+      "defaultExpandWay": "默认展开方式",
+      "createGroup": "新建分组",
+      "createMap": "新建地图",
+      "defaultExpand": "默认展开分组",
+      "mapVertexForbidAddNewVertex": "地图节点下不能再新增子节点",
+      "newVertexWillAddToNextOfSelectedVertex": "当选中节点时将添加到下一级",
+      "rightClickVertextRename": "右键点击节点进行重命名",
+      "vertextSupportDrag": "节点支持拖拽",
+      "map": "地图",
+      "group": "分组",
+      "title": "图层管理"
+    },
+    "compass": {
+      "pitchAngle": "俯仰角度"
+    },
+    "layerColor": {
+      "capture": "开启捕捉"
+    },
+    "layerList": {
+      "attributes": "属性表",
+      "attributesContainer": "容器",
+      "map": "地图",
+      "container": "布局",
+      "dashboard": "大屏"
+    },
+    "attributes": {
+      "dataName": "数据名",
+      "header": "头部",
+      "tableHeader": "表头",
+      "content": "内容",
+      "toolbar": "工具条",
+      "options": "功能",
+      "border": "边框",
+      "pagination": "分页",
+      "pageSize": "默认的每页条数",
+      "defaultCurrent": "默认的当前页数",
+      "refresh": "刷新数据选项",
+      "zoomToFeatureOption": "缩放到要素选项",
+      "clearSelected": "清除选中要素选项",
+      "columnsControl": "列的显示隐藏选项",
+      "associateWithMap": "关联地图",
+      "associateWithMapEnabled": "启用",
+      "featureHandle": "要素操作",
+      "centerToFeature": "居中",
+      "zoomToFeature": "缩放至",
+      "statistics": "统计",
+      "total": "总数",
+      "select": "选中数量",
+      "title": "标题",
+      "defaultTitle": "默认为数据来源的名称",
+      "width": "宽度",
+      "height": "高度",
+      "defaultHeight": "最小高度为34px",
+      "column": "列",
+      "display": "显示",
+      "highlightLayerStyle": "高亮样式",
+      "search": "搜索"
+    },
+    "tab": {
+      "switch": "切换",
+      "noSwiping": "滑动切换",
+      "showSwiperButton": "切换按钮",
+      "direction": "方向",
+      "horizontal": "水平",
+      "vertical": "垂直",
+      "swiperBtnStyle": "切换按钮颜色"
+    },
+    "tabHeader": {
+      "tabPage": "标签页",
+      "tabType": "标签类型",
+      "labelStyle": "标签样式",
+      "shadowStyle": "阴影样式",
+      "label": "标签",
+      "borderStyle": "边框样式",
+      "switch": "开关",
+      "btn": "按钮",
+      "line": "下划线",
+      "highlightColor": "高亮字体颜色",
+      "highlightBackground": "高亮背景",
+      "background": "背景颜色",
+      "color": "字体颜色",
+      "direction": "方向",
+      "horizontal": "水平",
+      "vertical": "垂直",
+      "border": "边框",
+      "borderType": "边框类型",
+      "borderColor": "边框颜色",
+      "borderWidth": "边框宽度",
+      "font": "文字样式",
+      "noBorder": "无边框",
+      "dotted": "点线",
+      "dashed": "虚线",
+      "solid": "实线",
+      "double": "双实线",
+      "borderRadius": "圆角",
+      "topLeftRadius": "左上角",
+      "topRightRadius": "右上角",
+      "bottomLeftRadius": "左下角",
+      "bottomRightRadius": "右下角",
+      "boxshadow": "阴影",
+      "hShadow": "x偏移",
+      "vShadow": "y偏移",
+      "blur": "模糊距离",
+      "spread": "扩散半径",
+      "shadowColor": "阴影颜色",
+      "margin": "间隔",
+      "marginTop": "上边距",
+      "marginBottom": "垂直间隔",
+      "marginLeft": "左边距",
+      "marginRight": "水平间隔"
+    },
+    "dataSwitcher": {
+      "dataName": "数据名",
+      "disabledTip": "指标名和数据来源请填写完整",
+      "iconTip": "数据源返回内容格式需保持一致",
+      "maxHeight": "最大高度",
+      "selectioBox": "选择框",
+      "label": "数据"
+    },
+    "compare": {
+      "axisStyle": "轴样式",
+      "sliderStyle": "滑块样式"
+    },
+    "timeRange": {
+      "time": "时间",
+      "step": "步长",
+      "start": "开始时间",
+      "end": "结束时间",
+      "data": "关联数据",
+      "interval": "间隔",
+      "autoPlay": "自动播放",
+      "play": "播放",
+      "times": "自定义时间段",
+      "timeType": "时间类型",
+      "dataType": "数据类型",
+      "timeData": "时序数据",
+      "timeMap": "时序地图",
+      "lastMinutes": "最近{time}分钟",
+      "lastHours": "最近{time}小时",
+      "lastDays": "最近{time}天",
+      "formatter": "格式",
+      "labelStyle": "轴标签"
+    },
+    "timeLine": {
+      "times": "时间段",
+      "time": "时间",
+      "step": "步长",
+      "start": "开始时间",
+      "end": "结束时间",
+      "data": "关联数据",
+      "interval": "间隔",
+      "autoPlay": "自动播放",
+      "play": "播放",
+      "lineStyle": "轴",
+      "labelStyle": "轴标签",
+      "width": "宽度",
+      "dotted": "点线",
+      "dashed": "虚线",
+      "solid": "实线",
+      "double": "双实线",
+      "type": "线类型",
+      "controlBtn": "控制按钮",
+      "show": "显示",
+      "autoplay": "自动播放",
+      "formatter": "格式",
+      "highlightColor": "高亮颜色",
+      "highlightBorderColor": "高亮边框颜色",
+      "timeData": "时序数据",
+      "customize": "自定义数据",
+      "customizeMap": "自定义地图",
+      "timeMap": "时序地图",
+      "timeType": "类型",
+      "display": "显示",
+      "dataName": "标签名",
+      "label": "标签"
+    },
+    "timePlay": {
+      "seekBarColor": "滑块颜色",
+      "seekBarBorderColor": "滑块边框颜色",
+      "loop": "循环播放"
+    }
+  },
+  "templatesName": {
+    "newblankTemplate": "新建空白大屏",
+    "moreTemplate": "更多精彩模版",
+    "LandUse": "土地利用模板",
+    "RealEstateMonitoring": "房地产监控大屏模板",
+    "travelMonitoring": "城市出行监控模板",
+    "operationMonitoring": "实时运维监控模板",
+    "businessRevenue": "企业业绩大屏模板",
+    "tianditu": "天地图模板",
+    "Ncp": "疫情历史回放模板",
+    "NcpSwitch": "标签页模板",
+    "NcpTimeline": "时间轴模板",
+    "NcpGlobal": "数据切换模板",
+    "NcpCompare": "卷帘地图模板",
+    "Interaction": "北京市小区房价查询-2020年4月",
+    "SuperMapBuilding": "超图大厦历史影像",
+    "QixiangCloud": "气象卫星云图演示",
+    "EcologicalBigDataPlatform": "生态大数据平台-宽屏",
+    "MultiMap-Interaction": "多地图交互模板",
+    "TrackPlayback": "轨迹回放",
+    "template": "模板",
+    "NatureResourcePlatform": "自然资源平台",
+    "securityMonitoring": "xx园区安防模板",
+    "seventhCensus": "第七次人口普查模板",
+    "wisdomPark": "智慧园区模板",
+    "citySmartCityOverview": "智慧城市",
+    "jiuzhaigou": "九寨沟旅游",
+    "windPower": "风电运营",
+    "intelligentMeasurement": "智能量测",
+    "cityFloodControl": "城市防汛预警监测大屏",
+    "hydrologicalMonitoring": "水情综合监测预报",
+    "ChengduTouristAttractions": "成都旅游景点",
+    "schoolsDistribution": "全国校园数量",
+    "pepperPlantingArea": "四川辣椒种植面积",
+    "epidemicDistribution": "上海疫情分布",
+    "communistPartyMemberDistribution": "中国党员结构可视化大屏",
+    "wisdomParkManage": "智慧园区管理",
+    "medicalMonitoringServicePlatform": "智慧医疗监控服务平台",
+    "buildingManagementPlatform": "建筑运维监控管理平台"
+  },
+  "componentsName": {
+    "Chart": "图表",
+    "Gauge": "仪表盘",
+    "ChartBar": "柱状图",
+    "ChartLine": "折线图",
+    "ChartXBar": "条形图",
+    "ChartRankXBar": "排名条形图",
+    "Chart2.5BarSquare": "正方体柱状图",
+    "Chart2.5BarRectangle": "长方体柱状图",
+    "Chart2.5BarCylinder": "圆柱体柱状图",
+    "ChartScatter": "散点图",
+    "ChartPie": "饼图",
+    "ChartRingShine": "发光环形图",
+    "ChartRing": "环形图",
+    "ChartRadar": "雷达图",
+    "ChartRose": "南丁格尔玫瑰图",
+    "ChartGauge": "仪表盘",
+    "ChartGaugeMark": "刻度仪表盘",
+    "ChartGaugeShine": "发光仪表盘",
+    "ChartGaugeSpin": "旋转仪表盘",
+    "LiquidFill": "水球",
+    "ProgressLine": "进度条",
+    "ProgressRing": "进度环",
+    "Container": "容器",
+    "Tab": "标签页",
+    "TabHeader": "标签页导航",
+    "DrillMap": "地图钻取",
+    "WebMap": "地图",
+    "NcpMap": "疫情地图",
+    "WebScene": "场景",
+    "Text": "文本",
+    "TimeText": "时间",
+    "Indicator": "指标",
+    "Icon": "图标",
+    "OpenFile": "打开文件",
+    "Image": "图片",
+    "VideoPlayer": "视频",
+    "DashboardSwitch": "大屏切换",
+    "Nav": "导航栏",
+    "Iframe": "Iframe",
+    "TextList": "文本列表",
+    "Zoom": "缩放",
+    "Pan": "平移",
+    "Scale": "比例尺",
+    "MiniMap": "鹰眼图",
+    "LayerList": "图层列表",
+    "Measure": "量算",
+    "Legend": "图例",
+    "Query": "数据查询",
+    "Search": "POI 搜索",
+    "LayerManager": "图层管理",
+    "Compass": "指南针",
+    "FillExtrusion": "三维拉伸",
+    "LayerColor": "图层颜色",
+    "Attributes": "属性表",
+    "DataSwitcher": "数据切换",
+    "Compare": "地图卷帘",
+    "TimeLine": "时间轴（点）",
+    "TimeRange": "时间轴（段）",
+    "TimePlayer": "时间轴（条）",
+    "Other": "其他",
+    "CoordinatesPicker": "坐标获取",
+    "CoordinatesPosition": "坐标定位",
+    "MarkersInteraction": "标记交互",
+    "CoordinateConversion": "坐标转换",
+    "Slideshow": "幻灯片",
+    "VideoPlus": "视频+",
+    "GraphMap": "知识图谱"
+  },
+  "componentsProps": {
+    "Dashboard": {
+      "title": "我的地图大屏"
+    },
+    "WebMap": {
+      "tdtComponents-tdtRoute-headerName": "路线",
+      "tdtComponents-tdtMapSwitcher-headerName": "地图切换",
+      "queryControl-headerName": "查询",
+      "layerManagerControl-headerName": "图层管理",
+      "fillExtrusionControl-headerName": "三维拉伸",
+      "layerColorControl-headerName": "图层颜色"
+    },
+    "DrillMap": {
+      "tdtComponents-tdtRoute-headerName": "路线",
+      "tdtComponents-tdtMapSwitcher-headerName": "地图切换",
+      "queryControl-headerName": "查询",
+      "layerManagerControl-headerName": "图层管理",
+      "fillExtrusionControl-headerName": "三维拉伸",
+      "layerColorControl-headerName": "图层颜色"
+    },
+    "NcpMap": {
+      "name": "疫情地图",
+      "tdtComponents-tdtRoute-headerName": "路线",
+      "tdtComponents-tdtMapSwitcher-headerName": "地图切换",
+      "queryControl-headerName": "查询",
+      "layerManagerControl-headerName": "图层管理",
+      "fillExtrusionControl-headerName": "三维拉伸",
+      "layerColorControl-headerName": "图层颜色",
+      "dataOptions-name": "全省确诊人数"
+    },
+    "Text": {
+      "title": "添加文本"
+    },
+    "TextList": {
+      "content": [
+        {
+          "站台": "漠河",
+          "省份": "黑龙江1",
+          "海拔": "296",
+          "平均最低气温": "-47",
+          "最热七天气温": "29",
+          "详情": "https://www.baidu.com/s?wd=漠河"
+        },
+        {
+          "站台": "塔河",
+          "省份": "黑龙江2",
+          "海拔": "357.4",
+          "平均最低气温": "-42",
+          "最热七天气温": "29",
+          "详情": "https://www.baidu.com/s?wd=塔河"
+        },
+        {
+          "站台": "呼玛",
+          "省份": "黑龙江3",
+          "海拔": "177.4",
+          "平均最低气温": "-42",
+          "最热七天气温": "30",
+          "详情": "https://www.baidu.com/s?wd=呼玛"
+        },
+        {
+          "站台": "额尔古纳右旗",
+          "省份": "内蒙古1",
+          "海拔": "581.4",
+          "平均最低气温": "-42",
+          "最热七天气温": "29",
+          "详情": "https://www.baidu.com/s?wd=额尔古纳右旗"
+        },
+        {
+          "站台": "图里河",
+          "省份": "内蒙古2",
+          "海拔": "732.6",
+          "平均最低气温": "-46",
+          "最热七天气温": "27",
+          "详情": "https://www.baidu.com/s?wd=图里河"
+        },
+        {
+          "站台": "黑河",
+          "省份": "黑龙江4",
+          "海拔": "166.4",
+          "平均最低气温": "-37",
+          "最热七天气温": "30",
+          "详情": "https://www.baidu.com/s?wd=黑河"
+        },
+        {
+          "站台": "满洲里",
+          "省份": "内蒙古3",
+          "海拔": "661.7",
+          "平均最低气温": "-37",
+          "最热七天气温": "30",
+          "详情": "https://www.baidu.com/s?wd=满洲里"
+        },
+        {
+          "站台": "海拉尔",
+          "省份": "内蒙古4",
+          "海拔": "610",
+          "平均最低气温": "-40",
+          "最热七天气温": "30",
+          "详情": "https://www.baidu.com/s?wd=海拉尔"
+        },
+        {
+          "站台": "小二沟",
+          "省份": "内蒙古5",
+          "海拔": "286",
+          "平均最低气温": "-42",
+          "最热七天气温": "30",
+          "详情": "https://www.baidu.com/s?wd=小二沟"
+        },
+        {
+          "站台": "嫩江",
+          "省份": "黑龙江5",
+          "海拔": "242.2",
+          "平均最低气温": "-40",
+          "最热七天气温": "30",
+          "详情": "https://www.baidu.com/s?wd=嫩江"
+        }
+      ],
+      "columns": [
+        {
+          "header": "站台",
+          "field": "站台",
+          "sort": false,
+          "defaultSortType": "none",
+          "slotConfig": {
+            "type": "text",
+            "linkTitle": "",
+            "linkTarget": "_blank",
+            "imageRepeat": "center"
+          },
+          "fixInfo": {
+            "prefix": "",
+            "suffix": ""
+          },
+          "width": 0
+        },
+        {
+          "header": "省份",
+          "field": "省份",
+          "sort": false,
+          "defaultSortType": "none",
+          "slotConfig": {
+            "type": "text",
+            "linkTitle": "",
+            "linkTarget": "_blank",
+            "imageRepeat": "center"
+          },
+          "fixInfo": {
+            "prefix": "",
+            "suffix": ""
+          },
+          "width": 0
+        },
+        {
+          "header": "海拔",
+          "field": "海拔",
+          "sort": false,
+          "defaultSortType": "none",
+          "slotConfig": {
+            "type": "text",
+            "linkTitle": "",
+            "linkTarget": "_blank",
+            "imageRepeat": "center"
+          },
+          "fixInfo": {
+            "prefix": "",
+            "suffix": ""
+          },
+          "width": 0
+        },
+        {
+          "header": "平均最低气温",
+          "field": "平均最低气温",
+          "sort": false,
+          "defaultSortType": "none",
+          "slotConfig": {
+            "type": "text",
+            "linkTitle": "",
+            "linkTarget": "_blank",
+            "imageRepeat": "center"
+          },
+          "fixInfo": {
+            "prefix": "",
+            "suffix": ""
+          },
+          "width": 0
+        },
+        {
+          "header": "最热七天气温",
+          "field": "最热七天气温",
+          "sort": false,
+          "defaultSortType": "none",
+          "slotConfig": {
+            "type": "text",
+            "linkTitle": "",
+            "linkTarget": "_blank",
+            "imageRepeat": "center"
+          },
+          "fixInfo": {
+            "prefix": "",
+            "suffix": ""
+          },
+          "width": 0
+        },
+        {
+          "header": "详情",
+          "field": "详情",
+          "defaultSortType": "none",
+          "slotConfig": {
+            "type": "link",
+            "linkTitle": "查看详情",
+            "linkTarget": "_blank",
+            "imageRepeat": "center"
+          },
+          "fixInfo": {
+            "prefix": "",
+            "suffix": ""
+          },
+          "width": 0
+        }
+      ]
+    },
+    "Indicator": {
+      "title": "指标标题",
+      "unit": "元"
+    },
+    "OpenFile": {
+      "text": "打开文件"
+    },
+    "Query": {
+      "headerName": "查询"
+    },
+    "LayerManager": {
+      "headerName": "图层管理"
+    },
+    "Attributes": {
+      "dataset": {
+        "type": "geoJSON",
+        "geoJSON": {
+          "type": "FeatureCollection",
+          "features": [
+            {
+              "type": "Feature",
+              "geometry": {
+                "coordinates": [122.36999999999999, 53.47],
+                "type": "Point"
+              },
+              "properties": {
+                "index": 1,
+                "站台": "漠河",
+                "省份": "黑龙江1",
+                "海拔": "296",
+                "平均最低气温": "-47",
+                "最热七天气温": "29"
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "coordinates": [124.72, 52.31999999999999],
+                "type": "Point"
+              },
+              "properties": {
+                "index": 2,
+                "站台": "塔河",
+                "省份": "黑龙江2",
+                "海拔": "357.4",
+                "平均最低气温": "-42",
+                "最热七天气温": "29"
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "coordinates": [126.65, 51.719999999999985],
+                "type": "Point"
+              },
+              "properties": {
+                "index": 3,
+                "站台": "呼玛",
+                "省份": "黑龙江3",
+                "海拔": "177.4",
+                "平均最低气温": "-42",
+                "最热七天气温": "30"
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "coordinates": [120.18, 50.24999999999999],
+                "type": "Point"
+              },
+              "properties": {
+                "index": 4,
+                "站台": "额尔古纳右旗",
+                "省份": "内蒙古1",
+                "海拔": "581.4",
+                "平均最低气温": "-42",
+                "最热七天气温": "29"
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "coordinates": [121.68, 50.47999999999998],
+                "type": "Point"
+              },
+              "properties": {
+                "index": 5,
+                "站台": "图里河",
+                "省份": "内蒙古2",
+                "海拔": "732.6",
+                "平均最低气温": "-46",
+                "最热七天气温": "27"
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "coordinates": [127.45000000000002, 50.24999999999999],
+                "type": "Point"
+              },
+              "properties": {
+                "index": 6,
+                "站台": "黑河",
+                "省份": "黑龙江4",
+                "海拔": "166.4",
+                "平均最低气温": "-37",
+                "最热七天气温": "30"
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "coordinates": [117.42999999999999, 49.56999999999999],
+                "type": "Point"
+              },
+              "properties": {
+                "index": 7,
+                "站台": "满洲里",
+                "省份": "内蒙古3",
+                "海拔": "661.7",
+                "平均最低气温": "-37",
+                "最热七天气温": "30"
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "coordinates": [119.75, 49.219999999999985],
+                "type": "Point"
+              },
+              "properties": {
+                "index": 8,
+                "站台": "海拉尔",
+                "省份": "内蒙古4",
+                "海拔": "610",
+                "平均最低气温": "-40",
+                "最热七天气温": "30"
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "coordinates": [123.71999999999998, 49.19999999999999],
+                "type": "Point"
+              },
+              "properties": {
+                "index": 9,
+                "站台": "小二沟",
+                "省份": "内蒙古5",
+                "海拔": "286",
+                "平均最低气温": "-42",
+                "最热七天气温": "30"
+              }
+            },
+            {
+              "type": "Feature",
+              "geometry": {
+                "coordinates": [125.22999999999999, 49.16999999999998],
+                "type": "Point"
+              },
+              "properties": {
+                "index": 10,
+                "站台": "嫩江",
+                "省份": "黑龙江5",
+                "海拔": "242.2",
+                "平均最低气温": "-40",
+                "最热七天气温": "30"
+              }
+            }
+          ]
+        }
+      },
+      "fieldConfigs": [
+        {
+          "title": "站台",
+          "fieldCaption": "站台",
+          "visible": true,
+          "value": "站台",
+          "align": "left",
+          "colWidth": 128,
+          "search": true
+        },
+        {
+          "title": "省份",
+          "fieldCaption": "省份",
+          "visible": true,
+          "value": "省份",
+          "align": "left",
+          "colWidth": 128,
+          "search": true
+        },
+        {
+          "title": "海拔",
+          "fieldCaption": "海拔",
+          "visible": true,
+          "value": "海拔",
+          "align": "left",
+          "colWidth": 128,
+          "sorter": true
+        },
+        {
+          "title": "平均最低气温",
+          "fieldCaption": "平均最低气温",
+          "visible": true,
+          "value": "平均最低气温",
+          "align": "left",
+          "colWidth": 128,
+          "sorter": true
+        },
+        {
+          "title": "最热七天气温",
+          "fieldCaption": "最热七天气温",
+          "visible": true,
+          "value": "最热七天气温",
+          "align": "left",
+          "colWidth": 128,
+          "sorter": true
+        }
+      ],
+      "fieldCaptions": ["站台", "省份", "海拔", "平均最低气温", "最热七天气温"]
+    },
+    "ChartBar": {
+      "dataset": {
+        "maxFeatures": 20,
+        "url": "",
+        "type": "geoJSON",
+        "geoJSON": {
+          "type": "FeatureCollection",
+          "features": [
+            {
+              "properties": {
+                "date": "1月",
+                "Y1": 500,
+                "Y2": 100,
+                "Y3": 230
+              }
+            },
+            {
+              "properties": {
+                "date": "1月",
+                "Y1": 800,
+                "Y2": 520,
+                "Y3": 600
+              }
+            },
+            {
+              "properties": {
+                "date": "1月",
+                "Y1": 3000,
+                "Y2": 2000,
+                "Y3": 2200
+              }
+            },
+            {
+              "properties": {
+                "date": "1月",
+                "Y1": 3617,
+                "Y2": 3340,
+                "Y3": 2500
+              }
+            },
+            {
+              "properties": {
+                "date": "1月",
+                "Y1": 3400,
+                "Y2": 3900,
+                "Y3": 3000
+              }
+            },
+            {
+              "properties": {
+                "date": "1月",
+                "Y1": 4200,
+                "Y2": 3300,
+                "Y3": 4000
+              }
+            },
+            {
+              "properties": {
+                "date": "1月",
+                "Y1": 1842,
+                "Y2": 2500,
+                "Y3": 1000
+              }
+            }
+          ]
+        }
+      }
+    },
+    "Chart2.5BarSquare": {
+      "dataset": {
+        "maxFeatures": 20,
+        "type": "geoJSON",
+        "geoJSON": {
+          "type": "FeatureCollection",
+          "features": [
+            {
+              "properties": {
+                "date": "1月",
+                "sale": 2016,
+                "target": 6000
+              }
+            },
+            {
+              "properties": {
+                "date": "2月",
+                "sale": 1230,
+                "target": 6000
+              }
+            },
+            {
+              "properties": {
+                "date": "3月",
+                "sale": 3790,
+                "target": 6000
+              }
+            },
+            {
+              "properties": {
+                "date": "4月",
+                "sale": 2349,
+                "target": 6000
+              }
+            },
+            {
+              "properties": {
+                "date": "5月",
+                "sale": 1654,
+                "target": 6000
+              }
+            },
+            {
+              "properties": {
+                "date": "6月",
+                "sale": 1120,
+                "target": 6000
+              }
+            },
+            {
+              "properties": {
+                "date": "7月",
+                "sale": 1980,
+                "target": 6000
+              }
+            },
+            {
+              "properties": {
+                "date": "8月",
+                "sale": 980,
+                "target": 6000
+              }
+            },
+            {
+              "properties": {
+                "date": "9月",
+                "sale": 1333,
+                "target": 6000
+              }
+            },
+            {
+              "properties": {
+                "date": "10月",
+                "sale": 2001,
+                "target": 6000
+              }
+            },
+            {
+              "properties": {
+                "date": "11月",
+                "sale": 1820,
+                "target": 6000
+              }
+            },
+            {
+              "properties": {
+                "date": "12月",
+                "sale": 3200,
+                "target": 6000
+              }
+            }
+          ]
+        }
+      }
+    },
+    "Chart2.5BarRectangle": {
+      "dataset": {
+        "maxFeatures": 20,
+        "type": "geoJSON",
+        "geoJSON": {
+          "type": "FeatureCollection",
+          "features": [
+            {
+              "properties": {
+                "date": "1月",
+                "sale": 2016,
+                "target": 6000
+              }
+            },
+            {
+              "properties": {
+                "date": "2月",
+                "sale": 1230,
+                "target": 6000
+              }
+            },
+            {
+              "properties": {
+                "date": "3月",
+                "sale": 3790,
+                "target": 6000
+              }
+            },
+            {
+              "properties": {
+                "date": "4月",
+                "sale": 2349,
+                "target": 6000
+              }
+            },
+            {
+              "properties": {
+                "date": "5月",
+                "sale": 1654,
+                "target": 6000
+              }
+            },
+            {
+              "properties": {
+                "date": "6月",
+                "sale": 1120,
+                "target": 6000
+              }
+            },
+            {
+              "properties": {
+                "date": "7月",
+                "sale": 1980,
+                "target": 6000
+              }
+            },
+            {
+              "properties": {
+                "date": "8月",
+                "sale": 980,
+                "target": 6000
+              }
+            },
+            {
+              "properties": {
+                "date": "9月",
+                "sale": 1333,
+                "target": 6000
+              }
+            },
+            {
+              "properties": {
+                "date": "10月",
+                "sale": 2001,
+                "target": 6000
+              }
+            },
+            {
+              "properties": {
+                "date": "11月",
+                "sale": 1820,
+                "target": 6000
+              }
+            },
+            {
+              "properties": {
+                "date": "12月",
+                "sale": 3200,
+                "target": 6000
+              }
+            }
+          ]
+        }
+      }
+    },
+    "Chart2.5BarCylinder": {
+      "dataset": {
+        "maxFeatures": 20,
+        "type": "geoJSON",
+        "geoJSON": {
+          "type": "FeatureCollection",
+          "features": [
+            {
+              "properties": {
+                "date": "1月",
+                "sale": 2016,
+                "target": 6000
+              }
+            },
+            {
+              "properties": {
+                "date": "2月",
+                "sale": 1230,
+                "target": 6000
+              }
+            },
+            {
+              "properties": {
+                "date": "3月",
+                "sale": 3790,
+                "target": 6000
+              }
+            },
+            {
+              "properties": {
+                "date": "4月",
+                "sale": 2349,
+                "target": 6000
+              }
+            },
+            {
+              "properties": {
+                "date": "5月",
+                "sale": 1654,
+                "target": 6000
+              }
+            },
+            {
+              "properties": {
+                "date": "6月",
+                "sale": 1120,
+                "target": 6000
+              }
+            },
+            {
+              "properties": {
+                "date": "7月",
+                "sale": 1980,
+                "target": 6000
+              }
+            },
+            {
+              "properties": {
+                "date": "8月",
+                "sale": 980,
+                "target": 6000
+              }
+            },
+            {
+              "properties": {
+                "date": "9月",
+                "sale": 1333,
+                "target": 6000
+              }
+            },
+            {
+              "properties": {
+                "date": "10月",
+                "sale": 2001,
+                "target": 6000
+              }
+            },
+            {
+              "properties": {
+                "date": "11月",
+                "sale": 1820,
+                "target": 6000
+              }
+            },
+            {
+              "properties": {
+                "date": "12月",
+                "sale": 3200,
+                "target": 6000
+              }
+            }
+          ]
+        }
+      }
+    },
+    "ChartRankXBar": {
+      "dataset": {
+        "maxFeatures": 20,
+        "type": "geoJSON",
+        "geoJSON": {
+          "type": "FeatureCollection",
+          "features": [
+            {
+              "properties": {
+                "date": "四川",
+                "sale": 22
+              }
+            },
+            {
+              "properties": {
+                "date": "福建",
+                "sale": 65
+              }
+            },
+            {
+              "properties": {
+                "date": "北京",
+                "sale": 86
+              }
+            },
+            {
+              "properties": {
+                "date": "上海",
+                "sale": 48
+              }
+            },
+            {
+              "properties": {
+                "date": "台湾",
+                "sale": 43
+              }
+            },
+            {
+              "properties": {
+                "date": "广东",
+                "sale": 53
+              }
+            },
+            {
+              "properties": {
+                "date": "海南",
+                "sale": 37
+              }
+            },
+            {
+              "properties": {
+                "date": "江西",
+                "sale": 34
+              }
+            },
+            {
+              "properties": {
+                "date": "云南",
+                "sale": 33
+              }
+            },
+            {
+              "properties": {
+                "date": "江苏",
+                "sale": 24
+              }
+            }
+          ]
+        }
+      },
+      "options": {
+        "yAxis": {
+          "axisLabel": {
+            "show": true,
+            "rotate": 0,
+            "fontFamily": "MicrosoftYaHei",
+            "align": "left",
+            "margin": 60
+          }
+        },
+        "grid": {
+          "left": 60,
+          "right": 50,
+          "top": 35,
+          "bottom": 35
+        }
+      }
+    },
+    "ChartGaugeMark": {
+      "options": {
+        "series": [
+          {
+            "data": [
+              {
+                "value": 68,
+                "name": "完成率"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "ChartGauge": {
+      "options": {
+        "series": [
+          {
+            "data": [
+              {
+                "value": 68,
+                "name": "完成率"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "FillExtrusion": {
+      "headerName": "三维拉伸"
+    }
+  },
+  "colorRibbon": {
+    "custom-ribbon": "自定义色带",
+    "clickToAdd": "点击添加",
+    "customTip": "解锁后则可修改颜色",
+    "reverseRibbonTip": "反转色带",
+    "editRibbonTip": "编辑当前色带",
+    "lockTip": "锁定",
+    "unlockTip": "解锁",
+    "deleteTip": "删除",
+    "saveTip": "保存"
+  },
+  "internetMap": {
+    "tiandituVec3857": "天地图矢量(球面墨卡托)",
+    "tiandituTer3857": "天地图地形(球面墨卡托)",
+    "tiandituImg3857": "天地图影像(球面墨卡托)",
+    "tiandituVec4326": "天地图矢量(经纬度)",
+    "tiandituTer4326": "天地图地形(经纬度)",
+    "tiandituImg4326": "天地图影像(经纬度)"
+  },
+  "toolBar": {
+    "lock": "锁定",
+    "unlock": "解锁",
+    "move": "移动",
+    "layout": "布局",
+    "layerOrder": "图层顺序",
+    "delete": "删除",
+    "makeMapOnline": "在线制图",
+    "setTop": "置顶",
+    "moveTop": "上移一层",
+    "moveBottom": "下移一层",
+    "setBottom": "置底",
+    "fullScreen": "全屏",
+    "spreadByWidth": "按宽度铺满",
+    "spreadByHeight": "按高度铺满",
+    "copyAndPaste": "复制粘贴"
+  },
+  "interaction": {
+    "name": "交互",
+    "label": "标签",
+    "addTrigger": "添加触发器",
+    "addActionTip": "当前正在修改，请稍等",
+    "addAction": "添加操作",
+    "targetComponent": "目标",
+    "targetOperation": "目标操作",
+    "fillTip": "请填写完整",
+    "modify": "确定",
+    "emptyTip": "该组件暂无触发器",
+    "noDataTip": "请选择数据",
+    "triggerLayer": "触发图层",
+    "triggerData": "触发数据",
+    "targetLayer": "目标图层",
+    "targetData": "目标数据",
+    "associatedField": "关联字段",
+    "triggerField": "触发图层的字段",
+    "targetField": "目标数据的字段",
+    "addTargetData": "数据来源",
+    "identificationField": "标识字段",
+    "dataField": "显示字段",
+    "recordSelection": "选择记录后",
+    "featureSelection": "选择要素后",
+    "click": "鼠标点击后",
+    "showPage": "显示",
+    "sliderSelection": "切换幻灯片后",
+    "filter": "过滤数据",
+    "switch": "显示数据",
+    "switchHref": "切换超链接",
+    "highlight": "高亮要素",
+    "flyTo": "缩放至地图",
+    "popup": "添加至地图",
+    "boundsChange": "改变范围后",
+    "currentData": "使用当前数据",
+    "otherData": "添加其他数据",
+    "dataSelection": "切换数据后",
+    "mapSelection": "切换地图后",
+    "switchDataSource": "切换数据",
+    "appendDatas": "追加数据",
+    "switchMap": "切换地图",
+    "mergeField": "空间关联"
+  },
+  "unit": {
+    "second": "秒",
+    "minute": "分",
+    "kilometers": "千米",
+    "miles": "英里",
+    "meters": "米",
+    "yards": "码",
+    "feet": "英尺",
+    "squarekilometers": "平方千米",
+    "squaremiles": "平方英里",
+    "squaremeters": "平方米",
+    "squareyards": "平方码",
+    "squarefeet": "平方英尺",
+    "XY": "经纬度",
+    "BASEMAP": "底图",
+    "UTM": "UTM",
+    "DD": "度",
+    "DOM": "度分",
+    "DMS": "度分秒",
+    "Mercator": "Web墨卡托"
+  },
+  "FullScreen": {
+    "fullScreen": "全屏",
+    "NonefullScreen": "取消全屏"
+  },
+  "Container": {
+    "fullScreen": "全屏",
+    "NonefullScreen": "取消全屏"
+  },
+  "Pages":{
+    "homePage": "设为主页",
+    "addPage":"新建页面",
+    "addMasterPage":"新建母版页面",
+    "nameIsNull": "页面名称为空！",
+    "pages": "页面",
+    "newPage": "新建页面",
+    "emptyPage": "空白页面",
+    "addFromTemplates": "从模板添加",
+    "addFromApplications": "从应用添加",
+    "masterPages": "母版",
+    "newMasterPage": "新建母版页面",
+    "apply": "应用母版",
+    "cancelApply": "取消应用",
+    "setting": "页面设置",
+    "multiPage": "多页面",
+    "noMasterPage": "暂无母版",
+    "selectMasterPage": "应用母版",
+    "cancelMasterPage": "取消应用母版",
+    "notSelectMasterPage": "该页面没有应用母版",
+    "appliedSuccess": "应用成功",
+    "more": "更多"
+  },
+  "CoordinatesPicker": {
+    "title": "经纬度信息 demo：",
+    "modeLabel": "触发模式",
+    "click": "点击",
+    "mousemove": "鼠标移动",
+    "longitude": "经度",
+    "latitude": "纬度",
+    "fontSize": "字体大小"
+  },
+  "CoordinatesPosition": {
+    "title": "坐标定位 demo：",
+    "btnText": "坐标定位",
+    "unassociatedMap": "您需要配置关联地图！"
+  },
+  "MarkersInteraction": {
+    "title": "标记交互 demo：",
+    "addMarker": "添加标记",
+    "imgAlt": "点击标记显示图片",
+    "unassociatedMap": "您需要配置关联地图！"
+  },
+  "SliderShow": {
+    "title": "幻灯片"
+  },
+  "codeEditor": {
+    "codeFileslist": "代码文件列表",
+    "nameIsNull": "文件名为空值！",
+    "changeName": "修改文件名",
+    "fileName": "文件名",
+    "libraries": "三方库",
+    "DomSelector": "DOM选择器",
+    "globalVariable": "全局变量",
+    "captureNode": "捕捉节点",
+    "modifyNodeStyle": "修改节点样式",
+    "addEventCode": "添加事件代码",
+    "variableName": "变量名",
+    "resizeEditor": "拉伸",
+    "rerun": "刷新并运行",
+    "event": {
+      "ratserLayerNoEvent": "此图层为 raster 图层，暂无事件",
+      "switch": "切换事件",
+      "sliding": "滑动事件",
+      "other": "其他事件",
+      "legend": "图例事件",
+      "globalout": "鼠标移出图表组件",
+      "mapevent": "地图事件",
+      "videoevent": "视频事件",
+      "mouse": "鼠标事件",
+      "keyboard": "键盘事件",
+      "lifecycle": "生命周期事件",
+      "dataLoading": "数据加载事件",
+      "entity": "实体事件",
+      "scene": "场景事件",
+      "camera": "相机事件",
+      "clock": "时钟事件",
+      "infoBox": "弹窗事件",
+      "imageryLayer": "影像图层事件",
+      "dataSource": "数据源事件",
+      "image": "图像事件",
+      "mapresize": "调整地图大小",
+      "slideshowresize": "浏览器尺寸变化",
+      "remove": "移除地图",
+      "click": "鼠标单击左键",
+      "mousedown": "按下鼠标",
+      "mouseup": "释放鼠标",
+      "mapmouseover": "鼠标移入地图",
+      "layermouseover": "鼠标移入指定图层",
+      "chartmouseover": "鼠标移入图表",
+      "mapmousemove": "鼠标在地图上移动",
+      "layermousemove": "鼠标在指定图层上移动",
+      "chartmousemove": "鼠标在图表上移动",
+      "dblclick": "鼠标双击左键",
+      "mapmouseout": "鼠标移出地图",
+      "videomouseout": "鼠标移出视频",
+      "videomouseover": "鼠标移入视频",
+      "videomousemove": "鼠标在视频上移动",
+      "chartmouseout": "鼠标移出图表",
+      "contextmenu": "鼠标单击右键",
+      "mouseenter": "鼠标移入",
+      "mouseleave": "鼠标移出",
+      "wheel": "鼠标滚轮事件",
+      "movestart": "移动开始",
+      "move": "移动",
+      "moveend": "移动结束",
+      "dragstart": "拖动开始",
+      "drag": "拖动",
+      "dragend": "拖动结束",
+      "zoomstart": "缩放开始",
+      "zoom": "缩放",
+      "zoomend": "缩放结束",
+      "rotatestart": "旋转开始",
+      "rotate": "旋转",
+      "rotateend": "旋转结束",
+      "pitchstart": "倾斜地图开始",
+      "videoresize": "调整视频大小",
+      "videopitchstart": "倾斜视频开始",
+      "videopitch": "倾斜视频",
+      "videopitchend": "倾斜视频结束",
+      "pitch": "倾斜地图",
+      "pitchend": "倾斜地图结束",
+      "boxzoomstart": "选择框缩放开始",
+      "boxzoomend": "选择框缩放结束",
+      "boxzoomcancel": "取消选择框",
+      "load": "加载地图",
+      "render": "渲染地图",
+      "idle": "地图渲染完成",
+      "error": "地图渲染错误",
+      "data": "加载或更改数据",
+      "styledata": "加载或更改地图样式",
+      "sourcedata": "加载或更改地图的源数据",
+      "dataloading": "异步加载或更改地图数据",
+      "styledataloading": "异步加载或更改地图样式",
+      "sourcedataloading": "异步加载或更改地图源数据",
+      "styleimagemissing": "样式图案丢失",
+      "leftClick": "鼠标单击左键",
+      "leftDoubleClick": "鼠标双击左键",
+      "leftDown": "鼠标按下左键",
+      "leftUp": "鼠标释放左键",
+      "rightClick": "鼠标单击右键",
+      "rightDown": "鼠标按下右键",
+      "rightUp": "鼠标释放右键",
+      "mouseMove": "鼠标移动",
+      "slideChange": "切换幻灯片",
+      "slideChangeTransitionStart": "过渡开始",
+      "slideChangeTransitionEnd": "过渡结束",
+      "slideNextTransitionStart": "向下一张幻灯片过渡",
+      "slideNextTransitionEnd": "向下一张幻灯片过渡结束",
+      "slidePrevTransitionStart": "向上一张幻灯片过渡",
+      "slidePrevTransitionEnd": "向上一张幻灯片过渡结束",
+      "progress": "进度改变",
+      "reachBeginning": "切换到初始的幻灯片",
+      "reachEnd": "切换到最后的幻灯片",
+      "fromEdge": "从初始或最后的幻灯片开始切换",
+      "setTransition": "设置过渡动画",
+      "observerUpdate": "子元素改变",
+      "loopFix": "循环复位后",
+      "beforeDestroy": "销毁前",
+      "beforeLoopFix": "循环复位前",
+      "toEdge": "切换到第一张或最后一张幻灯片",
+      "breakpoint": "节点改变",
+      "middleClick": "鼠标点击中键",
+      "middleDown": "鼠标按下中键",
+      "middleUp": "鼠标释放中键",
+      "selectedEntityChanged": "选中实体发生改变",
+      "trackedEntityChanged": "跟踪实体发生改变",
+      "layerAdded": "添加某图层",
+      "layerMoved": "移动某图层",
+      "layerRemoved": "移除某图层",
+      "layerShownOrHidden": "改变某图层可见性",
+      "dataSourceAdded": "场景添加某数据源",
+      "dataSourceMoved": "场景移动某数据源",
+      "dataSourceRemoved": "场景移除某数据源",
+      "collectionChanged": "添加、移除或者改变场景实体",
+      "morphComplete": "场景投影转换完成",
+      "morphStart": "场景投影转换开始",
+      "postRender": "场景每帧渲染结束",
+      "preRender": "场景刷新后每帧渲染开始",
+      "postUpdate": "场景刷新后每帧渲染前",
+      "preUpdate": "场景刷新或者渲染前",
+      "renderError": "场景抛出渲染异常",
+      "terrainProviderChanged": "场景地形提供者发生改变",
+      "changed": "场景相机设定比例改变",
+      "moveEnd": "场景相机停止移动",
+      "moveStart": "场景相机开始移动",
+      "onStop": "到达场景时钟停止时间",
+      "onTick": "场景时钟调用 Clock#tick",
+      "cameraClicked": "点击相机",
+      "closeClicked": "弹窗关闭",
+      "imageryLayersUpdatedEvent": "图像图层变化",
+      "tileLoadProgressEvent": "切片加载队列的长度发生",
+      "shiftLeftClick": "按住 shift 键同时按下鼠标左键",
+      "shiftRightClick": "按住 shift 键同时按下鼠标右键",
+      "ctrlLeftClick": "按住 ctrl 键同时按下鼠标左键",
+      "ctrlRightClick": "按住 ctrl 键同时按下鼠标右键",
+      "altLeftClick": "按住 alt 键同时按下鼠标左键",
+      "altRightClick": "按住 alt 键同时按下鼠标右键",
+      "highlight": "高亮",
+      "downplay": "取消高亮",
+      "selectchanged": "数据选中状态发生变化",
+      "legendselectchanged": "切换图例开关",
+      "legendselected": "图例选中后",
+      "legendunselected": "图例取消选中",
+      "legendselectall": "图例全选后",
+      "legendinverseselect": "图例反选后",
+      "legendscroll": "图例滚动",
+      "datazoom": "数据区域缩放后",
+      "restore": "重置 option ",
+      "dataviewchanged": "工具栏中数据视图的修改",
+      "magictypechanged": "工具栏中动态类型切换的切换",
+      "brush": "选框正在添加",
+      "brushEnd": "选框添加结束",
+      "brushselected": "选框选中的内容",
+      "globalcursortaken": "刷选模式的开关",
+      "LibrariesRequestFailed": "三方库请求失败",
+      "updateAfterDelete": "在删除第三方库后，需要保存并刷新页面才能生效"
+    }
+  },
+  "Pagination": {
+    "items_per_page": "条/页",
+    "jump_to": "跳至",
+    "jump_to_confirm": "确定",
+    "page": "页",
+    "prev_page": "上一页",
+    "next_page": "下一页",
+    "prev_5": "向前 5 页",
+    "next_5": "向后 5 页",
+    "prev_3": "向前 3 页",
+    "next_3": "向后 3 页"
+  },
+  "DatePicker": {
+    "lang": {
+      "placeholder": "请选择日期",
+      "rangePlaceholder": {
+        "0": "开始日期",
+        "1": "结束日期"
+      },
+      "today": "今天",
+      "now": "此刻",
+      "backToToday": "返回今天",
+      "ok": "确 定",
+      "timeSelect": "选择时间",
+      "dateSelect": "选择日期",
+      "weekSelect": "选择周",
+      "clear": "清除",
+      "month": "月",
+      "year": "年",
+      "previousMonth": "上个月 (翻页上键)",
+      "nextMonth": "下个月 (翻页下键)",
+      "monthSelect": "选择月份",
+      "yearSelect": "选择年份",
+      "decadeSelect": "选择年代",
+      "yearFormat": "YYYY年",
+      "dayFormat": "D日",
+      "dateFormat": "YYYY年M月D日",
+      "dateTimeFormat": "YYYY年M月D日 HH时mm分ss秒",
+      "previousYear": "上一年 (Control键加左方向键)",
+      "nextYear": "下一年 (Control键加右方向键)",
+      "previousDecade": "上一年代",
+      "nextDecade": "下一年代",
+      "previousCentury": "上一世纪",
+      "nextCentury": "下一世纪"
+    },
+    "timePickerLocale": {
+      "placeholder": "请选择时间"
+    }
+  },
+  "TimePicker": {
+    "placeholder": "请选择时间"
+  },
+  "Calendar": {
+    "lang": {
+      "placeholder": "请选择日期",
+      "rangePlaceholder": {
+        "0": "开始日期",
+        "1": "结束日期"
+      },
+      "today": "今天",
+      "now": "此刻",
+      "backToToday": "返回今天",
+      "ok": "确 定",
+      "timeSelect": "选择时间",
+      "dateSelect": "选择日期",
+      "weekSelect": "选择周",
+      "clear": "清除",
+      "month": "月",
+      "year": "年",
+      "previousMonth": "上个月 (翻页上键)",
+      "nextMonth": "下个月 (翻页下键)",
+      "monthSelect": "选择月份",
+      "yearSelect": "选择年份",
+      "decadeSelect": "选择年代",
+      "yearFormat": "YYYY年",
+      "dayFormat": "D日",
+      "dateFormat": "YYYY年M月D日",
+      "dateTimeFormat": "YYYY年M月D日 HH时mm分ss秒",
+      "previousYear": "上一年 (Control键加左方向键)",
+      "nextYear": "下一年 (Control键加右方向键)",
+      "previousDecade": "上一年代",
+      "nextDecade": "下一年代",
+      "previousCentury": "上一世纪",
+      "nextCentury": "下一世纪"
+    },
+    "timePickerLocale": {
+      "placeholder": "请选择时间"
+    }
+  },
+  "ColorPicker": {
+    "btn:save": "保存",
+    "btn:cancel": "取消",
+    "btn:clear": "清除"
+  },
+  "global": {
+    "placeholder": "请选择"
+  },
+  "Table": {
+    "filterTitle": "筛选",
+    "filterConfirm": "确定",
+    "filterReset": "重置",
+    "selectAll": "全选当页",
+    "selectInvert": "反选当页",
+    "sortTitle": "排序",
+    "expand": "展开行",
+    "collapse": "关闭行"
+  },
+  "Modal": {
+    "okText": "确定",
+    "cancelText": "取消",
+    "justOkText": "知道了"
+  },
+  "Popconfirm": {
+    "cancelText": "取消",
+    "okText": "确定"
+  },
+  "Transfer": {
+    "searchPlaceholder": "请输入搜索内容",
+    "itemUnit": "项",
+    "itemsUnit": "项"
+  },
+  "Upload": {
+    "uploading": "文件上传中",
+    "removeFile": "删除文件",
+    "uploadError": "上传错误",
+    "previewFile": "预览文件",
+    "downloadFile": "下载文件"
+  },
+  "Empty": {
+    "description": "暂无数据"
+  },
+  "Icon": {
+    "icon": "图标"
+  },
+  "Text": {
+    "edit": "编辑",
+    "copy": "复制",
+    "copied": "复制成功",
+    "expand": "展开"
+  },
+  "PageHeader": {
+    "back": "返回"
+  },
+  "dateTimeFormat": {
+    "date": {
+      "year": "numeric",
+      "month": "short",
+      "day": "numeric"
+    },
+    "date_second": {
+      "year": "numeric",
+      "month": "short",
+      "day": "numeric",
+      "hour": "numeric",
+      "minute": "numeric",
+      "second": "numeric"
+    },
+    "date_second_week": {
+      "year": "numeric",
+      "month": "short",
+      "day": "numeric",
+      "weekday": "long",
+      "hour": "numeric",
+      "minute": "numeric",
+      "second": "numeric"
+    }
+  },
+  "commontypes": {
+    "restData": "SuperMap Rest 数据服务",
+    "restMap": "SuperMap Rest 地图服务",
+    "addressMatch": "SuperMap 地址匹配服务",
+    "iportalData": "SuperMap iPortal 数据",
+    "onlineLocalSearch": "SuperMap Online 本地搜索"
+  },
+  "timeText": {
+    "Year": "年",
+    "Month": "月",
+    "Day": "日",
+    "hour": "时",
+    "minute": "分",
+    "second": "秒"
+  },
+  "zoom": {},
+  "chart": {
+    "unSupportedData": "当前数据不支持与地图联动"
+  },
+  "layerList": {
+    "title": "图层"
+  },
+  "slideshow": {
+    "title": "幻灯片"
+  },
+  "layerColor": {
+    "title": "图层颜色",
+    "layer": "图层",
+    "property": "属性",
+    "color": "颜色",
+    "reset": "重置",
+    "select": "选取",
+    "deselect": "取消",
+    "circleColor": "点颜色",
+    "strokeColor": "轮廓颜色",
+    "lineColor": "线颜色",
+    "fillColor": "面颜色",
+    "iconColor": "图标颜色",
+    "textColor": "文本颜色",
+    "capture": "捕获"
+  },
+  "attributes": {
+    "title": "属性表",
+    "feature": "要素",
+    "selected": "已选择",
+    "clearSelected": "清除选中",
+    "zoomToFeatures": "缩放至已选要素",
+    "columnsControl": "显示/隐藏列",
+    "refreshData": "刷新数据",
+    "search": "搜索",
+    "reset": "重置"
+  },
+  "miniMap": {},
+  "pan": {},
+  "scale": {},
+  "webmap": {
+    "loadingTip": "地图加载中...",
+    "crsNotSupport": "不支持当前地图的坐标系！",
+    "TileMatrixSetNotSuppport": "不支持传入的 TileMatrixSet！",
+    "getLayerInfoFailed": "获取图层信息失败！",
+    "getThemeInfoFailed": "获取图层样式信息失败！",
+    "crsnotsupport": "不支持的坐标系！",
+    "baiduMapNotSupport": "暂不支持加载百度地图！",
+    "sampleDataNotSupport": "暂不支持加载示例数据！",
+    "mvtNotSupport": "暂不支持加载矢量瓦片图层！"
+  },
+  "videoPlus": {
+    "loadingTip": "视频加载中..."
+  },
+  "drillMap": {
+    "goBack": "返回"
+  },
+  "legend": {
+    "themeField": "专题字段",
+    "title": "图例",
+    "top": "最高",
+    "bottom": "最低",
+    "noMatchLayer": "没有匹配的图层"
+  },
+  "measure": {
+    "mapMeasure": "量算",
+    "measureResult": "测量结果：",
+    "distance": "距离",
+    "area": "面积",
+    "delete": "清空",
+    "selectPlaceholder": "请选择",
+    "startingPoint": "起点"
+  },
+  "search": {
+    "noResult": "查询结果为空！",
+    "noKey": "搜索关键字不能为空，请输入搜索条件。",
+    "inputPlaceHolder": "查找地址或地点",
+    "attribute": "属性",
+    "attributeValue": "属性值",
+    "setSearchSource": "请设置搜索源！",
+    "address": "地址",
+    "null": "空",
+    "illegalFeature": "要素必须包含合法的坐标！"
+  },
+  "query": {
+    "query": "查询",
+    "queryJob": "任务",
+    "queryResult": "结果",
+    "attributeCondition": "属性条件",
+    "spatialFilter": "空间过滤器",
+    "mapBounds": "返回地图全图范围的要素",
+    "currentMapBounds": "返回当前地图范围内的要素",
+    "applicate": "应用",
+    "noResult": "无结果",
+    "resultAlreadyExists": "当前查询结果已经存在!",
+    "querying": "查询中",
+    "attribute": "属性",
+    "attributeValue": "属性值",
+    "noResults": "查询结果为空！",
+    "queryFailed": "查询失败!",
+    "seviceNotSupport": "此服务不支持查询！"
+  },
+  "identify": {
+    "layerNotExit": "地图上不存在该图层: '{layer}'",
+    "noData": "无数据"
+  },
+  "openFile": {
+    "fileSizeExceeded": "文件大小超限！文件大小不得超过 10M！",
+    "fileTypeUnsupported": "不支持该文件格式！",
+    "openFileFail": "打开文件失败！",
+    "openFileSuccess": "打开文件成功!",
+    "selectFile": "选择文件",
+    "openEmptyFile": "打开文件为空！",
+    "openFile": "打开文件"
+  },
+  "draw": {
+    "draw": "绘制"
+  },
+  "indicator": {
+    "title": "指标标题",
+    "unit": "单位"
+  },
+  "layerManager": {
+    "title": "图层管理"
+  },
+  "fillExtrusion": {
+    "title": "三维拉伸",
+    "polygonLayer": "面图层",
+    "height": "高度（米）",
+    "heightValue": "高度值",
+    "fieldName": "字段名",
+    "customFieldPlaceholder": "填写字段名称",
+    "customNum": "自定义",
+    "multiple": "倍数",
+    "fillColor": "填充颜色",
+    "layerOpacity": "透明度",
+    "hideOriginalLayer": "隐藏原图层",
+    "reset": "重置"
+  },
+  "flyTo": {
+    "title": "飞行定位"
+  },
+  "tdtResults": {
+    "on": "在",
+    "station": "站",
+    "total": "共",
+    "about": "约",
+    "homePage": "首页",
+    "prevPage": "上一页",
+    "nextPage": "下一页",
+    "searchNoResult": "没有查询到相关结果",
+    "youCanTry": "您可以尝试",
+    "enterCorrect": "检查输入是否正确",
+    "enterOtherKeyWords": "输入其他关键字进行搜索",
+    "onTdtMap": "在天地图上",
+    "addThisAddress": "添加该地点",
+    "uWantTo": "您是否要找",
+    "totalFind": "共找到",
+    "piecesResults": "条结果",
+    "phone": "电话",
+    "address": "地址",
+    "setStartPonint": "设为起点",
+    "setEndPonint": "设为终点",
+    "totalMiles": "总里程",
+    "distance": "约{distance}公里",
+    "showDetails": "显示全部详情",
+    "switchTimes": "换乘{switchTimes}次",
+    "noSwitch": "无换乘",
+    "walk": "步行至",
+    "getOff": "下车",
+    "getOn": "上车",
+    "take": "乘坐",
+    "noSearchResults": "没有查询到线路信息",
+    "fastRoute": "最快线路",
+    "shortRoute": "最短线路",
+    "walkRoute": "少走高速",
+    "fast": "较快捷",
+    "noSubway": "不坐地铁",
+    "lessSwitch": "少换乘",
+    "lessWalk": "少步行",
+    "cityHadResults": "以下城市有结果，请您选择",
+    "moreCity": "更多城市",
+    "allFound": "共为您找到",
+    "piecesBusRoute": "条公交线路",
+    "showDetail": "展开详情",
+    "busEndTime": "首末车时间",
+    "relateAdress": "点击此处查看 \"{keyWord}\" 的相关地点",
+    "switchTo": "已切换到"
+  },
+  "tdtRoute": {
+    "title": "路线",
+    "pleaseEnterStartPoint": "请输入起点",
+    "pleaseEnterEndPoint": "请输入终点",
+    "search": "搜索",
+    "startPoint": "起点",
+    "endPoint": "终点",
+    "mapLoadedFiled": "地图加载失败",
+    "busEndTime": "首末车时间",
+    "about": "约",
+    "station": "站",
+    "total": "共",
+    "hour": "小时",
+    "minutes": "分钟"
+  },
+  "tdtSearch": {
+    "phone": "电话",
+    "address": "地址",
+    "noData": "暂无",
+    "transport": "交通"
+  },
+  "tdtMapSwitcher": {
+    "title": "地图切换",
+    "image": "影像",
+    "vector": "矢量",
+    "terrain": "地形",
+    "placeName": "地名",
+    "TiandituVec": "天地图矢量底图",
+    "TiandituTer": "天地图地形底图",
+    "TiandituImg": "天地图影像底图",
+    "TiandituCva": "天地图矢量注记",
+    "TiandituCta": "天地图地形注记",
+    "TiandituCia": "天地图影像注记"
+  },
+  "coordinateConversion": {
+    "inputPlaceHolder": "请输入坐标",
+    "copy": "复制",
+    "location": "定位至",
+    "capture": "捕捉",
+    "realTime": "实时",
+    "errorCoordinate": "坐标格式不正确"
+  },
+  "dataFlow": {
+    "dataSubscriptionFailed": "数据订阅失败！"
+  },
+  "animateMarkerlayer": {
+    "unsupportedData": "当前图层不支持该数据，请重新传入数据！"
+  },
+  "animatiton": {
+    "fadeIn": "淡入",
+    "fadeOut": "淡出",
+    "backIn": "推入",
+    "backOut": "推出",
+    "bounceIn": "弹入",
+    "bounceOut": "弹出",
+    "slideOut": "飞出",
+    "slideIn": "飞入",
+    "zoomOut": "缩小",
+    "zoomIn": "放大",
+    "lightSpeedOut": "光速",
+    "lightSpeedIn": "光速",
+    "rotateIn": "旋转",
+    "rotateOut": "旋转",
+    "rollIn": "转入",
+    "rollOut": "转出",
+    "flipIn": "翻转",
+    "flipOut": "翻转",
+    "RotateOneWeek": "旋转一周",
+    "FlipOneWeek": "翻转一周",
+    "Up": "向上",
+    "Down": "向下",
+    "Left": "向左",
+    "Right": "向右",
+    "DownLeft": "向左下",
+    "DownRight": "向右下",
+    "UpLeft": "向左上",
+    "UpRight": "向右上",
+    "X": "水平",
+    "Y": "垂直",
+    "none": "无"
+  }
+}

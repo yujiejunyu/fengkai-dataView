@@ -1,0 +1,40 @@
+.sm-component-data-switch .sm-component-select,
+.sm-component-data-switch .sm-component-select-arrow,
+.sm-component-data-switch .sm-component-select-selection {
+    color: inherit
+}
+
+.sm-component-data-switch .sm-component-select,
+.sm-component-data-switch .sm-component-select-selection {
+    border-radius: inherit;
+    border-color: inherit;
+    height: 100%
+}
+
+.sm-component-data-switch .sm-component-select {
+    width: 100%;
+    height: 100%;
+    max-width: 100%
+}
+
+.sm-component-data-switch .sm-component-select .sm-component-select-selection {
+    background-color: transparent
+}
+
+.sm-component-data-switch .sm-component-select .sm-component-select-selection__rendered {
+    display: flex;
+    align-items: center;
+    height: 100%
+}
+
+.sm-component-data-switch .sm-component-select-dropdown .sm-component-select-dropdown-menu-item {
+    padding-top: 0;
+    padding-bottom: 0
+}
+
+.sm-component-data-switch .sm-component-select-dropdown .sm-component-select-dropdown-menu-item.sm-component-select-dropdown-menu-item-active,
+.sm-component-data-switch .sm-component-select-dropdown .sm-component-select-dropdown-menu-item.sm-component-select-dropdown-menu-item-selected,
+.sm-component-data-switch .sm-component-select-dropdown .sm-component-select-dropdown-menu-item.sm-component-select-dropdown-menu-item-selected:hover,
+.sm-component-data-switch .sm-component-select-dropdown .sm-component-select-dropdown-menu-item:hover {
+    background-color: transparent
+}

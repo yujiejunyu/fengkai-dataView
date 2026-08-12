@@ -1,0 +1,57 @@
+{
+  "type": "FeatureCollection",
+  "features": [{
+    "properties": {
+      "name": "航企运输",
+      "sales": 1.3,
+      "tax": 0.2,
+      "scale": "中型"
+    },
+    "type": "Feature"
+  },
+  {
+    "properties": {
+      "name": "苏尚企业",
+      "sales": 2.2,
+      "tax": 0.5,
+      "scale": "大型"
+    },
+    "type": "Feature"
+  },
+  {
+    "properties": {
+      "name": "上海洪都公司",
+      "sales": 0.8,
+      "tax": 0.1,
+      "scale": "中型"
+    },
+    "type": "Feature"
+  },
+  {
+    "properties": {
+      "name": "微山电子科技",
+      "sales": 0.2,
+      "tax": 0.02,
+      "scale": "小型"
+    },
+    "type": "Feature"
+  },
+  {
+    "properties": {
+      "name": "施化建筑",
+      "sales": 1.3,
+      "tax": 0.2,
+      "scale": "中型"
+    },
+    "type": "Feature"
+  },
+  {
+    "properties": {
+      "name": "成化工厂",
+      "sales": 1.5,
+      "tax": 0.25,
+      "scale": "中型"
+    },
+    "type": "Feature"
+  }]
+}

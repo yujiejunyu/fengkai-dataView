@@ -1,0 +1,81 @@
+{
+  "type": "FeatureCollection",
+  "features": [{
+    "properties": {
+      "assetsType": "房屋建筑物",
+      "assetsNum": 100,
+      "industryDocDate": "08-28",
+      "industryDocNum1": 3,
+      "industryDocNum2": 6,
+      "intelligentWarningType": "资产管理",
+      "intelligentWarningNum": 50
+    },
+    "type": "Feature"
+  },
+  {
+    "properties": {
+      "assetsType": "无形资产",
+      "assetsNum": 500,
+      "industryDocDate": "08-29",
+      "industryDocNum1": 5,
+      "industryDocNum2": 8,
+      "intelligentWarningType": "综合安防",
+      "intelligentWarningNum": 75
+    },
+    "type": "Feature"
+  },
+  {
+    "properties": {
+      "assetsType": "机器设备",
+      "assetsNum": 2300,
+      "industryDocDate": "08-30",
+      "industryDocNum1": 4,
+      "industryDocNum2": 6,
+      "intelligentWarningType": "便捷通行",
+      "intelligentWarningNum": 50
+    },
+    "type": "Feature"
+  },
+  {
+    "properties": {
+      "assetsType": "电子设备",
+      "assetsNum": 4100,
+      "industryDocDate": "08-31",
+      "industryDocNum1": 3,
+      "industryDocNum2": 11,
+      "intelligentWarningType": "环境空间",
+      "intelligentWarningNum": 100
+    },
+    "type": "Feature"
+  },
+  {
+    "properties": {
+      "assetsType": "装修改良",
+      "assetsNum": 300,
+      "industryDocDate": "09-01",
+      "industryDocNum1": 9,
+      "industryDocNum2": 7,
+      "intelligentWarningType": "设施管理",
+      "intelligentWarningNum": 50
+    },
+    "type": "Feature"
+  },
+  {
+    "properties": {
+      "industryDocDate": "09-02",
+      "industryDocNum1": 6,
+      "industryDocNum2": 9,
+      "intelligentWarningType": "能效管理",
+      "intelligentWarningNum": 65
+    },
+    "type": "Feature"
+  },
+  {
+    "properties": {
+      "industryDocDate": "09-03",
+      "industryDocNum1": 5,
+      "industryDocNum2": 6
+    },
+    "type": "Feature"
+  }]
+}

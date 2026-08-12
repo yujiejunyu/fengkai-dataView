@@ -1,0 +1,75 @@
+{
+    "type": "FeatureCollection",
+    "features": [{
+      "properties": {
+        "assetsType": "设备名称 1",
+        "num":1,
+        "新增容量": 120,
+        "累计容量":90,
+        "Date": "2016",
+        "业界": 100,
+        "本公司": 150
+       
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "assetsType": "设备名称 1",
+        "新增容量": 150,
+        "累计容量":200,
+        "Date": "2017",
+        "业界": 110,
+        "本公司": 100
+       
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "assetsType": "设备名称 2",
+        "num":1,
+        "新增容量": 130,
+        "累计容量":100,
+        "Date": "2018",
+        "业界": 115,
+        "本公司": 220
+      },
+      "type": "Feature"
+    },
+    {
+      "properties": {
+        "assetsType": "设备名称 2",
+        "新增容量": 120,
+        "累计容量":100,
+        "Date": "2019",
+        "业界": 200,
+        "本公司": 100
+      },
+      "type": "Feature"
+    },
+    {
+        "properties": {
+          "assetsType": "设备名称 3",
+          "num":1,
+          "新增容量": 190,
+          "累计容量":240,
+          "Date": "2020",
+          "业界": 120,
+          "本公司": 150
+        },
+        "type": "Feature"
+      },
+      {
+        "properties": {
+          "assetsType": "设备名称 3",
+          "新增容量": 240,
+          "累计容量":200,
+          "Date": "2021",
+          "业界": 100,
+          "本公司": 120
+        },
+        "type": "Feature"
+      }
+   ]
+  }

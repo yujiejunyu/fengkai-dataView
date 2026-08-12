@@ -1,0 +1,130 @@
+{
+    "type": "FeatureCollection",
+    "features": [{
+        "properties": {
+          "month": "1月",
+          "caseReportNum": 3,
+          "caseReportNum2": 8,
+          "casesource": "来源1",
+          "casesourceNum1": 6,
+          "casesourceNum2": 7,
+          "casesourceNum3": 4,
+          "casesourceNum4": 30
+        },
+        "type": "Feature"
+      },
+      {
+        "properties": {
+          "month": "2月",
+          "caseReportNum": 4,
+          "caseReportNum2": 7,
+          "casesource": "来源2",
+          "casesourceNum1": 3,
+          "casesourceNum2": 4,
+          "casesourceNum3": 5,
+          "casesourceNum4": 85
+        },
+        "type": "Feature"
+      },
+      {
+        "properties": {
+          "month": "3月",
+          "caseReportNum": 1,
+          "caseReportNum2": 9,
+          "casesource": "来源3",
+          "casesourceNum1": 8,
+          "casesourceNum2": 9,
+          "casesourceNum3": 7,
+          "casesourceNum4": 58
+        },
+        "type": "Feature"
+      },
+      {
+        "properties": {
+          "month": "4月",
+          "caseReportNum": 6,
+          "caseReportNum2": 4,
+          "casesource": "来源4",
+          "casesourceNum1": 6,
+          "casesourceNum2": 4,
+          "casesourceNum3": 5,
+          "casesourceNum4": 23
+        },
+        "type": "Feature"
+      },
+      {
+        "properties": {
+          "month": "5月",
+          "caseReportNum": 5,
+          "caseReportNum2": 8,
+          "casesource": "来源5",
+          "casesourceNum1": 1,
+          "casesourceNum2": 3,
+          "casesourceNum3": 4,
+          "casesourceNum4": 78
+        },
+        "type": "Feature"
+      },
+      {
+        "properties": {
+          "month": "6月",
+          "caseReportNum": 2,
+          "caseReportNum2": 6,
+          "casesource": "来源6",
+          "casesourceNum1": 6,
+          "casesourceNum2": 7,
+          "casesourceNum3": 4,
+          "casesourceNum4": 81
+        },
+        "type": "Feature"
+      },
+      {
+        "properties": {
+          "month": "7月",
+          "caseReportNum": 7,
+          "caseReportNum2": 4
+        },
+        "type": "Feature"
+      },
+      {
+        "properties": {
+          "month": "8月",
+          "caseReportNum": 3,
+          "caseReportNum2": 8
+        },
+        "type": "Feature"
+      },
+      {
+        "properties": {
+          "month": "9月",
+          "caseReportNum": 5,
+          "caseReportNum2": 3
+        },
+        "type": "Feature"
+      },
+      {
+        "properties": {
+          "month": "10月",
+          "caseReportNum": 4,
+          "caseReportNum2": 6
+        },
+        "type": "Feature"
+      },
+      {
+        "properties": {
+          "month": "11月",
+          "caseReportNum": 5,
+          "caseReportNum2": 6
+        },
+        "type": "Feature"
+      },
+      {
+        "properties": {
+          "month": "12月",
+          "caseReportNum": 4,
+          "caseReportNum2": 5
+        },
+        "type": "Feature"
+    }]
+  }
+  
